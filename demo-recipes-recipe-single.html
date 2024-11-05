@@ -1,642 +1,479 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!--  Recipes Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="css/colors.php?color=267DF4" type="text/css" /> <!-- Theme Color -->
-	<link rel="stylesheet" href="demos/recipes/css/fonts.css" type="text/css" /> <!-- Theme Font -->
-	<link rel="stylesheet" href="demos/recipes/recipes.css" type="text/css" /> <!-- Theme Custom CSS -->
-
-	<!-- Document Title
-	============================================= -->
-	<title>Recipe Single - Recipes | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!--食谱Demo 特定样式表-->
+<link href="css/colors.php?color=267DF4" rel="stylesheet" type="text/css"/> <!--主题颜色-->
+<link href="demos/recipes/css/fonts.css" rel="stylesheet" type="text/css"/> <!--主题字体-->
+<link href="demos/recipes/recipes.css" rel="stylesheet" type="text/css"/> <!--主题自定义 CSS-->
+<!--文件标题 =============================================-->
+<title>食谱单曲 - 食谱- Canvas</title>
 </head>
-
 <body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="transparent-header" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/recipes/images/logo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/recipes/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div class="header-misc">
-
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
-
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu">
-
-							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="demo-recipes.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-recipes-about-us.html"><div>About Us</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Recipes <i class="icon-angle-down1 d-none d-lg-inline-block"></i></div></a>
-									<ul class="sub-menu-container rounded-bottom">
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipe-single.html"><div>Recipe Single Page</div></a></li>
-										 <div class="dropdown-divider my-0"></div>
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Popular</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Recent</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Most liked</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Most Commented</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-recipes-contact.html"><div>Contact Us</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-						<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form>
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Page Title
-		============================================= -->
-		<section id="slider" class="slider-element dark parallax include-header" style="background: #111 url('demos/recipes/images/recipe-single.jpg') center center / cover; padding: 230px 0;" data-0="background-position:0px -200px;" data-400="background-position:0px -100px;">
-
-			<div class="container clearfix">
-				<div class="mx-auto center" style="max-width: 800px">
-					<h3 class="nott fw-bold mb-5 display-4" data-animate="zoomIn">Spinach Artichoke Dip Pasta with Chicken</h3>
-				</div>
-				<div class="mx-auto center" style="max-width: 900px">
-					<div class="slider-features" data-animate="zoomIn" data-delay="300">
-						<ul class="list-unstyled row g-0 align-items-center overflow-hidden col-mb-50 mt-5">
-							<li class="col-6 col-lg text-center text-lg-start">
-								<div class="grid-inner px-5">
-									<img src="demos/recipes/images/icons/level.svg" alt="Level" width="30">
-									<h5 class="mb-0">Beginner Level</h5>
-								</div>
-							</li>
-
-							<li class="col-6 col-lg text-center text-lg-start">
-								<div class="grid-inner px-5">
-									<img src="demos/recipes/images/icons/timer.svg" alt="Timer" width="30">
-									<h5 class="mb-0">40 Mins</h5>
-								</div>
-							</li>
-
-							<li class="col-6 col-lg text-center text-lg-start">
-								<div class="grid-inner px-5">
-									<img src="demos/recipes/images/icons/ingredients.svg" alt="Ingredients" width="30">
-									<h5 class="mb-0">9 Ingredients</h5>
-								</div>
-							</li>
-
-							<li class="col-6 col-lg text-center text-lg-start">
-								<div class="grid-inner px-5">
-									<img src="demos/recipes/images/icons/star.svg" alt="Reviews" width="30">
-									<h5 class="mb-0">223 Reviews</h5>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-
-		</section><!-- #page-title end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content" class="bg-light">
-			<div class="content-wrap pt-0" style="overflow: visible;">
-				<div class="container">
-
-					<div class="card border-0 shadow-sm" style="top: -100px;">
-						<div class="card-body px-4">
-							<div class="row align-items-center justify-content-between py-3">
-								<div class="col-12 col-xl">
-									<div class="row justify-content-center col-mb-30">
-										<div class="col-4 col-md">
-											<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">Energy</h6>
-											<h4 class="mb-0">2635</h4>
-										</div>
-
-										<div class="col-4 col-md">
-											<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">Calories</h6>
-											<h4 class="mb-0">700</h4>
-										</div>
-
-										<div class="col-4 col-md">
-											<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">Sugar</h6>
-											<h4 class="mb-0">12gm</h4>
-										</div>
-
-										<div class="col-4 col-md">
-											<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">Fat</h6>
-											<h4 class="mb-0">7gm</h4>
-										</div>
-
-										<div class="col-4 col-md">
-											<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">Carbs</h6>
-											<h4 class="mb-0">82gm</h4>
-										</div>
-
-										<div class="col-4 col-md">
-											<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">Protein</h6>
-											<h4 class="mb-0">26gm</h4>
-										</div>
-									</div>
-								</div>
-
-								<div class="col-12 text-center col-xl-auto mt-5 mt-xl-0">
-									<a href="#" class="button button-circle m-0"><i class="icon-line-cloud-download"></i> Download</a>
-								</div>
-							</div>
-
-							<div class="line my-4"></div>
-
-							<div class="row justify-content-between mt-5 mb-4 clearfix">
-								<div class="col-lg-4">
-									<div class="d-flex justify-content-between align-items-center mb-4">
-										<h4 class="mb-0">Ingredients</h4>
-										<a href="javascript:window.print()" id="print-button" class="social-icon si-small si-colored si-print" title="Print">
-											<i class="icon-line-printer"></i>
-											<i class="icon-line-printer"></i>
-										</a>
-									</div>
-									<ul class="list-unstyled list-ingredients bg-light p-4">
-										<li>2 lb  frozen tater tot (910 g)</li>
-										<li>4 boneless, skinless chicken thighs</li>
-										<li>1 tablespoon  whole grain mustard</li>
-										<li>2 tablespoons  olive oil</li>
-										<li>salt, to taste</li>
-										<li>pepper, to taste</li>
-										<li>½ red onion, sliced</li>
-										<li>1 cup  cheddar cheese (100 g)</li>
-										<li>1 cup  monterey jack cheese (100 g)</li>
-									</ul>
-									<div class="line line-sm"></div>
-									<h4>Share:</h4>
-									<a href="#" class="social-icon si-small si-colored si-facebook" title="Facebook">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-									<a href="#" class="social-icon si-small si-colored si-twitter" title="Twitter">
-										<i class="icon-twitter"></i>
-										<i class="icon-twitter"></i>
-									</a>
-									<a href="#" class="social-icon si-small si-colored si-pinterest" title="Pinterest">
-										<i class="icon-pinterest"></i>
-										<i class="icon-pinterest"></i>
-									</a>
-									<a href="#" class="social-icon si-small si-colored si-instagram" title="Instagram">
-										<i class="icon-instagram"></i>
-										<i class="icon-instagram"></i>
-									</a>
-									<a href="#" class="social-icon si-small si-colored si-email3" title="Email">
-										<i class="icon-email3"></i>
-										<i class="icon-email3"></i>
-									</a>
-								</div>
-								<div class="col-lg-8 mt-5 mt-lg-0">
-									<h4>Video</h4>
-									<div class="rounded position-relative dark mb-5" style="background: url('demos/recipes/images/recipe-week.jpg') no-repeat center center / cover; min-height: 300px">
-										<a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" data-lightbox="iframe" class="play-video stretched-link">
-											<i class="icon-play"></i>
-										</a>
-									</div>
-									<h4>Preparation</h4>
-									<ol class="list-unstyled list-preparation">
-										<li>Place frozen tater tots on a baking sheet and bake at 450˚F (230˚C) for 20 minutes, or until crispy. Set aside.</li>
-										<li>In a large bowl, toss chicken thighs with 1 tablespoon whole grain mustard, salt, pepper, and 1 tablespoon olive oil.</li>
-										<li>In a cast iron skillet, cook on high heat until there is a nice brown sear on the surface of the chicken, and the inside is no longer pink.</li>
-										<li>Roughly four minutes each side. Set chicken aside.</li>
-										<li>Cook onions until caramelized. Set onions aside.</li>
-										<li>Cut the chicken into bite-size cubes.</li>
-										<li>Wipe the skillet of excess fat.</li>
-										<li>Layer with cooked tater tots. Top with chicken.</li>
-										<li>In a small bowl, combine all ingredients for honey mustard dressing.</li>
-										<li>Pour the dressing on the chicken and tots. Top with onion, then cheddar and monterey jack cheese.</li>
-										<li>Broil from 5-10 minutes, or until cheese is melted.</li>
-										<li>Load the dish with tomatoes, avocados, sour cream, and scallions. Serve immediately.</li>
-										<li>Enjoy!</li>
-									</ol>
-
-									<div class="line my-5"></div>
-
-									<!-- Post Navigation
-									============================================= -->
-									<div class="row justify-content-between col-mb-30 post-navigation">
-										<div class="col-12 col-md-auto text-center">
-											<a href="#">&lArr; This is a Standard post with a Slider Gallery</a>
-										</div>
-
-										<div class="col-12 col-md-auto text-center">
-											<a href="#">This is an Embedded Audio Post &rArr;</a>
-										</div>
-									</div><!-- .post-navigation end -->
-
-									<!-- Comments
-									============================================= -->
-									<div id="comments" class="clearfix">
-
-										<h4 id="comments-title">Reviews</h4>
-
-										<!-- Comments List
-										============================================= -->
-										<ol class="commentlist clearfix">
-
-											<li class="comment even thread-even depth-1" id="li-comment-1">
-
-												<div id="comment-1" class="comment-wrap clearfix">
-
-													<div class="comment-meta">
-
-														<div class="comment-author vcard">
-
-															<span class="comment-avatar clearfix">
-															<img alt='Image' src='demos/articles/images/authors/2.jpg' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></span>
-
-														</div>
-
-													</div>
-
-													<div class="comment-content clearfix">
-
-														<div class="comment-author">Gunther David<span><a href="#" title="Permalink to this comment">April 24, 2012 at 10:46 am</a></span>
-															<small class="comment-ratings text-muted mt-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i> </small></div>
-
-														<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-
-														<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
-
-													</div>
-
-													<div class="clear"></div>
-
-												</div>
-
-
-												<ul class='children'>
-
-													<li class="comment byuser comment-author-_smcl_admin odd alt depth-2" id="li-comment-3">
-
-														<div id="comment-3" class="comment-wrap clearfix">
-
-															<div class="comment-meta">
-
-																<div class="comment-author vcard">
-
-																	<span class="comment-avatar clearfix">
-																	<img alt='Image' src='https://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' /></span>
-
-																</div>
-
-															</div>
-
-															<div class="comment-content clearfix">
-
-																<div class="comment-author"><a href='#' rel='external nofollow' class='url'>SemiColon</a> (Author)<span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
-
-																<p>Thank You so much for your Valuable Review. :)</p>
-
-																<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
-
-															</div>
-
-															<div class="clear"></div>
-
-														</div>
-
-													</li>
-
-												</ul>
-
-											</li>
-
-											<li class="comment byuser comment-author-_smcl_admin even thread-odd thread-alt depth-1" id="li-comment-2">
-
-												<div id="comment-2" class="comment-wrap clearfix">
-
-													<div class="comment-meta">
-
-														<div class="comment-author vcard">
-
-															<span class="comment-avatar clearfix">
-															<img alt='Image' src='demos/articles/images/authors/1.jpg' class='avatar avatar-60 photo' height='60' width='60' /></span>
-
-														</div>
-
-													</div>
-
-													<div class="comment-content clearfix">
-
-														<div class="comment-author"><a href='https://themeforest.net/user/semicolonweb' rel='external nofollow' class='url'>John Doe</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span><small class="comment-ratings text-muted mt-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half2"></i> </small></div>
-
-														<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-
-														<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
-
-													</div>
-
-													<div class="clear"></div>
-
-												</div>
-
-											</li>
-
-										</ol><!-- .commentlist end -->
-
-										<div class="clear"></div>
-
-										<!-- Comment Form
-										============================================= -->
-										<div id="respond">
-
-											<h4>Leave a <span>Review</span></h4>
-
-											<form class="row" action="#" method="post" id="commentform">
-
-												<div class="col-md-4 form-group">
-													<label class="nott ls0 fw-normal" for="author">Name</label>
-													<input type="text" name="author" id="author" value="" size="22" tabindex="1" class="form-control form-control-pill" />
-												</div>
-
-												<div class="col-md-4 form-group">
-													<label class="nott ls0 fw-normal" for="email">Email</label>
-													<input type="text" name="email" id="email" value="" size="22" tabindex="2" class="form-control form-control-pill" />
-												</div>
-
-												<div class="col-md-4 form-group">
-													<label class="nott ls0 fw-normal" for="rating">Rating</label>
-													<div class="select-wrapper form-control-pill px-2">
-														<select id="rating" name="rating" class="form-select border-0">
-															<option value="" disabled selected>-- Select One --</option>
-															<option value="1 Star">1 Star</option>
-															<option value="2 Star">2 Star</option>
-															<option value="3 Star">3 Star</option>
-															<option value="4 Star">4 Star</option>
-															<option value="5 Star">5 Star</option>
-														</select>
-													</div>
-												</div>
-
-												<div class="w-100"></div>
-
-												<div class="col-12 form-group">
-													<label class="nott ls0 fw-normal" for="comment">Comment</label>
-													<textarea name="comment" cols="58" rows="7" tabindex="4" class="form-control form-control-pill"></textarea>
-												</div>
-
-												<div class="col-12 form-group">
-													<button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-circle button-large mt-3">Submit a Review</button>
-												</div>
-
-											</form>
-
-										</div><!-- #respond end -->
-
-									</div><!-- #comments end -->
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<h4>Related Posts:</h4>
-
-					<div class="related-posts recipe-items">
-						<div class="row g-0">
-
-							<div class="col-md-3 col-sm-6 bg-white" style="border-left: 1px solid #EEE">
-								<div class="card">
-									<div class="card-body">
-									<img src="demos/recipes/images/popular/7.png" alt="image">
-										<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-											<p class="card-author">By <a href="#">Bailey Wonger</a></p>
-											<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
-										</div>
-										<h3 class="card-title"><a href="#" class="stretched-link">Baked Salmon with Sweet-Potatoes</a></h3>
-										<h5 class="card-date"><i class="icon-line2-calendar"></i>Aug 12, 2021</h5>
-									</div>
-								</div>
-							</div>
-
-							<!-- Item 8 -->
-							<div class="col-md-3 col-sm-6 bg-white">
-								<div class="card">
-									<div class="card-body">
-									<img src="demos/recipes/images/popular/8.png" alt="image">
-										<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-											<p class="card-author">By <a href="#">Pelican Steve</a></p>
-											<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.2</span>
-										</div>
-										<h3 class="card-title"><a href="#" class="stretched-link">A Kollam Grilled Cheese with Vegetables</a></h3>
-										<h5 class="card-date"><i class="icon-line2-calendar"></i>Aug 8, 2021</h5>
-									</div>
-								</div>
-							</div>
-
-							<!-- Item 5 -->
-							<div class="col-md-3 col-sm-6 bg-white">
-								<div class="card">
-									<div class="card-body">
-									<img src="demos/recipes/images/popular/5.png" alt="image">
-										<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-											<p class="card-author">By <a href="#">Norman Gordon</a></p>
-											<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
-										</div>
-										<h3 class="card-title"><a href="#" class="stretched-link">Pumpkin Bars with Cream Cheese Frosting</a></h3>
-										<h5 class="card-date"><i class="icon-line2-calendar"></i>Sep 18, 2021</h5>
-									</div>
-								</div>
-							</div>
-
-							<!-- Item 6 -->
-							<div class="col-md-3 col-sm-6 bg-white">
-								<div class="card">
-									<div class="card-body">
-									<img src="demos/recipes/images/popular/6.png" alt="image">
-										<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-											<p class="card-author">By <a href="#">Druid Wensleydale</a></p>
-											<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
-										</div>
-										<h3 class="card-title"><a href="#" class="stretched-link">The Best Homemade Pizza Recipes</a></h3>
-										<h5 class="card-date"><i class="icon-line2-calendar"></i>Sep 7, 2021</h5>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="bg-white border-0">
-
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
-
-					<div class="row">
-
-						<div class="col-lg-2 col-md-2 col-6 pe-4">
-							<div class="widget">
-
-								<h4 class="ls0 nott">Download App</h4>
-								<a href="#"><img src="demos/articles/images/appstore.png" alt="App Link"></a>
-								<a href="#"><img src="demos/articles/images/googleplay.png" alt="App Link" class="mt-2"></a>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6">
-							<div class="widget">
-
-								<h4 class="ls0 nott">Support</h4>
-
-								<ul class="list-unstyled ms-0">
-									<li class="mb-2"><a href="#" class="text-black-50">Home</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">About</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">FAQs</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Support</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6 mt-4 mt-md-0">
-							<div class="widget">
-
-								<h4 class="ls0 nott">Trending</h4>
-
-								<ul class="list-unstyled ms-0">
-									<li class="mb-2"><a href="#" class="text-black-50">Shop</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Portfolio</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Blog</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6 mt-4 mt-md-0">
-							<div class="widget">
-
-								<h4 class="ls0 nott">Features</h4>
-
-								<ul class="list-unstyled ms-0">
-									<li class="mb-2"><a href="#" class="text-black-50">Help Center</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Paid with Moblie</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Status</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Contact Support</a></li>
-								</ul>
-
-							</div>
-						</div>
-
-						<div class="col-lg-4 col-md-4">
-							<div id="instagram" class="widget">
-
-								<h4 class="ls0 nott">Instagram Photos</h4>
-								<div id="instagram-photos" class="instagram-photos masonry-thumbs grid-4" data-user="blog.canvastemplate" data-count="8"></div>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="bg-light">
-
-				<div class="container">
-					<div class="row justify-content-between align-items-center">
-						<div class="col-sm-4 d-flex justify-content-sm-start mb-3 mb-sm-0 text-black-50">
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.
-						</div>
-						<div class="col-sm-4 d-flex justify-content-sm-center mb-3 mb-sm-0">
-							<a href="https://facebook.com/semicolonweb" target="_blank" class="social-icon si-small si-colored si-facebook" title="Facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-							<a href="https://twitter.com/__semicolon" target="_blank" class="social-icon si-small si-colored si-twitter" title="Twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-							<a href="https://www.youtube.com/semicolonweb" target="_blank" class="social-icon si-small si-colored si-youtube" title="youtube">
-								<i class="icon-youtube"></i>
-								<i class="icon-youtube"></i>
-							</a>
-							<a href="https://www.instagram.com/semicolonweb" target="_blank" class="social-icon si-small si-colored si-instagram" title="instagram">
-								<i class="icon-instagram"></i>
-								<i class="icon-instagram"></i>
-							</a>
-						</div>
-						<div class="col-sm-4 d-flex justify-content-sm-end">
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-						</div>
-					</div>
-				</div>
-
-			</div><!-- #copyrights end -->
-
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--页眉 =============================================-->
+<header class="transparent-header" data-sticky-shrink="false" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row">
+<!--标记 =============================================-->
+<div id="logo">
+<a class="standard-logo" href="index.html"><img alt="Canvas Logo" src="demos/recipes/images/logo.png"/></a>
+<a class="retina-logo" href="index.html"><img alt="Canvas Logo" src="demos/recipes/images/logo@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div class="header-misc">
+<!--顶级搜索 =============================================-->
+<div class="header-misc-icon" id="top-search">
+<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+</div><!--#顶端搜索结束-->
+</div>
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu">
+<ul class="menu-container">
+<li class="menu-item current"><a class="menu-link" href="demo-recipes.html"><div>内容</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-about-us.html"><div>关于我们</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>食谱<i class="icon-angle-down1 d-none d-lg-inline-block"></i></div></a>
+<ul class="sub-menu-container rounded-bottom">
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipe-single.html"><div>食谱单页</div></a></li>
+<div class="dropdown-divider my-0"></div>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>大众</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>近期</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>最喜欢的</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>大多数评论</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-contact.html"><div>联系我们</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+<form action="search.html" class="top-search-form" method="get">
+<input autocomplete="off" class="form-control" name="q" placeholder="Type &amp; Hit Enter.." type="text" value=""/>
+</form>
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--页次 标题 =============================================-->
+<section class="slider-element dark parallax include-header" data-0="background-position:0px -200px;" data-400="background-position:0px -100px;" id="slider" style="background: #111 url('demos/recipes/images/recipe-single.jpg') center center / cover; padding: 230px 0;">
+<div class="container clearfix">
+<div class="mx-auto center" style="max-width: 800px">
+<h3 class="nott fw-bold mb-5 display-4" data-animate="zoomIn">菠菜 Artichoke Dip Pasta与鸡肉</h3>
+</div>
+<div class="mx-auto center" style="max-width: 900px">
+<div class="slider-features" data-animate="zoomIn" data-delay="300">
+<ul class="list-unstyled row g-0 align-items-center overflow-hidden col-mb-50 mt-5">
+<li class="col-6 col-lg text-center text-lg-start">
+<div class="grid-inner px-5">
+<img alt="Level" src="demos/recipes/images/icons/level.svg" width="30"/>
+<h5 class="mb-0">初始级别</h5>
+</div>
+</li>
+<li class="col-6 col-lg text-center text-lg-start">
+<div class="grid-inner px-5">
+<img alt="Timer" src="demos/recipes/images/icons/timer.svg" width="30"/>
+<h5 class="mb-0">40分钟</h5>
+</div>
+</li>
+<li class="col-6 col-lg text-center text-lg-start">
+<div class="grid-inner px-5">
+<img alt="Ingredients" src="demos/recipes/images/icons/ingredients.svg" width="30"/>
+<h5 class="mb-0">9个材料</h5>
+</div>
+</li>
+<li class="col-6 col-lg text-center text-lg-start">
+<div class="grid-inner px-5">
+<img alt="Reviews" src="demos/recipes/images/icons/star.svg" width="30"/>
+<h5 class="mb-0">223次审查</h5>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</section><!--# 页面标题结束-->
+<!--内容 =============================================-->
+<section class="bg-light" id="content">
+<div class="content-wrap pt-0" style="overflow: visible;">
+<div class="container">
+<div class="card border-0 shadow-sm" style="top: -100px;">
+<div class="card-body px-4">
+<div class="row align-items-center justify-content-between py-3">
+<div class="col-12 col-xl">
+<div class="row justify-content-center col-mb-30">
+<div class="col-4 col-md">
+<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">能源</h6>
+<h4 class="mb-0">2635</h4>
+</div>
+<div class="col-4 col-md">
+<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">卡数</h6>
+<h4 class="mb-0">700</h4>
+</div>
+<div class="col-4 col-md">
+<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">糖类</h6>
+<h4 class="mb-0">12克/小时</h4>
+</div>
+<div class="col-4 col-md">
+<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">肥猪</h6>
+<h4 class="mb-0">7克/小时</h4>
+</div>
+<div class="col-4 col-md">
+<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">碳化物</h6>
+<h4 class="mb-0">82克/小时</h4>
+</div>
+<div class="col-4 col-md">
+<h6 class="text-black-50 text-uppercase font-body fw-normal ls1 mb-1">蛋白质</h6>
+<h4 class="mb-0">26克/小时</h4>
+</div>
+</div>
+</div>
+<div class="col-12 text-center col-xl-auto mt-5 mt-xl-0">
+<a class="button button-circle m-0" href="#"><i class="icon-line-cloud-download"></i>下载</a>
+</div>
+</div>
+<div class="line my-4"></div>
+<div class="row justify-content-between mt-5 mb-4 clearfix">
+<div class="col-lg-4">
+<div class="d-flex justify-content-between align-items-center mb-4">
+<h4 class="mb-0">成分</h4>
+<a class="social-icon si-small si-colored si-print" href="javascript:window.print()" id="print-button" title="Print">
+<i class="icon-line-printer"></i>
+<i class="icon-line-printer"></i>
+</a>
+</div>
+<ul class="list-unstyled list-ingredients bg-light p-4">
+<li>2磅(910克)</li>
+<li>4个无骨,无皮鸡大腿</li>
+<li>整个谷物芥子酱一块</li>
+<li>2个平板橄榄油</li>
+<li>盐,来品尝</li>
+<li>胡椒来品尝</li>
+<li>1⁄2 红洋葱,切片</li>
+<li>1杯干酪(100克)</li>
+<li>1杯Monterey起司(100克)</li>
+</ul>
+<div class="line line-sm"></div>
+<h4>共享 :</h4>
+<a class="social-icon si-small si-colored si-facebook" href="#" title="Facebook">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-small si-colored si-twitter" href="#" title="Twitter">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-small si-colored si-pinterest" href="#" title="Pinterest">
+<i class="icon-pinterest"></i>
+<i class="icon-pinterest"></i>
+</a>
+<a class="social-icon si-small si-colored si-instagram" href="#" title="Instagram">
+<i class="icon-instagram"></i>
+<i class="icon-instagram"></i>
+</a>
+<a class="social-icon si-small si-colored si-email3" href="#" title="Email">
+<i class="icon-email3"></i>
+<i class="icon-email3"></i>
+</a>
+</div>
+<div class="col-lg-8 mt-5 mt-lg-0">
+<h4>视频</h4>
+<div class="rounded position-relative dark mb-5" style="background: url('demos/recipes/images/recipe-week.jpg') no-repeat center center / cover; min-height: 300px">
+<a class="play-video stretched-link" data-lightbox="iframe" href="https://www.youtube.com/watch?v=P3Huse9K6Xs">
+<i class="icon-play"></i>
+</a>
+</div>
+<h4>准备</h4>
+<ol class="list-unstyled list-preparation">
+<li>在烤盘上放入被冰冻的塔克托丝 在450-F(230-C)烘焙20分钟,或者直到被烤熟。 让开</li>
+<li>在一碗大碗中,用一锅一锅的全粒芥子,盐,胡椒和一锅一锅的橄榄油来掷出鸡大腿.</li>
+<li>在铸铁锅中,用高热量做饭,直到鸡的表面有漂亮的棕色的塞耳,而里面已经不再粉红色.</li>
+<li>每边约4分钟 把鸡放在一边。</li>
+<li>煮出洋葱来直到焦糖化. 把洋葱放在一边</li>
+<li>将鸡切入咬分大小的立方体.</li>
+<li>擦掉多余的脂肪</li>
+<li>层有已煮取的陶器 以鸡子为上.</li>
+<li>在一个小碗中,结合所有配料来做取蜜芥子酱敷料.</li>
+<li>倒上鸡肉和汤 顶端是洋葱,然后是克德和蒙特瑞.</li>
+<li>5-10分钟后烧焦,或者直到起司被熔化.</li>
+<li>用番茄、鳄梨、酸奶油和call来装入菜肴。 即时服务.</li>
+<li>慢慢来!</li>
+</ol>
+<div class="line my-5"></div>
+<!--导航后 =============================================-->
+<div class="row justify-content-between col-mb-30 post-navigation">
+<div class="col-12 col-md-auto text-center">
+<a href="#">⇐ 这是带有滑动画廊的标准标签</a>
+</div>
+<div class="col-12 col-md-auto text-center">
+<a href="#">这是嵌入式音讯</a>
+</div>
+</div><!--. 后导航结束-->
+<!--评论 =============================================-->
+<div class="clearfix" id="comments">
+<h4 id="comments-title">审查</h4>
+<!--评论清单 =============================================-->
+<ol class="commentlist clearfix">
+<li class="comment even thread-even depth-1" id="li-comment-1">
+<div class="comment-wrap clearfix" id="comment-1">
+<div class="comment-meta">
+<div class="comment-author vcard">
+<span class="comment-avatar clearfix">
+<img alt="Image" class="avatar avatar-60 photo avatar-default" height="60" src="demos/articles/images/authors/2.jpg" width="60"/></span>
+</div>
+</div>
+<div class="comment-content clearfix">
+<div class="comment-author">冈瑟·戴维<span><a href="#" title="Permalink to this comment">2012年4月24日上午10点46分</a></span>
+<small class="comment-ratings text-muted mt-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i> </small></div>
+<p>多内克的血清 (原始内容存档于2018-10-21) (英语). Nullactuary elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. 中国植物物种信息数据库. 整数相去去去去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相</p>
+<a class="comment-reply-link" href="#"><i class="icon-reply"></i></a>
+</div>
+<div class="clear"></div>
+</div>
+<ul class="children">
+<li class="comment byuser comment-author-_smcl_admin odd alt depth-2" id="li-comment-3">
+<div class="comment-wrap clearfix" id="comment-3">
+<div class="comment-meta">
+<div class="comment-author vcard">
+<span class="comment-avatar clearfix">
+<img alt="Image" class="avatar avatar-40 photo" height="40" src="https://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G" width="40"/></span>
+</div>
+</div>
+<div class="comment-content clearfix">
+<div class="comment-author"><a class="url" href="#" rel="external nofollow">半校长</a>(签名)<span><a href="#" title="Permalink to this comment">2012年4月25日凌晨1时03分</a></span></div>
+<p>谢谢 你这么多你 有价值评论。 )</p>
+<a class="comment-reply-link" href="#"><i class="icon-reply"></i></a>
+</div>
+<div class="clear"></div>
+</div>
+</li>
+</ul>
+</li>
+<li class="comment byuser comment-author-_smcl_admin even thread-odd thread-alt depth-1" id="li-comment-2">
+<div class="comment-wrap clearfix" id="comment-2">
+<div class="comment-meta">
+<div class="comment-author vcard">
+<span class="comment-avatar clearfix">
+<img alt="Image" class="avatar avatar-60 photo" height="60" src="demos/articles/images/authors/1.jpg" width="60"/></span>
+</div>
+</div>
+<div class="comment-content clearfix">
+<div class="comment-author"><a class="url" href="https://themeforest.net/user/semicolonweb" rel="external nofollow">约翰多伊</a><span><a href="#" title="Permalink to this comment">2012年4月25日凌晨1时03分</a></span><small class="comment-ratings text-muted mt-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half2"></i> </small></div>
+<p>整数相去去去去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相</p>
+<a class="comment-reply-link" href="#"><i class="icon-reply"></i></a>
+</div>
+<div class="clear"></div>
+</div>
+</li>
+</ol><!--.commentlist 结束-->
+<div class="clear"></div>
+<!--注释表单 =============================================-->
+<div id="respond">
+<h4>留下一个<span>审查</span></h4>
+<form action="#" class="row" id="commentform" method="post">
+<div class="col-md-4 form-group">
+<label class="nott ls0 fw-normal" for="author">名称</label>
+<input class="form-control form-control-pill" id="author" name="author" size="22" tabindex="1" type="text" value="">
+</input></div>
+<div class="col-md-4 form-group">
+<label class="nott ls0 fw-normal" for="email">电子邮件</label>
+<input class="form-control form-control-pill" id="email" name="email" size="22" tabindex="2" type="text" value=""/>
+</div>
+<div class="col-md-4 form-group">
+<label class="nott ls0 fw-normal" for="rating">评级</label>
+<div class="select-wrapper form-control-pill px-2">
+<select class="form-select border-0" id="rating" name="rating">
+<option disabled="" selected="" value="">-- -- 选择一个 --</option>
+<option value="1 Star">1 个星</option>
+<option value="2 Star">2 个星</option>
+<option value="3 Star">3 个星</option>
+<option value="4 Star">4 个星</option>
+<option value="5 Star">5 个星</option>
+</select>
+</div>
+</div>
+<div class="w-100"></div>
+<div class="col-12 form-group">
+<label class="nott ls0 fw-normal" for="comment">注释</label>
+<textarea class="form-control form-control-pill" cols="58" name="comment" rows="7" tabindex="4"></textarea>
+</div>
+<div class="col-12 form-group">
+<button class="button button-circle button-large mt-3" id="submit-button" name="submit" tabindex="5" type="submit" value="Submit">提交审查</button>
+</div>
+</form>
+</div><!--# 相应结束-->
+</div><!--#评论结束-->
+</div>
+</div>
+</div>
+</div>
+<h4>有关员额:</h4>
+<div class="related-posts recipe-items">
+<div class="row g-0">
+<div class="col-md-3 col-sm-6 bg-white" style="border-left: 1px solid #EEE">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/7.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">黄贝利</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="#">有甜薯的烤沙门</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年8月12日 (中文(简体) ).</h5>
+</div>
+</div>
+</div>
+<!--项目8-->
+<div class="col-md-3 col-sm-6 bg-white">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/8.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">eli史蒂夫</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.2</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="#">带蔬菜的克拉姆奶酪</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年8月8日 (中文(简体) ).</h5>
+</div>
+</div>
+</div>
+<!--项目5-->
+<div class="col-md-3 col-sm-6 bg-white">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/5.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">诺曼·戈登</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="#">带奶酪的南瓜棒</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年9月18日 (中文(简体) ).</h5>
+</div>
+</div>
+</div>
+<!--项目6-->
+<div class="col-md-3 col-sm-6 bg-white">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/6.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">德鲁伊·温斯利代尔</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="#">最好的自制披萨</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年9月7日</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="bg-white border-0" id="footer">
+<div class="container">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap">
+<div class="row">
+<div class="col-lg-2 col-md-2 col-6 pe-4">
+<div class="widget">
+<h4 class="ls0 nott">下载 App</h4>
+<a href="#"><img alt="App Link" src="demos/articles/images/appstore.png"/></a>
+<a href="#"><img alt="App Link" class="mt-2" src="demos/articles/images/googleplay.png"/></a>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-6">
+<div class="widget">
+<h4 class="ls0 nott">支助</h4>
+<ul class="list-unstyled ms-0">
+<li class="mb-2"><a class="text-black-50" href="#">内容</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">关于</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">问题</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">支助</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-6 mt-4 mt-md-0">
+<div class="widget">
+<h4 class="ls0 nott">趋势</h4>
+<ul class="list-unstyled ms-0">
+<li class="mb-2"><a class="text-black-50" href="#">商店</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">组合</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">博客</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-6 mt-4 mt-md-0">
+<div class="widget">
+<h4 class="ls0 nott">特征</h4>
+<ul class="list-unstyled ms-0">
+<li class="mb-2"><a class="text-black-50" href="#">帮助中心</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">与 Moblie 支付</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">状态</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">联系人支持</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4 col-md-4">
+<div class="widget" id="instagram">
+<h4 class="ls0 nott">相片图</h4>
+<div class="instagram-photos masonry-thumbs grid-4" data-count="8" data-user="blog.canvastemplate" id="instagram-photos"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--版权 =============================================-->
+<div class="bg-light" id="copyrights">
+<div class="container">
+<div class="row justify-content-between align-items-center">
+<div class="col-sm-4 d-flex justify-content-sm-start mb-3 mb-sm-0 text-black-50">版权:&amp;quot;2020&amp;quot; Canvas股份有限公司保留的所有权利.</div>
+<div class="col-sm-4 d-flex justify-content-sm-center mb-3 mb-sm-0">
+<a class="social-icon si-small si-colored si-facebook" href="https://facebook.com/semicolonweb" target="_blank" title="Facebook">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-small si-colored si-twitter" href="https://twitter.com/__semicolon" target="_blank" title="Twitter">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-small si-colored si-youtube" href="https://www.youtube.com/semicolonweb" target="_blank" title="youtube">
+<i class="icon-youtube"></i>
+<i class="icon-youtube"></i>
+</a>
+<a class="social-icon si-small si-colored si-instagram" href="https://www.instagram.com/semicolonweb" target="_blank" title="instagram">
+<i class="icon-instagram"></i>
+<i class="icon-instagram"></i>
+</a>
+</div>
+<div class="col-sm-4 d-flex justify-content-sm-end">
+<div class="copyright-links"><a href="#">使用条件</a> / <a href="#">隐私政策</a></div>
+</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
 </body>
 </html>

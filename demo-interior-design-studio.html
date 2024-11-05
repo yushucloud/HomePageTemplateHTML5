@@ -1,582 +1,482 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Playfair+Display:400,700,700i,900" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<!-- Home Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/interior-design/interior-design.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<!-- Reader's Blog Demo Specific Fonts -->
-	<link rel="stylesheet" href="demos/interior-design/css/fonts.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="css/colors.php?color=1c85e8" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Studios - Interior Design | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700|Playfair+Display:400,700,700i,900" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<!--Home Demo 特定样式表-->
+<link href="demos/interior-design/interior-design.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<!--读者博客 Demo 特定字体-->
+<link href="demos/interior-design/css/fonts.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="css/colors.php?color=1c85e8" rel="stylesheet" type="text/css"/>
+<!--文件标题 =============================================-->
+<title>工作室 - 内部设计 .</title>
 </head>
-
 <body class="stretched side-push-panel">
-
-	<div id="side-panel">
-		<div id="side-panel-trigger-close" class="side-panel-trigger"><a href="#"><i class="icon-line-cross"></i></a></div>
-
-		<div class="side-panel-wrap">
-
-			<div class="widget clearfix">
-				<h4 class="fw-normal">Login with Social</h4>
-
-				<a href="#" class="button button-rounded fw-normal w-100 center si-colored ms-0 si-facebook">Facebook</a>
-				<a href="#" class="button button-rounded fw-normal w-100 center si-colored ms-0 si-gplus">Google</a>
-
-				<div class="line line-sm"></div>
-
-				<form id="login-form" name="login-form" class="row mb-0" action="#" method="post">
-
-					<div class="col-12 form-group">
-						<label for="login-form-username" class="fw-normal">Username:</label>
-						<input type="text" id="login-form-username" name="login-form-username" value="" class="form-control" />
-					</div>
-
-					<div class="col-12 form-group">
-						<label for="login-form-password" class="fw-normal">Password:</label>
-						<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control" />
-					</div>
-
-					<div class="col-12 form-group">
-						<button class="button button-rounded fw-normal mx-0 mb-2" id="login-form-submit" name="login-form-submit" value="login">Login</button>
-						<div class="w-100"></div>
-						<a href="#" class="text-muted">Forgot Password?</a>
-					</div>
-
-				</form>
-
-			</div>
-		</div>
-	</div>
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="header-size-md" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-between">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo" class="me-lg-0">
-							<a href="demo-interior-design.html" class="standard-logo"><img src="demos/interior-design/images/logo.png" alt="Canvas Logo"></a>
-							<a href="demo-interior-design.html" class="retina-logo"><img src="demos/interior-design/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div class="header-misc">
-
-							<!-- Top Search
-							============================================= -->
-							<div id="side-panel-trigger" class="side-panel-trigger">
-								<a href="#" class="d-block d-lg-none text-dark"><i class="icon-line-arrow-right"></i></a>
-								<a href="#" class="d-none d-lg-block text-dark">Sign In <i class="icon-line-arrow-right"></i></a>
-							</div><!-- #top-search end -->
-
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu with-arrows">
-
-							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="demo-interior-design.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-interior-design-studio.html"><div>Studio</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="demo-interior-design-studio-single.html"><div>Minsk Belarus Studio</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-interior-design-studio-single.html"><div>Malibu Dream Airstream</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-interior-design-studio-single.html"><div>Modern Condo in City</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-interior-design-about.html"><div>About</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-interior-design-faqs.html"><div>FAQs</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-interior-design-contact.html"><div>Contact</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Page Title
-		============================================= -->
-		<section id="page-title" class="bg-transparent border-top page-title-center">
-
-			<div class="container clearfix">
-				<h1 class="font-secondary nott mb-4" style="font-size: 54px;">Projects</h1>
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="#">Home</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Studios</li>
-				</ol>
-			</div>
-
-		</section><!-- #page-title end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-
-			<div class="content-wrap pt-0 clearfix">
-
-				<div class="section mt-0 mt-0">
-					<div class="container">
-						<div class="row justify-content-between">
-							<div class="col-md-5">
-								<div class="heading-block border-bottom-0 mb-4 mb-md-0">
-									<h2 class="ls2 fw-bold">Our Latest Projects</h2>
-									<span class="font-secondary fw-normal">Competently benchmark backward-compatible technologies vis-a-vis parallel convergence. Rapidiously innovate stand-alone.</span>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<p class="lead mb-0">Progressively strategize clicks-and-mortar deliverables and turnkey value. Enthusiastically actualize granular products whereas excellent total linkage. Distinctively matrix equity invested opportunities rather than cross-unit alignments.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="container">
-
-					<!-- Portfolio Filter
-					============================================= -->
-					<ul class="grid-filter style-4" data-container="#portfolio">
-
-						<li class="activeFilter"><a href="#" data-filter="*">Show All</a></li>
-						<li><a href="#" data-filter=".pf-office">Office</a></li>
-						<li><a href="#" data-filter=".pf-shop">Shop</a></li>
-						<li><a href="#" data-filter=".pf-living">Living Room</a></li>
-						<li><a href="#" data-filter=".pf-outdoor">Outdoor</a></li>
-						<li><a href="#" data-filter=".pf-kitchen">Kitchen</a></li>
-
-					</ul><!-- .grid-filter end -->
-
-					<!-- Portfolio Items
-					============================================= -->
-					<div id="portfolio" class="portfolio row grid-container gutter-interior-design">
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-office">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/1.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Greenfields</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Melbourne</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-living">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/2.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Blue Vein House</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Sydney</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/2.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-dining">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/3.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Turnpike Cottage</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Perth</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/3.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-kitchen">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/4.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Stanmore House</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Sydney</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/4.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-shop pf-office">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/5.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">White Smocks</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Perth</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/5.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-8 pf-media wide">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/6.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Home Orchard</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Brisbane</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/6.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-living">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/7.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Rustlings</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Adelaide</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/7.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-shop">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/8.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Sheelin Lodge</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Gold Coast</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/8.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-kitchen">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/9.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Sheylors Farm</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Melbourne</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/9.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-living">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/10.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Ashley Croft</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Brisbane</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/10.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-outdoor">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/11.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Lyndale Lodge</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Sydney</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/11.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-kitchen">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/12.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Stonecroft</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Perth</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/12.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-						<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-outdoor">
-							<div class="grid-inner">
-								<div class="portfolio-image imagescalein">
-									<a href="portfolio-single.html">
-										<img src="demos/interior-design/images/studios/13.jpg" alt="Image">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
-											<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
-												<h3 class="fw-medium"><a href="studio-single.html">Elmscroft</a></h3>
-												<span><a href="#" class="font-secondary fw-normal">Gold Coast</a></span>
-											</div>
-
-											<div class="d-flex">
-												<a href="demos/interior-design/images/studios/full/13.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-hover-delay="100" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-							</div>
-						</article>
-
-					</div><!-- #portfolio end -->
-
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="border-0" style="background-color: #F5F5F5;">
-			<div class="container clearfix">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
-
-					<div class="row col-mb-50">
-						<div class="col-sm-6 col-lg-3">
-							<div class="widget clearfix">
-								<div class="fw-normal text-lowercase mb-0" style="font-size: 36px; letter-spacing: -1px">Canvas</div>
-								<p class="text-muted fw-light">@2021</p>
-
-								<div class="app-links">
-									<p>Get the app</p>
-									<a href="#" class="link"><i class="icon-android2"></i> <span>Download for Android</span></a><br>
-									<a href="#" class="link"><i class="icon-apple"></i> <span>Download for IOS</span></a><br>
-
-								</div>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-lg-3">
-							<div class="widget widget_links widget-li-noicon">
-								<h4>Blogroll</h4>
-								<ul>
-									<li><a href="#">Documentation</a></li>
-									<li><a href="#">Feedback</a></li>
-									<li><a href="#">Plugins</a></li>
-									<li><a href="#">Support Forums</a></li>
-									<li><a href="#">Themes</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-lg-3">
-							<div class="widget widget_links widget-li-noicon">
-								<h4>Links</h4>
-								<ul>
-									<li><a href="#">About Us</a></li>
-									<li><a href="#">FAQs</a></li>
-									<li><a href="#">Licence</a></li>
-									<li><a href="#">Forums</a></li>
-									<li><a href="#">Terms</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-sm-6 col-lg-3">
-							<div class="widget widget-twitter-feed clearfix">
-								<h4>Twitter Feed</h4>
-								<ul class="iconlist twitter-feed mb-0" data-username="envato" data-count="2">
-									<li></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-			<div class="line m-0"></div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" style="background-color: #FFF">
-				<div class="container clearfix">
-
-					<div class="w-100 center m-0">
-						<span>Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.</span>
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
+<div id="side-panel">
+<div class="side-panel-trigger" id="side-panel-trigger-close"><a href="#"><i class="icon-line-cross"></i></a></div>
+<div class="side-panel-wrap">
+<div class="widget clearfix">
+<h4 class="fw-normal">登录社会</h4>
+<a class="button button-rounded fw-normal w-100 center si-colored ms-0 si-facebook" href="#">脸书</a>
+<a class="button button-rounded fw-normal w-100 center si-colored ms-0 si-gplus" href="#">谷歌</a>
+<div class="line line-sm"></div>
+<form action="#" class="row mb-0" id="login-form" method="post" name="login-form">
+<div class="col-12 form-group">
+<label class="fw-normal" for="login-form-username">用户名 :</label>
+<input class="form-control" id="login-form-username" name="login-form-username" type="text" value=""/>
+</div>
+<div class="col-12 form-group">
+<label class="fw-normal" for="login-form-password">密码 :</label>
+<input class="form-control" id="login-form-password" name="login-form-password" type="password" value=""/>
+</div>
+<div class="col-12 form-group">
+<button class="button button-rounded fw-normal mx-0 mb-2" id="login-form-submit" name="login-form-submit" value="login">登录</button>
+<div class="w-100"></div>
+<a class="text-muted" href="#">忘记密码了吗?</a>
+</div>
+</form>
+</div>
+</div>
+</div>
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--页眉 =============================================-->
+<header class="header-size-md" data-sticky-shrink="false" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row justify-content-between">
+<!--标记 =============================================-->
+<div class="me-lg-0" id="logo">
+<a class="standard-logo" href="demo-interior-design.html"><img alt="Canvas Logo" src="demos/interior-design/images/logo.png"/></a>
+<a class="retina-logo" href="demo-interior-design.html"><img alt="Canvas Logo" src="demos/interior-design/images/logo@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div class="header-misc">
+<!--顶级搜索 =============================================-->
+<div class="side-panel-trigger" id="side-panel-trigger">
+<a class="d-block d-lg-none text-dark" href="#"><i class="icon-line-arrow-right"></i></a>
+<a class="d-none d-lg-block text-dark" href="#">签名<i class="icon-line-arrow-right"></i></a>
+</div><!--#顶端搜索结束-->
+</div>
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu with-arrows">
+<ul class="menu-container">
+<li class="menu-item current"><a class="menu-link" href="demo-interior-design.html"><div>内容</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-interior-design-studio.html"><div>工作室</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="demo-interior-design-studio-single.html"><div>明斯克白俄罗斯工作室</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-interior-design-studio-single.html"><div>马里布梦之气流</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-interior-design-studio-single.html"><div>城市的现代公寓</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="demo-interior-design-about.html"><div>关于</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-interior-design-faqs.html"><div>问题</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-interior-design-contact.html"><div>联系人</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--页次 标题 =============================================-->
+<section class="bg-transparent border-top page-title-center" id="page-title">
+<div class="container clearfix">
+<h1 class="font-secondary nott mb-4" style="font-size: 54px;">项目</h1>
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="#">内容</a></li>
+<li aria-current="page" class="breadcrumb-item active">工作室</li>
+</ol>
+</div>
+</section><!--# 页面标题结束-->
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap pt-0 clearfix">
+<div class="section mt-0 mt-0">
+<div class="container">
+<div class="row justify-content-between">
+<div class="col-md-5">
+<div class="heading-block border-bottom-0 mb-4 mb-md-0">
+<h2 class="ls2 fw-bold">我们的最新项目</h2>
+<span class="font-secondary fw-normal">与平行趋同相对应的合格基准落后兼容技术。 快速创新独立.</span>
+</div>
+</div>
+<div class="col-md-6">
+<p class="lead mb-0">逐步制定出点击-摩托可实现性和统包值的战略. 将颗粒性产品实际化,而总体联系则很好。 独特的矩阵式股本投资了机遇,而不是跨单位对接。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<!--组合过滤器 =============================================-->
+<ul class="grid-filter style-4" data-container="#portfolio">
+<li class="activeFilter"><a data-filter="*" href="#">全部显示</a></li>
+<li><a data-filter=".pf-office" href="#">办公室</a></li>
+<li><a data-filter=".pf-shop" href="#">商店</a></li>
+<li><a data-filter=".pf-living" href="#">活动室</a></li>
+<li><a data-filter=".pf-outdoor" href="#">户外</a></li>
+<li><a data-filter=".pf-kitchen" href="#">厨房</a></li>
+</ul><!--.grid-过滤端-->
+<!--组合项目 =============================================-->
+<div class="portfolio row grid-container gutter-interior-design" id="portfolio">
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-office">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/1.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">绿地</a></h3>
+<span><a class="font-secondary fw-normal" href="#">墨尔本</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/1.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-living">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/2.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">蓝管所</a></h3>
+<span><a class="font-secondary fw-normal" href="#">悉尼岛</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/2.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-dining">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/3.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">旋转木偶</a></h3>
+<span><a class="font-secondary fw-normal" href="#">珀斯岛</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/3.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-kitchen">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/4.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">斯坦莫尔之家</a></h3>
+<span><a class="font-secondary fw-normal" href="#">悉尼岛</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/4.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-shop pf-office">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/5.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">白烟</a></h3>
+<span><a class="font-secondary fw-normal" href="#">珀斯岛</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/5.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-8 pf-media wide">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/6.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">家庭果园</a></h3>
+<span><a class="font-secondary fw-normal" href="#">布里斯班语Name</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/6.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-living">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/7.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">红宝石</a></h3>
+<span><a class="font-secondary fw-normal" href="#">阿德莱德</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/7.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-shop">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/8.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">雪林旅馆</a></h3>
+<span><a class="font-secondary fw-normal" href="#">黄金海岸</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/8.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-kitchen">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/9.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">谢勒斯农场</a></h3>
+<span><a class="font-secondary fw-normal" href="#">墨尔本</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/9.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-living">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/10.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">阿什利克罗夫</a></h3>
+<span><a class="font-secondary fw-normal" href="#">布里斯班语Name</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/10.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-outdoor">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/11.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">林代尔酒店</a></h3>
+<span><a class="font-secondary fw-normal" href="#">悉尼岛</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/11.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-kitchen">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/12.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">斯通克罗夫特</a></h3>
+<span><a class="font-secondary fw-normal" href="#">珀斯岛</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/12.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 pf-media pf-outdoor">
+<div class="grid-inner">
+<div class="portfolio-image imagescalein">
+<a href="portfolio-single.html">
+<img alt="Image" src="demos/interior-design/images/studios/13.jpg"/>
+</a>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column" data-hover-animate="fadeIn">
+<div class="portfolio-desc pt-0 center" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350">
+<h3 class="fw-medium"><a href="studio-single.html">精灵克罗夫特</a></h3>
+<span><a class="font-secondary fw-normal" href="#">黄金海岸</a></span>
+</div>
+<div class="d-flex">
+<a class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-delay="100" data-hover-speed="350" data-lightbox="image" href="demos/interior-design/images/studios/full/13.jpg" title="Image"><i class="icon-line-plus"></i></a>
+</div>
+</div>
+<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
+</div>
+</div>
+</div>
+</article>
+</div><!--组合结束-->
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="border-0" id="footer" style="background-color: #F5F5F5;">
+<div class="container clearfix">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap">
+<div class="row col-mb-50">
+<div class="col-sm-6 col-lg-3">
+<div class="widget clearfix">
+<div class="fw-normal text-lowercase mb-0" style="font-size: 36px; letter-spacing: -1px">帆布</div>
+<p class="text-muted fw-light">@2021</p>
+<div class="app-links">
+<p>获取应用程序</p>
+<a class="link" href="#"><i class="icon-android2"></i> <span>Android 下载</span></a><br/>
+<a class="link" href="#"><i class="icon-apple"></i> <span>为 IOS 下载</span></a><br/>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="widget widget_links widget-li-noicon">
+<h4>博客滚动</h4>
+<ul>
+<li><a href="#">文档</a></li>
+<li><a href="#">反馈</a></li>
+<li><a href="#">插件</a></li>
+<li><a href="#">支助论坛</a></li>
+<li><a href="#">主题</a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="widget widget_links widget-li-noicon">
+<h4>链接</h4>
+<ul>
+<li><a href="#">关于我们</a></li>
+<li><a href="#">问题</a></li>
+<li><a href="#">许可证</a></li>
+<li><a href="#">论坛</a></li>
+<li><a href="#">术语</a></li>
+</ul>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="widget widget-twitter-feed clearfix">
+<h4>推特种子</h4>
+<ul class="iconlist twitter-feed mb-0" data-count="2" data-username="envato">
+<li></li>
+</ul>
+</div>
+</div>
+</div>
+</div><!--脚- 脚- 接- 包尾端-->
+</div>
+<div class="line m-0"></div>
+<!--版权 =============================================-->
+<div id="copyrights" style="background-color: #FFF">
+<div class="container clearfix">
+<div class="w-100 center m-0">
+<span>版权:&amp;quot;2020&amp;quot; Canvas股份有限公司保留的所有权利.</span>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
 </body>
 </html>

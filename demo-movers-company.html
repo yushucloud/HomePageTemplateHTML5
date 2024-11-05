@@ -1,510 +1,398 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-
-	<!-- Movers Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="css/colors.php?color=0F66DD" type="text/css" /> <!-- Theme Color -->
-	<link rel="stylesheet" href="demos/movers/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="demos/movers/movers.css" type="text/css" />
-	<!-- / -->
-
-	<!-- DatePicker CSS -->
-	<link rel="stylesheet" href="css/components/datepicker.css" type="text/css" />
-
-	<meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
-
-	<!-- Document Title
-	============================================= -->
-	<title>Company - Movers Demo | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<!--移动 Demo 特定样式表-->
+<link href="css/colors.php?color=0F66DD" rel="stylesheet" type="text/css"/> <!--主题颜色-->
+<link href="demos/movers/css/fonts.css" rel="stylesheet" type="text/css"/>
+<link href="demos/movers/movers.css" rel="stylesheet" type="text/css"/>
+<!-- / -->
+<!--日期选择 CSS-->
+<link href="css/components/datepicker.css" rel="stylesheet" type="text/css"/>
+<meta content="initial-scale=1, viewport-fit=cover" name="viewport"/>
+<!--文件标题 =============================================-->
+<title>公司 - 移动 Demo Canvas</title>
 </head>
-
 <body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="dark header-size-sm" data-sticky-shrink="false">
-			<div class="container">
-				<div class="header-row">
-
-					<!-- Logo
-					============================================= -->
-					<div id="logo" class="ms-auto ms-md-0">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img class="mx-auto" src="images/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img class="mx-auto" src="images/logo@2x.png" alt="Canvas Logo"></a>
-					</div><!-- #logo end -->
-
-					<ul class="header-extras d-none d-sm-flex mx-auto mx-md-0 mb-4 mb-md-0">
-						<li>
-							<i class="i-plain icon-call m-0"></i>
-							<div class="he-text fw-normal text-white-50">
-								Call Us:
-								<span><a href="tel:+111-22-33-44" class="text-white fw-medium">+111 22-33-44</a></span>
-							</div>
-						</li>
-						<li>
-							<i class="i-plain icon-line2-envelope m-0"></i>
-							<div class="he-text fw-normal text-white-50">
-								Email Us:
-								<span><a href="mailto:info@canvas.com" target="_top" class="text-white fw-medium">info@canvas.com</a></span>
-							</div>
-						</li>
-					</ul>
-
-				</div>
-			</div>
-
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-between flex-row-reverse flex-lg-row">
-
-						<div class="header-misc">
-
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
-
-							<!-- Header Buttons
-							============================================= -->
-							<div class="header-buttons d-none d-sm-inline-block">
-								<a href="#slider" data-scrollto="#slider" data-offset="-80" class="button button-rounded button-white button-light button-small m-0">Get a Quote</a>
-							</div>
-
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu with-arrows not-dark">
-
-							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="demo-movers.html"><div>Home</div></a></li>
-								<li class="menu-item current"><a class="menu-link" href="demo-movers-company.html"><div>Our Company</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div>Rates</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-line2-home"></i>Home Moving</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-building2"></i>Office Moving</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-line2-globe"></i>International Moving</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-paw"></i>Pet Shifting</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-car"></i>Car Shifting</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-truck1"></i>Hire Truck</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-movers-team.html"><div>Team</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-movers-faqs.html"><div>FAQs</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-movers-blog.html"><div>Blog</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-movers-contact.html"><div>Contact Us</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-						<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form>
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Page Title
-		============================================= -->
-		<section id="page-title" class="bg-color page-title-dark py-6">
-
-			<div class="container clearfix">
-				<h1>Company</h1>
-				<span>Get In Touch</span>
-				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="#">Home</a></li>
-					<li class="breadcrumb-item"><a href="#">Movers</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Company</li>
-				</ol>
-			</div>
-
-		</section><!-- #page-title end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-
-			<div class="content-wrap p-0">
-
-				<div class="section mt-0" style="background-position: center center; background-repeat: no-repeat; background-size: cover; background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,0.3)), url('demos/movers/images/section/company.jpg');">
-					<div class="shape-divider" data-shape="wave" data-position="bottom" data-height="100"></div>
-
-					<div class="container dark">
-						<div class="row align-items-center h-100" style="padding: 100px 0 150px">
-							<div class="col-xl-7 col-lg-10">
-								<h5 class="mb-3 text-uppercase ls3 text-white-50">Our Story</h5>
-								<h3 class="display-4 fw-semibold mb-4">Make the right Move.<br>We Move your Life.</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate corporis, facilis assumenda optio consequuntur amet iure, quidem animi nam inventore!</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="section-map clearfix bottommargin-lg topmargin-lg">
-					<div class="container">
-						<img src="demos/hosting/images/svg/map.png" alt="Map Image" class="img-fluid map-image">
-						<div class="map-title">
-							<h2 class="center">More than 21 Countries included in Our Network. Some of Our Most Popular Countries</h2>
-							<div class="d-flex justify-content-center">
-								<ul class="iconlist m-0 pe-5">
-									<li><img src="demos/hosting/images/flags/uk.png" alt="Country Flag"><a href="#">United Kingdom</a></li>
-									<li><img src="demos/hosting/images/flags/us.png" alt="Country Flag"><a href="#">USA</a></li>
-									<li><img src="demos/hosting/images/flags/br.png" alt="Country Flag"><a href="#">Brazil</a></li>
-									<li><img src="demos/hosting/images/flags/sa.png" alt="Country Flag"><a href="#">South Africa</a></li>
-									<li><img src="demos/hosting/images/flags/in.png" alt="Country Flag"><a href="#">India</a></li>
-								</ul>
-								<ul class="iconlist m-0 ps-5">
-									<li><img src="demos/hosting/images/flags/si.png" alt="Country Flag"><a href="#">Singapore</a></li>
-									<li><img src="demos/hosting/images/flags/ja.png" alt="Country Flag"><a href="#">Japan</a></li>
-									<li><img src="demos/hosting/images/flags/au.png" alt="Country Flag"><a href="#">Australia</a></li>
-									<li><img src="demos/hosting/images/flags/ca.png" alt="Country Flag"><a href="#">Canada</a></li>
-									<li><a href="#" class="text-black-50">See all..</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-
-					<div class="counter-section">
-						<div class="row align-items-stretch m-0 w-100 clearfix">
-
-							<div class="col-sm-3 col-6 center">
-								<div class="counter-dots"></div>
-								<div class="counter font-secondary"><span data-from="100" data-to="11000" data-refresh-interval="50" data-speed="2100" data-comma="true"></span>+</div>
-								<h5 class="text-capitalize ls0 mt-0"><u>Moved Monthly</u></h5>
-							</div>
-
-							<div class="col-sm-3 col-6 center">
-								<div class="counter-dots"></div>
-								<div class="counter font-secondary"><span data-from="3" data-to="26" data-refresh-interval="50" data-speed="2200" data-comma="true"></span>+</div>
-								<h5 class="text-capitalize ls0 mt-0"><u>Years of Experience</u></h5>
-							</div>
-
-							<div class="col-sm-3 col-6 center">
-								<div class="counter-dots"></div>
-								<div class="counter font-secondary"><span data-from="100" data-to="6000" data-refresh-interval="25" data-speed="2300" data-comma="true"></span>+</div>
-								<h5 class="text-capitalize ls0 mt-0"><u>Trained Manpower</u></h5>
-							</div>
-
-							<div class="col-sm-3 col-6 center">
-								<div class="counter-dots"></div>
-								<div class="counter font-secondary"><span data-from="1" data-to="21" data-refresh-interval="10" data-speed="2100" data-comma="true"></span>+</div>
-								<h5 class="text-capitalize ls0 mt-0"><u>Countries Worldwide</u></h5>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-				<div class="py-6 mt-5 dark" style="background-color: #061a35;">
-					<div class="container mb-5">
-						<div class="row justify-content-between">
-							<div class="col-md-5">
-								<h3 class="display-4 fw-bold mb-4">Moving you<br>Toward your<br>Future.</h3>
-								<img src="demos/movers/images/section/2.jpg" alt="Image" class="img-about">
-							</div>
-							<div class="col-md-6">
-								<p class="mt-4">Compellingly target sticky infrastructures via superior catalysts for change. Completely productize efficient e-tailers rather than sticky applications. Credibly productize interdependent users through scalable collaboration and idea-sharing. Objectively foster cutting-edge intellectual capital via frictionless data. Objectively impact cutting-edge niche markets with cross functional services.</p>
-								<p>Synergistically architect enterprise-wide products whereas business content. Credibly facilitate top-line expertise with excellent platforms.</p>
-								<p>Compellingly target sticky infrastructures via superior catalysts for change. Completely productize efficient e-tailers rather than sticky applications. Credibly productize interdependent users through scalable collaboration and idea-sharing. Objectively foster cutting-edge intellectual capital via frictionless data. Objectively impact cutting-edge niche markets with cross functional services.</p>
-								<p><strong>Synergistically architect enterprise-wide products whereas business content.</strong> Credibly facilitate top-line expertise with excellent platforms.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="section section-features bg-transparent pb-0 mb-4 clearfix">
-					<div class="container clearfix">
-						<div class="row col-mb-50 col-mb-lg-80">
-							<div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4" style="background-image: url('demos/movers/images/featured-img/1.jpg');">
-										<i class="icon-line2-home"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold">Office Moving.</h3>
-										<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4" style="background-image: url('demos/movers/images/featured-img/2.jpg');">
-										<i class="icon-building2"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold">Home Moving.</h3>
-										<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4" style="background-image: url('demos/movers/images/featured-img/3.jpg');">
-										<i class="icon-line2-globe"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold">International Moving.</h3>
-										<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4">
-										<i class="icon-paw"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold">Pet Shifting.</h3>
-										<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4" style="background-image: url('demos/movers/images/featured-img/1.jpg');">
-										<i class="icon-car"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold">Car Shifting.</h3>
-										<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum.</p>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="feature-box media-box">
-									<div class="fbox-icon position-relative mb-4">
-										<i class="icon-truck1"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="fw-semibold">Hire Truck.</h3>
-										<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-				<div class="section dark pt-0 mb-0 bg-color" style="background: url('demos/movers/images/bg-2.png') no-repeat center bottom / 100%; overflow: visible">
-					<svg viewBox="0 0 1960 206.8" class="bg-white">
-						<path class="svg-themecolor" style="opacity:0.2;" d="M0,142.8A2337.49,2337.49,0,0,1,297.5,56.3C569.33-3.53,783.89.22,849.5,2.3c215.78,6.86,382.12,45.39,503.25,73.45,158.87,36.8,283.09,79.13,458.75,54.55A816.49,816.49,0,0,0,1983,86.8v110H0Z"/>
-						<path class="svg-themecolor" d="M.5,152.8s498-177,849-150,1031,238,1134,94v110H.5Z"/>
-					</svg>
-					<div class="container">
-						<div class="row align-items-center justify-content-center center my-4">
-
-							<div class="col-sm-8">
-								<div class="heading-block border-bottom-0 mb-4">
-									<h2 class="fw-semibold ls0 nott mb-3" style="font-size: 44px; line-height: 1.3">Contact Our Movers Specialist</h2>
-									<p>Phosfluorescently develop customized relationships vis-a-vis B2C infomediaries.</p>
-								</div>
-								<a href="demo-movers-contact.html" class="button button-white button-light button-rounded fw-medium m-0">Get In Touch</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="bg-transparent border-0">
-
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap pb-4 clearfix">
-
-					<div class="row">
-
-						<div class="col-lg-2 col-md-2 col-6">
-							<div class="widget clearfix">
-
-								<h4 class="ls0 mb-4 nott">Features</h4>
-
-								<ul class="list-unstyled iconlist ms-0">
-									<li class="mb-2"><a href="#">Help Center</a></li>
-									<li class="mb-2"><a href="#">Paid with Moblie</a></li>
-									<li class="mb-2"><a href="#">Status</a></li>
-									<li class="mb-2"><a href="#">Changelog</a></li>
-									<li class="mb-2"><a href="#">Contact Support</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6">
-							<div class="widget clearfix">
-
-								<h4 class="ls0 mb-4 nott">Support</h4>
-
-								<ul class="list-unstyled iconlist ms-0">
-									<li class="mb-2"><a href="#">Home</a></li>
-									<li class="mb-2"><a href="demo-movers-company.html">About</a></li>
-									<li class="mb-2"><a href="demo-movers-faqs.html">FAQs</a></li>
-									<li class="mb-2"><a href="#">Support</a></li>
-									<li class="mb-2"><a href="demo-movers-contact.html">Contact</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6">
-							<div class="widget clearfix">
-
-								<h4 class="ls0 mb-4 nott">Trending</h4>
-
-								<ul class="list-unstyled iconlist ms-0">
-									<li class="mb-2"><a href="#">Shop</a></li>
-									<li class="mb-2"><a href="#">Portfolio</a></li>
-									<li class="mb-2"><a href="#">Blog</a></li>
-									<li class="mb-2"><a href="#">Events</a></li>
-									<li class="mb-2"><a href="#">Forums</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6">
-							<div class="widget clearfix">
-
-								<h4 class="ls0 mb-4 nott">Get to Know us</h4>
-
-								<ul class="list-unstyled iconlist ms-0">
-									<li class="mb-2"><a href="#">Corporate</a></li>
-									<li class="mb-2"><a href="#">Agency</a></li>
-									<li class="mb-2"><a href="#">eCommerce</a></li>
-									<li class="mb-2"><a href="#">Personal</a></li>
-									<li class="mb-2"><a href="#">OnePage</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-4 col-md-4 text-md-end">
-							<div class="widget clearfix">
-
-								<h4 class="ls0 mb-4 nott">Headquarters:</h4>
-
-								<div>
-									<address>
-										795 Folsom Ave, Suite 600<br>
-										San Francisco, CA 94107<br>
-									</address>
-									<h3 class="mb-3"><a href="tel:+111-22-33-44"><i class="icon-call me-1" style="font-size: 22px;"></i> +111 22-33-44</a></h3>
-									<div class="d-flex justify-content-md-end">
-										<a href="#" class="social-icon si-small si-facebook" title="Facebook">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-
-										<a href="#" class="social-icon si-small si-instagram" title="instagram">
-											<i class="icon-instagram"></i>
-											<i class="icon-instagram"></i>
-										</a>
-
-										<a href="#" class="social-icon si-small si-paypal" title="Paypal">
-											<i class="icon-paypal"></i>
-											<i class="icon-paypal"></i>
-										</a>
-
-										<a href="#" class="social-icon si-small si-wikipedia" title="Apple Pay">
-											<i class="icon-apple-pay"></i>
-											<i class="icon-apple-pay"></i>
-										</a>
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="bg-transparent">
-
-				<div class="container clearfix">
-
-					<div class="row justify-content-between align-items-center">
-						<div class="col-md-6 text-black-50">
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.
-						</div>
-
-						<div class="col-md-6 d-md-flex flex-md-column align-items-md-end mt-4 mt-md-0">
-							<div class="copyrights-menu copyright-links text-black-50 clearfix">
-								<a href="demo-movers-company.html">About</a>/<a href="demo-movers-rates.html">Rates</a>/<a href="demo-movers-faqs.html">FAQs</a>/<a href="demo-movers-contact.html">Contact</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- #copyrights end -->
-
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- DatePicker JS -->
-	<script src="js/components/datepicker.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<script>
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--页眉 =============================================-->
+<header class="dark header-size-sm" data-sticky-shrink="false" id="header">
+<div class="container">
+<div class="header-row">
+<!--标记 =============================================-->
+<div class="ms-auto ms-md-0" id="logo">
+<a class="standard-logo" data-dark-logo="images/logo-dark.png" href="index.html"><img alt="Canvas Logo" class="mx-auto" src="images/logo.png"/></a>
+<a class="retina-logo" data-dark-logo="images/logo-dark@2x.png" href="index.html"><img alt="Canvas Logo" class="mx-auto" src="images/logo@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<ul class="header-extras d-none d-sm-flex mx-auto mx-md-0 mb-4 mb-md-0">
+<li>
+<i class="i-plain icon-call m-0"></i>
+<div class="he-text fw-normal text-white-50">打电话给我们:<span><a class="text-white fw-medium" href="tel:+111-22-33-44">+111 22-33-44</a></span>
+</div>
+</li>
+<li>
+<i class="i-plain icon-line2-envelope m-0"></i>
+<div class="he-text fw-normal text-white-50">电子邮件 Us:<span><a class="text-white fw-medium" href="mailto:info@canvas.com" target="_top">信息库@canvas.com</a></span>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div id="header-wrap">
+<div class="container">
+<div class="header-row justify-content-between flex-row-reverse flex-lg-row">
+<div class="header-misc">
+<!--顶级搜索 =============================================-->
+<div class="header-misc-icon" id="top-search">
+<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+</div><!--#顶端搜索结束-->
+<!--标题按钮 =============================================-->
+<div class="header-buttons d-none d-sm-inline-block">
+<a class="button button-rounded button-white button-light button-small m-0" data-offset="-80" data-scrollto="#slider" href="#slider">获取引文</a>
+</div>
+</div>
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu with-arrows not-dark">
+<ul class="menu-container">
+<li class="menu-item"><a class="menu-link" href="demo-movers.html"><div>内容</div></a></li>
+<li class="menu-item current"><a class="menu-link" href="demo-movers-company.html"><div>我们的公司</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div>费率</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-line2-home"></i>家迁</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-building2"></i>办公室移动</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-line2-globe"></i>国际运动</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-paw"></i>宠物移动</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-car"></i>汽车移动</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-rates.html"><div><i class="icon-truck1"></i>雇用卡车</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-team.html"><div>团队</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-faqs.html"><div>问题</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-blog.html"><div>博客</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-movers-contact.html"><div>联系我们</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+<form action="search.html" class="top-search-form" method="get">
+<input autocomplete="off" class="form-control" name="q" placeholder="Type &amp; Hit Enter.." type="text" value=""/>
+</form>
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--页次 标题 =============================================-->
+<section class="bg-color page-title-dark py-6" id="page-title">
+<div class="container clearfix">
+<h1>企业</h1>
+<span>接触</span>
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="#">内容</a></li>
+<li class="breadcrumb-item"><a href="#">移动器</a></li>
+<li aria-current="page" class="breadcrumb-item active">企业</li>
+</ol>
+</div>
+</section><!--# 页面标题结束-->
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap p-0">
+<div class="section mt-0" style="background-position: center center; background-repeat: no-repeat; background-size: cover; background-image: linear-gradient(to right, rgba(0,0,0,.6), rgba(0,0,0,0.3)), url('demos/movers/images/section/company.jpg');">
+<div class="shape-divider" data-height="100" data-position="bottom" data-shape="wave"></div>
+<div class="container dark">
+<div class="row align-items-center h-100" style="padding: 100px 0 150px">
+<div class="col-xl-7 col-lg-10">
+<h5 class="mb-3 text-uppercase ls3 text-white-50">我们的故事</h5>
+<h3 class="display-4 fw-semibold mb-4">使右动.<br/>我们移动你的人生。</h3>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 暴走的蝎子,活生生的活生生的活生生的活生生的活生生的活生的活生的活活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的活的</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section-map clearfix bottommargin-lg topmargin-lg">
+<div class="container">
+<img alt="Map Image" class="img-fluid map-image" src="demos/hosting/images/svg/map.png"/>
+<div class="map-title">
+<h2 class="center">超过21个国家被纳入我们的网络。 我们一些最受欢迎的国家</h2>
+<div class="d-flex justify-content-center">
+<ul class="iconlist m-0 pe-5">
+<li><img alt="Country Flag" src="demos/hosting/images/flags/uk.png"/><a href="#">联合王国</a></li>
+<li><img alt="Country Flag" src="demos/hosting/images/flags/us.png"/><a href="#">美国</a></li>
+<li><img alt="Country Flag" src="demos/hosting/images/flags/br.png"/><a href="#">联合国</a></li>
+<li><img alt="Country Flag" src="demos/hosting/images/flags/sa.png"/><a href="#">南非</a></li>
+<li><img alt="Country Flag" src="demos/hosting/images/flags/in.png"/><a href="#">印度</a></li>
+</ul>
+<ul class="iconlist m-0 ps-5">
+<li><img alt="Country Flag" src="demos/hosting/images/flags/si.png"/><a href="#">新加坡</a></li>
+<li><img alt="Country Flag" src="demos/hosting/images/flags/ja.png"/><a href="#">日本</a></li>
+<li><img alt="Country Flag" src="demos/hosting/images/flags/au.png"/><a href="#">澳大利亚</a></li>
+<li><img alt="Country Flag" src="demos/hosting/images/flags/ca.png"/><a href="#">加拿大</a></li>
+<li><a class="text-black-50" href="#">见了一切.</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="counter-section">
+<div class="row align-items-stretch m-0 w-100 clearfix">
+<div class="col-sm-3 col-6 center">
+<div class="counter-dots"></div>
+<div class="counter font-secondary"><span data-comma="true" data-from="100" data-refresh-interval="50" data-speed="2100" data-to="11000"></span>+</div>
+<h5 class="text-capitalize ls0 mt-0"><u>每月移动</u></h5>
+</div>
+<div class="col-sm-3 col-6 center">
+<div class="counter-dots"></div>
+<div class="counter font-secondary"><span data-comma="true" data-from="3" data-refresh-interval="50" data-speed="2200" data-to="26"></span>+</div>
+<h5 class="text-capitalize ls0 mt-0"><u>历年经验</u></h5>
+</div>
+<div class="col-sm-3 col-6 center">
+<div class="counter-dots"></div>
+<div class="counter font-secondary"><span data-comma="true" data-from="100" data-refresh-interval="25" data-speed="2300" data-to="6000"></span>+</div>
+<h5 class="text-capitalize ls0 mt-0"><u>训练有素的人力</u></h5>
+</div>
+<div class="col-sm-3 col-6 center">
+<div class="counter-dots"></div>
+<div class="counter font-secondary"><span data-comma="true" data-from="1" data-refresh-interval="10" data-speed="2100" data-to="21"></span>+</div>
+<h5 class="text-capitalize ls0 mt-0"><u>世界各国</u></h5>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="py-6 mt-5 dark" style="background-color: #061a35;">
+<div class="container mb-5">
+<div class="row justify-content-between">
+<div class="col-md-5">
+<h3 class="display-4 fw-bold mb-4">移动你<br/>向你们<br/>未来</h3>
+<img alt="Image" class="img-about" src="demos/movers/images/section/2.jpg"/>
+</div>
+<div class="col-md-6">
+<p class="mt-4">通过推动变革的上等催化剂,强制锁定粘性基础设施。 完全生产出高效的电子尾料,而不是粘性应用. 可信地通过可扩展的合作和思想分享使相互依存的用户产生出成果。 客观地通过无摩擦数据培育前沿智力资本. 客观影响具有跨功能服务的尖端优势市场.</p>
+<p>协同设计全企业产品而不是商业内容。 可信地促进拥有优秀平台的上行专业知识.</p>
+<p>通过推动变革的上等催化剂,强制锁定粘性基础设施。 完全生产出高效的电子尾料,而不是粘性应用. 可信地通过可扩展的合作和思想分享使相互依存的用户产生出成果。 客观地通过无摩擦数据培育前沿智力资本. 客观影响具有跨功能服务的尖端优势市场.</p>
+<p><strong>协同设计全企业产品而不是商业内容。</strong>可信地促进拥有优秀平台的上行专业知识.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section section-features bg-transparent pb-0 mb-4 clearfix">
+<div class="container clearfix">
+<div class="row col-mb-50 col-mb-lg-80">
+<div class="col-md-4">
+<div class="feature-box media-box">
+<div class="fbox-icon position-relative mb-4" style="background-image: url('demos/movers/images/featured-img/1.jpg');">
+<i class="icon-line2-home"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-semibold">办公室移动。</h3>
+<p class="text-muted">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feature-box media-box">
+<div class="fbox-icon position-relative mb-4" style="background-image: url('demos/movers/images/featured-img/2.jpg');">
+<i class="icon-building2"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-semibold">家迁.</h3>
+<p class="text-muted">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feature-box media-box">
+<div class="fbox-icon position-relative mb-4" style="background-image: url('demos/movers/images/featured-img/3.jpg');">
+<i class="icon-line2-globe"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-semibold">国际移动.</h3>
+<p class="text-muted">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feature-box media-box">
+<div class="fbox-icon position-relative mb-4">
+<i class="icon-paw"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-semibold">宠物移动。</h3>
+<p class="text-muted">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feature-box media-box">
+<div class="fbox-icon position-relative mb-4" style="background-image: url('demos/movers/images/featured-img/1.jpg');">
+<i class="icon-car"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-semibold">汽车移动。</h3>
+<p class="text-muted">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feature-box media-box">
+<div class="fbox-icon position-relative mb-4">
+<i class="icon-truck1"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-semibold">租车。</h3>
+<p class="text-muted">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="section dark pt-0 mb-0 bg-color" style="background: url('demos/movers/images/bg-2.png') no-repeat center bottom / 100%; overflow: visible">
+<svg class="bg-white" viewbox="0 0 1960 206.8">
+<path class="svg-themecolor" d="M0,142.8A2337.49,2337.49,0,0,1,297.5,56.3C569.33-3.53,783.89.22,849.5,2.3c215.78,6.86,382.12,45.39,503.25,73.45,158.87,36.8,283.09,79.13,458.75,54.55A816.49,816.49,0,0,0,1983,86.8v110H0Z" style="opacity:0.2;"></path>
+<path class="svg-themecolor" d="M.5,152.8s498-177,849-150,1031,238,1134,94v110H.5Z"></path>
+</svg>
+<div class="container">
+<div class="row align-items-center justify-content-center center my-4">
+<div class="col-sm-8">
+<div class="heading-block border-bottom-0 mb-4">
+<h2 class="fw-semibold ls0 nott mb-3" style="font-size: 44px; line-height: 1.3">联系我们移动器专家</h2>
+<p>磷氟化物与B2C信息介质形成定制关系.</p>
+</div>
+<a class="button button-white button-light button-rounded fw-medium m-0" href="demo-movers-contact.html">接触</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="bg-transparent border-0" id="footer">
+<div class="container">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap pb-4 clearfix">
+<div class="row">
+<div class="col-lg-2 col-md-2 col-6">
+<div class="widget clearfix">
+<h4 class="ls0 mb-4 nott">特征</h4>
+<ul class="list-unstyled iconlist ms-0">
+<li class="mb-2"><a href="#">帮助中心</a></li>
+<li class="mb-2"><a href="#">与 Moblie 支付</a></li>
+<li class="mb-2"><a href="#">状态</a></li>
+<li class="mb-2"><a href="#">更改日志</a></li>
+<li class="mb-2"><a href="#">联系人支持</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-6">
+<div class="widget clearfix">
+<h4 class="ls0 mb-4 nott">支助</h4>
+<ul class="list-unstyled iconlist ms-0">
+<li class="mb-2"><a href="#">内容</a></li>
+<li class="mb-2"><a href="demo-movers-company.html">关于</a></li>
+<li class="mb-2"><a href="demo-movers-faqs.html">问题</a></li>
+<li class="mb-2"><a href="#">支助</a></li>
+<li class="mb-2"><a href="demo-movers-contact.html">联系人</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-6">
+<div class="widget clearfix">
+<h4 class="ls0 mb-4 nott">趋势</h4>
+<ul class="list-unstyled iconlist ms-0">
+<li class="mb-2"><a href="#">商店</a></li>
+<li class="mb-2"><a href="#">组合</a></li>
+<li class="mb-2"><a href="#">博客</a></li>
+<li class="mb-2"><a href="#">活动</a></li>
+<li class="mb-2"><a href="#">论坛</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-6">
+<div class="widget clearfix">
+<h4 class="ls0 mb-4 nott">认识我们</h4>
+<ul class="list-unstyled iconlist ms-0">
+<li class="mb-2"><a href="#">公司</a></li>
+<li class="mb-2"><a href="#">机构</a></li>
+<li class="mb-2"><a href="#">电子商务</a></li>
+<li class="mb-2"><a href="#">个人</a></li>
+<li class="mb-2"><a href="#">一页</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4 col-md-4 text-md-end">
+<div class="widget clearfix">
+<h4 class="ls0 mb-4 nott">总部:</h4>
+<div>
+<address>795个Folsom Ave,600套房<br/>旧金山,CA 94107<br/>
+</address>
+<h3 class="mb-3"><a href="tel:+111-22-33-44"><i class="icon-call me-1" style="font-size: 22px;"></i> +111 22-33-44</a></h3>
+<div class="d-flex justify-content-md-end">
+<a class="social-icon si-small si-facebook" href="#" title="Facebook">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-small si-instagram" href="#" title="instagram">
+<i class="icon-instagram"></i>
+<i class="icon-instagram"></i>
+</a>
+<a class="social-icon si-small si-paypal" href="#" title="Paypal">
+<i class="icon-paypal"></i>
+<i class="icon-paypal"></i>
+</a>
+<a class="social-icon si-small si-wikipedia" href="#" title="Apple Pay">
+<i class="icon-apple-pay"></i>
+<i class="icon-apple-pay"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><!--脚- 脚- 接- 包尾端-->
+</div>
+<!--版权 =============================================-->
+<div class="bg-transparent" id="copyrights">
+<div class="container clearfix">
+<div class="row justify-content-between align-items-center">
+<div class="col-md-6 text-black-50">版权:&amp;quot;2020&amp;quot; Canvas股份有限公司保留的所有权利.</div>
+<div class="col-md-6 d-md-flex flex-md-column align-items-md-end mt-4 mt-md-0">
+<div class="copyrights-menu copyright-links text-black-50 clearfix">
+<a href="demo-movers-company.html">关于</a>/<a href="demo-movers-rates.html">费率</a>/<a href="demo-movers-faqs.html">问题</a>/<a href="demo-movers-contact.html">联系人</a>
+</div>
+</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--DatePicker 联合来文-->
+<script src="js/components/datepicker.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<script>
 
 		jQuery('.home-date').datepicker({
 			autoclose: true,
 			startDate: "today",
 		});
 	</script>
-
-
 </body>
 </html>

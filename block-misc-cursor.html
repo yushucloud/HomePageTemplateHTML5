@@ -1,30 +1,22 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Noto+Serif:ital,wght@1,700&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Custom Cursor | Canvas</title>
-
-	<style>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&amp;family=Noto+Serif:ital,wght@1,700&amp;display=swap" rel="stylesheet"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/swiper.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!--文件标题 =============================================-->
+<title>自定义光标QQ相机</title>
+<style>
 		@media (min-width: 992px) {
 
 			body.block-misc-cursor,
@@ -99,55 +91,39 @@
 
 		}
 	</style>
-
-</head>
-
+</link></head>
 <body class="stretched block-misc-cursor">
-
-	<div class="cursor"></div>
-	<div class="cursor-follower"></div>
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap">
-				<div class="container mw-sm">
-					<h3 class="text-center">Custom Cursor</h3>
-					<a href="#" class="cursor-hover">
-						<div class="card bg-dark text-white overflow-hidden h-translate-y h-shadow all-ts">
-							<img src="demos/music/images/slider/1.jpg" class="" alt="...">
-							<div class="card-img-overlay dark d-flex flex-column justify-content-end p-5">
-								<h3 class="card-title">Card title</h3>
-								<p class="card-text text-white-50">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
-
-	<script>
+<div class="cursor"></div>
+<div class="cursor-follower"></div>
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap">
+<div class="container mw-sm">
+<h3 class="text-center">自定义光标</h3>
+<a class="cursor-hover" href="#">
+<div class="card bg-dark text-white overflow-hidden h-translate-y h-shadow all-ts">
+<img alt="..." class="" src="demos/music/images/slider/1.jpg"/>
+<div class="card-img-overlay dark d-flex flex-column justify-content-end p-5">
+<h3 class="card-title">卡片标题</h3>
+<p class="card-text text-white-50">这是一张较宽的卡片,下面有支持文本,作为附加内容的自然入手. 这个内容有点长。</p>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section><!--内容结束-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script>
 
 		var cursor = $(".cursor"),
 			follower = $(".cursor-follower"),
@@ -194,6 +170,5 @@
 			});
 
 	</script>
-
 </body>
 </html>

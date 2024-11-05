@@ -1,823 +1,718 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,600,700,800,900|Poppins:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-
-	<!-- restaurant Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/restaurant/restaurant.css" type="text/css" />
-	<link rel="stylesheet" href="demos/restaurant/css/fonts.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="stylesheet" href="css/colors.php?color=e7272d" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Restaurant | Canvas</title>
-
-</head>
-
-<body class="stretched sticky-footer page-transition" data-loader-html="<span class='pizza'> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> <span class='slice'></span> </span>">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="transparent-header" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-lg-between">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo" class="col-auto me-lg-0 order-lg-2">
-							<a href="demo-restaurant.html" class="standard-logo"><img src="demos/restaurant/images/logo.png" alt="Canvas Logo"></a>
-							<a href="demo-restaurant.html" class="retina-logo"><img src="demos/restaurant/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu col-lg-4 order-lg-1">
-
-							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="demo-restaurant.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-restaurant-about-us.html"><div>About</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-restaurant-menu.html"><div>Menu</div></a></li>
-							</ul>
-
-						</nav>
-
-						<nav class="primary-menu col-lg-4 order-lg-3">
-
-							<ul class="menu-container justify-content-lg-end">
-								<li class="menu-item"><a class="menu-link" href="demo-restaurant-gallery.html"><div>Gallery</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-restaurant-blog.html"><div>Blog</div></a></li>
-								<li class="menu-item"><a class="menu-link color" href="demo-restaurant-reservation.html"><div>Reservation</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-effect="fade" data-loop="true" data-autoplay="6000" data-speed="1400">
-			<div class="slider-inner">
-
-				<div class="swiper-container swiper-parent">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide">
-							<div class="container dark">
-								<div class="slider-caption">
-									<div>
-										<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn">Taste from Italy.</h2>
-										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">Who Needs a Boyfriend if there Pizza And WiFi are both available.</p>
-										<div class="static-content" style="position: relative; display: flex; justify-content: flex-start; flex-direction: row; margin-top: 30px" data-animate="fadeIn" data-delay="800">
-											<img src="demos/restaurant/images/icons/bowl-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="demos/restaurant/images/icons/spoon-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="demos/restaurant/images/icons/glass-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="demos/restaurant/images/icons/wifi-white.svg" width="42" height="42" alt="Image">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="swiper-slide-bg" style="background-image: url('demos/restaurant/images/slider/1.jpg');"></div>
-						</div>
-
-						<div class="swiper-slide">
-							<div class="container dark">
-								<div class="slider-caption slider-caption-center" style="margin-top: -30px;">
-									<div>
-										<img data-animate="fadeIn" src="demos/restaurant/images/slider-logo.png" alt="Image" style="width: 120px; margin-bottom: 10px;">
-										<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn" data-delay="400">Make your Chocolate.</h2>
-										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="800">You'll be surprised to see the Final Results of your<br>Creation &amp; would crave for more.</p>
-										<div class="static-content" style="position: relative; display: flex; justify-content: center; flex-direction: row; margin-top: 30px" data-animate="fadeIn" data-delay="1000">
-											<img src="demos/restaurant/images/icons/bowl-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="demos/restaurant/images/icons/spoon-white.svg" width="42" height="42" alt="Image">
-											<img class="leftmargin-sm" src="demos/restaurant/images/icons/glass-white.svg" width="42" height="42" alt="Image">
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="swiper-slide-bg" style="background-image: url('demos/restaurant/images/slider/3.jpg');"></div>
-						</div>
-
-						<div class="swiper-slide">
-							<div class="container dark">
-								<div class="slider-caption slider-caption-right">
-									<div>
-										<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn">Hello &amp; Welcome.</h2>
-										<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">Coffee drinkers make better Lovers. Everything starts with a great Coffee.</p>
-									</div>
-								</div>
-							</div>
-							<div class="swiper-slide-bg" style="background-image: url('demos/restaurant/images/slider/2.jpg'); background-position: center bottom;"></div>
-						</div>
-					</div>
-
-					<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
-					<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
-
-				</div>
-
-			</div>
-		</section>
-		<!-- Content
-		============================================= -->
-		<section id="content">
-
-			<div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 3; background: url('demos/restaurant/images/sketch.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-top: -40px;"></div>
-
-			<div class="content-wrap" style="overflow: visible;">
-
-				<div class="section m-0 clearfix" style="padding: 40px 0; background: url('demos/restaurant/images/sections/4.jpg') center center no-repeat; background-size: 100% auto">
-					<div class="container">
-
-						<div class="heading-block border-bottom-0 bottommargin-sm">
-							<h2 class="font-secondary color nott" style="font-size: 52px;">How We Work</h2>
-						</div>
-
-						<div class="row col-mb-50">
-							<div class="col-lg-3">
-								<div class="feature-box media-box" style="max-width: 400px;">
-									<div class="fbox-media" style="width: 70px; height: auto;">
-										<img src="demos/restaurant/images/icons/bowl.svg" alt="Image">
-									</div>
-									<div class="fbox-content px-0">
-										<h3>Food Served Hot</h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas omnis nam molestias minus ipsa, placeat!</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3">
-								<div class="feature-box media-box" style="max-width: 400px;">
-									<div class="fbox-media" style="width: 70px; height: auto;">
-										<img src="demos/restaurant/images/icons/spoon.svg" alt="Image">
-									</div>
-									<div class="fbox-content px-0">
-										<h3>Ample Options</h3>
-										<p>Facere aliquam itaque quia recusandae, corporis fugit fugiat eaque, accusamus officiis reprehenderit.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3">
-								<div class="feature-box media-box" style="max-width: 400px;">
-									<div class="fbox-media" style="width: 70px; height: auto;">
-										<img src="demos/restaurant/images/icons/glass.svg" alt="Image">
-									</div>
-									<div class="fbox-content px-0">
-										<h3>In-House Brewery</h3>
-										<p>Velit id facilis odit aliquid laudantium. Tempore, sequi. Harum nesciunt, magni aperiam est?</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="section mb-0" style="background: #FFF url('demos/restaurant/images/sections/5.jpg') no-repeat top left / cover; padding: 60px 0; border-top: 1px solid #EEE;">
-					<div class="container clearfix">
-						<div class="heading-block center mb-0 border-bottom-0">
-							<span class="font-primary" style="font-size: 16px; color: #888">Tasty &amp; Healthy</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px;">Our Food Menu</h3>
-						</div>
-					</div>
-				</div>
-
-				<div class="section food-menu mt-0 p-0">
-					<div class="container-fluid">
-						<div class="row align-items-stretch clearfix">
-							<div class="col-lg-7 clearfix">
-								<div class="vertical-middle">
-									<div class="col-padding clearfix">
-										<div><div id="item-thumb" class="item-thumb"></div></div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-5" style="background-color: #FFF; padding: 0; box-shadow: -4px 1px 15px 3px rgba(0,0,0,0.07);">
-								<div id="food-menu-carousel" class="menu-carousel owl-carousel image-carousel food-menu-carousel carousel-widget customjs">
-
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/1.jpg" alt="Image 1">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Multigrain Toast.</h3>
-													<div class="food-info">Corn, Bacon, Tomato, Cheese, Onlion</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;19.99</div>
-											</div>
-											<p class="mb-0">Efficiently syndicate cross functional web-readiness before business niches. Uniquely reinvent ethical testing procedures before ethical leadership skills.<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/2.jpg" alt="Image 2">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Prawn Mussels Plate.</h3>
-													<div class="food-info">Prawn, Tomato, Noodles</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;11.59</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/3.jpg" alt="Image 3">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Black Jumbo Burger.</h3>
-													<div class="food-info">Chicken Patty, Bean Bread</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;8.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/4.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Fried Chicken.</h3>
-													<div class="food-info">Chicken, Olive Oil</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;22.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/5.jpg" alt="Image 1">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Smoothie Fruit Bowl.</h3>
-													<div class="food-info">Raspberries, Strawberries, Granola, Banana</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;19.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur. Holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/6.jpg" alt="Image 2">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Margarita Pizza.</h3>
-													<div class="food-info">Wheat Flour, Cheese, Tomato, Onion</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;14.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<div class="food-price color font-primary mt-3">&dollar;14.99</div>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/7.jpg" alt="Image 3">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Macaroni Pasta.</h3>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;11.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/8.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Chicken with Fries.</h3>
-													<div class="food-info">Chicken, Potatoes, Broccolies</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;33.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/food/9.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Chinese Noodle.</h3>
-													<div class="food-info">Noodles, Cornflower, Prawn</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;7.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="section mb-0 bg-transparent">
-					<div class="container">
-
-						<div class="row col-mb-50">
-							<div class="col-sm-6 col-lg-4">
-								<div class="feature-box media-box">
-									<div class="fbox-media">
-										<a href="demos/restaurant/reservation.html" ><img style="border-radius: 2px;" src="demos/restaurant/images/featured/1.jpg" alt="Why choose Us?"></a>
-									</div>
-									<div class="fbox-content px-0">
-										<h3>Beautiful Location.<span class="subtitle ls1" style="color:#BBB">Food Tastes Better when you are in Good Location.</span></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus eaque perspiciatis mollitia.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-lg-4">
-								<div class="feature-box media-box">
-									<div class="fbox-media">
-										<a href="demos/restaurant/gallery.html" ><img style="border-radius: 2px;" src="demos/restaurant/images/featured/2.jpg" alt="Effective Planning"></a>
-									</div>
-									<div class="fbox-content px-0">
-										<h3>Feel the Taste.<span class="subtitle ls1" style="color:#BBB">Nothing Brings people together like Good Food.</span></h3>
-										<p>Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6 col-lg-4">
-								<div class="feature-box media-box">
-									<div class="fbox-media">
-										<a href="demos/restaurant/about-us.html" ><img style="border-radius: 2px;" src="demos/restaurant/images/featured/3.jpg" alt="Why choose Us?"></a>
-									</div>
-									<div class="fbox-content px-0">
-										<h3>Delicious Desserts.<span class="subtitle ls1" style="color:#BBB">The Best things in life are Sweet.</span></h3>
-										<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum quo. , labore totam. Accusamus perspiciatis asperiores.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="section mb-0" style="background: #fee749 url('demos/restaurant/images/sections/4.jpg') no-repeat center right; background-size: cover; padding: 60px 0;">
-					<div class="heading-block center mb-0 border-bottom-0">
-						<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Sweet &amp; Sexy</span>
-						<h3 class="nott font-secondary ls0" style="font-size: 60px;line-height: 1.3;">Our Dessert Menu</h3>
-					</div>
-				</div>
-
-				<div class="section dessert-menu m-0 p-0">
-					<div class="container-fluid">
-
-						<div class="row align-items-stretch clearfix">
-							<div class="col-lg-5" style="background-color: #FFF; padding: 0; box-shadow: -4px 1px 15px 3px rgba(0,0,0,0.07);">
-								<div id="dessert-menu-carousel" class="menu-carousel owl-carousel image-carousel carousel-widget customjs">
-
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/desserts/1.jpg" alt="Image 1">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Chocolate Cupcakes.</h3>
-												<div class="food-info">Chocolate, Caramel, Hazelnut, Coffee, Strawberry</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;19.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/desserts/2.jpg" alt="Image 2">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Caramel Cake.</h3>
-												<div class="food-info">Egg, Caramel</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;11.59</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/desserts/3.jpg" alt="Image 3">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Choco Strawberry Waffle.</h3>
-													<div class="food-info">Strawberry, Chocolate Syrup, Vanilla Icecream</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;8.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/desserts/4.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Tuffle Cake.</h3>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;22.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/desserts/5.jpg" alt="Image 1">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Chocolate Croissant.</h3>
-													<div class="food-info">Chocolate Syrup</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;19.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur. Holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/desserts/6.jpg" alt="Image 2">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Delicious Cookies.</h3>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;14.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/desserts/7.jpg" alt="Image 3">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Strawberry Pastry.</h3>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;11.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/desserts/8.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Fruity Bowl.</h3>
-													<div class="food-info">Fruits, Yogurt, Strawberries, Banana, Cherries</div>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;33.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-									<div class="oc-item">
-										<img class="topmargin-sm" src="demos/restaurant/images/items/desserts/9.jpg" alt="Image 4">
-										<div class="food-content clearfix">
-											<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
-												<div class="heading-block border-bottom-0 mb-0">
-													<h3 class="font-secondary nott">Jelly Cake.</h3>
-												</div>
-												<div class="food-price color font-primary mt-3">&dollar;7.99</div>
-											</div>
-											<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam eveniet cum explicabo iure quasi impedit commodi nobis doloremque quas consequuntur!<br><br>Credibly maximize orthogonal e-services and technically sound communities. Seamlessly procrastinate holistic partnerships. Distinctively disseminate stand-alone process improvements after efficient total linkage. Efficiently syndicate.</p>
-											<a href="demos/restaurant/menu.html" class="more-link">See More Details <i class="icon-line-arrow-right"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-7 clearfix">
-								<div class="vertical-middle">
-									<div class="col-padding clearfix">
-										<div><div id="item-thumb1" class="item-thumb"></div></div>
-										<div class="center mx-auto"><a class="button button-border button-small button-black button-dark button-circle ms-0" style="margin-top: 0px;">See All Menu</a></div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-				<div class="section bg-transparent">
-					<div class="d-none d-lg-block" style="background: #FFF url('demos/restaurant/images/sections/3.jpg') no-repeat center center / cover; height: 100%;position: absolute; top: 0; left: 0; width: 100%"></div>
-					<div class="container clearfix">
-
-						<div class="heading-block border-bottom-0">
-							<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Services</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.3;">What We Do</h3>
-						</div>
-						<div class="row clearfix">
-							<div class="col-lg-6 col-md-6 col-12"><img src="demos/restaurant/images/sections/1.jpg" alt="Image"></div>
-							<div class="col-lg-4 col-md-6 col-12">
-								<a href="demos/restaurant/about-us.html" class="button button-border button-large button-black button-dark button-rounded nott ls0 font-primary service-button">Our Service</a>
-								<img src="demos/restaurant/images/sections/2.jpg" alt="Image" class="d-none d-md-block" style="margin: 0 0 0 -80px;">
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="section mb-0" style="padding: 80px 0; background: #F5F5F5 url('demos/restaurant/images/food-pattern.png') repeat center center;">
-					<div class="container clearfix">
-
-						<div class="heading-block center border-bottom-0">
-							<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Expert &amp; Skillful</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.3;">Our Chefs</h3>
-						</div>
-
-						<div class="row clearfix">
-
-							<div class="col-lg-3 col-md-6">
-								<div class="team">
-									<div class="team-image imagescalein">
-										<a href="demos/restaurant/about-us.html"><img src="demos/restaurant/images/chefs/1.jpg" alt="John Doe"></a>
-									</div>
-									<div class="team-desc">
-										<div class="team-title">
-											<h4 class="font-primary fw-normal ls2">Fig Nelson</h4>
-											<span>Chef</span>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum dolor sequi quaerat, deleniti beatae ratione.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="team">
-									<div class="team-image imagescalein">
-										<a href="demos/restaurant/about-us.html"><img src="demos/restaurant/images/chefs/2.jpg" alt="Josh Clark"></a>
-									</div>
-									<div class="team-desc">
-										<div class="team-title">
-											<h4 class="font-primary fw-normal ls2">Josh Clark</h4>
-											<span>Chef</span>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore eveniet magnam nam, atqu.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="team">
-									<div class="team-image imagescalein">
-										<a href="demos/restaurant/about-us.html"><img src="demos/restaurant/images/chefs/3.jpg" alt="Mary Jane"></a>
-									</div>
-									<div class="team-desc">
-										<div class="team-title">
-											<h4 class="font-primary fw-normal ls2">Mary Jane</h4>
-											<span>Manager</span>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis cum minima mollitia, velit.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="team">
-									<div class="team-image imagescalein">
-										<a href="demos/restaurant/about-us.html"><img src="demos/restaurant/images/chefs/4.jpg" alt="Nix Maxwell"></a>
-									</div>
-									<div class="team-desc">
-										<div class="team-title">
-											<h4 class="font-primary fw-normal ls2">Nix Maxwell</h4>
-											<span>Staff</span>
-										</div>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere dolore ipsam nemo, similique.</p>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-				<div style="background: #FFF url('demos/restaurant/images/sections/7.jpg') no-repeat top right; background-size: 100% auto; padding-top: 50px">
-					<div class="container clearfix">
-
-						<div class="heading-block center border-bottom-0">
-							<span class="font-primary ls1" style="font-size: 14px; color: #AAA">Our Latest News</span>
-							<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.2;">News Feed</h3>
-						</div>
-
-						<div class="row posts-md col-mb-30 mb-0">
-
-							<div class="col-lg-4 col-md-6">
-								<div class="entry">
-									<div class="entry-image mb-0">
-										<a href="demos/restaurant/images/blogs/1.jpg" data-lightbox="image"><img src="demos/restaurant/images/blogs/1.jpg" alt="Image 1"></a>
-									</div>
-									<div class="entry-title mt-0 p-4 title-xs nott">
-										<div class="entry-meta mt-0 mb-2">
-											<ul>
-												<li><a href="#">08th Apr 2021</a></li>
-												<li><a href="#">Video</a></li>
-											</ul>
-										</div>
-
-										<h2 class="mb-0"><a href="demos/restaurant/blog.html">Make Ahead Super Green Vegan Quinoa Sandwich.</a></h2>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-4 col-md-6">
-								<div class="entry">
-									<div class="entry-image mb-0">
-										<a href="demos/restaurant/images/blogs/2.jpg" data-lightbox="image"><img src="demos/restaurant/images/blogs/2.jpg" alt="Image 2"></a>
-									</div>
-									<div class="entry-title mt-0 p-4 title-xs nott">
-										<div class="entry-meta mt-0 mb-2">
-											<ul>
-												<li><a href="#">21th Mar 2021</a></li>
-												<li><a href="#">Book</a></li>
-											</ul>
-										</div>
-
-										<h2 class="mb-0"><a href="demos/restaurant/blog.html">We Delivered Heart Shape Cornbread Waffles.</a></h2>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-4 col-md-6">
-								<div class="entry">
-									<div class="entry-image mb-0">
-										<a href="demos/restaurant/images/blogs/3.jpg" data-lightbox="image"><img src="demos/restaurant/images/blogs/3.jpg" alt="Image 3"></a>
-									</div>
-									<div class="entry-title mt-0 p-4 title-xs nott">
-										<div class="entry-meta mt-0 mb-2">
-											<ul>
-												<li><a href="#">10th Feb 2021</a></li>
-												<li><a href="#">Recipe</a></li>
-											</ul>
-										</div>
-
-										<h2 class="mb-0"><a href="demos/restaurant/blog.html">Top Delicious Recipes from world's Best Chefs.</a></h2>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-				</div>
-
-				<div class="line clear"></div>
-
-				<div class="container section-contact topmargin-lg clearfix">
-					<div class="row clearfix">
-
-						<div class="col-lg-3 col-md-6 bottommargin-sm center">
-							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-map"></i>
-							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Contact</h3>
-							<span class="font-primary">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</span>
-						</div>
-
-						<div class="col-lg-3 col-md-6 bottommargin-sm center">
-							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clock"></i>
-							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Opening Time</h3>
-							<span class="font-primary">Sun - Thu | 07:00 - 23:00 Hours<br>
-							Fri - Sat | 08:00 - 01:00 Hours</span>
-						</div>
-
-						<div class="col-lg-3 col-md-6 bottommargin-sm center">
-							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clipboard"></i>
-							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Reservation</h3>
-							<span class="font-primary"><strong>Mobile: </strong>+62-111-222-333<br>
-							<strong>Fax: </strong>(+62)-11-4752-1433</span>
-						</div>
-
-						<div class="col-lg-3 col-md-6 bottommargin-sm center">
-							<i class="i-plain i-xlarge mx-auto mb-0 icon-et-heart"></i>
-							<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">Social Contact</h3>
-							<div style="display: flex; justify-content: center">
-								<a href="#" class="social-icon si-borderless si-facebook">
-									<i class="icon-line2-social-facebook"></i>
-									<i class="icon-line2-social-facebook"></i>
-								</a>
-								<a href="#" class="social-icon si-borderless si-twitter">
-									<i class="icon-line2-social-twitter"></i>
-									<i class="icon-line2-social-twitter"></i>
-								</a>
-								<a href="#" class="social-icon si-borderless si-youtube">
-									<i class="icon-line2-social-youtube"></i>
-									<i class="icon-line2-social-youtube"></i>
-								</a>
-								<a href="#" class="social-icon si-borderless si-email3">
-									<i class="icon-line2-envelope"></i>
-									<i class="icon-line2-envelope"></i>
-								</a>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-
-			<div style="position: absolute; bottom: 0; left: 0; width: 100%; z-index: 3; background: url('demos/restaurant/images/sketch-header.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-bottom: -10px;"></div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="dark" style="background: url('demos/restaurant/images/footer-bg.jpg')  repeat center center / cover; background-size: auto 100%;; padding: 20px 0 22px">
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="bg-transparent pb-4">
-				<div class="container clearfix">
-
-					<div class="row justify-content-between col-mb-30">
-						<div class="col-12 col-md-auto text-center text-md-start">
-							<span class="font-primary">&copy; Canvas Inc. 2021. All Rights Reserved.</span>
-						</div>
-
-						<div class="col-12 col-md-auto text-center text-md-end">
-							<div class="copyrights-menu copyright-links clearfix">
-								<a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a>/<a href="#">Clients</a>/<a href="#">Contact</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-line-arrow-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<!-- Custom Carousel JS File -->
-	<script>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Cookie|Open+Sans:400,600,700,800,900|Poppins:300,400,500,600,700|Playfair+Display:400,400i,700,700i,900&amp;display=swap" rel="stylesheet"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/swiper.css" rel="stylesheet" type="text/css"/>
+<link href="one-page/css/et-line.css" rel="stylesheet" type="text/css"/>
+<!--餐厅 Demo 特定样式表-->
+<link href="demos/restaurant/restaurant.css" rel="stylesheet" type="text/css"/>
+<link href="demos/restaurant/css/fonts.css" rel="stylesheet" type="text/css"/>
+<!-- / -->
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="css/colors.php?color=e7272d" rel="stylesheet" type="text/css"/>
+<!--文件标题 =============================================-->
+<title>餐厅 罐头</title>
+</link></head>
+<body class="stretched sticky-footer page-transition" data-loader-html="&lt;span class='pizza'&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;span class='slice'&gt;&lt;/span&gt; &lt;/span&gt;">
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--页眉 =============================================-->
+<header class="transparent-header" data-sticky-shrink="false" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row justify-content-lg-between">
+<!--标记 =============================================-->
+<div class="col-auto me-lg-0 order-lg-2" id="logo">
+<a class="standard-logo" href="demo-restaurant.html"><img alt="Canvas Logo" src="demos/restaurant/images/logo.png"/></a>
+<a class="retina-logo" href="demo-restaurant.html"><img alt="Canvas Logo" src="demos/restaurant/images/logo@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu col-lg-4 order-lg-1">
+<ul class="menu-container">
+<li class="menu-item"><a class="menu-link" href="demo-restaurant.html"><div>内容</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-restaurant-about-us.html"><div>关于</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-restaurant-menu.html"><div>菜单</div></a></li>
+</ul>
+</nav>
+<nav class="primary-menu col-lg-4 order-lg-3">
+<ul class="menu-container justify-content-lg-end">
+<li class="menu-item"><a class="menu-link" href="demo-restaurant-gallery.html"><div>图片库</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-restaurant-blog.html"><div>博客</div></a></li>
+<li class="menu-item"><a class="menu-link color" href="demo-restaurant-reservation.html"><div>保留</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--幻灯片 =============================================-->
+<section class="slider-element swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-autoplay="6000" data-effect="fade" data-loop="true" data-speed="1400" id="slider">
+<div class="slider-inner">
+<div class="swiper-container swiper-parent">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="container dark">
+<div class="slider-caption">
+<div>
+<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn">尝从意大利来.</h2>
+<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">如果有披萨和WiFi都可用的话 谁需要男朋友</p>
+<div class="static-content" data-animate="fadeIn" data-delay="800" style="position: relative; display: flex; justify-content: flex-start; flex-direction: row; margin-top: 30px">
+<img alt="Image" height="42" src="demos/restaurant/images/icons/bowl-white.svg" width="42"/>
+<img alt="Image" class="leftmargin-sm" height="42" src="demos/restaurant/images/icons/spoon-white.svg" width="42"/>
+<img alt="Image" class="leftmargin-sm" height="42" src="demos/restaurant/images/icons/glass-white.svg" width="42"/>
+<img alt="Image" class="leftmargin-sm" height="42" src="demos/restaurant/images/icons/wifi-white.svg" width="42"/>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide-bg" style="background-image: url('demos/restaurant/images/slider/1.jpg');"></div>
+</div>
+<div class="swiper-slide">
+<div class="container dark">
+<div class="slider-caption slider-caption-center" style="margin-top: -30px;">
+<div>
+<img alt="Image" data-animate="fadeIn" src="demos/restaurant/images/slider-logo.png" style="width: 120px; margin-bottom: 10px;"/>
+<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn" data-delay="400">让你的巧克力。</h2>
+<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="800">你会惊讶地看到你的最终结果<br/>创建( W) 需要更多 。</p>
+<div class="static-content" data-animate="fadeIn" data-delay="1000" style="position: relative; display: flex; justify-content: center; flex-direction: row; margin-top: 30px">
+<img alt="Image" height="42" src="demos/restaurant/images/icons/bowl-white.svg" width="42"/>
+<img alt="Image" class="leftmargin-sm" height="42" src="demos/restaurant/images/icons/spoon-white.svg" width="42"/>
+<img alt="Image" class="leftmargin-sm" height="42" src="demos/restaurant/images/icons/glass-white.svg" width="42"/>
+</div>
+</div>
+</div>
+</div>
+<div class="swiper-slide-bg" style="background-image: url('demos/restaurant/images/slider/3.jpg');"></div>
+</div>
+<div class="swiper-slide">
+<div class="container dark">
+<div class="slider-caption slider-caption-right">
+<div>
+<h2 class="font-secondary ls0 fw-normal nott" data-animate="fadeIn">欢迎光临( W).</h2>
+<p class="d-none d-sm-block font-primary" data-animate="fadeIn" data-delay="400">咖啡饮者能更相爱. 一切从一个伟大的咖啡开始。</p>
+</div>
+</div>
+</div>
+<div class="swiper-slide-bg" style="background-image: url('demos/restaurant/images/slider/2.jpg'); background-position: center bottom;"></div>
+</div>
+</div>
+<div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+<div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+</div>
+</div>
+</section>
+<!--内容 =============================================-->
+<section id="content">
+<div style="position: absolute; top: 0; left: 0; width: 100%; z-index: 3; background: url('demos/restaurant/images/sketch.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-top: -40px;"></div>
+<div class="content-wrap" style="overflow: visible;">
+<div class="section m-0 clearfix" style="padding: 40px 0; background: url('demos/restaurant/images/sections/4.jpg') center center no-repeat; background-size: 100% auto">
+<div class="container">
+<div class="heading-block border-bottom-0 bottommargin-sm">
+<h2 class="font-secondary color nott" style="font-size: 52px;">我们如何工作</h2>
+</div>
+<div class="row col-mb-50">
+<div class="col-lg-3">
+<div class="feature-box media-box" style="max-width: 400px;">
+<div class="fbox-media" style="width: 70px; height: auto;">
+<img alt="Image" src="demos/restaurant/images/icons/bowl.svg"/>
+</div>
+<div class="fbox-content px-0">
+<h3>热食</h3>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Voluptas omnis nam 猥亵行为 减去自然,胎盘!</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="feature-box media-box" style="max-width: 400px;">
+<div class="fbox-media" style="width: 70px; height: auto;">
+<img alt="Image" src="demos/restaurant/images/icons/spoon.svg"/>
+</div>
+<div class="fbox-content px-0">
+<h3>繁多选项</h3>
+<p>面相相相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相相去相去相去相去相去相去相去相去相去相去相去相去相去相去相去相相去相去相相相相去相</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="feature-box media-box" style="max-width: 400px;">
+<div class="fbox-media" style="width: 70px; height: auto;">
+<img alt="Image" src="demos/restaurant/images/icons/glass.svg"/>
+</div>
+<div class="fbox-content px-0">
+<h3>室内酿酒厂</h3>
+<p>Velit id facilis odit a 液态功劳. 临时,先生。 哈鲁姆·尼西翁特 马格尼·阿佩里亚姆斯</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section mb-0" style="background: #FFF url('demos/restaurant/images/sections/5.jpg') no-repeat top left / cover; padding: 60px 0; border-top: 1px solid #EEE;">
+<div class="container clearfix">
+<div class="heading-block center mb-0 border-bottom-0">
+<span class="font-primary" style="font-size: 16px; color: #888">美味而健康</span>
+<h3 class="nott font-secondary ls0" style="font-size: 60px;">我们的食物菜单</h3>
+</div>
+</div>
+</div>
+<div class="section food-menu mt-0 p-0">
+<div class="container-fluid">
+<div class="row align-items-stretch clearfix">
+<div class="col-lg-7 clearfix">
+<div class="vertical-middle">
+<div class="col-padding clearfix">
+<div><div class="item-thumb" id="item-thumb"></div></div>
+</div>
+</div>
+</div>
+<div class="col-lg-5" style="background-color: #FFF; padding: 0; box-shadow: -4px 1px 15px 3px rgba(0,0,0,0.07);">
+<div class="menu-carousel owl-carousel image-carousel food-menu-carousel carousel-widget customjs" id="food-menu-carousel">
+<div class="oc-item">
+<img alt="Image 1" class="topmargin-sm" src="demos/restaurant/images/items/food/1.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">多克兰土豆.</h3>
+<div class="food-info">玉米、培根、番茄、起司、洋葱</div>
+</div>
+<div class="food-price color font-primary mt-3">$19.99</div>
+</div>
+<p class="mb-0">高效地联合起来,在商业优势点之前就跨功能网络准备状态。 在道德领导技能之前,独有地重塑道德检验程序。<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 2" class="topmargin-sm" src="demos/restaurant/images/items/food/2.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">(原始内容存档于2019-10-12). Prawn Mussels Plate.</h3>
+<div class="food-info">白虾、番茄、面条</div>
+</div>
+<div class="food-price color font-primary mt-3">$11.59</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 3" class="topmargin-sm" src="demos/restaurant/images/items/food/3.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">黑通宝汉堡.</h3>
+<div class="food-info">小鸡帕蒂,豆面包</div>
+</div>
+<div class="food-price color font-primary mt-3">$8.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 4" class="topmargin-sm" src="demos/restaurant/images/items/food/4.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">煎鸡.</h3>
+<div class="food-info">鸡肉、橄榄油</div>
+</div>
+<div class="food-price color font-primary mt-3">$22.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 1" class="topmargin-sm" src="demos/restaurant/images/items/food/5.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">(原始内容存档于2017-10-21). Smoothie 水果碗.</h3>
+<div class="food-info">草莓、草莓、格拉诺拉、香蕉</div>
+</div>
+<div class="food-price color font-primary mt-3">$19.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur. 中国植物物种信息数据库. 整体伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 2" class="topmargin-sm" src="demos/restaurant/images/items/food/6.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">玛格丽特披萨。</h3>
+<div class="food-info">小麦面粉、起司、番茄、洋葱</div>
+</div>
+<div class="food-price color font-primary mt-3">$14.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<div class="food-price color font-primary mt-3">$14.99</div>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 3" class="topmargin-sm" src="demos/restaurant/images/items/food/7.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">马迦罗尼面.</h3>
+</div>
+<div class="food-price color font-primary mt-3">$11.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 4" class="topmargin-sm" src="demos/restaurant/images/items/food/8.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">鸡与薯条.</h3>
+<div class="food-info">鸡肉、马铃薯、布洛克斯</div>
+</div>
+<div class="food-price color font-primary mt-3">$33.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 4" class="topmargin-sm" src="demos/restaurant/images/items/food/9.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">中国面条.</h3>
+<div class="food-info">面条、玉米花、大虾</div>
+</div>
+<div class="food-price color font-primary mt-3">$7.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section mb-0 bg-transparent">
+<div class="container">
+<div class="row col-mb-50">
+<div class="col-sm-6 col-lg-4">
+<div class="feature-box media-box">
+<div class="fbox-media">
+<a href="demos/restaurant/reservation.html"><img alt="Why choose Us?" src="demos/restaurant/images/featured/1.jpg" style="border-radius: 2px;"/></a>
+</div>
+<div class="fbox-content px-0">
+<h3>美丽的位置。<span class="subtitle ls1" style="color:#BBB">食品尝用 当你在好位置时更好</span></h3>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum est voluptatem claimus eaque perspiciatis mollitia. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="feature-box media-box">
+<div class="fbox-media">
+<a href="demos/restaurant/gallery.html"><img alt="Effective Planning" src="demos/restaurant/images/featured/2.jpg" style="border-radius: 2px;"/></a>
+</div>
+<div class="fbox-content px-0">
+<h3>感觉味道。<span class="subtitle ls1" style="color:#BBB">没有什么能像&amp;quot;好食物&amp;quot;那样把人聚集在一起.</span></h3>
+<p>Porro slowlat vero sapiente ametcripture quibsdam necessibus consectur, labore totam. (原始内容存档于2018-07-21) (英语). Accusamus perspiciatis asperiores 劳动妇女.</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-4">
+<div class="feature-box media-box">
+<div class="fbox-media">
+<a href="demos/restaurant/about-us.html"><img alt="Why choose Us?" src="demos/restaurant/images/featured/3.jpg" style="border-radius: 2px;"/></a>
+</div>
+<div class="fbox-content px-0">
+<h3>美味的甜点。<span class="subtitle ls1" style="color:#BBB">生命中最美好的东西是&amp;quot;甜&amp;quot;.</span></h3>
+<p>Quos, no, esse eligendi ab crapantium vouptatem. (原始内容存档于2018-09-29) (英语). Maxime eligendi beatae, atque testera ullam. (原始内容存档于2018-09-29) (英语). Vitae delectus quia, Consequentur rerumency. 劳作通通. (原始内容存档于2019-10-12). Accusamus perspiciatis asperiores.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section mb-0" style="background: #fee749 url('demos/restaurant/images/sections/4.jpg') no-repeat center right; background-size: cover; padding: 60px 0;">
+<div class="heading-block center mb-0 border-bottom-0">
+<span class="font-primary ls1" style="font-size: 14px; color: #AAA">甜蜜性感( S)</span>
+<h3 class="nott font-secondary ls0" style="font-size: 60px;line-height: 1.3;">我们的甜点菜单</h3>
+</div>
+</div>
+<div class="section dessert-menu m-0 p-0">
+<div class="container-fluid">
+<div class="row align-items-stretch clearfix">
+<div class="col-lg-5" style="background-color: #FFF; padding: 0; box-shadow: -4px 1px 15px 3px rgba(0,0,0,0.07);">
+<div class="menu-carousel owl-carousel image-carousel carousel-widget customjs" id="dessert-menu-carousel">
+<div class="oc-item">
+<img alt="Image 1" class="topmargin-sm" src="demos/restaurant/images/items/desserts/1.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">巧克力蛋糕 巧克力蛋糕 巧克力蛋糕</h3>
+<div class="food-info">巧克力、焦糖、胡桃、咖啡、草莓</div>
+</div>
+<div class="food-price color font-primary mt-3">$19.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 2" class="topmargin-sm" src="demos/restaurant/images/items/desserts/2.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">焦糖饼.</h3>
+<div class="food-info">焦糖鸡蛋</div>
+</div>
+<div class="food-price color font-primary mt-3">$11.59</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 3" class="topmargin-sm" src="demos/restaurant/images/items/desserts/3.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">(原始内容存档于2017-10-21). Choco Strawberry Waffle.</h3>
+<div class="food-info">草莓、巧克力糖浆、香草冰淇淋</div>
+</div>
+<div class="food-price color font-primary mt-3">$8.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 4" class="topmargin-sm" src="demos/restaurant/images/items/desserts/4.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">通心饼.</h3>
+</div>
+<div class="food-price color font-primary mt-3">$22.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 1" class="topmargin-sm" src="demos/restaurant/images/items/desserts/5.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">巧克力饼干。</h3>
+<div class="food-info">巧克力糖浆</div>
+</div>
+<div class="food-price color font-primary mt-3">$19.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur. 中国植物物种信息数据库. 整体伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 2" class="topmargin-sm" src="demos/restaurant/images/items/desserts/6.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">美味的饼干。</h3>
+</div>
+<div class="food-price color font-primary mt-3">$14.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 3" class="topmargin-sm" src="demos/restaurant/images/items/desserts/7.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">草莓糕点.</h3>
+</div>
+<div class="food-price color font-primary mt-3">$11.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 4" class="topmargin-sm" src="demos/restaurant/images/items/desserts/8.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">果实碗.</h3>
+<div class="food-info">水果、酸奶、草莓、香蕉、樱桃</div>
+</div>
+<div class="food-price color font-primary mt-3">$33.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="oc-item">
+<img alt="Image 4" class="topmargin-sm" src="demos/restaurant/images/items/desserts/9.jpg"/>
+<div class="food-content clearfix">
+<div class="d-flex flex-column flex-sm-row justify-content-sm-between mb-4">
+<div class="heading-block border-bottom-0 mb-0">
+<h3 class="font-secondary nott">果冻蛋糕。</h3>
+</div>
+<div class="food-price color font-primary mt-3">$7.99</div>
+</div>
+<p class="mb-0">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque ques consequentur! Quisquam eveniet cum explicabo iure 准阻断 它 commodi nobis doloremque que s consequentur! 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克.<br/><br/>可信地最大限度地提供正统电子服务和技术健全的社区。 毫无保留地拖延全面的伙伴关系。 在高效全面链接后,单独传播流程改进。 高效的辛迪加</p>
+<a class="more-link" href="demos/restaurant/menu.html">更多信息<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-7 clearfix">
+<div class="vertical-middle">
+<div class="col-padding clearfix">
+<div><div class="item-thumb" id="item-thumb1"></div></div>
+<div class="center mx-auto"><a class="button button-border button-small button-black button-dark button-circle ms-0" style="margin-top: 0px;">参见全部菜单</a></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="section bg-transparent">
+<div class="d-none d-lg-block" style="background: #FFF url('demos/restaurant/images/sections/3.jpg') no-repeat center center / cover; height: 100%;position: absolute; top: 0; left: 0; width: 100%"></div>
+<div class="container clearfix">
+<div class="heading-block border-bottom-0">
+<span class="font-primary ls1" style="font-size: 14px; color: #AAA">服务</span>
+<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.3;">我们做什么</h3>
+</div>
+<div class="row clearfix">
+<div class="col-lg-6 col-md-6 col-12"><img alt="Image" src="demos/restaurant/images/sections/1.jpg"/></div>
+<div class="col-lg-4 col-md-6 col-12">
+<a class="button button-border button-large button-black button-dark button-rounded nott ls0 font-primary service-button" href="demos/restaurant/about-us.html">我们的服务</a>
+<img alt="Image" class="d-none d-md-block" src="demos/restaurant/images/sections/2.jpg" style="margin: 0 0 0 -80px;"/>
+</div>
+</div>
+</div>
+</div>
+<div class="section mb-0" style="padding: 80px 0; background: #F5F5F5 url('demos/restaurant/images/food-pattern.png') repeat center center;">
+<div class="container clearfix">
+<div class="heading-block center border-bottom-0">
+<span class="font-primary ls1" style="font-size: 14px; color: #AAA">专家技能( S)</span>
+<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.3;">我们的主厨们</h3>
+</div>
+<div class="row clearfix">
+<div class="col-lg-3 col-md-6">
+<div class="team">
+<div class="team-image imagescalein">
+<a href="demos/restaurant/about-us.html"><img alt="John Doe" src="demos/restaurant/images/chefs/1.jpg"/></a>
+</div>
+<div class="team-desc">
+<div class="team-title">
+<h4 class="font-primary fw-normal ls2">图尼尔森</h4>
+<span>主厨</span>
+</div>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Rerum dolor sequi quaerat, deleniti beatae understand. 德莱尼蒂·贝阿塔(英语:Deleniti beatae)是法国的诗人,诗人.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="team">
+<div class="team-image imagescalein">
+<a href="demos/restaurant/about-us.html"><img alt="Josh Clark" src="demos/restaurant/images/chefs/2.jpg"/></a>
+</div>
+<div class="team-desc">
+<div class="team-title">
+<h4 class="font-primary fw-normal ls2">乔希·克拉克</h4>
+<span>主厨</span>
+</div>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入入.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="team">
+<div class="team-image imagescalein">
+<a href="demos/restaurant/about-us.html"><img alt="Mary Jane" src="demos/restaurant/images/chefs/3.jpg"/></a>
+</div>
+<div class="team-desc">
+<div class="team-title">
+<h4 class="font-primary fw-normal ls2">玛丽简</h4>
+<span>经理</span>
+</div>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗  Per(学名:Perspiciatis cum minima mollitia)为lit科lit属下的一个种.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="team">
+<div class="team-image imagescalein">
+<a href="demos/restaurant/about-us.html"><img alt="Nix Maxwell" src="demos/restaurant/images/chefs/4.jpg"/></a>
+</div>
+<div class="team-desc">
+<div class="team-title">
+<h4 class="font-primary fw-normal ls2">尼克斯·麦克斯韦尔</h4>
+<span>工作人员</span>
+</div>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 脸部多罗尔当然是尼莫, 白痴。</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div style="background: #FFF url('demos/restaurant/images/sections/7.jpg') no-repeat top right; background-size: 100% auto; padding-top: 50px">
+<div class="container clearfix">
+<div class="heading-block center border-bottom-0">
+<span class="font-primary ls1" style="font-size: 14px; color: #AAA">我们的最新消息</span>
+<h3 class="nott font-secondary ls0" style="font-size: 60px; line-height: 1.2;">新闻种子</h3>
+</div>
+<div class="row posts-md col-mb-30 mb-0">
+<div class="col-lg-4 col-md-6">
+<div class="entry">
+<div class="entry-image mb-0">
+<a data-lightbox="image" href="demos/restaurant/images/blogs/1.jpg"><img alt="Image 1" src="demos/restaurant/images/blogs/1.jpg"/></a>
+</div>
+<div class="entry-title mt-0 p-4 title-xs nott">
+<div class="entry-meta mt-0 mb-2">
+<ul>
+<li><a href="#">2021年4月08日 (中文(简体) ).</a></li>
+<li><a href="#">视频</a></li>
+</ul>
+</div>
+<h2 class="mb-0"><a href="demos/restaurant/blog.html">制作出&amp;quot;前去&amp;quot;的&amp;quot;超级绿色维干&amp;quot;&amp;quot;克诺亚&amp;quot;&amp;quot;桑威奇&amp;quot;.</a></h2>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="entry">
+<div class="entry-image mb-0">
+<a data-lightbox="image" href="demos/restaurant/images/blogs/2.jpg"><img alt="Image 2" src="demos/restaurant/images/blogs/2.jpg"/></a>
+</div>
+<div class="entry-title mt-0 p-4 title-xs nott">
+<div class="entry-meta mt-0 mb-2">
+<ul>
+<li><a href="#">2021年3月21日 (中文(简体) ).</a></li>
+<li><a href="#">书</a></li>
+</ul>
+</div>
+<h2 class="mb-0"><a href="demos/restaurant/blog.html">我们交付了心形 Cornbread Waffles。</a></h2>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="entry">
+<div class="entry-image mb-0">
+<a data-lightbox="image" href="demos/restaurant/images/blogs/3.jpg"><img alt="Image 3" src="demos/restaurant/images/blogs/3.jpg"/></a>
+</div>
+<div class="entry-title mt-0 p-4 title-xs nott">
+<div class="entry-meta mt-0 mb-2">
+<ul>
+<li><a href="#">2021年2月10日 (英语).</a></li>
+<li><a href="#">食谱</a></li>
+</ul>
+</div>
+<h2 class="mb-0"><a href="demos/restaurant/blog.html">世界最佳厨师的美味菜肴</a></h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="line clear"></div>
+<div class="container section-contact topmargin-lg clearfix">
+<div class="row clearfix">
+<div class="col-lg-3 col-md-6 bottommargin-sm center">
+<i class="i-plain i-xlarge mx-auto mb-0 icon-et-map"></i>
+<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">联系人</h3>
+<span class="font-primary">795个Folsom Ave,600套房<br/>旧金山,CA 94107</span>
+</div>
+<div class="col-lg-3 col-md-6 bottommargin-sm center">
+<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clock"></i>
+<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">开幕时间</h3>
+<span class="font-primary">太阳 - Thu 07:00 - 23:00<br/>星期五 - at 08:00 - 1:00</span>
+</div>
+<div class="col-lg-3 col-md-6 bottommargin-sm center">
+<i class="i-plain i-xlarge mx-auto mb-0 icon-et-clipboard"></i>
+<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">保留</h3>
+<span class="font-primary"><strong>移动 :</strong>+62-111-222-333<br/>
+<strong>传真:</strong>(+62)-11-4752-1433</span>
+</div>
+<div class="col-lg-3 col-md-6 bottommargin-sm center">
+<i class="i-plain i-xlarge mx-auto mb-0 icon-et-heart"></i>
+<h3 class="text-uppercase font-body" style="font-size: 22px; font-weight: 700;margin-top: 20px">社会联系</h3>
+<div style="display: flex; justify-content: center">
+<a class="social-icon si-borderless si-facebook" href="#">
+<i class="icon-line2-social-facebook"></i>
+<i class="icon-line2-social-facebook"></i>
+</a>
+<a class="social-icon si-borderless si-twitter" href="#">
+<i class="icon-line2-social-twitter"></i>
+<i class="icon-line2-social-twitter"></i>
+</a>
+<a class="social-icon si-borderless si-youtube" href="#">
+<i class="icon-line2-social-youtube"></i>
+<i class="icon-line2-social-youtube"></i>
+</a>
+<a class="social-icon si-borderless si-email3" href="#">
+<i class="icon-line2-envelope"></i>
+<i class="icon-line2-envelope"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div style="position: absolute; bottom: 0; left: 0; width: 100%; z-index: 3; background: url('demos/restaurant/images/sketch-header.png') repeat center bottom; background-size: auto 100%; height: 40px; margin-bottom: -10px;"></div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="dark" id="footer" style="background: url('demos/restaurant/images/footer-bg.jpg')  repeat center center / cover; background-size: auto 100%;; padding: 20px 0 22px">
+<!--版权 =============================================-->
+<div class="bg-transparent pb-4" id="copyrights">
+<div class="container clearfix">
+<div class="row justify-content-between col-mb-30">
+<div class="col-12 col-md-auto text-center text-md-start">
+<span class="font-primary">Canvas Inc. 2021 (英语). 所有权利保留。</span>
+</div>
+<div class="col-12 col-md-auto text-center text-md-end">
+<div class="copyrights-menu copyright-links clearfix">
+<a href="#">内容</a>/<a href="#">关于我们</a>/<a href="#">团队</a>/<a href="#">客户</a>/<a href="#">联系人</a>
+</div>
+</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-line-arrow-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<!--自定义木马 联合来文文件-->
+<script>
 
 		var carouselRTL = false;
 
@@ -844,6 +739,5 @@
 		});
 
 	</script>
-
 </body>
 </html>

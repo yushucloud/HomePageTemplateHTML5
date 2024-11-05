@@ -1,590 +1,499 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Blog Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/blog/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="demos/blog/blog.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/colors.php?color=F39887" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Single Blog Demo | Canvas</title>
-
-</head>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!--博客 Demo 特定样式表-->
+<link href="demos/blog/css/fonts.css" rel="stylesheet" type="text/css"/>
+<link href="demos/blog/blog.css" rel="stylesheet" type="text/css"/>
+<link href="css/colors.php?color=F39887" rel="stylesheet" type="text/css"/>
+<!--文件标题 =============================================-->
+<title>单一博客 舞会</title>
+</link></head>
 <body class="stretched search-overlay">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="header-size-custom" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-lg-between">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo" class="mx-lg-auto col-auto flex-column order-lg-2 px-0">
-							<a href="demo-blog.html" class="standard-logo" data-dark-logo="demos/blog/images/logo-dark.png" data-mobile-logo="demos/blog/images/mobile-logo.png"><img src="demos/blog/images/logo.png" alt="Canvas Logo"></a>
-							<a href="demo-blog.html" class="retina-logo" data-dark-logo="demos/blog/images/logo-dark@2x.png" data-mobile-logo="demos/blog/images/mobile-logo@2x.png"><img src="demos/blog/images/logo@2x.png" alt="Canvas Logo"></a>
-							<span class="divider divider-center date-today"><span class="divider-text"></span></span>
-						</div><!-- #logo end -->
-
-						<div class="col-auto col-lg-3 order-lg-1 d-none d-md-flex px-0">
-							<div class="social-icons">
-								<a href="https://facebook.com/semicolonweb" class="social-icon si-rounded si-dark si-mini si-facebook" target="_blank">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-								<a href="https://twitter.com/__semicolon" class="social-icon si-rounded si-dark si-mini si-twitter" target="_blank">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-								<a href=" https://instagram.com/semicolonweb" class="social-icon si-rounded si-dark si-mini si-instagram" target="_blank">
-									<i class="icon-instagram"></i>
-									<i class="icon-instagram"></i>
-								</a>
-							</div>
-						</div>
-
-						<div class="header-misc col-auto col-lg-3 justify-content-lg-end ms-0 ms-sm-3 px-0">
-
-							<!-- Bookmark
-							============================================= -->
-							<div class="dropdown dropdown-langs">
-								<button class="btn dropdown-toggle px-1" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<img src="demos/seo/images/flags/eng.png" alt="French">
-								</button>
-								<div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/fre.png" alt="Lang"> French</a>
-									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/ara.png" alt="Lang"> Arabic</a>
-									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/tha.png" alt="Lang"> Thailand</a>
-									<a href="#" class="dropdown-item disabled" tabindex="-1" aria-disabled="true"><img src="demos/seo/images/flags/eng.png" alt="Lang"> English</a>
-								</div>
-							</div>
-
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
-
-							<div class="dark-mode header-misc-icon d-none d-md-block">
-								<a href="#"><i class="icon-dark"></i></a>
-							</div>
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="container">
-					<div class="header-row justify-content-lg-center header-border">
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu with-arrows">
-
-							<ul class="menu-container justify-content-between">
-								<li class="menu-item"><a class="menu-link" href="demo-blog.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>World</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Tech</div></a></li>
-								<li class="menu-item current"><a class="menu-link" href="demo-blog-categories.html"><div>Lifestyle</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Business</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Finance</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Food</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Sports</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-						<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form>
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-
-		</header><!-- #header end -->
-
-		<!-- Page Title
-		============================================= -->
-		<section id="page-title" class="page-title-center">
-
-			<div class="container">
-				<h1>Lifestyle</h1>
-				<span>Phosfluorescently target clicks-and-mortar growth strategies for timely infrastructures. Monotonectally embrace high-quality applications.</span>
-			</div>
-
-		</section><!-- #page-title end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap pt-0 pt-sm-6">
-				<div class="container">
-
-					<!-- Single Page Categories
-					============================================= -->
-					<div class="row gutter-50">
-						<div class="col-lg-3 cat-widgets position-sticky h-100" style="top: 234px;">
-							<div class="widget widget-search">
-								<form class="input-group">
-									<input class="form-control" type="search" placeholder="Search" aria-label="Search">
-									<button class="btn btn-outline-secondary icon-line-search" type="button"></button>
-								</form>
-							</div>
-
-							<div class="widget widget-nav mt-md-5">
-								<ul class="nav">
-									<li class="nav-item active">
-										<a class="nav-link" href="#">All Categories</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">Fashion</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">Arts &amp; Culture</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">Family</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">Beauty</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">Fitness</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">Music</a>
-									</li>
-									<li class="nav-item">
-										<a class="nav-link" href="#">Design &amp; Illustrations</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="col-lg-9 mt-5 mt-lg-0">
-							<div class="d-flex">
-								<div class="flex-grow-1">
-									<h3>All Lifestyle Posts</h3>
-								</div>
-								<div>
-									<!-- Example single danger button -->
-									<div class="btn-group">
-										<button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Most Popular</button>
-										<div class="dropdown-menu">
-											<a class="dropdown-item" href="#">Latest Posts</a>
-											<a class="dropdown-item" href="#">Most Comments</a>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="row col-mb-50 posts-md">
-								<div class="col-md-4">
-									<article class="entry">
-										<div class="entry-image mb-3">
-											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/1.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title title-sm">
-											<div class="entry-categories"><a href="demo-blog-categories.html">Arts & Culture</a></div>
-											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">On World Art Day, try out this activity for the whole family</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>March 21, 2020</li>
-											</ul>
-										</div>
-										<div class="entry-content mt-3">
-											<p>Today’s freebie is a set of 60 beautiful multimedia icons designed by Carlotta Govi.</p>
-											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-4">
-									<article class="entry">
-										<div class="entry-image mb-3">
-											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/2.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title title-sm">
-											<div class="entry-categories"><a href="demo-blog-categories.html">Fashion</a></div>
-											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">10 Trendy Fashion Instagram Profile You Need to Follow</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>March 19, 2020</li>
-											</ul>
-										</div>
-										<div class="entry-content mt-3">
-											<p>Rapidiously network cross-media processes without viral services. Professionally syndicate holistic ROI.</p>
-											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-4">
-									<article class="entry">
-										<div class="entry-image mb-3">
-											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/3.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title title-sm">
-											<div class="entry-categories"><a href="demo-blog-categories.html">Travel</a></div>
-											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">23 Top Travel Bloggers Who Inspire Us To Travel</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>March 11, 2020</li>
-											</ul>
-										</div>
-										<div class="entry-content mt-3">
-											<p>Collaboratively leverage existing competitive alignments without robust ideas. Completely synthesize.</p>
-											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-4">
-									<article class="entry">
-										<div class="entry-image mb-3">
-											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/4.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title title-sm">
-											<div class="entry-categories"><a href="demo-blog-categories.html">Travel</a></div>
-											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">The Best Destinations in Asia for Solo Travel</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>Feb 23, 2020</li>
-											</ul>
-										</div>
-										<div class="entry-content mt-3">
-											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
-											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-4">
-									<article class="entry">
-										<div class="entry-image mb-3">
-											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/5.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title title-sm">
-											<div class="entry-categories"><a href="demo-blog-categories.html">Fitness</a></div>
-											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">Should You Wear a Face Mask While Walking Outside?</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>Feb 20, 2020</li>
-											</ul>
-										</div>
-										<div class="entry-content mt-3">
-											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
-											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-4">
-									<article class="entry">
-										<div class="entry-image mb-3">
-											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/6.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title title-sm">
-											<div class="entry-categories"><a href="demo-blog-categories.html">Fitness</a></div>
-											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">10 Walking Mistakes to Avoid if You Want to Lose Weight</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>Feb 12, 2020</li>
-											</ul>
-										</div>
-										<div class="entry-content mt-3">
-											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
-											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-4">
-									<article class="entry">
-										<div class="entry-image mb-3">
-											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/7.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title title-sm">
-											<div class="entry-categories"><a href="demo-blog-categories.html">Design &amp; Illustrations</a></div>
-											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">60 SVG Multimedia Icons for Commercial Use</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>Feb 10, 2020</li>
-											</ul>
-										</div>
-										<div class="entry-content mt-3">
-											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
-											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-4">
-									<article class="entry">
-										<div class="entry-image mb-3">
-											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/8.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title title-sm">
-											<div class="entry-categories"><a href="demo-blog-categories.html">Family</a></div>
-											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">Find high-quality apps for kids on Google Play</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>Feb 08, 2020</li>
-											</ul>
-										</div>
-										<div class="entry-content mt-3">
-											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
-											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
-										</div>
-									</article>
-								</div>
-
-								<div class="col-md-4">
-									<article class="entry">
-										<div class="entry-image mb-3">
-											<a href="demo-blog-single.html"><img src="demos/blog/images/categories/9.jpg" alt="Image 3"></a>
-										</div>
-										<div class="entry-title title-sm">
-											<div class="entry-categories"><a href="demo-blog-categories.html">Music</a></div>
-											<h3><a href="demo-blog-single.html" class="color-underline stretched-link">Most Influential Music Blogs 2020</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li>Feb 06, 2020</li>
-											</ul>
-										</div>
-										<div class="entry-content mt-3">
-											<p>Enthusiastically network e-business models whereas intermandated alignments. Energistically enhance error-free.</p>
-											<a href="demo-blog-single.html" class="more-link">Read the artcile</a>
-										</div>
-									</article>
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<!-- Single Page Categories End -->
-
-					<!-- Subscribe Section
-					============================================= -->
-					<div class="section section-colored rounded mb-0 px-4">
-						<div class="row justify-content-center align-items-center">
-							<div class="col-lg-5">
-								<h3 class="mb-4 mb-lg-0">Sign up for Updates &amp; Newsletters.</h3>
-							</div>
-							<div class="col-lg-6">
-								<div class="widget subscribe-widget" data-loader="button">
-
-									<div class="widget-subscribe-form-result"></div>
-									<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0 d-flex">
-										<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control form-control-lg not-dark required email" placeholder="Your Email Address">
-										<button class="button button-large button-black button-dark fw-medium ls0 button-rounded m-0 ms-3" type="submit">Subscribe Now</button>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div> <!-- Subscribe Section End -->
-
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer">
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap row col-mb-50">
-
-					<!-- Footer Widget 3
-					============================================= -->
-					<div class="col-lg-2 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Management</h4>
-							<ul>
-								<li><a href="https://codex.wordpress.org/">About Us</a></li>
-								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Careers</a></li>
-								<li><a href="https://wordpress.org/extend/plugins/">Customers</a></li>
-								<li><a href="https://wordpress.org/support/">Forums</a></li>
-								<li><a href="https://wordpress.org/extend/themes/">Partners</a></li>
-								<li><a href="https://wordpress.org/news/">Themes</a></li>
-								<li><a href="https://planet.wordpress.org/">Pricing</a></li>
-								<li><a href="https://planet.wordpress.org/">Reviews</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<!-- Footer Widget 3
-					============================================= -->
-					<div class="col-lg-2 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Our Products</h4>
-							<ul>
-								<li><a href="https://codex.wordpress.org/">Real Estate</a></li>
-								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Movers</a></li>
-								<li><a href="https://wordpress.org/extend/plugins/">Stores</a></li>
-								<li><a href="https://wordpress.org/support/">Landing</a></li>
-								<li><a href="https://wordpress.org/extend/themes/">Seo</a></li>
-								<li><a href="https://wordpress.org/news/">CoWorking</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<!-- Footer Widget 3
-					============================================= -->
-					<div class="col-lg-2 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Support</h4>
-							<ul>
-								<li><a href="https://codex.wordpress.org/">Privacy</a></li>
-								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Help Center</a></li>
-								<li><a href="https://wordpress.org/extend/plugins/">Chat</a></li>
-								<li><a href="https://wordpress.org/support/">Email Us</a></li>
-							</ul>
-							<div class="mt-3">
-								<a href="https://facebook.com/semicolonweb" class="social-icon si-small si-dark si-facebook" title="Facebook" target="_blank">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-
-								<a href="https://instagram.com/semicolonweb" class="social-icon si-small si-dark si-instagram" title="instagram" target="_blank">
-									<i class="icon-instagram"></i>
-									<i class="icon-instagram"></i>
-								</a>
-
-								<a href="https://twitter.com/__semicolon" class="social-icon si-small si-dark si-twitter" title="twitter" target="_blank">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-dark si-wikipedia" title="Apple Pay">
-									<i class="icon-apple-pay"></i>
-									<i class="icon-apple-pay"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<!-- Footer Widget 2
-						============================================= -->
-					<div class="col-lg-3 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Tag Cloud</h4>
-							<div class="tagcloud">
-								<a href="#">general</a>
-								<a href="#">videos</a>
-								<a href="#">music</a>
-								<a href="#">media</a>
-								<a href="#">photography</a>
-								<a href="#">parallax</a>
-								<a href="#">ecommerce</a>
-								<a href="#">terms</a>
-								<a href="#">coupons</a>
-								<a href="#">modern</a>
-								<a href="#">magazine</a>
-								<a href="#">bootstrap</a>
-								<a href="#">news</a>
-								<a href="#">blog</a>
-								<a href="#">wordpress</a>
-							</div>
-						</div>
-					</div>
-
-					<!-- Footer Widget 4
-					============================================= -->
-					<div class="col-lg-3 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Download in Mobile</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae esse iure est, quam libero!</p>
-							<a href="#" class="button button-dark  text-light w-100 text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin"><i class="icon-apple"></i>App Store</a>
-							<a href="#" class="button button-dark  text-light w-100 text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin"><i class="icon-googleplay"></i>Google Play</a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
-				<div class="container">
-
-					<div class="row align-items-center justify-content-between col-mb-30">
-						<div class="col-lg-auto text-center text-lg-start">
-							Copyrights &copy; 2018 All Rights Reserved by Canvas Inc.<br>
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-						</div>
-
-						<div class="col-lg-auto text-center text-lg-start">
-							<div class="copyrights-menu copyright-links m-0">
-								<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up rounded-circle" style="left: 30px; right: auto;"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<!-- ADD-ONS JS FILES -->
-	<script>
+<!--文档折叠器 =============================================-->
+<div id="wrapper">
+<!--页眉 =============================================-->
+<header class="header-size-custom" data-sticky-shrink="false" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row justify-content-lg-between">
+<!--标记 =============================================-->
+<div class="mx-lg-auto col-auto flex-column order-lg-2 px-0" id="logo">
+<a class="standard-logo" data-dark-logo="demos/blog/images/logo-dark.png" data-mobile-logo="demos/blog/images/mobile-logo.png" href="demo-blog.html"><img alt="Canvas Logo" src="demos/blog/images/logo.png"/></a>
+<a class="retina-logo" data-dark-logo="demos/blog/images/logo-dark@2x.png" data-mobile-logo="demos/blog/images/mobile-logo@2x.png" href="demo-blog.html"><img alt="Canvas Logo" src="demos/blog/images/logo@2x.png"/></a>
+<span class="divider divider-center date-today"><span class="divider-text"></span></span>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div class="col-auto col-lg-3 order-lg-1 d-none d-md-flex px-0">
+<div class="social-icons">
+<a class="social-icon si-rounded si-dark si-mini si-facebook" href="https://facebook.com/semicolonweb" target="_blank">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-rounded si-dark si-mini si-twitter" href="https://twitter.com/__semicolon" target="_blank">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-rounded si-dark si-mini si-instagram" href=" https://instagram.com/semicolonweb" target="_blank">
+<i class="icon-instagram"></i>
+<i class="icon-instagram"></i>
+</a>
+</div>
+</div>
+<div class="header-misc col-auto col-lg-3 justify-content-lg-end ms-0 ms-sm-3 px-0">
+<!--书签 =============================================-->
+<div class="dropdown dropdown-langs">
+<button aria-expanded="false" aria-haspopup="true" class="btn dropdown-toggle px-1" data-bs-toggle="dropdown" id="dropdownMenuButton" type="button">
+<img alt="French" src="demos/seo/images/flags/eng.png"/>
+</button>
+<div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-end">
+<a class="dropdown-item" href="#"><img alt="Lang" src="demos/seo/images/flags/fre.png"/>法语</a>
+<a class="dropdown-item" href="#"><img alt="Lang" src="demos/seo/images/flags/ara.png"/>阿拉伯语</a>
+<a class="dropdown-item" href="#"><img alt="Lang" src="demos/seo/images/flags/tha.png"/>泰国</a>
+<a aria-disabled="true" class="dropdown-item disabled" href="#" tabindex="-1"><img alt="Lang" src="demos/seo/images/flags/eng.png"/>联合国</a>
+</div>
+</div>
+<!--顶级搜索 =============================================-->
+<div class="header-misc-icon" id="top-search">
+<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+</div><!--#顶端搜索结束-->
+<div class="dark-mode header-misc-icon d-none d-md-block">
+<a href="#"><i class="icon-dark"></i></a>
+</div>
+</div>
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="header-row justify-content-lg-center header-border">
+<!--主导航 =============================================-->
+<nav class="primary-menu with-arrows">
+<ul class="menu-container justify-content-between">
+<li class="menu-item"><a class="menu-link" href="demo-blog.html"><div>内容</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>世界</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>技术</div></a></li>
+<li class="menu-item current"><a class="menu-link" href="demo-blog-categories.html"><div>生活方式</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>商业</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>财务</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>粮食</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>体育</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+<form action="search.html" class="top-search-form" method="get">
+<input autocomplete="off" class="form-control" name="q" placeholder="Type &amp; Hit Enter.." type="text" value=""/>
+</form>
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--页次 标题 =============================================-->
+<section class="page-title-center" id="page-title">
+<div class="container">
+<h1>生活方式</h1>
+<span>磷氟化物目标点击和移动增长战略,用于及时建设基础设施。 完全接受高质量的应用。</span>
+</div>
+</section><!--# 页面标题结束-->
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap pt-0 pt-sm-6">
+<div class="container">
+<!--单页分类 =============================================-->
+<div class="row gutter-50">
+<div class="col-lg-3 cat-widgets position-sticky h-100" style="top: 234px;">
+<div class="widget widget-search">
+<form class="input-group">
+<input aria-label="Search" class="form-control" placeholder="Search" type="search"/>
+<button class="btn btn-outline-secondary icon-line-search" type="button"></button>
+</form>
+</div>
+<div class="widget widget-nav mt-md-5">
+<ul class="nav">
+<li class="nav-item active">
+<a class="nav-link" href="#">所有类别</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">时尚</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">艺术和文化</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">家属</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">美丽</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">适应性</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">音乐</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">设计与说明</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-lg-9 mt-5 mt-lg-0">
+<div class="d-flex">
+<div class="flex-grow-1">
+<h3>所有生活方式职位</h3>
+</div>
+<div>
+<!--示例单一危险按钮-->
+<div class="btn-group">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-sm btn-outline-secondary dropdown-toggle" data-bs-toggle="dropdown" type="button">最受欢迎的</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="#">最近员额</a>
+<a class="dropdown-item" href="#">多数评论</a>
+</div>
+</div>
+</div>
+</div>
+<div class="row col-mb-50 posts-md">
+<div class="col-md-4">
+<article class="entry">
+<div class="entry-image mb-3">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/categories/1.jpg"/></a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">艺术和文化</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">在世界艺术日,为全家试一次</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li>2020年3月21日 (中文(简体) ).</li>
+</ul>
+</div>
+<div class="entry-content mt-3">
+<p>今天的&amp;quot;自由&amp;quot;由卡洛塔·戈维(Carlotta Govi)设计出一套60个美丽的多媒体图标.</p>
+<a class="more-link" href="demo-blog-single.html">读取艺术</a>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry">
+<div class="entry-image mb-3">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/categories/2.jpg"/></a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">时尚</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">10 时尚时尚简介</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li>2020年3月19日 (中文(简体) ).</li>
+</ul>
+</div>
+<div class="entry-content mt-3">
+<p>快速网络跨媒体流程无病毒服务. 专业集团整体ROI.</p>
+<a class="more-link" href="demo-blog-single.html">读取艺术</a>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry">
+<div class="entry-image mb-3">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/categories/3.jpg"/></a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">旅费</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">23名鼓励我们旅行的顶级旅行博客</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li>2020年3月11日 (中文(简体) ).</li>
+</ul>
+</div>
+<div class="entry-content mt-3">
+<p>合作利用现有的竞争性调整,而不提出强有力的想法。 完全综合。</p>
+<a class="more-link" href="demo-blog-single.html">读取艺术</a>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry">
+<div class="entry-image mb-3">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/categories/4.jpg"/></a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">旅费</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">独行旅行亚洲最佳目的地</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li>2020年2月23日 (中文(简体) ).</li>
+</ul>
+</div>
+<div class="entry-content mt-3">
+<p>互为网络电子商务模式,而互为规定。 能量增强无错误.</p>
+<a class="more-link" href="demo-blog-single.html">读取艺术</a>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry">
+<div class="entry-image mb-3">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/categories/5.jpg"/></a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">适应性</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">出去走走的时候要戴面罩吗?</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li>2020年2月20日 (中文(简体) ).</li>
+</ul>
+</div>
+<div class="entry-content mt-3">
+<p>互为网络电子商务模式,而互为规定。 能量增强无错误.</p>
+<a class="more-link" href="demo-blog-single.html">读取艺术</a>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry">
+<div class="entry-image mb-3">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/categories/6.jpg"/></a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">适应性</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">10个行走失误 避免你想失去体重</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li>2020年2月12日 (中文(简体) ).</li>
+</ul>
+</div>
+<div class="entry-content mt-3">
+<p>互为网络电子商务模式,而互为规定。 能量增强无错误.</p>
+<a class="more-link" href="demo-blog-single.html">读取艺术</a>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry">
+<div class="entry-image mb-3">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/categories/7.jpg"/></a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">设计与说明</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">60个特别志愿人员小组 商用多媒体图标</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li>2020年2月10日 (中文(简体) ).</li>
+</ul>
+</div>
+<div class="entry-content mt-3">
+<p>互为网络电子商务模式,而互为规定。 能量增强无错误.</p>
+<a class="more-link" href="demo-blog-single.html">读取艺术</a>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry">
+<div class="entry-image mb-3">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/categories/8.jpg"/></a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">家属</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">在 Google Play 为孩子们寻找高质量的应用</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li>2020年2月8日 (中文(简体) ).</li>
+</ul>
+</div>
+<div class="entry-content mt-3">
+<p>互为网络电子商务模式,而互为规定。 能量增强无错误.</p>
+<a class="more-link" href="demo-blog-single.html">读取艺术</a>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry">
+<div class="entry-image mb-3">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/categories/9.jpg"/></a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">音乐</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">最有影响力 音乐博客 2020</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li>2020年2月6日,纽约</li>
+</ul>
+</div>
+<div class="entry-content mt-3">
+<p>互为网络电子商务模式,而互为规定。 能量增强无错误.</p>
+<a class="more-link" href="demo-blog-single.html">读取艺术</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+<!--单页分类结束-->
+<!--订阅科 =============================================-->
+<div class="section section-colored rounded mb-0 px-4">
+<div class="row justify-content-center align-items-center">
+<div class="col-lg-5">
+<h3 class="mb-4 mb-lg-0">报名参加更新和通讯。</h3>
+</div>
+<div class="col-lg-6">
+<div class="widget subscribe-widget" data-loader="button">
+<div class="widget-subscribe-form-result"></div>
+<form action="include/subscribe.php" class="mb-0 d-flex" id="widget-subscribe-form" method="post">
+<input class="form-control form-control-lg not-dark required email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" placeholder="Your Email Address" type="email"/>
+<button class="button button-large button-black button-dark fw-medium ls0 button-rounded m-0 ms-3" type="submit">现在订阅</button>
+</form>
+</div>
+</div>
+</div>
+</div> <!--订阅部分结束-->
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer id="footer">
+<div class="container">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap row col-mb-50">
+<!--页脚部件 3个 =============================================-->
+<div class="col-lg-2 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">管理</h4>
+<ul>
+<li><a href="https://codex.wordpress.org/">关于我们</a></li>
+<li><a href="https://wordpress.org/support/forum/requests-and-feedback">职业</a></li>
+<li><a href="https://wordpress.org/extend/plugins/">客户</a></li>
+<li><a href="https://wordpress.org/support/">论坛</a></li>
+<li><a href="https://wordpress.org/extend/themes/">合作伙伴</a></li>
+<li><a href="https://wordpress.org/news/">主题</a></li>
+<li><a href="https://planet.wordpress.org/">定价</a></li>
+<li><a href="https://planet.wordpress.org/">审查</a></li>
+</ul>
+</div>
+</div>
+<!--页脚部件 3个 =============================================-->
+<div class="col-lg-2 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">我们的产品</h4>
+<ul>
+<li><a href="https://codex.wordpress.org/">房地产</a></li>
+<li><a href="https://wordpress.org/support/forum/requests-and-feedback">移动器</a></li>
+<li><a href="https://wordpress.org/extend/plugins/">存储</a></li>
+<li><a href="https://wordpress.org/support/">着陆</a></li>
+<li><a href="https://wordpress.org/extend/themes/">苏</a></li>
+<li><a href="https://wordpress.org/news/">协作</a></li>
+</ul>
+</div>
+</div>
+<!--页脚部件 3个 =============================================-->
+<div class="col-lg-2 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">支助</h4>
+<ul>
+<li><a href="https://codex.wordpress.org/">隐私</a></li>
+<li><a href="https://wordpress.org/support/forum/requests-and-feedback">帮助中心</a></li>
+<li><a href="https://wordpress.org/extend/plugins/">聊天</a></li>
+<li><a href="https://wordpress.org/support/">电子邮件</a></li>
+</ul>
+<div class="mt-3">
+<a class="social-icon si-small si-dark si-facebook" href="https://facebook.com/semicolonweb" target="_blank" title="Facebook">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-small si-dark si-instagram" href="https://instagram.com/semicolonweb" target="_blank" title="instagram">
+<i class="icon-instagram"></i>
+<i class="icon-instagram"></i>
+</a>
+<a class="social-icon si-small si-dark si-twitter" href="https://twitter.com/__semicolon" target="_blank" title="twitter">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-small si-dark si-wikipedia" href="#" title="Apple Pay">
+<i class="icon-apple-pay"></i>
+<i class="icon-apple-pay"></i>
+</a>
+</div>
+</div>
+</div>
+<!--页脚部件 2个 =============================================-->
+<div class="col-lg-3 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">标记云</h4>
+<div class="tagcloud">
+<a href="#">常规</a>
+<a href="#">视频</a>
+<a href="#">音乐</a>
+<a href="#">媒体</a>
+<a href="#">摄影</a>
+<a href="#">参数</a>
+<a href="#">电子商务</a>
+<a href="#">术语</a>
+<a href="#">优惠券</a>
+<a href="#">现代</a>
+<a href="#">杂志</a>
+<a href="#">拖带</a>
+<a href="#">新闻</a>
+<a href="#">博客</a>
+<a href="#">文字压</a>
+</div>
+</div>
+</div>
+<!--页脚部件 页:1 =============================================-->
+<div class="col-lg-3 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">在移动中下载</h4>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 {\fn华文楷体\fs20\bord1\shad1\1cHE0E0E0\2cH000000}&amp;quot;出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自自出自出自出自出自出自自出自出自出自出自自自自出自出自自自自出自出自出自出自出自出自自出自出自出自出自出自出自出自出自自出自自自出自出自出自出自</p>
+<a class="button button-dark text-light w-100 text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin" href="#"><i class="icon-apple"></i>应用程序存储</a>
+<a class="button button-dark text-light w-100 text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin" href="#"><i class="icon-googleplay"></i>谷歌播放</a>
+</div>
+</div>
+</div>
+</div>
+<!--版权 =============================================-->
+<div id="copyrights">
+<div class="container">
+<div class="row align-items-center justify-content-between col-mb-30">
+<div class="col-lg-auto text-center text-lg-start">版权由Canvas Inc.公司保留2018年所有权利.<br/>
+<div class="copyright-links"><a href="#">使用条件</a> / <a href="#">隐私政策</a></div>
+</div>
+<div class="col-lg-auto text-center text-lg-start">
+<div class="copyrights-menu copyright-links m-0">
+<a href="#">内容</a>/<a href="#">关于</a>/<a href="#">特征</a>/<a href="#">组合</a>/<a href="#">问题</a>/<a href="#">联系人</a>
+</div>
+</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up rounded-circle" id="gotoTop" style="left: 30px; right: auto;"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<!--APD-ONS 联合文件-->
+<script>
 		// Current Date
 		var weekday = ["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"],
 			month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -598,6 +507,5 @@
 			return false;
 		});
 	</script>
-
 </body>
 </html>

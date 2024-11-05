@@ -1,749 +1,585 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Montserrat:400,700|Merriweather&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<!-- Media Agency Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/app-landing/app-landing.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="demos/app-landing/css/fonts.css" type="text/css" />
-
-	<!-- Bootstrap Switch CSS -->
-	<link rel="stylesheet" href="css/components/bs-switches.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="stylesheet" href="css/colors.php?color=267DF4" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>App Landing | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,600,700|Montserrat:400,700|Merriweather&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<!--媒体机构 Demo 特定样式表-->
+<link href="demos/app-landing/app-landing.css" rel="stylesheet" type="text/css"/>
+<!-- / -->
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="one-page/css/et-line.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="demos/app-landing/css/fonts.css" rel="stylesheet" type="text/css"/>
+<!--启动陷阱切换 CSS-->
+<link href="css/components/bs-switches.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="css/colors.php?color=267DF4" rel="stylesheet" type="text/css"/>
+<!--文件标题 =============================================-->
+<title>App 登陆 QQ Canvas</title>
 </head>
-
 <body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="transparent-header dark" data-sticky-class="not-dark" data-responsive-class="not-dark" data-sticky-logo-height="80" data-sticky-menu-padding="29">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-lg-between">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo" class="col-auto order-lg-2 me-lg-0 px-0">
-							<a href="index.html" class="standard-logo" data-dark-logo="demos/app-landing/images/logo-dark.png"><img src="demos/app-landing/images/logo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo" data-dark-logo="demos/app-landing/images/logo-dark@2x.png"><img src="demos/app-landing/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu with-arrows not-dark col-lg-5 order-lg-1 px-0">
-
-							<ul class="menu-container one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="160">
-								<li class="menu-item"><a class="menu-link" href="#" data-href="#wrapper"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-nextgen"><div>Explore</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="#" data-href="#section-nextgen"><div>NextGen Framework</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#" data-href="#section-stunning-graphics"><div>Stunning Graphics</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#" data-href="#section-secured-solutions"><div>Secured Solutions</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-pricing"><div>Pricing</div></a></li>
-							</ul>
-
-						</nav>
-
-						<nav class="primary-menu not-dark col-lg-5 order-lg-3 px-0">
-
-							<ul class="menu-container justify-content-lg-end one-page-menu" data-easing="easeInOutExpo" data-speed="1250" data-offset="160">
-								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-faqs"><div>FAQs</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#" data-href="#section-gallery"><div>Gallery</div></a></li>
-								<li class="menu-item menu-item-emphasis"><a class="menu-link" href="#modal-login" data-lightbox="inline"><div>Login</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<section id="slider" class="slider-element slider-parallax min-vh-60 min-vh-md-100 include-header">
-			<div class="slider-inner" style="background: url('demos/app-landing/images/hero/hero.jpg') center center no-repeat; background-size: cover;">
-
-				<div class="vertical-middle slider-element-fade">
-					<div class="container dark py-5 py-md-0">
-						<div class="row">
-							<div class="col-lg-6 col-md-8">
-								<div class="emphasis-title">
-									<h1 class="font-body">Beautiful Websites.<br>Increased Conversions.</h1>
-								</div>
-								<a href="#" data-scrollto="#section-pricing" data-easing="easeInOutExpo" data-speed="1250" data-offset="160" class="button button-large button-light text-capitalize" style="border-radius: 23px;">Try it Free</a>
-								<a href="https://www.youtube.com/watch?v=N_r349riLEE" class="hero-action-link" data-lightbox="iframe"><i class="icon-play-sign"></i> Watch the Video</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="video-wrap">
-					<div class="video-overlay" style="background: rgba(0,0,0,0.2);"></div>
-				</div>
-
-			</div>
-		</section>
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap">
-
-				<!-- Modal -->
-				<div class="modal1 mfp-hide" id="modal-login">
-					<div class="block mx-auto" style="background-color: #FFF; max-width: 400px;">
-						<div style="padding: 50px;">
-							<h3 class="font-body">Login to your Account</h3>
-							<form action="#" method="post" class="row mb-0">
-								<div class="col-12 form-group">
-									<label class="font-body text-capitalize" for="login-form-modal-username">Username:</label>
-									<input type="text" id="login-form-modal-username" name="login-form-modal-username" value="" class="form-control" />
-								</div>
-
-								<div class="col-12 form-group">
-									<label class="font-body text-capitalize" for="login-form-modal-password">Password:</label>
-									<input type="password" id="login-form-modal-password" name="login-form-modal-password" value="" class="form-control" />
-								</div>
-
-								<div class="col-12 form-group">
-									<button class="button button-rounded m-0" id="login-form-modal-submit" name="login-form-modal-submit" value="login">Login</button>
-									<a href="#" class="float-end">Forgot Password?</a>
-								</div>
-							</form>
-							<div class="line line-sm"></div>
-							<a href="#" class="button button-rounded w-100 fw-normal center text-capitalize si-facebook si-colored mx-0">Login with Facebook</a>
-							<a href="#" class="button button-rounded w-100 fw-normal center text-capitalize si-gplus si-colored m-0">Login with Google</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="container clearfix">
-
-					<div id="section-nextgen" class="page-section bottommargin-lg">
-						<div class="row clearfix">
-
-							<div class="col-lg-7 center">
-								<img src="demos/app-landing/images/section/iphone-watch.png" alt="NextGen Framework" data-animate="fadeInLeft">
-							</div>
-
-							<div class="col-lg-5">
-								<div class="topmargin-lg d-none d-lg-block"></div>
-								<img src="demos/app-landing/images/section/section-1-icon.png" alt="Image" style="display: block;" class="bottommargin-sm">
-								<div class="emphasis-title bottommargin-sm">
-									<span class="before-heading">Plug into the</span>
-									<h2 style="font-size: 42px;" class="font-body ls1 fw-normal">NextGen Framework</h2>
-								</div>
-								<p style="color: #777;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, vel! Eius pariatur nemo expedita.</p>
-								<a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
-							</div>
-
-						</div>
-					</div>
-
-					<div class="line"></div><div class="clear"></div>
-
-					<div id="section-stunning-graphics" class="page-section topmargin bottommargin-lg">
-						<div class="row clearfix">
-
-							<div class="col-lg-5">
-								<div class="topmargin-lg d-none d-lg-block"></div>
-								<img src="demos/app-landing/images/section/section-2-icon.png" alt="Image" style="display: block;" class="bottommargin-sm">
-								<div class="emphasis-title bottommargin-sm">
-									<span class="before-heading">Retina Ready &#x7E; 534 PPI</span>
-									<h2 style="font-size: 42px;" class="font-body ls1 fw-normal">Stunning Graphics</h2>
-								</div>
-								<p style="color: #777;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, vel! Eius pariatur nemo expedita.</p>
-								<a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
-							</div>
-
-							<div class="col-lg-7 center">
-								<img src="demos/app-landing/images/section/iphone-nexus.png" alt="Stunning Graphics" data-animate="fadeInRight">
-							</div>
-
-						</div>
-					</div>
-
-					<div class="line"></div><div class="clear"></div>
-
-				</div>
-
-				<div id="section-secured-solutions" class="page-section section p-0 topmargin-sm" style="background: url('demos/app-landing/images/section/iphone-3d-bg.png') no-repeat left bottom; background-size: 100% auto;" data-height-xl="700" data-height-lg="700" data-height-md="450" data-height-sm="450" data-height-xs="450">
-					<div class="container clearfix">
-						<div class="row clearfix">
-							<div class="col-lg-5 offset-lg-6">
-								<div class="topmargin-lg d-none d-lg-block"></div>
-								<div class="topmargin-lg d-none d-lg-block"></div>
-								<img src="demos/app-landing/images/section/section-3-icon.png" alt="Image" style="display: block;" class="bottommargin-sm">
-								<div class="emphasis-title bottommargin-sm">
-									<span class="before-heading">Privacy Protected</span>
-									<h2 style="font-size: 42px;" class="font-body ls1 fw-normal">Secured Solutions</h2>
-								</div>
-								<p style="color: #777;" class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium, vel! Eius pariatur nemo expedita.</p>
-								<a href="#" class="section-more-link">Learn More <i class="icon-angle-right"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="video-wrap" style="position: absolute; height: 100%; z-index: 1;">
-						<div class="video-overlay d-none d-lg-block" style="background: url('demos/app-landing/images/section/iphone-3d.png') no-repeat left top; background-size: auto 100%;" data-animate="fadeInLeft"></div>
-					</div>
-				</div>
-
-				<div class="clear bottommargin"></div>
-
-				<div class="container">
-
-					<div id="section-pricing" class="page-section p-0 m-0">
-
-						<div class="pricing-tenure-switcher row align-items-center justify-content-center mb-4" data-container="#pricing-switch">
-							<span class="pts-left fw-bold text-muted col-auto">Monthly</span>
-							<div class="pts-switcher col-auto">
-								<div class="switch">
-									<input id="switch-toggle-pricing-tenure" class="switch-toggle switch-toggle-round" type="checkbox">
-									<label for="switch-toggle-pricing-tenure" class="mb-0"></label>
-								</div>
-							</div>
-							<span class="pts-right fw-bold text-muted col-auto">Yearly</span>
-						</div>
-
-						<div id="pricing-switch" class="pricing row col-mb-30 mb-5">
-
-							<div class="col-lg-4 col-md-6">
-
-								<div class="pricing-box text-center">
-									<div class="pricing-title text-uppercase">
-										<h3>Starter</h3>
-									</div>
-									<div class="pricing-price">
-										FREE<span class="price-tenure">Limited Access</span>
-									</div>
-									<div class="pricing-features border-0 bg-transparent">
-										<ul>
-											<li><strong>Full</strong> Access</li>
-											<li><i class="icon-code"></i> Source Files</li>
-											<li><strong>100</strong> User Accounts</li>
-											<li><strong>1 Year</strong> License</li>
-											<li>Phone &amp; Email Support</li>
-										</ul>
-									</div>
-									<div class="pricing-action">
-										<a href="#modal-get-started" data-lightbox="inline" data-pricing-plan="Starter Plan" class="button button-large button-rounded text-capitalize ls0" style="border-radius: 23px;">Get Started</a>
-									</div>
-								</div>
-
-							</div>
-
-							<div class="col-lg-4 col-md-6">
-
-								<div class="pricing-box text-center">
-									<div class="pricing-title text-uppercase">
-										<h3>Professional</h3>
-									</div>
-									<div class="pricing-price">
-										<div class="pts-switch-content-left"><span class="price-unit">&dollar;</span>12<span class="price-tenure">Monthly</span></div>
-										<div class="pts-switch-content-right"><span class="price-unit">&dollar;</span>99<span class="price-tenure">Yearly</span></div>
-									</div>
-									<div class="pricing-features border-0 bg-transparent">
-										<ul>
-											<li><strong>Full</strong> Access</li>
-											<li><i class="icon-code"></i> Source Files</li>
-											<li><strong>1000</strong> User Accounts</li>
-											<li><strong>2 Years</strong> License</li>
-											<li><i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i>
-											<i class="icon-star3"></i></li>
-										</ul>
-									</div>
-									<div class="pricing-action">
-										<div class="pts-switch-content-left"><a href="#modal-get-started" data-lightbox="inline" data-pricing-plan="Professional Monthly Plan" class="button button-large button-rounded text-capitalize ls0" style="border-radius: 23px;">Start Free Trial</a></div>
-										<div class="pts-switch-content-right"><a href="#modal-get-started" data-lightbox="inline" data-pricing-plan="Professional Yearly Plan" class="button button-large button-rounded text-capitalize ls0" style="border-radius: 23px;">Start Free Trial</a></div>
-									</div>
-								</div>
-
-							</div>
-
-							<div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3">
-
-								<div class="pricing-box text-center">
-									<div class="pricing-title text-uppercase">
-										<h3>Business</h3>
-									</div>
-									<div class="pricing-price">
-										<div class="pts-switch-content-left"><span class="price-unit">&dollar;</span>19<span class="price-tenure">Monthly</span></div>
-										<div class="pts-switch-content-right"><span class="price-unit">&dollar;</span>149<span class="price-tenure">Yearly</span></div>
-									</div>
-									<div class="pricing-features border-0 bg-transparent">
-										<ul>
-											<li><strong>Full</strong> Access</li>
-											<li><i class="icon-code"></i> Source Files</li>
-											<li><strong>500</strong> User Accounts</li>
-											<li><strong>3 Years</strong> License</li>
-											<li>Phone &amp; Email Support</li>
-										</ul>
-									</div>
-									<div class="pricing-action">
-										<div class="pts-switch-content-left"><a href="#modal-get-started" data-lightbox="inline" data-pricing-plan="Business Monthly Plan" class="button button-large button-rounded text-capitalize ls0" style="border-radius: 23px;">Start Free Trial</a></div>
-										<div class="pts-switch-content-right"><a href="#modal-get-started" data-lightbox="inline" data-pricing-plan="Business Yearly Plan" class="button button-large button-rounded text-capitalize ls0" style="border-radius: 23px;">Start Free Trial</a></div>
-									</div>
-								</div>
-
-							</div>
-
-						</div>
-
-						<!-- Modal -->
-						<div class="modal1 mfp-hide" id="modal-get-started">
-							<div class="block mx-auto" style="background-color: #FFF; max-width: 800px;">
-								<div class="form-widget p-5" data-loader="button">
-									<div class="form-result"></div>
-									<form action="#" id="get-started-form" method="post" class="mb-0">
-
-										<div class="row clearfix">
-											<div class="col-md-8">
-												<h3 class="font-body">Register for an Account</h3>
-											</div>
-											<div class="col-md-4">
-												<div id="modal-get-started-package"></div>
-											</div>
-										</div>
-
-										<div class="row">
-											<div class="col-md-6 form-group">
-												<label class="font-body text-capitalize" for="get-started-form-username">Choose Username:</label>
-												<input type="text" id="get-started-form-username" name="get-started-form-username" value="" class="form-control required no-error-msg" />
-											</div>
-
-											<div class="col-md-6 form-group">
-												<label class="font-body text-capitalize" for="get-started-form-email">Your Email:</label>
-												<input type="email" id="get-started-form-email" name="get-started-form-email" value="" class="form-control required email no-error-msg" />
-											</div>
-
-											<div class="w-100"></div>
-
-											<div class="col-md-6 form-group">
-												<label class="font-body text-capitalize" for="get-started-form-password">Choose Password:</label>
-												<input type="password" id="get-started-form-password" name="get-started-form-password" value="" class="form-control required no-error-msg" />
-											</div>
-
-											<div class="col-md-6 form-group">
-												<label class="font-body text-capitalize" for="get-started-form-password">Retype Password:</label>
-												<input type="password" id="get-started-form-repassword" name="get-started-form-repassword" value="" class="form-control required no-error-msg" />
-											</div>
-
-											<!-- Package Selector Hidden Input Value Setter -->
-											<input type="hidden" id="get-started-form-package" name="get-started-form-package" value="Free">
-
-											<div class="col-12 form-group">
-												<label>
-													<input type="checkbox" id="get-started-form-agree" name="get-started-form-agree" value="1" style="position: relative; top: 2px; margin-right: 5px;"> I Agree to the Terms &amp; Conditions
-												</label>
-											</div>
-
-											<div class="col-12 form-group">
-												<button class="button button-rounded m-0" id="get-started-form-submit" name="get-started-form-submit" value="login">Get Started</button>
-												<a href="#" data-scrollto="#section-pricing" data-easing="easeInOutExpo" data-speed="1250" data-offset="160" class="float-end" onClick="$.magnificPopup.close();">Change Plan?</a>
-											</div>
-										</div>
-
-									</form>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="clear"></div>
-
-					<div id="section-faqs" class="page-section p-0 m-0">
-
-						<h2 class="center font-body bottommargin-lg">Frequently Asked Questions</h2>
-
-						<div class="row topmargin-sm clearfix">
-
-							<div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
-								<h4 class="font-body" style="margin-bottom:15px;">How do I become an author?</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, dolorum, vero ipsum molestiae minima odio quo voluptate illum excepturi quam cum voluptates doloribus quae nisi.</p>
-							</div>
-							<div class="col-lg-5 col-md-6 bottommargin-sm">
-								<h4 class="font-body" style="margin-bottom:15px;">Helpful Resources for Authors</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, placeat, architecto rem dolorem dignissimos repellat veritatis in et eos doloribus magnam aliquam ipsa alias assumenda officiis quasi sapiente suscipit.</p>
-							</div>
-							<div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
-								<h4 class="font-body" style="margin-bottom:15px;">How much money can I make?</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, fugiat iste nisi tempore nesciunt nemo fuga? Nesciunt, delectus laboriosam nisi repudiandae nam fuga saepe animi recusandae.</p>
-							</div>
-							<div class="col-lg-5 col-md-6 bottommargin-sm">
-								<h4 class="font-body" style="margin-bottom:15px;">Can I offer my items for free on a promotional basis?</h4>
-								<p>Laboriosam iusto quia nulla ad voluptatibus iste beatae voluptas corrupti facilis accusamus recusandae sequi debitis reprehenderit quibusdam. Facilis eligendi a exercitationem nisi et placeat excepturi velit!</p>
-							</div>
-							<div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
-								<h4 class="font-body" style="margin-bottom:15px;">An Introduction to the Marketplaces for Authors</h4>
-								<p>Quisquam atque vero delectus corrupti! Quo, maiores, dolorem, hic commodi nulla ratione accusamus doloribus fuga magnam id temporibus dignissimos deleniti quidem ipsam corporis sapiente nam expedita saepe quas ab? Vero, assumenda.</p>
-							</div>
-							<div class="col-lg-5 col-md-6">
-								<h4 class="font-body" style="margin-bottom:15px;">How does the Tuts+ Premium affiliate program work?</h4>
-								<p class="mb-0">Reprehenderit similique nemo voluptate ullam natus illum magnam alias nobis doloremque delectus ipsa dicta repellat maxime dignissimos eveniet quae debitis ratione assumenda tempore officiis fugiat dolor.</p>
-							</div>
-
-						</div>
-
-					</div>
-
-				</div>
-
-				<div class="section bottommargin-lg" style="background-color: #F8FAFB; border-top: 1px solid #E5E5E5; border-bottom: 1px solid #E5E5E5;">
-
-					<div class="fslider testimonial testimonial-full bg-transparent border-0 shadow-none" data-animation="fade" style="max-width: none;">
-						<div class="flexslider">
-							<div class="slider-wrap mx-auto" style="max-width: 650px;">
-								<div class="slide">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/3.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<p>Similique fugit repellendus expedita excepturi iure provident quia eaque. Repellendus, vero numquam?</p>
-										<div class="testi-meta">
-											Steve Jobs
-											<span>Apple Inc.</span>
-										</div>
-									</div>
-								</div>
-								<div class="slide">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/2.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<p>Natus voluptatum enim quod necessitatibus quis expedita harum provident eos obcaecati id culpa corporis molestias.</p>
-										<div class="testi-meta">
-											Collis Ta'eed
-											<span>Envato Inc.</span>
-										</div>
-									</div>
-								</div>
-								<div class="slide">
-									<div class="testi-image">
-										<a href="#"><img src="images/testimonials/1.jpg" alt="Customer Testimonails"></a>
-									</div>
-									<div class="testi-content">
-										<p>Incidunt deleniti blanditiis quas aperiam recusandae consequatur ullam quibusdam cum libero illo rerum!</p>
-										<div class="testi-meta">
-											John Doe
-											<span>XYZ Inc.</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-				<div class="clear"></div>
-
-				<div id="section-gallery" class="page-section p-0 m-0">
-
-					<div class="container topmargin bottommargin-lg center clearfix">
-
-						<h3 class="ls1 fw-normal" style="font-size: 32px; margin-bottom: 10px;">App Screenshots</h3>
-						<p class="lead mx-auto" style="max-width: 600px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id, repellendus quae fuga ad, beatae odit.</p>
-						<a href="#" class="button button-circle text-capitalize">Check All</a>
-
-					</div>
-
-					<div class="owl-carousel owl-carousel-full image-carousel carousel-widget bottommargin" data-margin="20" data-center="true" data-loop="false" data-nav="false" data-pagi="true" data-items-xs="2" data-items-sm="2" data-items-md="4" data-items-lg="4" data-items-xl="6" data-stage-padding="30" data-lightbox="gallery">
-
-						<div class="oc-item">
-							<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-1.jpg"><img src="demos/app-landing/images/gallery/img-1.jpg" alt="Image 1"></a>
-						</div>
-						<div class="oc-item">
-							<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-2.jpg"><img src="demos/app-landing/images/gallery/img-2.jpg" alt="Image 2"></a>
-						</div>
-						<div class="oc-item">
-							<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-3.jpg"><img src="demos/app-landing/images/gallery/img-3.jpg" alt="Image 3"></a>
-						</div>
-						<div class="oc-item">
-							<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-4.jpg"><img src="demos/app-landing/images/gallery/img-4.jpg" alt="Image 4"></a>
-						</div>
-						<div class="oc-item">
-							<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-5.jpg"><img src="demos/app-landing/images/gallery/img-5.jpg" alt="Image 5"></a>
-						</div>
-						<div class="oc-item">
-							<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-6.jpg"><img src="demos/app-landing/images/gallery/img-6.jpg" alt="Image 5"></a>
-						</div>
-						<div class="oc-item">
-							<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-7.jpg"><img src="demos/app-landing/images/gallery/img-7.jpg" alt="Image 5"></a>
-						</div>
-
-					</div>
-
-				</div>
-
-				<div class="clear"></div>
-
-				<!-- <div class="section m-0">
-					<div class="container clearfix">
-
-						<h2></h2>
-
-					</div>
-				</div> -->
-
-				<div class="section" style="padding: 30px 0; color: #999; background-color: #F8FAFB; border-top: 1px solid #E5E5E5; border-bottom: 1px solid #E5E5E5;">
-					<div class="container clearfix">
-						<div class="row topmargin-lg clearfix">
-
-							<div class="col-lg-4 bottommargin">
-								<i class="i-plain i-large icon-et-browser inline-block" style="margin-bottom: 30px; color: #999;"></i>
-								<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
-									<h4 style="font-size: 16px;">Cross Browser</h4>
-								</div>
-								<p style="line-height: 26px;">Canvas 4 Loads Faster &amp; Smoother than the Previous Versions providing an Optimal Experience for your Users.</p>
-							</div>
-
-							<div class="col-lg-4 bottommargin">
-								<i class="i-plain i-large icon-et-adjustments inline-block" style="margin-bottom: 30px; color: #999;"></i>
-								<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
-									<h4 style="font-size: 16px;">Flexible Options</h4>
-								</div>
-								<p style="line-height: 26px;">Unleash the Power of Mega Menus by adding Widgets &amp; Mixed Columns powered by the Bootstrap Grid.</p>
-							</div>
-
-							<div class="col-lg-4 bottommargin">
-								<i class="i-plain i-large icon-et-calendar inline-block" style="margin-bottom: 30px; color: #999;"></i>
-								<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
-									<h4 style="font-size: 16px;">Scheduled Backups</h4>
-								</div>
-								<p style="line-height: 26px;">Amazing set of New Components giving you Opportunity to Create an Interactive Website for your Business.</p>
-							</div>
-
-							<div class="col-lg-4 bottommargin">
-								<i class="i-plain i-large icon-et-desktop inline-block" style="margin-bottom: 30px; color: #999;"></i>
-								<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
-									<h4 style="font-size: 16px;">Responsive Ready</h4>
-								</div>
-								<p style="line-height: 26px;">Convert any Grid to an Isotope Grid easily with Filterable Options making it extremely flexible and powerful.</p>
-							</div>
-
-							<div class="col-lg-4 bottommargin">
-								<i class="i-plain i-large icon-et-bargraph inline-block" style="margin-bottom: 30px; color: #999;"></i>
-								<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
-									<h4 style="font-size: 16px;">Increased Conversions</h4>
-								</div>
-								<p style="line-height: 26px;">Display an Alternate Lighter Menu on Responsive Devices with the same Markup Code as before. Awesomely Useful.</p>
-							</div>
-
-							<div class="col-lg-4 bottommargin">
-								<i class="i-plain i-large icon-et-cloud inline-block" style="margin-bottom: 30px; color: #999;"></i>
-								<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
-									<h4 style="font-size: 16px;">Cloud Sharing</h4>
-								</div>
-								<p style="line-height: 26px;">Added SPAM Protection for your Precious Forms so that you receive Emails only from Authentic Real Users.</p>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="section center mb-0 bg-transparent">
-					<div class="container clearfix">
-
-						<h3 class="ls1 fw-normal" style="font-size: 32px;">Experienced &amp; Trusted by <span>50,000+</span> People worldwide</h3>
-						<a href="#modal-login" data-lightbox="inline" class="button button-large button-black text-capitalize" style="border-radius: 23px;">Login Now</a>
-						<a href="#" data-scrollto="#section-pricing" data-easing="easeInOutExpo" data-speed="1250" data-offset="160" class="button button-large text-capitalize" style="border-radius: 23px;">Try it Free</a>
-
-						<div class="clear bottommargin"></div>
-
-					</div>
-				</div>
-
-				<div class="section mt-0 footer-stick" style="padding: 10px 0; background-color: #F8FAFB; border-top: 1px solid #E5E5E5;">
-					<div class="container clearfix">
-
-						<div class="row clearfix">
-							<div class="col-lg-4">
-								<div class="app-footer-features"><i class="icon-line2-globe-alt"></i><h5 class="font-body"><a href="#">Free Training</a><span> &amp; 24-hour coverage</span></h5></div>
-							</div>
-							<div class="col-lg-4">
-								<div class="app-footer-features"><i class="icon-line2-notebook"></i><h5 class="font-body"><a href="#">99.99% Uptime</a><span> the last 12 months</span></h5></div>
-							</div>
-							<div class="col-lg-4">
-								<div class="app-footer-features"><i class="icon-line2-lock"></i><h5 class="font-body"><span>Serious about</span> <a href="#">Security</a> <span>&amp;</span> <a href="#">Privacy</a></h5></div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" style="background-color: #FFF;">
-
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
-					<div class="row clearfix">
-
-						<div class="col-lg-5">
-
-							<div class="widget clearfix">
-								<div class="row clearfix">
-									<div class="col-lg-8 bottommargin-sm clearfix" style="color:#888;">
-										<img src="demos/app-landing/images/footer-logo.png" alt="Canvas Logo" style="display: block;" class="bottommargin-sm">
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, consequatur facere molestiae iusto atque.</p>
-
-										<a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-facebook">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-
-										<a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-twitter">
-											<i class="icon-twitter"></i>
-											<i class="icon-twitter"></i>
-										</a>
-
-										<a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-gplus">
-											<i class="icon-gplus"></i>
-											<i class="icon-gplus"></i>
-										</a>
-
-										<a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-pinterest">
-											<i class="icon-pinterest"></i>
-											<i class="icon-pinterest"></i>
-										</a>
-
-										<a href="#" class="social-icon si-small si-borderless si-colored si-rounded si-vimeo">
-											<i class="icon-vimeo"></i>
-											<i class="icon-vimeo"></i>
-										</a>
-
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="col-lg-7">
-							<div class="row col-mb-30">
-
-								<div class="col-lg-4">
-									<div class="widget widget_links widget-li-noicon app_landing_widget_link clearfix">
-										<h4>In News</h4>
-
-										<ul>
-											<li><a href="https://codex.wordpress.org/">Documentation</a></li>
-											<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-											<li><a href="https://wordpress.org/extend/plugins/">Plugins</a></li>
-											<li><a href="https://wordpress.org/support/">Support Forums</a></li>
-											<li><a href="https://wordpress.org/extend/themes/">Themes</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="widget widget_links widget-li-noicon app_landing_widget_link clearfix">
-										<h4>About Us</h4>
-
-										<ul>
-											<li><a href="https://codex.wordpress.org/">Documentation</a></li>
-											<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-											<li><a href="https://wordpress.org/extend/plugins/">Plugins</a></li>
-											<li><a href="https://wordpress.org/support/">Support Forums</a></li>
-											<li><a href="https://wordpress.org/extend/themes/">Themes</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-lg-4">
-									<div class="widget widget_links widget-li-noicon app_landing_widget_link clearfix">
-										<h4>Support</h4>
-
-										<ul>
-											<li><a href="https://codex.wordpress.org/">Documentation</a></li>
-											<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Feedback</a></li>
-											<li><a href="https://wordpress.org/extend/plugins/">Plugins</a></li>
-											<li><a href="https://wordpress.org/support/">Support Forums</a></li>
-											<li><a href="https://wordpress.org/extend/themes/">Themes</a></li>
-										</ul>
-									</div>
-								</div>
-
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="bg-transparent pt-0">
-				<div class="container clearfix">
-
-					<div class="w-100 text-center text-md-start">
-						Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
-						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
-
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<script>
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--页眉 =============================================-->
+<header class="transparent-header dark" data-responsive-class="not-dark" data-sticky-class="not-dark" data-sticky-logo-height="80" data-sticky-menu-padding="29" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row justify-content-lg-between">
+<!--标记 =============================================-->
+<div class="col-auto order-lg-2 me-lg-0 px-0" id="logo">
+<a class="standard-logo" data-dark-logo="demos/app-landing/images/logo-dark.png" href="index.html"><img alt="Canvas Logo" src="demos/app-landing/images/logo.png"/></a>
+<a class="retina-logo" data-dark-logo="demos/app-landing/images/logo-dark@2x.png" href="index.html"><img alt="Canvas Logo" src="demos/app-landing/images/logo@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu with-arrows not-dark col-lg-5 order-lg-1 px-0">
+<ul class="menu-container one-page-menu" data-easing="easeInOutExpo" data-offset="160" data-speed="1250">
+<li class="menu-item"><a class="menu-link" data-href="#wrapper" href="#"><div>内容</div></a></li>
+<li class="menu-item"><a class="menu-link" data-href="#section-nextgen" href="#"><div>探索</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" data-href="#section-nextgen" href="#"><div>下一个 Gen 框架</div></a></li>
+<li class="menu-item"><a class="menu-link" data-href="#section-stunning-graphics" href="#"><div>惊人的图形</div></a></li>
+<li class="menu-item"><a class="menu-link" data-href="#section-secured-solutions" href="#"><div>安全解决方案</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" data-href="#section-pricing" href="#"><div>定价</div></a></li>
+</ul>
+</nav>
+<nav class="primary-menu not-dark col-lg-5 order-lg-3 px-0">
+<ul class="menu-container justify-content-lg-end one-page-menu" data-easing="easeInOutExpo" data-offset="160" data-speed="1250">
+<li class="menu-item"><a class="menu-link" data-href="#section-faqs" href="#"><div>问题</div></a></li>
+<li class="menu-item"><a class="menu-link" data-href="#section-gallery" href="#"><div>图片库</div></a></li>
+<li class="menu-item menu-item-emphasis"><a class="menu-link" data-lightbox="inline" href="#modal-login"><div>登录</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<section class="slider-element slider-parallax min-vh-60 min-vh-md-100 include-header" id="slider">
+<div class="slider-inner" style="background: url('demos/app-landing/images/hero/hero.jpg') center center no-repeat; background-size: cover;">
+<div class="vertical-middle slider-element-fade">
+<div class="container dark py-5 py-md-0">
+<div class="row">
+<div class="col-lg-6 col-md-8">
+<div class="emphasis-title">
+<h1 class="font-body">美丽网站.<br/>增加转换.</h1>
+</div>
+<a class="button button-large button-light text-capitalize" data-easing="easeInOutExpo" data-offset="160" data-scrollto="#section-pricing" data-speed="1250" href="#" style="border-radius: 23px;">试试自由</a>
+<a class="hero-action-link" data-lightbox="iframe" href="https://www.youtube.com/watch?v=N_r349riLEE"><i class="icon-play-sign"></i>观看视频</a>
+</div>
+</div>
+</div>
+</div>
+<div class="video-wrap">
+<div class="video-overlay" style="background: rgba(0,0,0,0.2);"></div>
+</div>
+</div>
+</section>
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap">
+<!--模式-->
+<div class="modal1 mfp-hide" id="modal-login">
+<div class="block mx-auto" style="background-color: #FFF; max-width: 400px;">
+<div style="padding: 50px;">
+<h3 class="font-body">登录到您的账户</h3>
+<form action="#" class="row mb-0" method="post">
+<div class="col-12 form-group">
+<label class="font-body text-capitalize" for="login-form-modal-username">用户名 :</label>
+<input class="form-control" id="login-form-modal-username" name="login-form-modal-username" type="text" value=""/>
+</div>
+<div class="col-12 form-group">
+<label class="font-body text-capitalize" for="login-form-modal-password">密码 :</label>
+<input class="form-control" id="login-form-modal-password" name="login-form-modal-password" type="password" value=""/>
+</div>
+<div class="col-12 form-group">
+<button class="button button-rounded m-0" id="login-form-modal-submit" name="login-form-modal-submit" value="login">登录</button>
+<a class="float-end" href="#">忘记密码了吗?</a>
+</div>
+</form>
+<div class="line line-sm"></div>
+<a class="button button-rounded w-100 fw-normal center text-capitalize si-facebook si-colored mx-0" href="#">登录到 Facebook</a>
+<a class="button button-rounded w-100 fw-normal center text-capitalize si-gplus si-colored m-0" href="#">用 Google 登录</a>
+</div>
+</div>
+</div>
+<div class="container clearfix">
+<div class="page-section bottommargin-lg" id="section-nextgen">
+<div class="row clearfix">
+<div class="col-lg-7 center">
+<img alt="NextGen Framework" data-animate="fadeInLeft" src="demos/app-landing/images/section/iphone-watch.png"/>
+</div>
+<div class="col-lg-5">
+<div class="topmargin-lg d-none d-lg-block"></div>
+<img alt="Image" class="bottommargin-sm" src="demos/app-landing/images/section/section-1-icon.png" style="display: block;"/>
+<div class="emphasis-title bottommargin-sm">
+<span class="before-heading">插入到</span>
+<h2 class="font-body ls1 fw-normal" style="font-size: 42px;">下一个 Gen 框架</h2>
+</div>
+<p class="lead" style="color: #777;">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 葡萄酒,快来! 埃乌斯·帕里亚图尔·尼莫·希拉克(Eius paratur nemo Ehirala).</p>
+<a class="section-more-link" href="#">学习更多<i class="icon-angle-right"></i></a>
+</div>
+</div>
+</div>
+<div class="line"></div><div class="clear"></div>
+<div class="page-section topmargin bottommargin-lg" id="section-stunning-graphics">
+<div class="row clearfix">
+<div class="col-lg-5">
+<div class="topmargin-lg d-none d-lg-block"></div>
+<img alt="Image" class="bottommargin-sm" src="demos/app-landing/images/section/section-2-icon.png" style="display: block;"/>
+<div class="emphasis-title bottommargin-sm">
+<span class="before-heading">Retina 准备~ 534 PPI</span>
+<h2 class="font-body ls1 fw-normal" style="font-size: 42px;">惊人的图形</h2>
+</div>
+<p class="lead" style="color: #777;">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 葡萄酒,快来! 埃乌斯·帕里亚图尔·尼莫·希拉克(Eius paratur nemo Ehirala).</p>
+<a class="section-more-link" href="#">学习更多<i class="icon-angle-right"></i></a>
+</div>
+<div class="col-lg-7 center">
+<img alt="Stunning Graphics" data-animate="fadeInRight" src="demos/app-landing/images/section/iphone-nexus.png"/>
+</div>
+</div>
+</div>
+<div class="line"></div><div class="clear"></div>
+</div>
+<div class="page-section section p-0 topmargin-sm" data-height-lg="700" data-height-md="450" data-height-sm="450" data-height-xl="700" data-height-xs="450" id="section-secured-solutions" style="background: url('demos/app-landing/images/section/iphone-3d-bg.png') no-repeat left bottom; background-size: 100% auto;">
+<div class="container clearfix">
+<div class="row clearfix">
+<div class="col-lg-5 offset-lg-6">
+<div class="topmargin-lg d-none d-lg-block"></div>
+<div class="topmargin-lg d-none d-lg-block"></div>
+<img alt="Image" class="bottommargin-sm" src="demos/app-landing/images/section/section-3-icon.png" style="display: block;"/>
+<div class="emphasis-title bottommargin-sm">
+<span class="before-heading">保护隐私</span>
+<h2 class="font-body ls1 fw-normal" style="font-size: 42px;">安全解决方案</h2>
+</div>
+<p class="lead" style="color: #777;">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 葡萄酒,快来! 埃乌斯·帕里亚图尔·尼莫·希拉克(Eius paratur nemo Ehirala).</p>
+<a class="section-more-link" href="#">学习更多<i class="icon-angle-right"></i></a>
+</div>
+</div>
+</div>
+<div class="video-wrap" style="position: absolute; height: 100%; z-index: 1;">
+<div class="video-overlay d-none d-lg-block" data-animate="fadeInLeft" style="background: url('demos/app-landing/images/section/iphone-3d.png') no-repeat left top; background-size: auto 100%;"></div>
+</div>
+</div>
+<div class="clear bottommargin"></div>
+<div class="container">
+<div class="page-section p-0 m-0" id="section-pricing">
+<div class="pricing-tenure-switcher row align-items-center justify-content-center mb-4" data-container="#pricing-switch">
+<span class="pts-left fw-bold text-muted col-auto">每月</span>
+<div class="pts-switcher col-auto">
+<div class="switch">
+<input class="switch-toggle switch-toggle-round" id="switch-toggle-pricing-tenure" type="checkbox"/>
+<label class="mb-0" for="switch-toggle-pricing-tenure"></label>
+</div>
+</div>
+<span class="pts-right fw-bold text-muted col-auto">每年</span>
+</div>
+<div class="pricing row col-mb-30 mb-5" id="pricing-switch">
+<div class="col-lg-4 col-md-6">
+<div class="pricing-box text-center">
+<div class="pricing-title text-uppercase">
+<h3>启动器</h3>
+</div>
+<div class="pricing-price">自由主义<span class="price-tenure">有限访问</span>
+</div>
+<div class="pricing-features border-0 bg-transparent">
+<ul>
+<li><strong>满</strong>访问</li>
+<li><i class="icon-code"></i>源文件</li>
+<li><strong>100</strong>用户账户</li>
+<li><strong>1 岁</strong>许可证</li>
+<li>电话电子邮件支持( E)</li>
+</ul>
+</div>
+<div class="pricing-action">
+<a class="button button-large button-rounded text-capitalize ls0" data-lightbox="inline" data-pricing-plan="Starter Plan" href="#modal-get-started" style="border-radius: 23px;">开始</a>
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-md-6">
+<div class="pricing-box text-center">
+<div class="pricing-title text-uppercase">
+<h3>专业人员</h3>
+</div>
+<div class="pricing-price">
+<div class="pts-switch-content-left"><span class="price-unit">$</span>12<span class="price-tenure">每月</span></div>
+<div class="pts-switch-content-right"><span class="price-unit">$</span>99<span class="price-tenure">每年</span></div>
+</div>
+<div class="pricing-features border-0 bg-transparent">
+<ul>
+<li><strong>满</strong>访问</li>
+<li><i class="icon-code"></i>源文件</li>
+<li><strong>1000</strong>用户账户</li>
+<li><strong>2 岁</strong>许可证</li>
+<li><i class="icon-star3"></i>
+<i class="icon-star3"></i>
+<i class="icon-star3"></i>
+<i class="icon-star3"></i>
+<i class="icon-star3"></i></li>
+</ul>
+</div>
+<div class="pricing-action">
+<div class="pts-switch-content-left"><a class="button button-large button-rounded text-capitalize ls0" data-lightbox="inline" data-pricing-plan="Professional Monthly Plan" href="#modal-get-started" style="border-radius: 23px;">开始自由审判</a></div>
+<div class="pts-switch-content-right"><a class="button button-large button-rounded text-capitalize ls0" data-lightbox="inline" data-pricing-plan="Professional Yearly Plan" href="#modal-get-started" style="border-radius: 23px;">开始自由审判</a></div>
+</div>
+</div>
+</div>
+<div class="col-lg-4 offset-lg-0 col-md-6 offset-md-3">
+<div class="pricing-box text-center">
+<div class="pricing-title text-uppercase">
+<h3>商业</h3>
+</div>
+<div class="pricing-price">
+<div class="pts-switch-content-left"><span class="price-unit">$</span>19<span class="price-tenure">每月</span></div>
+<div class="pts-switch-content-right"><span class="price-unit">$</span>149<span class="price-tenure">每年</span></div>
+</div>
+<div class="pricing-features border-0 bg-transparent">
+<ul>
+<li><strong>满</strong>访问</li>
+<li><i class="icon-code"></i>源文件</li>
+<li><strong>500</strong>用户账户</li>
+<li><strong>3 岁</strong>许可证</li>
+<li>电话电子邮件支持( E)</li>
+</ul>
+</div>
+<div class="pricing-action">
+<div class="pts-switch-content-left"><a class="button button-large button-rounded text-capitalize ls0" data-lightbox="inline" data-pricing-plan="Business Monthly Plan" href="#modal-get-started" style="border-radius: 23px;">开始自由审判</a></div>
+<div class="pts-switch-content-right"><a class="button button-large button-rounded text-capitalize ls0" data-lightbox="inline" data-pricing-plan="Business Yearly Plan" href="#modal-get-started" style="border-radius: 23px;">开始自由审判</a></div>
+</div>
+</div>
+</div>
+</div>
+<!--模式-->
+<div class="modal1 mfp-hide" id="modal-get-started">
+<div class="block mx-auto" style="background-color: #FFF; max-width: 800px;">
+<div class="form-widget p-5" data-loader="button">
+<div class="form-result"></div>
+<form action="#" class="mb-0" id="get-started-form" method="post">
+<div class="row clearfix">
+<div class="col-md-8">
+<h3 class="font-body">账户登记册</h3>
+</div>
+<div class="col-md-4">
+<div id="modal-get-started-package"></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6 form-group">
+<label class="font-body text-capitalize" for="get-started-form-username">选择用户名 :</label>
+<input class="form-control required no-error-msg" id="get-started-form-username" name="get-started-form-username" type="text" value="">
+</input></div>
+<div class="col-md-6 form-group">
+<label class="font-body text-capitalize" for="get-started-form-email">您的电子邮件 :</label>
+<input class="form-control required email no-error-msg" id="get-started-form-email" name="get-started-form-email" type="email" value=""/>
+</div>
+<div class="w-100"></div>
+<div class="col-md-6 form-group">
+<label class="font-body text-capitalize" for="get-started-form-password">选择密码 :</label>
+<input class="form-control required no-error-msg" id="get-started-form-password" name="get-started-form-password" type="password" value=""/>
+</div>
+<div class="col-md-6 form-group">
+<label class="font-body text-capitalize" for="get-started-form-password">重打密码 :</label>
+<input class="form-control required no-error-msg" id="get-started-form-repassword" name="get-started-form-repassword" type="password" value=""/>
+</div>
+<!--软件包选择器 隐藏输入值显示器-->
+<input id="get-started-form-package" name="get-started-form-package" type="hidden" value="Free"/>
+<div class="col-12 form-group">
+<label>
+<input id="get-started-form-agree" name="get-started-form-agree" style="position: relative; top: 2px; margin-right: 5px;" type="checkbox" value="1"/>我同意条款和条件</label>
+</div>
+<div class="col-12 form-group">
+<button class="button button-rounded m-0" id="get-started-form-submit" name="get-started-form-submit" value="login">开始</button>
+<a class="float-end" data-easing="easeInOutExpo" data-offset="160" data-scrollto="#section-pricing" data-speed="1250" href="#" onclick="$.magnificPopup.close();">改变计划?</a>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="page-section p-0 m-0" id="section-faqs">
+<h2 class="center font-body bottommargin-lg">经常被问到的问题</h2>
+<div class="row topmargin-sm clearfix">
+<div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+<h4 class="font-body" style="margin-bottom:15px;">我怎么成为作家?</h4>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 简言之,多洛鲁姆,当然猥亵 迷你平庸 伏特加克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克</p>
+</div>
+<div class="col-lg-5 col-md-6 bottommargin-sm">
+<h4 class="font-body" style="margin-bottom:15px;">作者的有用资源</h4>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 dignissimos divelat veritatis in et eos doloribus magnam aliquam as explicabo, placeat, 建筑师 rem dolorem dignissimos surcipit. 中国植物物种信息数据库.</p>
+</div>
+<div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+<h4 class="font-body" style="margin-bottom:15px;">我能赚多少钱?</h4>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Possimus, fugiat iste nisi tempre nesciunt nemo fuga ? (意大利语: 活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活 Nesciunt, delectus laviosam nisi redudiandae nam fuga saipe animi recusandae. 中国植物物种信息数据库.</p>
+</div>
+<div class="col-lg-5 col-md-6 bottommargin-sm">
+<h4 class="font-body" style="margin-bottom:15px;">我能免费提供我的东西吗?</h4>
+<p>laboiosam iusto quia ad voluptatibus iste beatae voluptas 腐化了被控告的 facilis cuscusandae sequi legis reprehenderit quibsdam. 中国植物物种信息数据库. Facilis eligendi 一种开场白,尼西语和地语 unsuri velit!</p>
+</div>
+<div class="col-lg-5 offset-lg-1 col-md-6 bottommargin-sm">
+<h4 class="font-body" style="margin-bottom:15px;">作者市场介绍</h4>
+<p>Quisquam atque vero delectus 腐化! Quisquam atque vero delectus 腐化! 腐化的腐化的腐化的腐化! Quo, maiores, dolorem, hic commodi unla unla unclaimamus doloribus fuga magnam id testeribus dignisimos deleniti quidem experam corpororories sapiente nam supera saepe quas ab? 科克, 马里亚克, 马里克克克克. (原始内容存档于2018-10-25). Vero, housinda.</p>
+</div>
+<div class="col-lg-5 col-md-6">
+<h4 class="font-body" style="margin-bottom:15px;">Tuts+怎么样? Premium附属程序的工作?</h4>
+<p class="mb-0">dignisimos eveniet quae regitis unposenda tepitre officiis fugiat dolor. 互联网档案馆的存檔,存档日期2013-12-02.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section bottommargin-lg" style="background-color: #F8FAFB; border-top: 1px solid #E5E5E5; border-bottom: 1px solid #E5E5E5;">
+<div class="fslider testimonial testimonial-full bg-transparent border-0 shadow-none" data-animation="fade" style="max-width: none;">
+<div class="flexslider">
+<div class="slider-wrap mx-auto" style="max-width: 650px;">
+<div class="slide">
+<div class="testi-image">
+<a href="#"><img alt="Customer Testimonails" src="images/testimonials/3.jpg"/></a>
+</div>
+<div class="testi-content">
+<p>Similique fugit slipplendus eleasea excepturi iure sentnt quia eaque. 中国植物物种信息数据库. 中国植物物种信息数据库. 雷佩伦多斯,维罗纳克姆?</p>
+<div class="testi-meta">史蒂夫·乔布斯<span>苹果股份有限公司.</span>
+</div>
+</div>
+</div>
+<div class="slide">
+<div class="testi-image">
+<a href="#"><img alt="Customer Testimonails" src="images/testimonials/2.jpg"/></a>
+</div>
+<div class="testi-content">
+<p>Natus voluptatum enimitus nequis ehila harum subcaecati id culpa 公司猥亵。</p>
+<div class="testi-meta">科利斯・泰德<span>恩瓦托股份有限公司.</span>
+</div>
+</div>
+</div>
+<div class="slide">
+<div class="testi-image">
+<a href="#"><img alt="Customer Testimonails" src="images/testimonials/1.jpg"/></a>
+</div>
+<div class="testi-content">
+<p>Incidunt deleniti blanditiis squas aperiam recusandae consequatur ullam quibsdam cum libero illo rerum (英语:Cullam quibsdam cum libero illo rerum) (英语).</p>
+<div class="testi-meta">约翰多伊<span>XYZ股份有限公司.</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="page-section p-0 m-0" id="section-gallery">
+<div class="container topmargin bottommargin-lg center clearfix">
+<h3 class="ls1 fw-normal" style="font-size: 32px; margin-bottom: 10px;">App 屏幕截图</h3>
+<p class="lead mx-auto" style="max-width: 600px">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Id, refredlendus quae fuga ad, beatae odit. 互联网档案馆的存檔,存档日期2014-12-02.</p>
+<a class="button button-circle text-capitalize" href="#">全部检查</a>
+</div>
+<div class="owl-carousel owl-carousel-full image-carousel carousel-widget bottommargin" data-center="true" data-items-lg="4" data-items-md="4" data-items-sm="2" data-items-xl="6" data-items-xs="2" data-lightbox="gallery" data-loop="false" data-margin="20" data-nav="false" data-pagi="true" data-stage-padding="30">
+<div class="oc-item">
+<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-1.jpg"><img alt="Image 1" src="demos/app-landing/images/gallery/img-1.jpg"/></a>
+</div>
+<div class="oc-item">
+<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-2.jpg"><img alt="Image 2" src="demos/app-landing/images/gallery/img-2.jpg"/></a>
+</div>
+<div class="oc-item">
+<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-3.jpg"><img alt="Image 3" src="demos/app-landing/images/gallery/img-3.jpg"/></a>
+</div>
+<div class="oc-item">
+<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-4.jpg"><img alt="Image 4" src="demos/app-landing/images/gallery/img-4.jpg"/></a>
+</div>
+<div class="oc-item">
+<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-5.jpg"><img alt="Image 5" src="demos/app-landing/images/gallery/img-5.jpg"/></a>
+</div>
+<div class="oc-item">
+<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-6.jpg"><img alt="Image 5" src="demos/app-landing/images/gallery/img-6.jpg"/></a>
+</div>
+<div class="oc-item">
+<a data-lightbox="gallery-item" href="demos/app-landing/images/gallery/img-7.jpg"><img alt="Image 5" src="demos/app-landing/images/gallery/img-7.jpg"/></a>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<!--&lt;div class=&quot; 第m-0节&quot;&quot; 第tiv class=&quot;容器清取&quot;&quot; 第h2+&gt;&lt;/h2节&quot; &quot; 第/div节&quot;-->
+<div class="section" style="padding: 30px 0; color: #999; background-color: #F8FAFB; border-top: 1px solid #E5E5E5; border-bottom: 1px solid #E5E5E5;">
+<div class="container clearfix">
+<div class="row topmargin-lg clearfix">
+<div class="col-lg-4 bottommargin">
+<i class="i-plain i-large icon-et-browser inline-block" style="margin-bottom: 30px; color: #999;"></i>
+<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+<h4 style="font-size: 16px;">交叉浏览器</h4>
+</div>
+<p style="line-height: 26px;">Canvas 4 装入比上一个版本更快并平滑的为您的用户提供最佳体验 。</p>
+</div>
+<div class="col-lg-4 bottommargin">
+<i class="i-plain i-large icon-et-adjustments inline-block" style="margin-bottom: 30px; color: #999;"></i>
+<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+<h4 style="font-size: 16px;">灵活选项</h4>
+</div>
+<p style="line-height: 26px;">释放出巨魔的力量 通过添加由靴子网格提供动力的部件和混合列来进行菜单.</p>
+</div>
+<div class="col-lg-4 bottommargin">
+<i class="i-plain i-large icon-et-calendar inline-block" style="margin-bottom: 30px; color: #999;"></i>
+<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+<h4 style="font-size: 16px;">计划备份</h4>
+</div>
+<p style="line-height: 26px;">令人惊奇的新组件集为您提供了为您的企业创建互动网站的机会 。</p>
+</div>
+<div class="col-lg-4 bottommargin">
+<i class="i-plain i-large icon-et-desktop inline-block" style="margin-bottom: 30px; color: #999;"></i>
+<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+<h4 style="font-size: 16px;">反应准备</h4>
+</div>
+<p style="line-height: 26px;">将任意的网格转换为同位素网格,并带有可过滤选项,使其极具灵活性和威力.</p>
+</div>
+<div class="col-lg-4 bottommargin">
+<i class="i-plain i-large icon-et-bargraph inline-block" style="margin-bottom: 30px; color: #999;"></i>
+<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+<h4 style="font-size: 16px;">增加的改划</h4>
+</div>
+<p style="line-height: 26px;">在响应设备上显示一个具有与前作相同的标记代码的可替代的轻型菜单。 超级有用。</p>
+</div>
+<div class="col-lg-4 bottommargin">
+<i class="i-plain i-large icon-et-cloud inline-block" style="margin-bottom: 30px; color: #999;"></i>
+<div class="heading-block border-bottom-0" style="margin-bottom: 15px;">
+<h4 style="font-size: 16px;">共享云</h4>
+</div>
+<p style="line-height: 26px;">添加的 SPAM 数据 保护您的珍贵表单, 这样您只能从真实用户接收电子邮件 。</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section center mb-0 bg-transparent">
+<div class="container clearfix">
+<h3 class="ls1 fw-normal" style="font-size: 32px;">经验与信任<span>50,000+</span>全世界人民</h3>
+<a class="button button-large button-black text-capitalize" data-lightbox="inline" href="#modal-login" style="border-radius: 23px;">现在登录</a>
+<a class="button button-large text-capitalize" data-easing="easeInOutExpo" data-offset="160" data-scrollto="#section-pricing" data-speed="1250" href="#" style="border-radius: 23px;">试试自由</a>
+<div class="clear bottommargin"></div>
+</div>
+</div>
+<div class="section mt-0 footer-stick" style="padding: 10px 0; background-color: #F8FAFB; border-top: 1px solid #E5E5E5;">
+<div class="container clearfix">
+<div class="row clearfix">
+<div class="col-lg-4">
+<div class="app-footer-features"><i class="icon-line2-globe-alt"></i><h5 class="font-body"><a href="#">免费培训</a><span>24小时覆盖( S)</span></h5></div>
+</div>
+<div class="col-lg-4">
+<div class="app-footer-features"><i class="icon-line2-notebook"></i><h5 class="font-body"><a href="#">99.99% 时间</a><span>过去12个月</span></h5></div>
+</div>
+<div class="col-lg-4">
+<div class="app-footer-features"><i class="icon-line2-lock"></i><h5 class="font-body"><span>说真的</span> <a href="#">警卫</a> <span>&amp;</span> <a href="#">隐私</a></h5></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer id="footer" style="background-color: #FFF;">
+<div class="container">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap">
+<div class="row clearfix">
+<div class="col-lg-5">
+<div class="widget clearfix">
+<div class="row clearfix">
+<div class="col-lg-8 bottommargin-sm clearfix" style="color:#888;">
+<img alt="Canvas Logo" class="bottommargin-sm" src="demos/app-landing/images/footer-logo.png" style="display: block;"/>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Odio 脸部整齐 猥亵 iusto atque。</p>
+<a class="social-icon si-small si-borderless si-colored si-rounded si-facebook" href="#">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-small si-borderless si-colored si-rounded si-twitter" href="#">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-small si-borderless si-colored si-rounded si-gplus" href="#">
+<i class="icon-gplus"></i>
+<i class="icon-gplus"></i>
+</a>
+<a class="social-icon si-small si-borderless si-colored si-rounded si-pinterest" href="#">
+<i class="icon-pinterest"></i>
+<i class="icon-pinterest"></i>
+</a>
+<a class="social-icon si-small si-borderless si-colored si-rounded si-vimeo" href="#">
+<i class="icon-vimeo"></i>
+<i class="icon-vimeo"></i>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-7">
+<div class="row col-mb-30">
+<div class="col-lg-4">
+<div class="widget widget_links widget-li-noicon app_landing_widget_link clearfix">
+<h4>在新闻中</h4>
+<ul>
+<li><a href="https://codex.wordpress.org/">文档</a></li>
+<li><a href="https://wordpress.org/support/forum/requests-and-feedback">反馈</a></li>
+<li><a href="https://wordpress.org/extend/plugins/">插件</a></li>
+<li><a href="https://wordpress.org/support/">支助论坛</a></li>
+<li><a href="https://wordpress.org/extend/themes/">主题</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="widget widget_links widget-li-noicon app_landing_widget_link clearfix">
+<h4>关于我们</h4>
+<ul>
+<li><a href="https://codex.wordpress.org/">文档</a></li>
+<li><a href="https://wordpress.org/support/forum/requests-and-feedback">反馈</a></li>
+<li><a href="https://wordpress.org/extend/plugins/">插件</a></li>
+<li><a href="https://wordpress.org/support/">支助论坛</a></li>
+<li><a href="https://wordpress.org/extend/themes/">主题</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="widget widget_links widget-li-noicon app_landing_widget_link clearfix">
+<h4>支助</h4>
+<ul>
+<li><a href="https://codex.wordpress.org/">文档</a></li>
+<li><a href="https://wordpress.org/support/forum/requests-and-feedback">反馈</a></li>
+<li><a href="https://wordpress.org/extend/plugins/">插件</a></li>
+<li><a href="https://wordpress.org/support/">支助论坛</a></li>
+<li><a href="https://wordpress.org/extend/themes/">主题</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--版权 =============================================-->
+<div class="bg-transparent pt-0" id="copyrights">
+<div class="container clearfix">
+<div class="w-100 text-center text-md-start">版权:&amp;quot;2020&amp;quot; Canvas股份有限公司保留的所有权利.<br/>
+<div class="copyright-links"><a href="#">使用条件</a> / <a href="#">隐私政策</a></div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<script>
 		jQuery(document).ready( function($){
 			$('[data-pricing-plan]').click( function(){
 				$('#get-started-form').find('#get-started-form-package').val( $(this).attr('data-pricing-plan') );
@@ -751,6 +587,5 @@
 			});
 		});
 	</script>
-
 </body>
 </html>

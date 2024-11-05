@@ -1,311 +1,237 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Sansita:400,700|Roboto:400,500&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<!-- Yoga Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="css/colors.php?color=7E9680" type="text/css" /> <!-- Yoga Theme Color -->
-	<link rel="stylesheet" href="demos/yoga/css/fonts.css" type="text/css" /> <!-- Yoga Theme Font -->
-	<link rel="stylesheet" href="demos/yoga/yoga.css" type="text/css" /> <!-- Yoga Theme Custom CSS -->
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Login - Yoga | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Sansita:400,700|Roboto:400,500&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/swiper.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<!--瑜伽Demo 特定样式表-->
+<link href="css/colors.php?color=7E9680" rel="stylesheet" type="text/css"/> <!--瑜伽主题颜色-->
+<link href="demos/yoga/css/fonts.css" rel="stylesheet" type="text/css"/> <!--瑜伽语 主题字体-->
+<link href="demos/yoga/yoga.css" rel="stylesheet" type="text/css"/> <!--瑜伽主题 自定义 CSS-->
+<!-- / -->
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!--文件标题 =============================================-->
+<title>登录 - 瑜伽QQCanvas</title>
 </head>
-
 <body class="stretched sticky-footer">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Top Bar
-		============================================= -->
-		<div id="top-bar" class="dark">
-			<div class="container">
-
-				<div class="d-flex align-items-center justify-content-center flex-column flex-lg-row py-3 py-lg-0">
-					Back to the future of your Health: Introducing canvas Yoga. <div class="countdown countdown-inline mt-3 mt-lg-0 ms-lg-4 mb-0" data-year="2021" data-month="10" data-day="31"></div>
-				</div>
-
-			</div>
-		</div>
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="border-full-header header-size-custom" data-sticky-shrink="false" data-sticky-offset="52">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-lg-between">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo" class="order-lg-2 col-auto px-0 me-lg-0">
-							<a href="demo-yoga.html" class="standard-logo" data-dark-logo="demos/yoga/images/logo-dark.png"><img src="demos/yoga/images/logo.png" alt="Canvas Logo"></a>
-							<a href="demo-yoga.html" class="retina-logo" data-dark-logo="demos/yoga/images/logo-dark@2x.png"><img src="demos/yoga/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div class="header-misc order-lg-3 col-auto col-lg-5 px-0 justify-content-end">
-							<a href="demo-yoga-login.html" class="button-link"><div>Login</div></a>
-							<a href="https://www.facebook.com/semicolonweb/" target="_blank" class="social-icon si-facebook si-small si-light mb-0"><i class="icon-facebook"></i><i class="icon-facebook"></i></a>
-							<a href="https://www.instagram.com/semicolonweb/" target="_blank" class="social-icon si-instagram si-small si-light mb-0"><i class="icon-instagram"></i><i class="icon-instagram"></i></a>
-							<a href="https://twitter.com/__SemiColon" target="_blank" class="social-icon si-paypal si-small si-light mb-0"><i class="icon-paypal"></i><i class="icon-paypal"></i></a>
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu order-lg-1 col-lg-5 px-0">
-
-							<!-- Menu Left -->
-							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="demo-yoga.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-yoga-about-us.html"><div>About Us</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-yoga-pricing.html"><div>Pricing</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="#"><div>Dropdown 1</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#"><div>Dropdown 2</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="#"><div>Dropdown 3</div></a></li>
-									</ul>
-								</li>
-								<li class="current menu-item"><a class="menu-link" href="demo-yoga-contact-us.html"><div>Contact</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap">
-
-				<div class="container pt-4 pb-5">
-					<div class="row justify-content-between align-items-center">
-						<div class="col-lg-5 col-md-6 mb-5 mb-md-0">
-							<div class="feature-box fbox-plain bottommargin-sm">
-								<div class="fbox-icon">
-									<i class="icon-line-circle-check text-primary"></i>
-								</div>
-								<div class="fbox-content">
-									<h3 class="fw-normal nott">Classes Every Week.</h3>
-									<p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
-								</div>
-							</div>
-
-							<div class="feature-box fbox-plain bottommargin-sm">
-								<div class="fbox-icon">
-									<i class="icon-line-circle-check text-warning"></i>
-								</div>
-								<div class="fbox-content">
-									<h3 class="fw-normal nott">10+ Years Experienced.</h3>
-									<p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
-								</div>
-							</div>
-
-							<div class="feature-box fbox-plain bottommargin-sm">
-								<div class="fbox-icon">
-									<i class="icon-line-circle-check text-info"></i>
-								</div>
-								<div class="fbox-content">
-									<h3 class="fw-normal nott">2100+ Members Active.</h3>
-									<p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
-								</div>
-							</div>
-
-							<div class="feature-box fbox-plain">
-								<div class="fbox-icon">
-									<i class="icon-line-circle-check text-danger"></i>
-								</div>
-								<div class="fbox-content">
-									<h3 class="fw-normal nott">Well Trained Teachers.</h3>
-									<p>Canvas provides support for Native HTML5 Videos that can be added to a Full Width Background.</p>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-5 col-md-6">
-							<div class="card pricing border-0 shadow bg-color dark">
-								<div class="card-body rounded pb-0 px-4 px-lg-5 pt-4 pt-lg-5">
-									<div class="d-block d-lg-flex flex-row justify-content-lg-between align-items-lg-center">
-										<h3 class="h6 fw-bolder mb-2 mb-lg-0 text-white">Don't have an account?</h3>
-										<a href="#" class="button button-small button-light button-white button-rounded m-0">Register Now</a>
-									</div>
-									<div class="line line-sm"></div>
-									<h3 class="h5 fw-bolder mb-3 text-white">Sign In</h3>
-									<p class="text-smaller mb-0" style="line-height: 1.5;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, vel odio non dicta.</p>
-									<form id="login-form" name="login-form" class="mb-0 row" action="#" method="post">
-										<div class="col-12 form-group">
-											<label class="nott ls0 font-body mb-1 fw-normal" for="login-form-username">Username:</label>
-											<input type="text" id="login-form-username" class="form-control fw-semibold not-dark" placeholder="Username">
-										</div>
-										<div class="clear"></div>
-										<div class="col-12 form-group">
-											<label class="nott ls0 font-body mb-1 fw-normal" for="login-form-password">Password:</label>
-											<div class="input-group">
-												<input id="login-form-password" type="password" class="form-control fw-semibold not-dark" placeholder="Password">
-											</div>
-										</div>
-
-										<div class="col-12 d-flex justify-content-between">
-											<div class="form-check form-check-inline">
-												<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-												<label class="form-check-label nott ls0 mb-0 fw-semibold" for="inlineCheckbox2">Remember me</label>
-											</div>
-											<a href="#" class="text-smaller fw-medium text-light"><u>Forgot Password?</u></a>
-										</div>
-										<div class="col-12 text-center">
-											<button class="btn btn rounded bg-dark text-white text-uppercase fw-semibold ls1 py-2 px-5" id="login-form-submit" name="login-form-submit" value="login">Login</button>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-					</div>
-
-			</div>
-
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="bg-color dark">
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
-					<div class="row">
-
-						<div class="col-lg-3 col-md-3 col-6">
-							<a href="demo-yoga.html"><img src="demos/yoga/images/logo-dark@2x.png" alt="Logo Footer" height="80"></a>
-							<p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, nesciunt excepturi dolor. Animi, voluptate.</p>
-						</div>
-
-						<div class="col-lg-2 col-md-3 col-6">
-							<div class="widget clearfix">
-
-								<h3 class="ls0 h5 mb-4">Features</h3>
-
-								<ul class="list-unstyled iconlist ms-0">
-									<li class="mb-2"><a href="#" class="text-white-50">All Poses</a></li>
-									<li class="mb-2"><a href="#" class="text-white-50">Instructors</a></li>
-									<li class="mb-2"><a href="#" class="text-white-50">Gallery</a></li>
-									<li class="mb-2"><a href="#" class="text-white-50">Price</a></li>
-									<li class="mb-2"><a href="#" class="text-white-50">FAQs</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-3 col-6">
-							<div class="widget clearfix">
-
-								<h3 class="ls0 h5 mb-4">Connect With Us</h3>
-
-								<ul class="list-unstyled iconlist ms-0">
-									<li class="mb-2"><a href="#" class="text-white-50">Facebook</a></li>
-									<li class="mb-2"><a href="#" class="text-white-50">Instagram</a></li>
-									<li class="mb-2"><a href="#" class="text-white-50">Twitter</a></li>
-									<li class="mb-2"><a href="#" class="text-white-50">Email</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-3 col-6">
-							<div class="widget clearfix">
-
-								<h3 class="ls0 h5 mb-4">Open Hours</h3>
-
-								<ul class="list-unstyled iconlist ms-0">
-									<li class="mb-2"><a href="#" class="text-white-50">Monday - Saturday</a></li>
-									<li class="mb-2"><a href="#" class="text-white-50">6:30 - 20:00</a></li>
-									<li class="mb-2"><a href="#" class="text-white-50">Sunday Closed</a></li>
-								</ul>
-
-							</div>
-						</div>
-
-						<div class="col-lg-3 col-md-4">
-							<div class="widget clearfix">
-
-								<h3 class="ls0 h5 mb-4">Studio:</h3>
-
-								<div>
-									<address class="font-primary">
-										795 Folsom Ave, Suite 600<br>
-										San Francisco, CA 94107<br>
-									</address>
-									<h3 class="mb-3"><a href="tel:+01273123456" class="text-white"><i class="icon-call me-1 position-relative" style="font-size: 22px; top:2px;"></i> +111 22-33-44</a></h3>
-								</div>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="center dark">
-				<div class="container">
-
-					<div class="row">
-						<div class="col-12">
-							<p class="mb-2 text-white-50">Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.</p>
-							<div class="copyright-links text-white-50"><a href="#" class="text-white-50">Terms of Use</a> / <a href="#" class="text-white-50">Privacy Policy</a></div>
-						</div>
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- For Countdown -->
-	<script src="js/components/moment.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--上边栏 =============================================-->
+<div class="dark" id="top-bar">
+<div class="container">
+<div class="d-flex align-items-center justify-content-center flex-column flex-lg-row py-3 py-lg-0">回到健康的未来:引入帆布瑜伽.<div class="countdown countdown-inline mt-3 mt-lg-0 ms-lg-4 mb-0" data-day="31" data-month="10" data-year="2021"></div>
+</div>
+</div>
+</div>
+<!--页眉 =============================================-->
+<header class="border-full-header header-size-custom" data-sticky-offset="52" data-sticky-shrink="false" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row justify-content-lg-between">
+<!--标记 =============================================-->
+<div class="order-lg-2 col-auto px-0 me-lg-0" id="logo">
+<a class="standard-logo" data-dark-logo="demos/yoga/images/logo-dark.png" href="demo-yoga.html"><img alt="Canvas Logo" src="demos/yoga/images/logo.png"/></a>
+<a class="retina-logo" data-dark-logo="demos/yoga/images/logo-dark@2x.png" href="demo-yoga.html"><img alt="Canvas Logo" src="demos/yoga/images/logo@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div class="header-misc order-lg-3 col-auto col-lg-5 px-0 justify-content-end">
+<a class="button-link" href="demo-yoga-login.html"><div>登录</div></a>
+<a class="social-icon si-facebook si-small si-light mb-0" href="https://www.facebook.com/semicolonweb/" target="_blank"><i class="icon-facebook"></i><i class="icon-facebook"></i></a>
+<a class="social-icon si-instagram si-small si-light mb-0" href="https://www.instagram.com/semicolonweb/" target="_blank"><i class="icon-instagram"></i><i class="icon-instagram"></i></a>
+<a class="social-icon si-paypal si-small si-light mb-0" href="https://twitter.com/__SemiColon" target="_blank"><i class="icon-paypal"></i><i class="icon-paypal"></i></a>
+</div>
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu order-lg-1 col-lg-5 px-0">
+<!--菜单左-->
+<ul class="menu-container">
+<li class="menu-item"><a class="menu-link" href="demo-yoga.html"><div>内容</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-yoga-about-us.html"><div>关于我们</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-yoga-pricing.html"><div>定价</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>下调 1</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>下调 2</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>下调 3</div></a></li>
+</ul>
+</li>
+<li class="current menu-item"><a class="menu-link" href="demo-yoga-contact-us.html"><div>联系人</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap">
+<div class="container pt-4 pb-5">
+<div class="row justify-content-between align-items-center">
+<div class="col-lg-5 col-md-6 mb-5 mb-md-0">
+<div class="feature-box fbox-plain bottommargin-sm">
+<div class="fbox-icon">
+<i class="icon-line-circle-check text-primary"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-normal nott">每周上课</h3>
+<p>Canvas为本地HTML5视频提供支持,这些视频可以被添加到一个全宽背景.</p>
+</div>
+</div>
+<div class="feature-box fbox-plain bottommargin-sm">
+<div class="fbox-icon">
+<i class="icon-line-circle-check text-warning"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-normal nott">10年以上经验。</h3>
+<p>Canvas为本地HTML5视频提供支持,这些视频可以被添加到一个全宽背景.</p>
+</div>
+</div>
+<div class="feature-box fbox-plain bottommargin-sm">
+<div class="fbox-icon">
+<i class="icon-line-circle-check text-info"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-normal nott">2100+ 成员活跃.</h3>
+<p>Canvas为本地HTML5视频提供支持,这些视频可以被添加到一个全宽背景.</p>
+</div>
+</div>
+<div class="feature-box fbox-plain">
+<div class="fbox-icon">
+<i class="icon-line-circle-check text-danger"></i>
+</div>
+<div class="fbox-content">
+<h3 class="fw-normal nott">训练有素的老师</h3>
+<p>Canvas为本地HTML5视频提供支持,这些视频可以被添加到一个全宽背景.</p>
+</div>
+</div>
+</div>
+<div class="col-lg-5 col-md-6">
+<div class="card pricing border-0 shadow bg-color dark">
+<div class="card-body rounded pb-0 px-4 px-lg-5 pt-4 pt-lg-5">
+<div class="d-block d-lg-flex flex-row justify-content-lg-between align-items-lg-center">
+<h3 class="h6 fw-bolder mb-2 mb-lg-0 text-white">没有帐户吗?</h3>
+<a class="button button-small button-light button-white button-rounded m-0" href="#">现在注册</a>
+</div>
+<div class="line line-sm"></div>
+<h3 class="h5 fw-bolder mb-3 text-white">签名</h3>
+<p class="text-smaller mb-0" style="line-height: 1.5;">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 (原始内容存档于2013-10-12). Unde, vel odio unticta.</p>
+<form action="#" class="mb-0 row" id="login-form" method="post" name="login-form">
+<div class="col-12 form-group">
+<label class="nott ls0 font-body mb-1 fw-normal" for="login-form-username">用户名 :</label>
+<input class="form-control fw-semibold not-dark" id="login-form-username" placeholder="Username" type="text"/>
+</div>
+<div class="clear"></div>
+<div class="col-12 form-group">
+<label class="nott ls0 font-body mb-1 fw-normal" for="login-form-password">密码 :</label>
+<div class="input-group">
+<input class="form-control fw-semibold not-dark" id="login-form-password" placeholder="Password" type="password"/>
+</div>
+</div>
+<div class="col-12 d-flex justify-content-between">
+<div class="form-check form-check-inline">
+<input class="form-check-input" id="inlineCheckbox2" type="checkbox" value="option2"/>
+<label class="form-check-label nott ls0 mb-0 fw-semibold" for="inlineCheckbox2">记住我</label>
+</div>
+<a class="text-smaller fw-medium text-light" href="#"><u>忘记密码了吗?</u></a>
+</div>
+<div class="col-12 text-center">
+<button class="btn btn rounded bg-dark text-white text-uppercase fw-semibold ls1 py-2 px-5" id="login-form-submit" name="login-form-submit" value="login">登录</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="bg-color dark" id="footer">
+<div class="container">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap">
+<div class="row">
+<div class="col-lg-3 col-md-3 col-6">
+<a href="demo-yoga.html"><img alt="Logo Footer" height="80" src="demos/yoga/images/logo-dark@2x.png"/></a>
+<p class="text-white-50">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Possimus, Nessiunt Excepturi dolor. (原始内容存档于2018-09-29) (英语). Animi, 挥发.</p>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<div class="widget clearfix">
+<h3 class="ls0 h5 mb-4">特征</h3>
+<ul class="list-unstyled iconlist ms-0">
+<li class="mb-2"><a class="text-white-50" href="#">所有可能性</a></li>
+<li class="mb-2"><a class="text-white-50" href="#">教官</a></li>
+<li class="mb-2"><a class="text-white-50" href="#">图片库</a></li>
+<li class="mb-2"><a class="text-white-50" href="#">价格</a></li>
+<li class="mb-2"><a class="text-white-50" href="#">问题</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<div class="widget clearfix">
+<h3 class="ls0 h5 mb-4">与我们连接</h3>
+<ul class="list-unstyled iconlist ms-0">
+<li class="mb-2"><a class="text-white-50" href="#">脸书</a></li>
+<li class="mb-2"><a class="text-white-50" href="#">内存</a></li>
+<li class="mb-2"><a class="text-white-50" href="#">微博</a></li>
+<li class="mb-2"><a class="text-white-50" href="#">电子邮件</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-3 col-6">
+<div class="widget clearfix">
+<h3 class="ls0 h5 mb-4">开放小时</h3>
+<ul class="list-unstyled iconlist ms-0">
+<li class="mb-2"><a class="text-white-50" href="#">星期一至星期六</a></li>
+<li class="mb-2"><a class="text-white-50" href="#">6:30 - 20:00</a></li>
+<li class="mb-2"><a class="text-white-50" href="#">星期日关闭</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-3 col-md-4">
+<div class="widget clearfix">
+<h3 class="ls0 h5 mb-4">工作室:</h3>
+<div>
+<address class="font-primary">795个Folsom Ave,600套房<br/>旧金山,CA 94107<br/>
+</address>
+<h3 class="mb-3"><a class="text-white" href="tel:+01273123456"><i class="icon-call me-1 position-relative" style="font-size: 22px; top:2px;"></i> +111 22-33-44</a></h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--版权 =============================================-->
+<div class="center dark" id="copyrights">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<p class="mb-2 text-white-50">版权:&amp;quot;2014&amp;quot; Canvas股份有限公司保留的所有权利.</p>
+<div class="copyright-links text-white-50"><a class="text-white-50" href="#">使用条件</a> / <a class="text-white-50" href="#">隐私政策</a></div>
+</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--倒计时-->
+<script src="js/components/moment.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
 </body>
 </html>

@@ -1,28 +1,21 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Rotate onScroll | Canvas</title>
-
-	<style>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!--文件标题 =============================================-->
+<title>在 Canvas 上旋转</title>
+<style>
 
 		.center-text {
 			position: absolute;
@@ -31,63 +24,39 @@
 			transform: translate(-50%, -50%);
 		}
 	</style>
-
 </head>
-
 <body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap bg-light overflow-visible">
-				<div class="container clearfix">
-
-					<div class="min-vh-25"></div>
-
-					<h3>Rotate Circular Text On Scroll Effect</h3>
-
-					<div class="circular-text position-fixed" style="min-width: 300px; max-height: 300px; top: 20px; right: 20px;">
-						<div>
-							<h4 id="rotated-text" class="parallax m-0" data-0="transform: rotate(0deg);" data-end="transform: rotate(360deg);">
-								 Corporate | Portfolio | Business | Real Estate | Medical | Construction |
-							</h4>
-							<h2 class="center-text mb-0">Demos</h2>
-						</div>
-					</div>
-
-					<div style="height: 1000px;"></div>
-
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<script>
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap bg-light overflow-visible">
+<div class="container clearfix">
+<div class="min-vh-25"></div>
+<h3>滚动效果旋转圆形文本</h3>
+<div class="circular-text position-fixed" style="min-width: 300px; max-height: 300px; top: 20px; right: 20px;">
+<div>
+<h4 class="parallax m-0" data-0="transform: rotate(0deg);" data-end="transform: rotate(360deg);" id="rotated-text">公司 投资组合 企业 房地产 医疗 建筑</h4>
+<h2 class="center-text mb-0">演示词</h2>
+</div>
+</div>
+<div style="height: 1000px;"></div>
+</div>
+</div>
+</section><!--内容结束-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<script>
 		const circleType = new CircleType(
 			document.getElementById("rotated-text")
 			).radius(80);
 	</script>
-
 </body>
 </html>

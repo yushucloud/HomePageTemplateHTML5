@@ -1,31 +1,23 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<!-- DatePicker CSS -->
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" id="flatpickr_theme">
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Form | Canvas</title>
-
-	<style>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<!--日期选择 CSS-->
+<link href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css" id="flatpickr_theme" rel="stylesheet"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css">
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!--文件标题 =============================================-->
+<title>表格 \\ 相机</title>
+<style>
 
 		.block-form-2,
 		.block-form-2 h1,
@@ -149,183 +141,149 @@
 			opacity: .7;
 		}
 	</style>
-
-</head>
-
+</link></link></head>
 <body class="stretched block-form-2">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap py-0">
-
-				<div class="row align-items-stretch justify-content-between g-0">
-
-					<div class="col-lg-4 col-md-5 overflow-hidden min-vh-50" style="background-color: var(--themecolor);">
-						<div class="dark h-100 min-vh-md-100 d-flex flex-column justify-content-center z-1 position-relative p-5">
-							<h1 class="fw-bold">Personal Details</h1>
-							<p class=" text-white-50 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing, elit.</p>
-
-							<div>
-								<a href="#" class="social-icon si-rounded si-borderless si-facebook">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-								<a href="#" class="social-icon si-rounded si-borderless si-twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-								<a href="#" class="social-icon si-rounded si-borderless si-pinterest">
-									<i class="icon-pinterest"></i>
-									<i class="icon-pinterest"></i>
-								</a>
-								<a href="#" class="social-icon si-rounded si-borderless si-gplus">
-									<i class="icon-gplus"></i>
-									<i class="icon-gplus"></i>
-								</a>
-								<a href="#" class="social-icon si-rounded si-borderless si-rss">
-									<i class="icon-rss"></i>
-									<i class="icon-rss"></i>
-								</a>
-							</div>
-						</div>
-
-						<img src="images/blocks/preview/form-2.svg" alt="SVG" class="svg-image">
-					</div>
-
-					<div class="col-lg-8 col-md-7 p-5 p-lg-6">
-						<div class="form-widget" data-alert-type="inline">
-								<div class="form-result"></div>
-
-								<form id="step-form" class="mb-0" action="include/form.php" method="post" enctype="multipart/form-data">
-									<div class="form-process"></div>
-
-									<div id="tab-reservation" class="nav nav-pills flex-column flex-lg-row" role="tablist">
-										<a class="nav-link active ms-0" data-bs-toggle="list" href="#tab-reservation-details" role="tab">1. Your Details</a>
-										<a class="nav-link ms-0 mt-2 mt-lg-0 ms-lg-3" data-bs-toggle="list" href="#tab-reservation-select-address" role="tab">2. Your Address</a>
-										<a class="nav-link ms-0 mt-2 mt-lg-0 ms-lg-3" data-bs-toggle="list" href="#tab-reservation-msg" role="tab">3. Your Message</a>
-									</div>
-
-									<div class="line line-sm"></div>
-
-									<div class="tab-content mt-5" id="nav-tabContent">
-
-										<div class="tab-pane fade show active" id="tab-reservation-details" role="tabpanel" aria-labelledby="tab-reservation-details">
-											<span class="op-05 text-smaller ls1">STEP - 1/3</span>
-											<h2 class="mb-5 text-uppercase ls1 fw-bold">Your Details</h2>
-											<div class="row">
-												<div class="col-6 mb-4">
-													<label for="step-form-first-name">First Name:</label>
-													<input type="text" name="step-form-first-name" id="step-form-first-name" class="form-control required" value="" placeholder="John">
-												</div>
-												<div class="col-6 mb-4">
-													<label for="step-form-last-name">Last Name:</label>
-													<input type="text" name="step-form-last-name" id="step-form-last-name" class="form-control required" value="" placeholder="Doe">
-												</div>
-												<div class="col-6 mb-4">
-													<label for="step-form-email">Email Address:</label>
-													<input type="email" name="step-form-email" id="step-form-email" class="form-control required" value="" placeholder="johndoe@unknown.com">
-												</div>
-												<div class="col-6 mb-4">
-													<label for="step-form-phone">Phone:</label><br>
-													<input type="text" name="step-form-phone" id="step-form-phone" class="form-control border-form-control required" value="" placeholder="+00 11 222 333 44">
-												</div>
-												<div class="col-6 col-6 mb-4">
-													<label for="step-form-age">Date of Birth:</label>
-													<input type="text" value="" class="form-control required text-start" id="step-form-age" name="step-form-age" placeholder="DD/MM/YYYY">
-												</div>
-												<div class="col-6 col-6 mb-5">
-													<label for="step-form-url">Website Link (Optional):</label>
-													<input type="text" name="step-form-url" id="step-form-url" class="form-control" value="" placeholder="https://semicolonweb.com">
-												</div>
-
-												<div class="w-100 clear"></div>
-
-												<div class="col-12">
-													<a href="#" class="btn px-5 py-3 tab-action-btn-next float-end text-white" style="background-color: #3D1144;">Next Step</a>
-												</div>
-											</div>
-										</div>
-
-										<div class="tab-pane fade" id="tab-reservation-select-address" role="tabpanel" aria-labelledby="tab-reservation-select-address">
-											<span class="op-05 text-smaller ls1">STEP - 2/3</span>
-											<h2 class="mb-5 text-uppercase ls1 fw-bold">Your Address</h2>
-											<div class="row">
-												<div class="col-12 mb-4">
-													<label for="step-form-address-1" class="mb-2">Full  Address:</label>
-													<input type="text" name="step-form-address-1" id="step-form-address-1" class="form-control border-form-control required" value="" placeholder="Address Line 1">
-												</div>
-												<div class="col-12 mb-4">
-													<input type="text" name="step-form-address-2" id="step-form-address-2" class="form-control border-form-control required" value="" placeholder="Address Line 2">
-												</div>
-												<div class="col-4 mb-4">
-													<input type="text" name="step-form-state" id="step-form-state" class="form-control border-form-control required" value="" placeholder="State">
-												</div>
-												<div class="col-4 mb-4">
-													<input type="text" name="step-form-country" id="step-form-country" class="form-control border-form-control required" value="" placeholder="Country">
-												</div>
-												<div class="col-4 mb-5">
-													<input type="text" name="step-form-postalcode" id="step-form-postalcode" class="form-control border-form-control required" value="" placeholder="Postal Code">
-												</div>
-												<div class="col-12">
-													<a href="#" class="btn px-5 py-3 tab-action-btn-next float-end text-white" style="background-color: #3D1144;">Next Step</a>
-												</div>
-											</div>
-										</div>
-
-										<div class="tab-pane fade" id="tab-reservation-msg" role="tabpanel" aria-labelledby="tab-reservation-msg">
-											<span class="op-05 text-smaller ls1">STEP - 3/3</span>
-											<h2 class="mb-5 text-uppercase ls1 fw-bold">Your Message</h2>
-											<div class="row">
-												<div class="col-12 mb-5">
-													<label for="step-form-message">Your Message:</label>
-													<textarea class="required form-control" id="step-form-message" name="step-form-message" rows="5" placeholder="Write your message here..."></textarea>
-												</div>
-												<div class="col-12 d-none">
-													<input type="text" id="step-form-botcheck" name="step-form-botcheck" value="" />
-												</div>
-												<div class="col-12">
-													<button type="submit" name="step-form-submit" class="btn px-5 py-3 float-end text-white" style="background-color: #3D1144;">Submit Now</button>
-												</div>
-
-												<input type="hidden" name="prefix" value="step-form-">
-											</div>
-										</div>
-
-									</div>
-								</form>
-							</div>
-					</div>
-
-				</div>
-
-			</div>
-		</section><!-- #content end -->
-
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- DatePicker JS -->
-	<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<script>
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap py-0">
+<div class="row align-items-stretch justify-content-between g-0">
+<div class="col-lg-4 col-md-5 overflow-hidden min-vh-50" style="background-color: var(--themecolor);">
+<div class="dark h-100 min-vh-md-100 d-flex flex-column justify-content-center z-1 position-relative p-5">
+<h1 class="fw-bold">个人细节</h1>
+<p class="text-white-50 mb-5">Lorem evenum dolor 坐在座椅上 接地接地 接地</p>
+<div>
+<a class="social-icon si-rounded si-borderless si-facebook" href="#">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-rounded si-borderless si-twitter" href="#">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-rounded si-borderless si-pinterest" href="#">
+<i class="icon-pinterest"></i>
+<i class="icon-pinterest"></i>
+</a>
+<a class="social-icon si-rounded si-borderless si-gplus" href="#">
+<i class="icon-gplus"></i>
+<i class="icon-gplus"></i>
+</a>
+<a class="social-icon si-rounded si-borderless si-rss" href="#">
+<i class="icon-rss"></i>
+<i class="icon-rss"></i>
+</a>
+</div>
+</div>
+<img alt="SVG" class="svg-image" src="images/blocks/preview/form-2.svg"/>
+</div>
+<div class="col-lg-8 col-md-7 p-5 p-lg-6">
+<div class="form-widget" data-alert-type="inline">
+<div class="form-result"></div>
+<form action="include/form.php" class="mb-0" enctype="multipart/form-data" id="step-form" method="post">
+<div class="form-process"></div>
+<div class="nav nav-pills flex-column flex-lg-row" id="tab-reservation" role="tablist">
+<a class="nav-link active ms-0" data-bs-toggle="list" href="#tab-reservation-details" role="tab">1. 联合国 您的详情</a>
+<a class="nav-link ms-0 mt-2 mt-lg-0 ms-lg-3" data-bs-toggle="list" href="#tab-reservation-select-address" role="tab">2. 阁下的演讲</a>
+<a class="nav-link ms-0 mt-2 mt-lg-0 ms-lg-3" data-bs-toggle="list" href="#tab-reservation-msg" role="tab">3个 您的消息</a>
+</div>
+<div class="line line-sm"></div>
+<div class="tab-content mt-5" id="nav-tabContent">
+<div aria-labelledby="tab-reservation-details" class="tab-pane fade show active" id="tab-reservation-details" role="tabpanel">
+<span class="op-05 text-smaller ls1">步骤 - 1/3</span>
+<h2 class="mb-5 text-uppercase ls1 fw-bold">您的详情</h2>
+<div class="row">
+<div class="col-6 mb-4">
+<label for="step-form-first-name">名称 :</label>
+<input class="form-control required" id="step-form-first-name" name="step-form-first-name" placeholder="John" type="text" value=""/>
+</div>
+<div class="col-6 mb-4">
+<label for="step-form-last-name">姓 :</label>
+<input class="form-control required" id="step-form-last-name" name="step-form-last-name" placeholder="Doe" type="text" value=""/>
+</div>
+<div class="col-6 mb-4">
+<label for="step-form-email">电子邮件地址 :</label>
+<input class="form-control required" id="step-form-email" name="step-form-email" placeholder="johndoe@unknown.com" type="email" value=""/>
+</div>
+<div class="col-6 mb-4">
+<label for="step-form-phone">电话:</label><br/>
+<input class="form-control border-form-control required" id="step-form-phone" name="step-form-phone" placeholder="+00 11 222 333 44" type="text" value=""/>
+</div>
+<div class="col-6 col-6 mb-4">
+<label for="step-form-age">出生日期:</label>
+<input class="form-control required text-start" id="step-form-age" name="step-form-age" placeholder="DD/MM/YYYY" type="text" value=""/>
+</div>
+<div class="col-6 col-6 mb-5">
+<label for="step-form-url">网站链接( 可选) :</label>
+<input class="form-control" id="step-form-url" name="step-form-url" placeholder="https://semicolonweb.com" type="text" value=""/>
+</div>
+<div class="w-100 clear"></div>
+<div class="col-12">
+<a class="btn px-5 py-3 tab-action-btn-next float-end text-white" href="#" style="background-color: #3D1144;">下一个步骤</a>
+</div>
+</div>
+</div>
+<div aria-labelledby="tab-reservation-select-address" class="tab-pane fade" id="tab-reservation-select-address" role="tabpanel">
+<span class="op-05 text-smaller ls1">步骤 - 2/3</span>
+<h2 class="mb-5 text-uppercase ls1 fw-bold">您的地址</h2>
+<div class="row">
+<div class="col-12 mb-4">
+<label class="mb-2" for="step-form-address-1">全地址 :</label>
+<input class="form-control border-form-control required" id="step-form-address-1" name="step-form-address-1" placeholder="Address Line 1" type="text" value=""/>
+</div>
+<div class="col-12 mb-4">
+<input class="form-control border-form-control required" id="step-form-address-2" name="step-form-address-2" placeholder="Address Line 2" type="text" value=""/>
+</div>
+<div class="col-4 mb-4">
+<input class="form-control border-form-control required" id="step-form-state" name="step-form-state" placeholder="State" type="text" value=""/>
+</div>
+<div class="col-4 mb-4">
+<input class="form-control border-form-control required" id="step-form-country" name="step-form-country" placeholder="Country" type="text" value=""/>
+</div>
+<div class="col-4 mb-5">
+<input class="form-control border-form-control required" id="step-form-postalcode" name="step-form-postalcode" placeholder="Postal Code" type="text" value=""/>
+</div>
+<div class="col-12">
+<a class="btn px-5 py-3 tab-action-btn-next float-end text-white" href="#" style="background-color: #3D1144;">下一个步骤</a>
+</div>
+</div>
+</div>
+<div aria-labelledby="tab-reservation-msg" class="tab-pane fade" id="tab-reservation-msg" role="tabpanel">
+<span class="op-05 text-smaller ls1">步骤 - 3/3</span>
+<h2 class="mb-5 text-uppercase ls1 fw-bold">您的消息</h2>
+<div class="row">
+<div class="col-12 mb-5">
+<label for="step-form-message">您的消息 :</label>
+<textarea class="required form-control" id="step-form-message" name="step-form-message" placeholder="Write your message here..." rows="5"></textarea>
+</div>
+<div class="col-12 d-none">
+<input id="step-form-botcheck" name="step-form-botcheck" type="text" value="">
+</input></div>
+<div class="col-12">
+<button class="btn px-5 py-3 float-end text-white" name="step-form-submit" style="background-color: #3D1144;" type="submit">现在就提交</button>
+</div>
+<input name="prefix" type="hidden" value="step-form-"/>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</section><!--内容结束-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--DatePicker 联合来文-->
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<script>
 		jQuery(document).ready( function(){
 
 			$('.tab-action-btn-next').click(function(e) {
@@ -361,6 +319,5 @@
 
 		});
 	</script>
-
 </body>
 </html>

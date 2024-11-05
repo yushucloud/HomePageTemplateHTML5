@@ -1,820 +1,699 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<!-- Travel Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/travel/travel.css" type="text/css" />
-	<link rel="stylesheet" href="css/components/datepicker.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="stylesheet" href="css/colors.php?color=AC4147" type="text/css" />
-
-	<!-- / -->
-
-	<!-- Document Title
-	============================================= -->
-	<title>Holidays - Travel | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<!--旅行 Demo 特定样式表-->
+<link href="demos/travel/travel.css" rel="stylesheet" type="text/css"/>
+<link href="css/components/datepicker.css" rel="stylesheet" type="text/css"/>
+<!-- / -->
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="css/colors.php?color=AC4147" rel="stylesheet" type="text/css"/>
+<!-- / -->
+<!--文件标题 =============================================-->
+<title>假日 -- -- 旅行</title>
 </head>
-
 <body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Top Bar
-		============================================= -->
-		<div id="top-bar" class="transparent-topbar dark">
-			<div class="container">
-
-				<div class="row justify-content-between">
-					<div class="col-12 col-md-auto">
-
-						<!-- Top Links
-						============================================= -->
-						<div class="top-links">
-							<ul class="top-links-container">
-								<li class="top-links-item"><a href="demo-travel.html">Home</a></li>
-								<li class="top-links-item"><a href="faqs.html">FAQs</a></li>
-								<li class="top-links-item"><a href="contact.html">Contact</a></li>
-								<li class="top-links-item"><a href="#">USD</a>
-									<ul class="top-links-sub-menu">
-										<li class="top-links-item"><a href="#">EUR</a></li>
-										<li class="top-links-item"><a href="#">AUD</a></li>
-										<li class="top-links-item"><a href="#">GBP</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div><!-- .top-links end -->
-
-					</div>
-
-					<div class="col-12 col-md-auto">
-
-						<!-- Top Social
-						============================================= -->
-						<ul id="top-social">
-							<li><a href="#" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
-							<li><a href="#" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
-							<li><a href="#" class="si-pinterest"><span class="ts-icon"><i class="icon-pinterest"></i></span><span class="ts-text">Pinterest</span></a></li>
-							<li><a href="#" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
-							<li><a href="tel:+1.11.85412542" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">+1.11.85412542</span></a></li>
-							<li><a href="mailto:info@canvas.com" class="si-email3"><span class="ts-icon"><i class="icon-envelope-alt"></i></span><span class="ts-text">info@canvas.com</span></a></li>
-						</ul><!-- #top-social end -->
-
-					</div>
-				</div>
-
-			</div>
-		</div><!-- #top-bar end -->
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="transparent-header dark" data-sticky-class="not-dark" data-responsive-class="not-dark" data-menu-padding="28">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="demo-travel.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-							<a href="demo-travel.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu style-4 menu-spacing-margin">
-
-							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="demo-travel.html"><div><i class="icon-home2"></i>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-plane"></i>Flights</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-travel-hotels.html"><div><i class="icon-building"></i>Hotels</div></a></li>
-								<li class="menu-item current"><a class="menu-link" href="demo-travel-holidays.html"><div><i class="icon-gift"></i>Holidays</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-travel-blog.html"><div><i class="icon-pencil2"></i>Blog</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-phone3"></i>1800 105 2541</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Page Title
-		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-dark page-title-video include-header include-topbar" style="padding: 80px 0">
-
-			<div class="video-wrap">
-				<video poster="demos/travel/images/videos/1.jpg" preload="auto" loop autoplay muted>
-					<source src='demos/travel/images/videos/1.mp4' type='video/mp4' />
-				</video>
-			</div>
-
-			<div class="container dark clearfix">
-				<div class="heading-block center topmargin border-bottom-0">
-					<h3 data-animate="fadeInUp">Choose Your Best Holiday Destination</h3>
-				</div>
-
-				<form action="#" method="post" class="mx-auto landing-wide-form clearfix mb-0" style="max-width: 1000px">
-					<div class="row">
-						<div class="col-lg-3 col-md-4">
-							<input type="text" class="form-control form-control-lg not-dark" value="" placeholder="From">
-						</div>
-						<div class="col-lg-3 col-md-4">
-							<input type="email" class="form-control form-control-lg not-dark" value="" placeholder="Destination">
-						</div>
-						<div class="col-lg-3 col-md-4">
-							<div class="travel-date-group input-daterange">
-								<input type="text" value="" class="form-control form-control-lg not-dark text-start mnth" name="end" placeholder="mm-yyyy">
-							</div>
-						</div>
-						<div class="w-100 topmargin d-none d-md-block d-lg-none"></div>
-						<div class="col-lg-3 clearfix">
-							<button class="button btn-lg button-rounded w-100 m-0" value="submit" type="submit" style="height: 46px">Search Holiday</button>
-						</div>
-					</div>
-				</form>
-			</div>
-
-		</section><!-- #page-title end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap py-0">
-
-				<div class="section mt-0">
-					<div class="container clearfix">
-
-						<div class="heading-block center border-bottom-0 mb-0">
-							<span class="before-heading color">Most Popular Holiday Packages for You</span>
-							<h2>Tailor made Packages for you</h2>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="container bottommargin-lg clearfix">
-					<div class="row col-mb-50">
-						<div class="col-lg-8">
-							<div class="heading-block bottommargin-sm border-bottom-0">
-								<h4>Today's Top Deals</h4>
-							</div>
-							<div class="fslider flex-thumb-grid grid-6 travel-slider" data-animation="fade" data-arrows="true" data-thumbs="true">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/europe.jpg">
-											<a href="#">
-												<img src="demos/travel/images/packages/places/europe.jpg" alt="Image">
-												<div class="bg-overlay">
-													<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
-														<div class="portfolio-desc">
-															<h3>Europe-Hot Deals</h3>
-															<span>6 Nights &middot; Starting from $2999</span>
-														</div>
-													</div>
-												</div>
-											</a>
-										</div>
-										<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/thailand.jpg">
-											<a href="#">
-												<img src="demos/travel/images/packages/places/thailand.jpg" alt="Image">
-												<div class="bg-overlay">
-													<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
-														<div class="portfolio-desc">
-															<h3>Thailand</h3>
-															<span>5 Nights &middot; Starting from $2999</span>
-														</div>
-													</div>
-												</div>
-											</a>
-										</div>
-										<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/bali.jpg">
-											<a href="#">
-												<img src="demos/travel/images/packages/places/bali.jpg" alt="Image">
-												<div class="bg-overlay">
-													<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
-														<div class="portfolio-desc">
-															<h3>Indonesia</h3>
-															<span>7 Days &middot; Starting from $69</span>
-														</div>
-													</div>
-												</div>
-											</a>
-										</div>
-										<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/dubai.jpg">
-											<a href="#">
-												<img src="demos/travel/images/packages/places/dubai.jpg" alt="Image">
-												<div class="bg-overlay">
-													<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
-														<div class="portfolio-desc">
-															<h3>Dubai</h3>
-															<span>Starting from $89</span>
-														</div>
-													</div>
-												</div>
-											</a>
-										</div>
-										<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/germany.jpg">
-											<a href="#">
-												<img src="demos/travel/images/packages/places/germany.jpg" alt="Image">
-												<div class="bg-overlay">
-													<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
-														<div class="portfolio-desc">
-															<h3>Germany</h3>
-															<span>8 Days</span>
-														</div>
-													</div>
-												</div>
-											</a>
-										</div>
-										<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/australia.jpg">
-											<a href="#">
-												<img src="demos/travel/images/packages/places/australia.jpg" alt="Image">
-												<div class="bg-overlay">
-													<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
-														<div class="portfolio-desc">
-															<h3>Australia</h3>
-															<span>9 Days &middot; Starting from $129.99</span>
-														</div>
-													</div>
-												</div>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-4">
-							<div class="heading-block bottommargin-sm border-bottom-0">
-								<h4>Popular Destinations</h4>
-							</div>
-
-							<div class="posts-sm row col-mb-30">
-								<div class="entry col-sm-6 col-lg-12">
-									<div class="grid-inner row align-items-center g-0">
-										<div class="col-auto">
-											<div class="entry-image">
-												<a href="#"><img src="images/magazine/small/1.jpg" alt="Image"></a>
-											</div>
-										</div>
-										<div class="col ps-3">
-											<div class="entry-title">
-												<h4><a href="#">7 Nights/8 Days Europe</a></h4>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><span class="color">$599</span> onwards</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="entry col-sm-6 col-lg-12">
-									<div class="grid-inner row align-items-center g-0">
-										<div class="col-auto">
-											<div class="entry-image">
-												<a href="#"><img src="images/magazine/small/2.jpg" alt="Image"></a>
-											</div>
-										</div>
-										<div class="col ps-3">
-											<div class="entry-title">
-												<h4><a href="#">4 Nights/5 Days Thailand</a></h4>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><span class="color">$399</span> onwards</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="entry col-sm-6 col-lg-12">
-									<div class="grid-inner row align-items-center g-0">
-										<div class="col-auto">
-											<div class="entry-image">
-												<a href="#"><img src="images/magazine/small/3.jpg" alt="Image"></a>
-											</div>
-										</div>
-										<div class="col ps-3">
-											<div class="entry-title">
-												<h4><a href="#">11 Nights/12 Days America</a></h4>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><span class="color">$1299</span> onwards</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="entry col-sm-6 col-lg-12">
-									<div class="grid-inner row align-items-center g-0">
-										<div class="col-auto">
-											<div class="entry-image">
-												<a href="#"><img src="images/magazine/small/4.jpg" alt="Image"></a>
-											</div>
-										</div>
-										<div class="col ps-3">
-											<div class="entry-title">
-												<h4><a href="#">14 Nights/15 Days New Zealand</a></h4>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><span class="color">$1999</span> onwards</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="entry col-sm-6 col-lg-12">
-									<div class="grid-inner row align-items-center g-0">
-										<div class="col-auto">
-											<div class="entry-image">
-												<a href="#"><img src="images/magazine/small/5.jpg" alt="Image"></a>
-											</div>
-										</div>
-										<div class="col ps-3">
-											<div class="entry-title">
-												<h4><a href="#">4 Nights/5 Days Thailand</a></h4>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><span class="color">$399</span> onwards</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="entry col-sm-6 col-lg-12">
-									<div class="grid-inner row align-items-center g-0">
-										<div class="col-auto">
-											<div class="entry-image">
-												<a href="#"><img src="images/magazine/small/6.jpg" alt="Image"></a>
-											</div>
-										</div>
-										<div class="col ps-3">
-											<div class="entry-title">
-												<h4><a href="#">7 Nights/8 Days Europe</a></h4>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><span class="color">$599</span> onwards</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="section m-0">
-					<div class="container clearfix">
-						<div class="heading-block center mb-0 border-bottom-0">
-							<h3>Popular Destinations</h3>
-						</div>
-					</div>
-				</div>
-
-				<div id="portfolio" class="portfolio row grid-container portfolio-overlay-open g-0">
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-media pf-icons">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="portfolio-single.html">
-									<img src="demos/travel/images/packages/1.jpg" alt="Beach Activities">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column">
-											<div class="portfolio-desc pt-0 center">
-												<h3>Beach Activities</h3>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-illustrations">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="portfolio-single.html">
-									<img src="demos/travel/images/packages/2.jpg" alt="Romantic Getaways">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column">
-											<div class="portfolio-desc pt-0 center">
-												<h3>Romantic Getaways</h3>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics pf-uielements">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="#">
-									<img src="demos/travel/images/packages/3.jpg" alt="Mountain Madness">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column">
-											<div class="portfolio-desc pt-0 center">
-												<h3>Mountain Madness</h3>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-icons pf-illustrations">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="portfolio-single.html">
-									<img src="demos/travel/images/packages/4.jpg" alt="Active Explorer">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column">
-											<div class="portfolio-desc pt-0 center">
-												<h3>Active Explorer</h3>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-uielements pf-media">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="portfolio-single.html">
-									<img src="demos/travel/images/packages/5.jpg" alt="Icy Challenge">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column">
-											<div class="portfolio-desc pt-0 center">
-												<h3>Icy Challenge</h3>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics pf-illustrations">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="portfolio-single.html">
-									<img src="demos/travel/images/packages/6.jpg" alt="Hill Trekking">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column">
-											<div class="portfolio-desc pt-0 center">
-												<h3>Hill Trekking</h3>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-uielements pf-icons">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="portfolio-single-video.html">
-									<img src="demos/travel/images/packages/7.jpg" alt="Forest Camping">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column">
-											<div class="portfolio-desc pt-0 center">
-												<h3>Forest Camping</h3>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</article>
-
-					<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics">
-						<div class="grid-inner">
-							<div class="portfolio-image">
-								<a href="portfolio-single.html">
-									<img src="demos/travel/images/packages/8.jpg" alt="River Rafting">
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark flex-column">
-											<div class="portfolio-desc pt-0 center">
-												<h3>River Rafting</h3>
-											</div>
-										</div>
-										<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</article>
-
-				</div>
-
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="dark" style="background-color: #222;">
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
-
-					<div class="row col-mb-50">
-						<div class="col-md-4">
-
-							<div class="widget clearfix">
-
-								<div class="row col-mb-30">
-									<div class="col-lg-12">
-										<div class="footer-big-contacts">
-											<span>Call Us:</span>
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--上边栏 =============================================-->
+<div class="transparent-topbar dark" id="top-bar">
+<div class="container">
+<div class="row justify-content-between">
+<div class="col-12 col-md-auto">
+<!--顶端链接 =============================================-->
+<div class="top-links">
+<ul class="top-links-container">
+<li class="top-links-item"><a href="demo-travel.html">内容</a></li>
+<li class="top-links-item"><a href="faqs.html">问题</a></li>
+<li class="top-links-item"><a href="contact.html">联系人</a></li>
+<li class="top-links-item"><a href="#">美元</a>
+<ul class="top-links-sub-menu">
+<li class="top-links-item"><a href="#">欧元</a></li>
+<li class="top-links-item"><a href="#">澳大利亚</a></li>
+<li class="top-links-item"><a href="#">英镑</a></li>
+</ul>
+</li>
+</ul>
+</div><!--上行链接结束-->
+</div>
+<div class="col-12 col-md-auto">
+<!--顶级社会 =============================================-->
+<ul id="top-social">
+<li><a class="si-facebook" href="#"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">脸书</span></a></li>
+<li><a class="si-twitter" href="#"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">微博</span></a></li>
+<li><a class="si-pinterest" href="#"><span class="ts-icon"><i class="icon-pinterest"></i></span><span class="ts-text">兴趣</span></a></li>
+<li><a class="si-instagram" href="#"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">内存</span></a></li>
+<li><a class="si-call" href="tel:+1.11.85412542"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">+1.11.85412542</span></a></li>
+<li><a class="si-email3" href="mailto:info@canvas.com"><span class="ts-icon"><i class="icon-envelope-alt"></i></span><span class="ts-text">信息库@canvas.com</span></a></li>
+</ul><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}社会末日-->
+</div>
+</div>
+</div>
+</div><!--#上行结束-->
+<!--页眉 =============================================-->
+<header class="transparent-header dark" data-menu-padding="28" data-responsive-class="not-dark" data-sticky-class="not-dark" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row">
+<!--标记 =============================================-->
+<div id="logo">
+<a class="standard-logo" data-dark-logo="images/logo-dark.png" href="demo-travel.html"><img alt="Canvas Logo" src="images/logo.png"/></a>
+<a class="retina-logo" data-dark-logo="images/logo-dark@2x.png" href="demo-travel.html"><img alt="Canvas Logo" src="images/logo@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu style-4 menu-spacing-margin">
+<ul class="menu-container">
+<li class="menu-item"><a class="menu-link" href="demo-travel.html"><div><i class="icon-home2"></i>内容</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-plane"></i>飞行</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-travel-hotels.html"><div><i class="icon-building"></i>旅馆</div></a></li>
+<li class="menu-item current"><a class="menu-link" href="demo-travel-holidays.html"><div><i class="icon-gift"></i>假日</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-travel-blog.html"><div><i class="icon-pencil2"></i>博客</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-phone3"></i>1800 105 2541</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--页次 标题 =============================================-->
+<section class="page-title-parallax page-title-dark page-title-video include-header include-topbar" id="page-title" style="padding: 80px 0">
+<div class="video-wrap">
+<video autoplay="" loop="" muted="" poster="demos/travel/images/videos/1.jpg" preload="auto">
+<source src="demos/travel/images/videos/1.mp4" type="video/mp4"/>
+</video>
+</div>
+<div class="container dark clearfix">
+<div class="heading-block center topmargin border-bottom-0">
+<h3 data-animate="fadeInUp">选择您的 最佳假日目标</h3>
+</div>
+<form action="#" class="mx-auto landing-wide-form clearfix mb-0" method="post" style="max-width: 1000px">
+<div class="row">
+<div class="col-lg-3 col-md-4">
+<input class="form-control form-control-lg not-dark" placeholder="From" type="text" value=""/>
+</div>
+<div class="col-lg-3 col-md-4">
+<input class="form-control form-control-lg not-dark" placeholder="Destination" type="email" value=""/>
+</div>
+<div class="col-lg-3 col-md-4">
+<div class="travel-date-group input-daterange">
+<input class="form-control form-control-lg not-dark text-start mnth" name="end" placeholder="mm-yyyy" type="text" value=""/>
+</div>
+</div>
+<div class="w-100 topmargin d-none d-md-block d-lg-none"></div>
+<div class="col-lg-3 clearfix">
+<button class="button btn-lg button-rounded w-100 m-0" style="height: 46px" type="submit" value="submit">搜索节日</button>
+</div>
+</div>
+</form>
+</div>
+</section><!--# 页面标题结束-->
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap py-0">
+<div class="section mt-0">
+<div class="container clearfix">
+<div class="heading-block center border-bottom-0 mb-0">
+<span class="before-heading color">您最受欢迎的假日套餐</span>
+<h2>裁缝制作 您的软件包</h2>
+</div>
+</div>
+</div>
+<div class="container bottommargin-lg clearfix">
+<div class="row col-mb-50">
+<div class="col-lg-8">
+<div class="heading-block bottommargin-sm border-bottom-0">
+<h4>今天的顶级交易</h4>
+</div>
+<div class="fslider flex-thumb-grid grid-6 travel-slider" data-animation="fade" data-arrows="true" data-thumbs="true">
+<div class="flexslider">
+<div class="slider-wrap">
+<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/europe.jpg">
+<a href="#">
+<img alt="Image" src="demos/travel/images/packages/places/europe.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
+<div class="portfolio-desc">
+<h3>欧洲热交易</h3>
+<span>从2999起算</span>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/thailand.jpg">
+<a href="#">
+<img alt="Image" src="demos/travel/images/packages/places/thailand.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
+<div class="portfolio-desc">
+<h3>泰国</h3>
+<span>从2999起算</span>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/bali.jpg">
+<a href="#">
+<img alt="Image" src="demos/travel/images/packages/places/bali.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
+<div class="portfolio-desc">
+<h3>印度尼西亚</h3>
+<span>从69起算</span>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/dubai.jpg">
+<a href="#">
+<img alt="Image" src="demos/travel/images/packages/places/dubai.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
+<div class="portfolio-desc">
+<h3>迪拜</h3>
+<span>从89美元开始</span>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/germany.jpg">
+<a href="#">
+<img alt="Image" src="demos/travel/images/packages/places/germany.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
+<div class="portfolio-desc">
+<h3>德国</h3>
+<span>8天时间</span>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="slide" data-thumb="demos/travel/images/packages/places/thumbs/australia.jpg">
+<a href="#">
+<img alt="Image" src="demos/travel/images/packages/places/australia.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content text-overlay-mask dark desc-sm align-items-end justify-content-start">
+<div class="portfolio-desc">
+<h3>澳大利亚</h3>
+<span>从129.99美元开始。</span>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-4">
+<div class="heading-block bottommargin-sm border-bottom-0">
+<h4>大众目的地</h4>
+</div>
+<div class="posts-sm row col-mb-30">
+<div class="entry col-sm-6 col-lg-12">
+<div class="grid-inner row align-items-center g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" src="images/magazine/small/1.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">7夜/8天欧洲</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><span class="color">$599</span>继续</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="entry col-sm-6 col-lg-12">
+<div class="grid-inner row align-items-center g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" src="images/magazine/small/2.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">4 夜/5天 泰国</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><span class="color">$399</span>继续</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="entry col-sm-6 col-lg-12">
+<div class="grid-inner row align-items-center g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" src="images/magazine/small/3.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">11 夜/12日美国</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><span class="color">$1299</span>继续</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="entry col-sm-6 col-lg-12">
+<div class="grid-inner row align-items-center g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" src="images/magazine/small/4.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">14夜15天 新西兰</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><span class="color">$1999</span>继续</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="entry col-sm-6 col-lg-12">
+<div class="grid-inner row align-items-center g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" src="images/magazine/small/5.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">4 夜/5天 泰国</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><span class="color">$399</span>继续</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="entry col-sm-6 col-lg-12">
+<div class="grid-inner row align-items-center g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" src="images/magazine/small/6.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">7夜/8天欧洲</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><span class="color">$599</span>继续</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section m-0">
+<div class="container clearfix">
+<div class="heading-block center mb-0 border-bottom-0">
+<h3>大众目的地</h3>
+</div>
+</div>
+</div>
+<div class="portfolio row grid-container portfolio-overlay-open g-0" id="portfolio">
+<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-media pf-icons">
+<div class="grid-inner">
+<div class="portfolio-image">
+<a href="portfolio-single.html">
+<img alt="Beach Activities" src="demos/travel/images/packages/1.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column">
+<div class="portfolio-desc pt-0 center">
+<h3>海滩活动</h3>
+</div>
+</div>
+<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
+</div>
+</a>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-illustrations">
+<div class="grid-inner">
+<div class="portfolio-image">
+<a href="portfolio-single.html">
+<img alt="Romantic Getaways" src="demos/travel/images/packages/2.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column">
+<div class="portfolio-desc pt-0 center">
+<h3>浪漫的逃难者</h3>
+</div>
+</div>
+<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
+</div>
+</a>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics pf-uielements">
+<div class="grid-inner">
+<div class="portfolio-image">
+<a href="#">
+<img alt="Mountain Madness" src="demos/travel/images/packages/3.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column">
+<div class="portfolio-desc pt-0 center">
+<h3>山地疯狂</h3>
+</div>
+</div>
+<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
+</div>
+</a>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-icons pf-illustrations">
+<div class="grid-inner">
+<div class="portfolio-image">
+<a href="portfolio-single.html">
+<img alt="Active Explorer" src="demos/travel/images/packages/4.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column">
+<div class="portfolio-desc pt-0 center">
+<h3>活动浏览器</h3>
+</div>
+</div>
+<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
+</div>
+</a>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-uielements pf-media">
+<div class="grid-inner">
+<div class="portfolio-image">
+<a href="portfolio-single.html">
+<img alt="Icy Challenge" src="demos/travel/images/packages/5.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column">
+<div class="portfolio-desc pt-0 center">
+<h3>冰上挑战</h3>
+</div>
+</div>
+<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
+</div>
+</a>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics pf-illustrations">
+<div class="grid-inner">
+<div class="portfolio-image">
+<a href="portfolio-single.html">
+<img alt="Hill Trekking" src="demos/travel/images/packages/6.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column">
+<div class="portfolio-desc pt-0 center">
+<h3>山地探险</h3>
+</div>
+</div>
+<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
+</div>
+</a>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-uielements pf-icons">
+<div class="grid-inner">
+<div class="portfolio-image">
+<a href="portfolio-single-video.html">
+<img alt="Forest Camping" src="demos/travel/images/packages/7.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column">
+<div class="portfolio-desc pt-0 center">
+<h3>森林露营</h3>
+</div>
+</div>
+<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
+</div>
+</a>
+</div>
+</div>
+</article>
+<article class="portfolio-item col-12 col-sm-6 col-md-4 col-lg-3 pf-graphics">
+<div class="grid-inner">
+<div class="portfolio-image">
+<a href="portfolio-single.html">
+<img alt="River Rafting" src="demos/travel/images/packages/8.jpg"/>
+<div class="bg-overlay">
+<div class="bg-overlay-content dark flex-column">
+<div class="portfolio-desc pt-0 center">
+<h3>渡河运动</h3>
+</div>
+</div>
+<div class="bg-overlay-bg dark op-ts op-05" data-hover-animate="op-1" data-hover-animate-out="op-05"></div>
+</div>
+</a>
+</div>
+</div>
+</article>
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="dark" id="footer" style="background-color: #222;">
+<div class="container">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap">
+<div class="row col-mb-50">
+<div class="col-md-4">
+<div class="widget clearfix">
+<div class="row col-mb-30">
+<div class="col-lg-12">
+<div class="footer-big-contacts">
+<span>打电话给我们:</span>
 											(1) 22 84551445
 										</div>
-									</div>
-
-									<div class="col-lg-12">
-										<div class="footer-big-contacts">
-											<span>Send an Enquiry:</span>
-											travel@canvas.com
-										</div>
-									</div>
-								</div>
-
-							</div>
-
-							<div class="widget subscribe-widget clearfix">
-								<div class="row col-mb-30">
-									<div class="col-lg-6">
-										<a href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
-											<i class="icon-facebook"></i>
-											<i class="icon-facebook"></i>
-										</a>
-										<a href="#"><small style="display: block; margin-top: 3px;"><strong>Like us</strong><br>on Facebook</small></a>
-									</div>
-									<div class="col-lg-6">
-										<a href="#" class="social-icon si-dark si-colored si-rss mb-0" style="margin-right: 10px;">
-											<i class="icon-rss"></i>
-											<i class="icon-rss"></i>
-										</a>
-										<a href="#"><small style="display: block; margin-top: 3px;"><strong>Subscribe</strong><br>to RSS Feeds</small></a>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="col-md-4">
-
-							<div class="widget clearfix">
-								<h4>Featured Packages</h4>
-
-								<div class="posts-sm row col-mb-30" id="travel-package-list-footer">
-									<div class="entry col-12">
-										<div class="grid-inner row align-items-center g-0">
-											<div class="col-auto">
-												<div class="entry-image">
-													<a href="#"><img class="rounded-circle" src="images/magazine/small/1.jpg" alt="Image"></a>
-												</div>
-											</div>
-											<div class="col ps-3">
-												<div class="entry-title">
-													<h4><a href="#">7 Nights/8 Days Europe</a></h4>
-												</div>
-												<div class="entry-meta">
-													<ul>
-														<li><strong>$599</strong> onwards</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="entry col-12">
-										<div class="grid-inner row align-items-center g-0">
-											<div class="col-auto">
-												<div class="entry-image">
-													<a href="#"><img class="rounded-circle" src="images/magazine/small/2.jpg" alt="Image"></a>
-												</div>
-											</div>
-											<div class="col ps-3">
-												<div class="entry-title">
-													<h4><a href="#">4 Nights/5 Days Thailand</a></h4>
-												</div>
-												<div class="entry-meta">
-													<ul>
-														<li><strong>$399</strong> onwards</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="entry col-12">
-										<div class="grid-inner row align-items-center g-0">
-											<div class="col-auto">
-												<div class="entry-image">
-													<a href="#"><img class="rounded-circle" src="images/magazine/small/3.jpg" alt="Image"></a>
-												</div>
-											</div>
-											<div class="col ps-3">
-												<div class="entry-title">
-													<h4><a href="#">11 Nights/12 Days America</a></h4>
-												</div>
-												<div class="entry-meta">
-													<ul>
-														<li><strong>$1299</strong> onwards</li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-						<div class="col-md-4">
-
-							<div class="widget widget_links clearfix">
-
-								<h4>Popular Destinations</h4>
-
-								<div class="row col-mb-30">
-									<div class="col-6">
-										<ul>
-											<li><a href="#">Thailand</a></li>
-											<li><a href="#">Indonesia</a></li>
-											<li><a href="#">Italy</a></li>
-											<li><a href="#">Spain</a></li>
-										</ul>
-									</div>
-									<div class="col-6">
-										<ul>
-											<li><a href="#">India</a></li>
-											<li><a href="#">France</a></li>
-											<li><a href="#">Philippines</a></li>
-											<li><a href="#">New Zealand</a></li>
-										</ul>
-									</div>
-								</div>
-
-							</div>
-
-							<div class="widget subscribe-widget clearfix">
-								<h5>Get Latest <strong>Offers</strong> &amp; <strong>Coupons</strong> by Email:</h5>
-								<div class="widget-subscribe-form-result"></div>
-								<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
-									<div class="input-group mx-auto">
-										<div class="input-group-text"><i class="icon-email2"></i></div>
-										<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-										<button class="btn btn-danger bg-color" type="submit">Subscribe</button>
-									</div>
-								</form>
-							</div>
-
-						</div>
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
-				<div class="container">
-
-					<div class="row col-mb-30">
-
-						<div class="col-md-6 text-center text-md-start">
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-						</div>
-
-						<div class="col-md-6 text-center text-md-end">
-							<div class="d-flex justify-content-center justify-content-md-end">
-								<a href="#" class="social-icon si-small si-borderless si-facebook">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-twitter">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-gplus">
-									<i class="icon-gplus"></i>
-									<i class="icon-gplus"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-pinterest">
-									<i class="icon-pinterest"></i>
-									<i class="icon-pinterest"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-vimeo">
-									<i class="icon-vimeo"></i>
-									<i class="icon-vimeo"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-github">
-									<i class="icon-github"></i>
-									<i class="icon-github"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-yahoo">
-									<i class="icon-yahoo"></i>
-									<i class="icon-yahoo"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-borderless si-linkedin">
-									<i class="icon-linkedin"></i>
-									<i class="icon-linkedin"></i>
-								</a>
-							</div>
-
-							<div class="clear"></div>
-
-							<i class="icon-envelope2"></i> info@canvas.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +1-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> CanvasOnSkype
-						</div>
-
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Travel Demo Specific Script -->
-	<script src="js/components/datepicker.js"></script>
-	<!-- / -->
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<script>
+</div>
+<div class="col-lg-12">
+<div class="footer-big-contacts">
+<span>发送询问 :</span>旅行@canvas.com</div>
+</div>
+</div>
+</div>
+<div class="widget subscribe-widget clearfix">
+<div class="row col-mb-30">
+<div class="col-lg-6">
+<a class="social-icon si-dark si-colored si-facebook mb-0" href="#" style="margin-right: 10px;">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a href="#"><small style="display: block; margin-top: 3px;"><strong>像我们一样</strong><br/>在脸书上</small></a>
+</div>
+<div class="col-lg-6">
+<a class="social-icon si-dark si-colored si-rss mb-0" href="#" style="margin-right: 10px;">
+<i class="icon-rss"></i>
+<i class="icon-rss"></i>
+</a>
+<a href="#"><small style="display: block; margin-top: 3px;"><strong>订阅</strong><br/>转到RSS 种子</small></a>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="widget clearfix">
+<h4>特色软件包</h4>
+<div class="posts-sm row col-mb-30" id="travel-package-list-footer">
+<div class="entry col-12">
+<div class="grid-inner row align-items-center g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" class="rounded-circle" src="images/magazine/small/1.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">7夜/8天欧洲</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><strong>$599</strong>继续</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="entry col-12">
+<div class="grid-inner row align-items-center g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" class="rounded-circle" src="images/magazine/small/2.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">4 夜/5天 泰国</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><strong>$399</strong>继续</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="entry col-12">
+<div class="grid-inner row align-items-center g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" class="rounded-circle" src="images/magazine/small/3.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">11 夜/12日美国</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><strong>$1299</strong>继续</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="widget widget_links clearfix">
+<h4>大众目的地</h4>
+<div class="row col-mb-30">
+<div class="col-6">
+<ul>
+<li><a href="#">泰国</a></li>
+<li><a href="#">印度尼西亚</a></li>
+<li><a href="#">意大利</a></li>
+<li><a href="#">页:1</a></li>
+</ul>
+</div>
+<div class="col-6">
+<ul>
+<li><a href="#">印度</a></li>
+<li><a href="#">法国</a></li>
+<li><a href="#">菲律宾</a></li>
+<li><a href="#">新西兰</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="widget subscribe-widget clearfix">
+<h5>获取最新消息<strong>提议</strong> &amp; <strong>债券</strong>通过电子邮件:</h5>
+<div class="widget-subscribe-form-result"></div>
+<form action="include/subscribe.php" class="mb-0" id="widget-subscribe-form" method="post">
+<div class="input-group mx-auto">
+<div class="input-group-text"><i class="icon-email2"></i></div>
+<input class="form-control required email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" placeholder="Enter your Email" type="email"/>
+<button class="btn btn-danger bg-color" type="submit">订阅</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div><!--脚- 脚- 接- 包尾端-->
+</div>
+<!--版权 =============================================-->
+<div id="copyrights">
+<div class="container">
+<div class="row col-mb-30">
+<div class="col-md-6 text-center text-md-start">版权:&amp;quot;2020&amp;quot; Canvas股份有限公司保留的所有权利.<br/>
+<div class="copyright-links"><a href="#">使用条件</a> / <a href="#">隐私政策</a></div>
+</div>
+<div class="col-md-6 text-center text-md-end">
+<div class="d-flex justify-content-center justify-content-md-end">
+<a class="social-icon si-small si-borderless si-facebook" href="#">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-small si-borderless si-twitter" href="#">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-small si-borderless si-gplus" href="#">
+<i class="icon-gplus"></i>
+<i class="icon-gplus"></i>
+</a>
+<a class="social-icon si-small si-borderless si-pinterest" href="#">
+<i class="icon-pinterest"></i>
+<i class="icon-pinterest"></i>
+</a>
+<a class="social-icon si-small si-borderless si-vimeo" href="#">
+<i class="icon-vimeo"></i>
+<i class="icon-vimeo"></i>
+</a>
+<a class="social-icon si-small si-borderless si-github" href="#">
+<i class="icon-github"></i>
+<i class="icon-github"></i>
+</a>
+<a class="social-icon si-small si-borderless si-yahoo" href="#">
+<i class="icon-yahoo"></i>
+<i class="icon-yahoo"></i>
+</a>
+<a class="social-icon si-small si-borderless si-linkedin" href="#">
+<i class="icon-linkedin"></i>
+<i class="icon-linkedin"></i>
+</a>
+</div>
+<div class="clear"></div>
+<i class="icon-envelope2"></i>信息库@canvas.com<span class="middot">·</span> <i class="icon-headphones"></i> +1-11-6541-6369 <span class="middot">·</span> <i class="icon-skype2"></i>斯凯普岛</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--旅行演示文稿-->
+<script src="js/components/datepicker.js"></script>
+<!-- / -->
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<script>
 
 		$(function() {
 			$('.travel-date-group').datepicker({
@@ -826,6 +705,5 @@
 		});
 
 	</script>
-
 </body>
 </html>

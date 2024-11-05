@@ -1,101 +1,72 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Popup | Canvas</title>
-
-	<style>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!--文件标题 =============================================-->
+<title>弹出相机</title>
+<style>
 
 		.text-color { color: #028090 !important; }
 
 	</style>
-
 </head>
-
-<body class="stretched ">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap py-0">
-
-				<div class="d-flex flex-column align-items-center justify-content-between min-vh-100">
-					<div></div>
-					<h3 class="mb-2">Modal/Banner on Page Load</h3>
-					<small class="op-05 pb-4" onClick="window.location.reload();" style="cursor: pointer;"><u>Refresh this Page</u></small>
-				</div>
-
-				<div class="modal-on-load" data-target="#block-modal-sale"></div>
-
-				<!-- Modal -->
-				<div class="modal1 mfp-hide" id="block-modal-sale">
-					<div class="modal-dialog modal-dialog-centered modal-lg">
-						<div class="modal-content p-4 p-md-5 rounded-0 border-0" style="background: linear-gradient(to bottom, transparent 40%, #f0f3bd 40%); background-size: 100% auto">
-
-							<div class="row justify-content-center">
-								<div class="col-11">
-									<img src="http://source.unsplash.com/_KaMTEmJnxY" alt="Image" style="border: 20px solid #f0f3bd">
-								</div>
-								<div class="col-12 mt-4 text-center text-md-start">
-									<div class="row ">
-										<div class="col-md-7">
-											<h2 class="mb-2 fw-bold display-4 text-color">Winter Sale!</h2>
-											<h3 class="text-uppercase ls1 fw-light mb-0 text-color">Upto <strong>50%</strong>Off!</h3>
-										</div>
-
-										<div class="col-md-5 text-md-end mt-4 mt-md-0">
-											<h3 class="mb-0">10th - 31st</h3>
-											<p class="text-uppercase ls3 text-larger mb-4">December</p>
-											<a href="#" class="btn btn-lg px-4 text-white" style="background-color: #028090;">Shop Now</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section><!-- #content end -->
-
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-
+<body class="stretched">
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap py-0">
+<div class="d-flex flex-column align-items-center justify-content-between min-vh-100">
+<div></div>
+<h3 class="mb-2">页面上装入的 Modal/ Banner</h3>
+<small class="op-05 pb-4" onclick="window.location.reload();" style="cursor: pointer;"><u>刷新此页面</u></small>
+</div>
+<div class="modal-on-load" data-target="#block-modal-sale"></div>
+<!--模式-->
+<div class="modal1 mfp-hide" id="block-modal-sale">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+<div class="modal-content p-4 p-md-5 rounded-0 border-0" style="background: linear-gradient(to bottom, transparent 40%, #f0f3bd 40%); background-size: 100% auto">
+<div class="row justify-content-center">
+<div class="col-11">
+<img alt="Image" src="http://source.unsplash.com/_KaMTEmJnxY" style="border: 20px solid #f0f3bd"/>
+</div>
+<div class="col-12 mt-4 text-center text-md-start">
+<div class="row">
+<div class="col-md-7">
+<h2 class="mb-2 fw-bold display-4 text-color">冬季买卖!</h2>
+<h3 class="text-uppercase ls1 fw-light mb-0 text-color">达到<strong>50%</strong>关!</h3>
+</div>
+<div class="col-md-5 text-md-end mt-4 mt-md-0">
+<h3 class="mb-0">第10次至第31次会议</h3>
+<p class="text-uppercase ls3 text-larger mb-4">12月(半天)</p>
+<a class="btn btn-lg px-4 text-white" href="#" style="background-color: #028090;">现在上店</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><!--内容结束-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
 </body>
 </html>

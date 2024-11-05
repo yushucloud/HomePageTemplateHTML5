@@ -1,939 +1,824 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Montserrat:300,400,500,600,700|Merriweather:300,400,300i,400i&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
-
-	<!-- eCommerce Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/ecommerce/ecommerce.css" type="text/css" />
-	<link rel="stylesheet" href="demos/ecommerce/css/fonts.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="stylesheet" href="css/colors.php?color=000000" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Canvas Shop | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Montserrat:300,400,500,600,700|Merriweather:300,400,300i,400i&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/swiper.css" rel="stylesheet" type="text/css"/>
+<!--eCommerce Demo 特定样式表-->
+<link href="demos/ecommerce/ecommerce.css" rel="stylesheet" type="text/css"/>
+<link href="demos/ecommerce/css/fonts.css" rel="stylesheet" type="text/css"/>
+<!-- / -->
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="css/colors.php?color=000000" rel="stylesheet" type="text/css"/>
+<!--文件标题 =============================================-->
+<title>罐头店 罐头店</title>
 </head>
-
 <body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Top Bar
-		============================================= -->
-		<div id="top-bar" class="dark">
-			<div class="container py-3">
-				<p class="center mb-0 clearfix">Back to the future of awesome Bags: Introducing canvas market. <a href="#">Shop Now</a><a href="#" id="close-bar" class="float-end border-bottom-0"><i class="icon-line-cross"></i></a></p>
-			</div>
-		</div>
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="full-header no-sticky" data-menu-padding="30">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row align-items-lg-stretch">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/ecommerce/images/logo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/ecommerce/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div class="header-misc align-items-lg-stretch">
-
-							<!-- Top Cart
-							============================================= -->
-							<div id="top-cart" class="header-misc-icon">
-								<a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span class="top-cart-number">5</span></a>
-								<div class="top-cart-content">
-									<div class="top-cart-title">
-										<h4>Shopping Cart</h4>
-									</div>
-									<div class="top-cart-items">
-										<div class="top-cart-item">
-											<div class="top-cart-item-image">
-												<a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-											</div>
-											<div class="top-cart-item-desc">
-												<div class="top-cart-item-desc-title">
-													<a href="#">Blue Round-Neck Tshirt with a Button</a>
-													<span class="top-cart-item-price d-block">$19.99</span>
-												</div>
-												<div class="top-cart-item-quantity">x 2</div>
-											</div>
-										</div>
-										<div class="top-cart-item">
-											<div class="top-cart-item-image">
-												<a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-											</div>
-											<div class="top-cart-item-desc">
-												<div class="top-cart-item-desc-title">
-													<a href="#">Light Blue Denim Dress</a>
-													<span class="top-cart-item-price d-block">$24.99</span>
-												</div>
-												<div class="top-cart-item-quantity">x 3</div>
-											</div>
-										</div>
-									</div>
-									<div class="top-cart-action">
-										<span class="top-checkout-price">$114.95</span>
-										<a href="#" class="button button-3d button-small m-0">View Cart</a>
-									</div>
-								</div>
-							</div><!-- #top-cart end -->
-
-							<!-- Top Account
-							============================================= -->
-							<div class="header-misc-icon">
-								<a href="#"><i class="icon-line2-user"></i></a>
-							</div>
-
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
-
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu style-ecommerce menu-spacing-margin">
-
-							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="#"><div>Home</div></a></li>
-								<li class="menu-item mega-menu"><a class="menu-link" href="#"><div>Men</div></a>
-									<div class="mega-menu-content mega-menu-style-2" style="background-image: url('images/shop/shop-menu.jpg'); background-repeat: no-repeat; background-position: right bottom;">
-										<div class="container">
-											<div class="row">
-												<ul class="sub-menu-container mega-menu-column col-xl-2 col-lg-3">
-													<li class="menu-item">
-														<div class="widget">
-
-															<div class="portfolio-item">
-																<div class="portfolio-image">
-																	<a href="#"><img src="demos/ecommerce/images/items/1-1.jpg" alt="Grey Bag"></a>
-																	<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-																	<div class="product-quickview"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Available Sizes: S | M | L"><i class="icon-info"></i></a></div>
-																</div>
-																<div class="portfolio-desc pb-0">
-																	<div>
-																		<h3><a href="#">Leather Bag</a></h3>
-																		<span class="mt-0"><a href="#">Messenger Bag</a></span>
-																		<div class="rating-stars">
-																			<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i>
-																		</div>
-																	</div>
-																	<div class="item-price">
-																		<span>&euro;29.99</span>
-																	</div>
-																</div>
-															</div>
-
-														</div>
-													</li>
-												</ul>
-												<ul class="sub-menu-container mega-menu-column col-lg-3">
-													<li class="menu-item">
-														<div class="widget">
-
-															<h4 class="highlight-me">Last Viewed Items</h4>
-
-															<div class="posts-sm row col-mb-30" id="recent-shop-list-sidebar">
-																<div class="entry col-12">
-																	<div class="grid-inner row g-0">
-																		<div class="col-auto">
-																			<div class="entry-image">
-																				<a href="#"><img src="demos/ecommerce/images/items/2-1.jpg" alt="Image"></a>
-																			</div>
-																		</div>
-																		<div class="col ps-3">
-																			<div class="entry-title">
-																				<h4><a href="#">Women's Hand Bag</a></h4>
-																			</div>
-																			<div class="entry-meta no-separator">
-																				<ul class="sub-menu-container">
-																					<li class="color">$15</li>
-																					<li class="menu-item"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i></li>
-																				</ul>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-
-																<div class="entry col-12">
-																	<div class="grid-inner row g-0">
-																		<div class="col-auto">
-																			<div class="entry-image">
-																				<a href="#"><img src="demos/ecommerce/images/items/3-1.jpg" alt="Image"></a>
-																			</div>
-																		</div>
-																		<div class="col ps-3">
-																			<div class="entry-title">
-																				<h4><a href="#">Laptop Bag</a></h4>
-																			</div>
-																			<div class="entry-meta no-separator">
-																				<ul class="sub-menu-container">
-																					<li class="color">$19</li>
-																					<li class="menu-item"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i></li>
-																				</ul>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-
-																<div class="entry col-12">
-																	<div class="grid-inner row g-0">
-																		<div class="col-auto">
-																			<div class="entry-image">
-																				<a href="#"><img src="demos/ecommerce/images/items/4-1.jpg" alt="Image"></a>
-																			</div>
-																		</div>
-																		<div class="col ps-3">
-																			<div class="entry-title">
-																				<h4><a href="#">College Backpack</a></h4>
-																			</div>
-																			<div class="entry-meta no-separator">
-																				<ul class="sub-menu-container">
-																					<li class="color">$19.99</li>
-																					<li class="menu-item"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i><i class="icon-star-empty"></i></li>
-																				</ul>
-																			</div>
-																		</div>
-																	</div>
-																</div>
-															</div>
-
-														</div>
-													</li>
-												</ul>
-												<ul class="sub-menu-container mega-menu-column col-lg-2">
-													<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>Categories</div></a>
-														<ul class="sub-menu-container">
-															<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-t-shirt"></i>Travel Bags</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-laptop2"></i>Backpacks</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-clock2"></i>Leather Bag</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-plane"></i>Travel Bag</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-barbell"></i>Trolley</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-heart3"></i>Workout Bag</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-film"></i>Hand Bag</div></a></li>
-														</ul>
-													</li>
-												</ul>
-												<ul class="sub-menu-container mega-menu-column col-lg-2 border-start-0">
-													<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>Popular Brands</div></a>
-														<ul class="sub-menu-container">
-															<li class="menu-item"><a class="menu-link" href="#"><div>United Colors</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Burton London</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Calvin Clein Jeans</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Dorothy Perkins</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Tommy Hilfiger</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Gucci</div></a></li>
-														</ul>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</li>
-								<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="#"><div>Women</div></a>
-									<div class="mega-menu-content mega-menu-style-2">
-										<div class="container">
-											<div class="row">
-												<ul class="sub-menu-container mega-menu-column col-lg-6">
-													<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>Footwear</div></a>
-														<ul class="sub-menu-container">
-															<li class="menu-item"><a class="menu-link" href="#"><div>Casual Shoes</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Formal Shoes</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Sports shoes</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Flip Flops</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Slippers</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Sports Sandals</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Party Shoes</div></a></li>
-														</ul>
-													</li>
-												</ul>
-												<ul class="sub-menu-container mega-menu-column col-lg-6">
-													<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>Clothing</div></a>
-														<ul class="sub-menu-container">
-															<li class="menu-item"><a class="menu-link" href="#"><div>Casual Shirts</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>T-Shirts</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Collared Tees</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Pants / Trousers</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Ethnic Wear</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Jeans</div></a></li>
-															<li class="menu-item"><a class="menu-link" href="#"><div>Sweamwear</div></a></li>
-														</ul>
-													</li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</li><!-- .mega-menu end -->
-								<li class="menu-item"><a class="menu-link" href="#"><div>Accessories</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div>Sale</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div>Blog</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div>Contact</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-						<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form>
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element swiper_wrapper min-vh-40 min-vh-md-75" data-autoplay="9000" data-speed="800" data-loop="true" data-grab="false">
-
-			<div class="swiper-container swiper-parent">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<div class="container">
-							<div class="slider-caption" style="margin-top: -30px;">
-								<div class="emphasis-title mb-0">
-									<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">We Create<br>diff. Websites</h2>
-
-									<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">Competently reintermediate user friendly scenarios after global synergy. Globally build compelling niche markets rather than bricks-and-clicks alignments. Continually revolutionize interactive strategic theme.</p>
-								</div>
-							</div>
-						</div>
-						<div class="slide-number font-primary">O1</div>
-						<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/1.jpg') no-repeat center right; background-size: auto 100%;"></div>
-					</div>
-					<div class="swiper-slide">
-						<div class="container">
-							<div class="slider-caption" style="margin-top: -30px;">
-								<div class="emphasis-title mb-0">
-									<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">We Create<br>diff. Designs</h2>
-
-									<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">Competently reintermediate user friendly scenarios after global synergy. Globally build compelling niche markets rather than bricks-and-clicks alignments. Continually revolutionize interactive strategic theme.</p>
-								</div>
-							</div>
-						</div>
-						<div class="slide-number font-primary">O2</div>
-						<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/2.jpg') no-repeat center right; background-size: auto 100%;"></div>
-					</div>
-					<div class="swiper-slide">
-						<div class="container">
-							<div class="slider-caption" style="margin-top: -30px;">
-								<div class="emphasis-title mb-0">
-									<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">We Create<br>diff. Layouts</h2>
-
-									<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">Competently reintermediate user friendly scenarios after global synergy. Globally build compelling niche markets rather than bricks-and-clicks alignments. Continually revolutionize interactive strategic theme.</p>
-								</div>
-							</div>
-						</div>
-						<div class="slide-number font-primary">O3</div>
-						<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/3.jpg') no-repeat center right; background-size: auto 100%;"></div>
-					</div>
-					<div class="swiper-slide">
-						<div class="container">
-							<div class="slider-caption" style="margin-top: -30px;">
-								<div class="emphasis-title mb-0">
-									<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">We Create<br>diff. Mindset</h2>
-
-									<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">Competently reintermediate user friendly scenarios after global synergy. Globally build compelling niche markets rather than bricks-and-clicks alignments. Continually revolutionize interactive strategic theme.</p>
-								</div>
-							</div>
-						</div>
-						<div class="slide-number font-primary">O4</div>
-						<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/4.jpg') no-repeat center right; background-size: auto 100%;"></div>
-					</div>
-					<div class="swiper-slide">
-						<div class="container">
-							<div class="slider-caption" style="margin-top: -30px;">
-								<div class="emphasis-title mb-0">
-									<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">We Create<br>your Website</h2>
-
-									<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">Competently reintermediate user friendly scenarios after global synergy. Globally build compelling niche markets rather than bricks-and-clicks alignments. Continually revolutionize interactive strategic theme.</p>
-								</div>
-							</div>
-						</div>
-						<div class="slide-number font-primary">O5</div>
-						<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/5.jpg') no-repeat center right; background-size: auto 100%;"></div>
-					</div>
-					<div class="swiper-slide">
-						<div class="container">
-							<div class="slider-caption" style="margin-top: -30px;">
-								<div class="emphasis-title mb-0">
-									<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">We Create<br>your Home</h2>
-
-									<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">Competently reintermediate user friendly scenarios after global synergy. Globally build compelling niche markets rather than bricks-and-clicks alignments. Continually revolutionize interactive strategic theme.</p>
-								</div>
-							</div>
-						</div>
-						<div class="slide-number font-primary">O6</div>
-						<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/6.jpg') no-repeat center right; background-size: auto 100%;"></div>
-					</div>
-				</div>
-				<div class="slider-arrow-left"><i class="icon-line-arrow-left"></i></div>
-				<div class="slider-arrow-right"><i class="icon-line-arrow-right"></i></div>
-			</div>
-
-		</section><!-- #Slider End -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap py-0">
-
-				<div class="section mt-0"  style="padding: 100px 0;">
-					<div class="container">
-
-						<div class="row grid-item">
-							<div class="col-md-2 grid-image">
-								<img src="demos/ecommerce/images/categories/1.jpg" alt="Image 1">
-							</div>
-							<div class="col-md-2">
-								<div class="grid-info clearfix">
-									<h3><a href="#">Fresh Arrivals<span>Summer is Coming!</span></a></h3>
-									<a href="#" class="more-link clearfix">Shop Now</a>
-								</div>
-							</div>
-							<div class="col-md-2 grid-image">
-								<img src="demos/ecommerce/images/categories/2.jpg" alt="Image 1">
-							</div>
-							<div class="col-md-2">
-								<div class="grid-info clearfix">
-									<h3><a href="#">Acessories<span>Check out more Products for your Lifestyles</span></a></h3>
-									<a href="#" class="more-link clearfix">Know More</a>
-								</div>
-							</div>
-
-							<div class="col-md-2 grid-image">
-								<img src="demos/ecommerce/images/categories/3.jpg" alt="Image 1">
-							</div>
-							<div class="col-md-2">
-								<div class="grid-info clearfix">
-									<h3><a href="#">Our Store<span>Where we Manufacture!</span></a></h3>
-									<i class="icon-map-marker2"></i> <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.681463596743!2d-3.19397378404521!3d55.954892680607855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78e1e83edab%3A0x627ac6bc4414f18b!2sGucci+-+Edinburgh+Harvey+Nichols+Women&#39;s!5e0!3m2!1sen!2sus!4v1489749205966" data-lightbox="iframe"  class="more-link clearfix">Find Store</a>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="container clearfix">
-
-					<div class="heading-block border-bottom-0 center">
-						<h3>Popular Categories</h3>
-						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit voluptas.</span>
-					</div>
-
-					<div class="row ecommerce-categories clearfix" style="padding: 20px 0 0;">
-						<div class="col-lg-7">
-							<a href="#" style="background: url('demos/ecommerce/images/types/1.jpg') no-repeat center center; background-size: cover;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="text-capitalize font-secondary nott fw-medium">Travel</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-5">
-							<a href="#" style="background: url('demos/ecommerce/images/types/3.jpg') no-repeat center center; background-size: cover;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="text-capitalize font-secondary nott fw-medium">College</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-
-						<div class="col-lg-4">
-							<a href="#" style="background: url('demos/ecommerce/images/types/5.jpg') no-repeat center center; background-size: cover;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="text-capitalize font-secondary nott fw-medium">Leather</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-4">
-							<a href="#" style="background: url('demos/ecommerce/images/types/6.jpg') no-repeat center center; background-size: cover;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="text-capitalize font-secondary nott fw-medium">Reise</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-4">
-							<a href="#" style="background: url('demos/ecommerce/images/types/8.jpg') no-repeat center center; background-size: cover;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="text-capitalize font-secondary nott fw-medium">Handmade</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class="col-lg-5">
-							<a href="#" style="background: url('demos/ecommerce/images/types/7.jpg') no-repeat center center; background-size: cover;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="text-capitalize font-secondary nott fw-medium">Brown</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-
-						<div class="col-lg-7">
-							<a href="#" style="background: url('demos/ecommerce/images/types/9.jpg') no-repeat center center; background-size: cover;">
-								<div class="vertical-middle dark center">
-									<div class="heading-block m-0 border-0">
-										<h3 class="text-capitalize font-secondary nott fw-medium">Acessories</h3>
-									</div>
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="section clearfix"  style="padding: 80px 0;">
-					<div class="container clearfix">
-
-						<div class="heading-block border-bottom-0 center">
-							<h3 class="fw-normal" style="font-size: 16px;">Best Selling Products</h3>
-						</div>
-
-						<div class="row clearfix">
-							<div class="col-lg-3 col-md-6">
-								<div class="portfolio-item">
-									<div class="portfolio-image clearfix">
-										<div class="fslider" data-pagi="false" data-animation="fade" data-slideshow="false">
-											<div class="flexslider">
-												<div class="slider-wrap">
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/1-1.jpg" alt="Grey Bag"></a></div>
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/1-2.jpg" alt="Grey Bag"></a></div>
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/1-3.jpg" alt="Grey Bag"></a></div>
-												</div>
-											</div>
-										</div>
-										<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-										<div class="product-quickview"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Available Sizes: S | M | L"><i class="icon-info"></i></a></div>
-									</div>
-									<div class="portfolio-desc pb-0-content-between">
-										<div>
-											<h3><a href="#">Leather Bag</a></h3>
-											<span class="mt-0"><a href="#">Grey Messenger Bag</a></span>
-											<div class="rating-stars">
-												<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i>
-											</div>
-										</div>
-										<div class="item-price pt-1">
-											<span>&euro;29.99</span>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="portfolio-item">
-									<div class="portfolio-image clearfix">
-										<div class="fslider" data-pagi="false" data-animation="fade" data-slideshow="false">
-											<div class="flexslider">
-												<div class="slider-wrap">
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/4-1.jpg" alt="Grey Bag"></a></div>
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/4-2.jpg" alt="Grey Bag"></a></div>
-												</div>
-											</div>
-										</div>
-										<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-										<div class="product-quickview"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Available Sizes: S | M | L"><i class="icon-info"></i></a></div>
-									</div>
-									<div class="portfolio-desc pb-0-content-between">
-										<div>
-											<h3><a href="#">Black Bagpack</a></h3>
-											<span class="mt-0"><a href="#">College Backpack</a></span>
-											<div class="rating-stars">
-												<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i>
-											</div>
-										</div>
-										<div class="item-price pt-1">
-											<span>&euro;23.49</span>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="w-100 bottommargin d-block d-md-none"></div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="portfolio-item">
-									<div class="portfolio-image clearfix">
-										<div class="fslider" data-pagi="false" data-animation="fade" data-slideshow="false">
-											<div class="flexslider">
-												<div class="slider-wrap">
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/2-1.jpg" alt="Office Bag"></a></div>
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/2-2.jpg" alt="Office Bag"></a></div>
-												</div>
-											</div>
-										</div>
-										<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-										<div class="product-quickview"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Available Sizes: L"><i class="icon-info"></i></a></div>
-									</div>
-									<div class="portfolio-desc pb-0-content-between">
-										<div>
-											<h3><a href="#">Women Office Bag</a></h3>
-											<span class="mt-0"><a href="#">Hand Bag</a></span>
-											<div class="rating-stars">
-												<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-empty"></i>
-											</div>
-										</div>
-										<div class="item-price pt-1">
-											<span>&euro;11.99</span>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="w-100 bottommargin d-block d-md-none"></div>
-
-							<div class="col-lg-3 col-md-6">
-								<div class="portfolio-item">
-									<div class="portfolio-image clearfix">
-										<div class="fslider" data-pagi="false" data-animation="fade" data-slideshow="false">
-											<div class="flexslider">
-												<div class="slider-wrap">
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/3-1.jpg" alt="Men Bag"></a></div>
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/3-2.jpg" alt="Men Bag"></a></div>
-													<div class="slide"><a href="#"><img src="demos/ecommerce/images/items/3-3.jpg" alt="Men Bag"></a></div>
-												</div>
-											</div>
-										</div>
-										<div class="sale-flash badge bg-danger p-2">Sale!</div>
-										<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
-										<div class="product-quickview"><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Available Sizes: S | M | L"><i class="icon-info"></i></a></div>
-									</div>
-									<div class="portfolio-desc pb-0-content-between">
-										<div>
-											<h3><a href="#">Men Black Bag</a></h3>
-											<span class="mt-0"><a href="#">Laptop Bag</a></span>
-											<div class="rating-stars">
-												<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i>
-											</div>
-										</div>
-										<div class="item-price pt-1">
-											<span><del class="d-md-none d-lg-block">$45.99</del> &euro;39.00</span>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="section bg-transparent">
-					<div class="container clearfix">
-						<div class="row clearfix">
-							<div class="col-lg-5">
-								<div id="oc-images" class="owl-carousel image-carousel carousel-widget custom-js">
-
-									<div class="oc-item">
-										<a href="#"><img src="demos/ecommerce/images/featured/1.jpg" alt="Image 1"></a>
-									</div>
-									<div class="oc-item">
-										<a href="#"><img src="demos/ecommerce/images/featured/2.jpg" alt="Image 2"></a>
-									</div>
-									<div class="oc-item">
-										<a href="#"><img src="demos/ecommerce/images/featured/3.jpg" alt="Image 3"></a>
-									</div>
-									<div class="oc-item">
-										<a href="#"><img src="demos/ecommerce/images/featured/4.jpg" alt="Image 4"></a>
-									</div>
-									<div class="oc-item">
-										<a href="#"><img src="demos/ecommerce/images/featured/5.jpg" alt="Image 5"></a>
-									</div>
-									<div class="oc-item">
-										<a href="#"><img src="demos/ecommerce/images/featured/6.jpg" alt="Image 6"></a>
-									</div>
-
-								</div>
-							</div>
-							<div class="col-lg-5 offset-lg-1">
-								<div class="featured-item topmargin">
-									<div class="item-title">
-										<div class="before-heading fw-semibold ls5"><a href="#" style="color: #aab7bd !important;">Leather Bags <i class="icon-angle-right"></i></a></div>
-										<h3><a href="#">Lady Shoulder Bag.</a></h3>
-									</div>
-									<div class="item-meta font-secondary">
-										SKU: 8465415.
-										Design: Leather / Blue
-									</div>
-									<div class="clear"></div>
-									<div class="item-desc">
-										<p>Proactively empower highly efficient growth strategies Completely enhance inexpensive best practices before front-end content. Completely procrastinate innovative vortals through maintainable leadership skills. Continually foster business sources for viral leadership skills.</p>
-									</div>
-									<div class="item-color bottommargin-sm">
-										<span>Available Colors:</span>
-										<div id="item-color-dots" class="owl-dots"></div>
-									</div>
-									<div class="button button-border button-circle m-0 font-secondary">View Details</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-				<div class="row align-items-stretch bottommargin clearfix">
-					<div class="col-md-6" style="background: url('demos/ecommerce/images/sections/1.jpg') center 45% no-repeat; background-size: cover; padding: 0 0 500px;">
-						<div class="section-content topmargin-sm">
-							<h3>Travel Bags for Men</h3>
-							<span class="font-primary">Designed to help you never make your bed again. Superior materials for comfort and lasting quality in a complete bedding package.</span>
-							<a class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat';">Go To Shop <i class="icon-line-arrow-right"></i></a>
-						</div>
-					</div>
-					<div class="col-md-6" style="background: url('demos/ecommerce/images/sections/3.jpg') center center no-repeat; background-size: cover; padding: 0 0 500px;">
-						<div class="section-content topmargin-sm">
-							<h3>Luxury Bags for Women</h3>
-							<span class="font-primary">Globally monetize unique metrics and enterprise markets. Efficiently implement cooperative e-services and integrated interfaces.</span>
-							<a class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat';">Go To Shop <i class="icon-line-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-
-				<div class="clear"></div>
-
-				<div class="container topmargin clearfix">
-					<div class="heading-block border-bottom-0 bottommargin center">
-						<h3 style="font-size: 20px;">Shop By Categories</h3>
-						<span>Lorem ipsum dolor sit amet, consectetur adipisicing<br>elit voluptas.</span>
-					</div>
-
-					<div class="row col-mb-50">
-						<div class="col-lg-2 col-md-4 col-6 offset-lg-1">
-							<div class="feature-box fbox-center">
-								<div class="fbox-content">
-									<div class="before-heading ls2">0mm - 31mm</div>
-									<h3 class="fw-normal ls1">Laptop</h3>
-								</div>
-								<div class="fbox-image imagescalein">
-									<a href="#"><img src="demos/ecommerce/images/icons/2.png" alt="Image"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-4 col-6">
-							<div class="feature-box fbox-center">
-								<div class="fbox-content">
-									<div class="before-heading ls2">0mm - 31mm</div>
-									<h3 class="fw-normal ls1">Hand Bag</h3>
-								</div>
-								<div class="fbox-image imagescalein">
-									<a href="#"><img src="demos/ecommerce/images/icons/3.png" alt="Image"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-4 col-6">
-							<div class="feature-box fbox-center">
-								<div class="fbox-content">
-									<div class="before-heading ls2">0mm - 31mm</div>
-									<h3 class="fw-normal ls1">Backpack</h3>
-								</div>
-								<div class="fbox-image imagescalein">
-									<a href="#"><img src="demos/ecommerce/images/icons/4.png" alt="Image"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-4 col-6">
-							<div class="feature-box fbox-center">
-								<div class="fbox-content">
-									<div class="before-heading ls2">0mm - 31mm</div>
-									<h3 class="fw-normal ls1">Duffle</h3>
-								</div>
-								<div class="fbox-image imagescalein">
-									<a href="#"><img src="demos/ecommerce/images/icons/5.png" alt="Image"></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-4 col-6">
-							<div class="feature-box fbox-center">
-								<div class="fbox-content">
-									<div class="before-heading ls2">0mm - 31mm</div>
-									<h3 class="fw-normal ls1">Trolley</h3>
-								</div>
-								<div class="fbox-image imagescalein">
-									<a href="#"><img src="demos/ecommerce/images/icons/6.png" alt="Image"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="section dark mb-0">
-					<div class="container clearfix">
-
-						<div class="row payments-info">
-							<div class="col-lg-6">
-								<p class="lead m-0">Free Shipping on Orders of <strong>$199</strong> or above.</p>
-							</div>
-							<div class="col-lg-6">
-								<ul class="payment-cards clearfix" style="margin-top: 5px;">
-									<li><img src="demos/xmas/images/cards/visa.svg" alt="Visa"></li>
-									<li><img src="demos/xmas/images/cards/mc.svg" alt="Master Card"></li>
-									<li><img src="demos/xmas/images/cards/ae.svg" alt="American Express"></li>
-									<li><img src="demos/xmas/images/cards/pp.svg" alt="PayPal"></li>
-									<li><img src="demos/xmas/images/cards/sk.svg" alt="Skrill"></li>
-									<li><img src="demos/xmas/images/cards/2co.svg" alt="2CheckOut"></li>
-									<li><img src="demos/xmas/images/cards/wu.svg" alt="Western Union"></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="border-0 bg-transparent">
-
-			<div class="container clearfix">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap clearfix"  style="padding: 60px 0 100px;">
-
-					<div class="row">
-						<div class="col-lg-6 col-md-6">
-
-							<div class="row clearfix">
-								<div class="col-lg-6">
-									<div class="widget widget_links widget-li-noicon">
-										<h4>Hire</h4>
-										<ul>
-											<li><a href="#">Documentation</a></li>
-											<li><a href="#">Feedback</a></li>
-											<li><a href="#">Plugins</a></li>
-										</ul>
-									</div>
-								</div>
-								<div class="col-lg-6">
-									<div class="widget widget_links widget-li-noicon">
-										<h4>Community</h4>
-										<ul>
-											<li><a href="#">Documentation</a></li>
-											<li><a href="#">Feedback</a></li>
-											<li><a href="#">Plugins</a></li>
-											<li><a href="#">Support Forums</a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-
-							<div class="clear"></div>
-
-							<div class="line line-sm"></div>
-
-							<div class="copy-link"><a href="mailto:noreply@canvas.com"><i class="icon-envelope2"></i>  info@canvas.com</a> <span class="middot"> | </span> <a href="tel:+1-11-6541-6369"><i class="icon-headphones"></i> +1-11-6541-6369</a> <span class="middot"> | </span> <a href="skype:CanvasOnSkype?call"><i class="icon-skype2"></i> CanvasOnSkype</a></div>
-
-						</div>
-
-						<div class="col-lg-5 offset-lg-1">
-
-							<div class="widget">
-								<h4>Connect Socially</h4>
-
-								<div class="bottommargin-sm clearfix">
-									<a href="#" class="social-icon si-dark si-mini si-rounded si-facebook" title="Facebook">
-										<i class="icon-facebook"></i>
-										<i class="icon-facebook"></i>
-									</a>
-
-									<a href="#" class="social-icon si-dark si-mini si-rounded si-twitter" title="Twitter">
-										<i class="icon-twitter"></i>
-										<i class="icon-twitter"></i>
-									</a>
-
-									<a href="#" class="social-icon si-dark si-mini si-rounded si-instagram" title="Instagram">
-										<i class="icon-instagram"></i>
-										<i class="icon-instagram"></i>
-									</a>
-
-									<a href="#" class="social-icon si-dark si-mini si-rounded si-pinterest" title="Pinterest">
-										<i class="icon-pinterest"></i>
-										<i class="icon-pinterest"></i>
-									</a>
-
-									<a href="#" class="social-icon si-dark si-mini si-rounded si-vimeo" title="Vimeo">
-										<i class="icon-vimeo"></i>
-										<i class="icon-vimeo"></i>
-									</a>
-								</div>
-							</div>
-
-							<div class="widget subscribe-widget mt-0 clearfix">
-								<h5><strong>Subscribe</strong> to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-								<div class="widget-subscribe-form-result"></div>
-								<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0">
-									<div class="input-group input-group-lg mx-auto">
-										<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
-										<button class="button button-black fw-light button-dark ls2 text-uppercase" type="submit">Subscribe</button>
-									</div>
-								</form>
-							</div>
-
-						</div>
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-line-arrow-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<script>
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--上边栏 =============================================-->
+<div class="dark" id="top-bar">
+<div class="container py-3">
+<p class="center mb-0 clearfix">回到伟大的袋子的未来: 引入帆布市场.<a href="#">现在上店</a><a class="float-end border-bottom-0" href="#" id="close-bar"><i class="icon-line-cross"></i></a></p>
+</div>
+</div>
+<!--页眉 =============================================-->
+<header class="full-header no-sticky" data-menu-padding="30" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row align-items-lg-stretch">
+<!--标记 =============================================-->
+<div id="logo">
+<a class="standard-logo" href="index.html"><img alt="Canvas Logo" src="demos/ecommerce/images/logo.png"/></a>
+<a class="retina-logo" href="index.html"><img alt="Canvas Logo" src="demos/ecommerce/images/logo@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div class="header-misc align-items-lg-stretch">
+<!--顶点 =============================================-->
+<div class="header-misc-icon" id="top-cart">
+<a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span class="top-cart-number">5</span></a>
+<div class="top-cart-content">
+<div class="top-cart-title">
+<h4>购物卡</h4>
+</div>
+<div class="top-cart-items">
+<div class="top-cart-item">
+<div class="top-cart-item-image">
+<a href="#"><img alt="Blue Round-Neck Tshirt" src="images/shop/small/1.jpg"/></a>
+</div>
+<div class="top-cart-item-desc">
+<div class="top-cart-item-desc-title">
+<a href="#">有按钮的蓝色圆颈T恤</a>
+<span class="top-cart-item-price d-block">$19.99</span>
+</div>
+<div class="top-cart-item-quantity">x 二</div>
+</div>
+</div>
+<div class="top-cart-item">
+<div class="top-cart-item-image">
+<a href="#"><img alt="Light Blue Denim Dress" src="images/shop/small/6.jpg"/></a>
+</div>
+<div class="top-cart-item-desc">
+<div class="top-cart-item-desc-title">
+<a href="#">浅蓝色 Denim 服装</a>
+<span class="top-cart-item-price d-block">$24.99</span>
+</div>
+<div class="top-cart-item-quantity">页:1</div>
+</div>
+</div>
+</div>
+<div class="top-cart-action">
+<span class="top-checkout-price">$114.95</span>
+<a class="button button-3d button-small m-0" href="#">查看单元格</a>
+</div>
+</div>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}车尾-->
+<!--顶账户 =============================================-->
+<div class="header-misc-icon">
+<a href="#"><i class="icon-line2-user"></i></a>
+</div>
+<!--顶级搜索 =============================================-->
+<div class="header-misc-icon" id="top-search">
+<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+</div><!--#顶端搜索结束-->
+</div>
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu style-ecommerce menu-spacing-margin">
+<ul class="menu-container">
+<li class="menu-item current"><a class="menu-link" href="#"><div>内容</div></a></li>
+<li class="menu-item mega-menu"><a class="menu-link" href="#"><div>男性</div></a>
+<div class="mega-menu-content mega-menu-style-2" style="background-image: url('images/shop/shop-menu.jpg'); background-repeat: no-repeat; background-position: right bottom;">
+<div class="container">
+<div class="row">
+<ul class="sub-menu-container mega-menu-column col-xl-2 col-lg-3">
+<li class="menu-item">
+<div class="widget">
+<div class="portfolio-item">
+<div class="portfolio-image">
+<a href="#"><img alt="Grey Bag" src="demos/ecommerce/images/items/1-1.jpg"/></a>
+<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
+<div class="product-quickview"><a data-bs-placement="top" data-bs-toggle="tooltip" href="#" title="Available Sizes: S | M | L"><i class="icon-info"></i></a></div>
+</div>
+<div class="portfolio-desc pb-0">
+<div>
+<h3><a href="#">皮包纸</a></h3>
+<span class="mt-0"><a href="#">邮递袋</a></span>
+<div class="rating-stars">
+<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i>
+</div>
+</div>
+<div class="item-price">
+<span>€29.99</span>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul class="sub-menu-container mega-menu-column col-lg-3">
+<li class="menu-item">
+<div class="widget">
+<h4 class="highlight-me">上次查看的项目</h4>
+<div class="posts-sm row col-mb-30" id="recent-shop-list-sidebar">
+<div class="entry col-12">
+<div class="grid-inner row g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" src="demos/ecommerce/images/items/2-1.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">女子手提包</a></h4>
+</div>
+<div class="entry-meta no-separator">
+<ul class="sub-menu-container">
+<li class="color">$15</li>
+<li class="menu-item"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="entry col-12">
+<div class="grid-inner row g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" src="demos/ecommerce/images/items/3-1.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">手提电脑袋</a></h4>
+</div>
+<div class="entry-meta no-separator">
+<ul class="sub-menu-container">
+<li class="color">$19</li>
+<li class="menu-item"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i><i class="icon-star-empty"></i></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="entry col-12">
+<div class="grid-inner row g-0">
+<div class="col-auto">
+<div class="entry-image">
+<a href="#"><img alt="Image" src="demos/ecommerce/images/items/4-1.jpg"/></a>
+</div>
+</div>
+<div class="col ps-3">
+<div class="entry-title">
+<h4><a href="#">大学背包</a></h4>
+</div>
+<div class="entry-meta no-separator">
+<ul class="sub-menu-container">
+<li class="color">$19.99</li>
+<li class="menu-item"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i><i class="icon-star-empty"></i></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul class="sub-menu-container mega-menu-column col-lg-2">
+<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>类别</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-t-shirt"></i>旅行袋</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-laptop2"></i>后包装</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-clock2"></i>皮包纸</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-plane"></i>旅行袋</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-barbell"></i>特罗莱</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-heart3"></i>工作袋</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-film"></i>手提包</div></a></li>
+</ul>
+</li>
+</ul>
+<ul class="sub-menu-container mega-menu-column col-lg-2 border-start-0">
+<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>大众品牌</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>联合颜色</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>伯顿·伦敦</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>卡尔文·克林·让斯</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>多萝西·帕金斯</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>汤米·希尔菲格</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>古奇语Name</div></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li>
+<li class="menu-item mega-menu mega-menu-small"><a class="menu-link" href="#"><div>妇女</div></a>
+<div class="mega-menu-content mega-menu-style-2">
+<div class="container">
+<div class="row">
+<ul class="sub-menu-container mega-menu-column col-lg-6">
+<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>脚套</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>临时鞋</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>正规鞋</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>运动鞋</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>翻转浮点</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>滑动</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>桑达尔体育</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>政党鞋</div></a></li>
+</ul>
+</li>
+</ul>
+<ul class="sub-menu-container mega-menu-column col-lg-6">
+<li class="menu-item mega-menu-title"><a class="menu-link" href="#"><div>服装</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>临时衬衫</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>T- shirts (英语)</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>拼接线</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>裤/裤</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>民族服装</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>牛仔裤</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>发抖</div></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</li><!--.mega-菜单结束-->
+<li class="menu-item"><a class="menu-link" href="#"><div>附属设备</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>销售</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>博客</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>联系人</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+<form action="search.html" class="top-search-form" method="get">
+<input autocomplete="off" class="form-control" name="q" placeholder="Type &amp; Hit Enter.." type="text" value=""/>
+</form>
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--幻灯片 =============================================-->
+<section class="slider-element swiper_wrapper min-vh-40 min-vh-md-75" data-autoplay="9000" data-grab="false" data-loop="true" data-speed="800" id="slider">
+<div class="swiper-container swiper-parent">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="container">
+<div class="slider-caption" style="margin-top: -30px;">
+<div class="emphasis-title mb-0">
+<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">我们创建<br/>d. 网站</h2>
+<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">在全球协同之后对用户友好的假设情况进行胜任的再调解。 全球范围建设有吸引力的利基市场,而不是用砖块和点击来调整。 不断革命化互动战略主题.</p>
+</div>
+</div>
+</div>
+<div class="slide-number font-primary">欧一</div>
+<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/1.jpg') no-repeat center right; background-size: auto 100%;"></div>
+</div>
+<div class="swiper-slide">
+<div class="container">
+<div class="slider-caption" style="margin-top: -30px;">
+<div class="emphasis-title mb-0">
+<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">我们创建<br/>d. 设计</h2>
+<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">在全球协同之后对用户友好的假设情况进行胜任的再调解。 全球范围建设有吸引力的利基市场,而不是用砖块和点击来调整。 不断革命化互动战略主题.</p>
+</div>
+</div>
+</div>
+<div class="slide-number font-primary">氧气</div>
+<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/2.jpg') no-repeat center right; background-size: auto 100%;"></div>
+</div>
+<div class="swiper-slide">
+<div class="container">
+<div class="slider-caption" style="margin-top: -30px;">
+<div class="emphasis-title mb-0">
+<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">我们创建<br/>d. 布局</h2>
+<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">在全球协同之后对用户友好的假设情况进行胜任的再调解。 全球范围建设有吸引力的利基市场,而不是用砖块和点击来调整。 不断革命化互动战略主题.</p>
+</div>
+</div>
+</div>
+<div class="slide-number font-primary">O3 数据</div>
+<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/3.jpg') no-repeat center right; background-size: auto 100%;"></div>
+</div>
+<div class="swiper-slide">
+<div class="container">
+<div class="slider-caption" style="margin-top: -30px;">
+<div class="emphasis-title mb-0">
+<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">我们创建<br/>d. 思维</h2>
+<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">在全球协同之后对用户友好的假设情况进行胜任的再调解。 全球范围建设有吸引力的利基市场,而不是用砖块和点击来调整。 不断革命化互动战略主题.</p>
+</div>
+</div>
+</div>
+<div class="slide-number font-primary">欧4</div>
+<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/4.jpg') no-repeat center right; background-size: auto 100%;"></div>
+</div>
+<div class="swiper-slide">
+<div class="container">
+<div class="slider-caption" style="margin-top: -30px;">
+<div class="emphasis-title mb-0">
+<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">我们创建<br/>您的网站</h2>
+<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">在全球协同之后对用户友好的假设情况进行胜任的再调解。 全球范围建设有吸引力的利基市场,而不是用砖块和点击来调整。 不断革命化互动战略主题.</p>
+</div>
+</div>
+</div>
+<div class="slide-number font-primary">O5</div>
+<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/5.jpg') no-repeat center right; background-size: auto 100%;"></div>
+</div>
+<div class="swiper-slide">
+<div class="container">
+<div class="slider-caption" style="margin-top: -30px;">
+<div class="emphasis-title mb-0">
+<h2 class="bottommargin fw-bold" style="max-width: 600px; font-size: 80px; font-family: 'Montserrat'; line-height: 1.2;">我们创建<br/>您的归宿</h2>
+<p class="lead topmargin-sm d-none d-md-block" style="max-width: 600px; font-family: 'Poppins'; color: #999; font-size: 18px;">在全球协同之后对用户友好的假设情况进行胜任的再调解。 全球范围建设有吸引力的利基市场,而不是用砖块和点击来调整。 不断革命化互动战略主题.</p>
+</div>
+</div>
+</div>
+<div class="slide-number font-primary">O6</div>
+<div class="swiper-slide-bg" style="background: #FFF url('demos/ecommerce/images/slider/6.jpg') no-repeat center right; background-size: auto 100%;"></div>
+</div>
+</div>
+<div class="slider-arrow-left"><i class="icon-line-arrow-left"></i></div>
+<div class="slider-arrow-right"><i class="icon-line-arrow-right"></i></div>
+</div>
+</section><!--滑翔机结束-->
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap py-0">
+<div class="section mt-0" style="padding: 100px 0;">
+<div class="container">
+<div class="row grid-item">
+<div class="col-md-2 grid-image">
+<img alt="Image 1" src="demos/ecommerce/images/categories/1.jpg"/>
+</div>
+<div class="col-md-2">
+<div class="grid-info clearfix">
+<h3><a href="#">新鲜抵达<span>夏天来了!</span></a></h3>
+<a class="more-link clearfix" href="#">现在上店</a>
+</div>
+</div>
+<div class="col-md-2 grid-image">
+<img alt="Image 1" src="demos/ecommerce/images/categories/2.jpg"/>
+</div>
+<div class="col-md-2">
+<div class="grid-info clearfix">
+<h3><a href="#">必需<span>检查更多的产品为您的生活方式</span></a></h3>
+<a class="more-link clearfix" href="#">更多信息</a>
+</div>
+</div>
+<div class="col-md-2 grid-image">
+<img alt="Image 1" src="demos/ecommerce/images/categories/3.jpg"/>
+</div>
+<div class="col-md-2">
+<div class="grid-info clearfix">
+<h3><a href="#">我们的店<span>我们制造的地方!</span></a></h3>
+<i class="icon-map-marker2"></i> <a class="more-link clearfix" data-lightbox="iframe" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2233.681463596743!2d-3.19397378404521!3d55.954892680607855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4887c78e1e83edab%3A0x627ac6bc4414f18b!2sGucci+-+Edinburgh+Harvey+Nichols+Women's!5e0!3m2!1sen!2sus!4v1489749205966">查找存储</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container clearfix">
+<div class="heading-block border-bottom-0 center">
+<h3>大众类别</h3>
+<span>Lorem evenum dolor sit amet, consecturetur adpisicing elit voluptas. 洛伦特·德洛尔坐以待毙,摄取相机取出相机。</span>
+</div>
+<div class="row ecommerce-categories clearfix" style="padding: 20px 0 0;">
+<div class="col-lg-7">
+<a href="#" style="background: url('demos/ecommerce/images/types/1.jpg') no-repeat center center; background-size: cover;">
+<div class="vertical-middle dark center">
+<div class="heading-block m-0 border-0">
+<h3 class="text-capitalize font-secondary nott fw-medium">旅费</h3>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-5">
+<a href="#" style="background: url('demos/ecommerce/images/types/3.jpg') no-repeat center center; background-size: cover;">
+<div class="vertical-middle dark center">
+<div class="heading-block m-0 border-0">
+<h3 class="text-capitalize font-secondary nott fw-medium">学院</h3>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-4">
+<a href="#" style="background: url('demos/ecommerce/images/types/5.jpg') no-repeat center center; background-size: cover;">
+<div class="vertical-middle dark center">
+<div class="heading-block m-0 border-0">
+<h3 class="text-capitalize font-secondary nott fw-medium">皮层</h3>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-4">
+<a href="#" style="background: url('demos/ecommerce/images/types/6.jpg') no-repeat center center; background-size: cover;">
+<div class="vertical-middle dark center">
+<div class="heading-block m-0 border-0">
+<h3 class="text-capitalize font-secondary nott fw-medium">重现</h3>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-4">
+<a href="#" style="background: url('demos/ecommerce/images/types/8.jpg') no-repeat center center; background-size: cover;">
+<div class="vertical-middle dark center">
+<div class="heading-block m-0 border-0">
+<h3 class="text-capitalize font-secondary nott fw-medium">手工制作</h3>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-5">
+<a href="#" style="background: url('demos/ecommerce/images/types/7.jpg') no-repeat center center; background-size: cover;">
+<div class="vertical-middle dark center">
+<div class="heading-block m-0 border-0">
+<h3 class="text-capitalize font-secondary nott fw-medium">褐色</h3>
+</div>
+</div>
+</a>
+</div>
+<div class="col-lg-7">
+<a href="#" style="background: url('demos/ecommerce/images/types/9.jpg') no-repeat center center; background-size: cover;">
+<div class="vertical-middle dark center">
+<div class="heading-block m-0 border-0">
+<h3 class="text-capitalize font-secondary nott fw-medium">必需</h3>
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="section clearfix" style="padding: 80px 0;">
+<div class="container clearfix">
+<div class="heading-block border-bottom-0 center">
+<h3 class="fw-normal" style="font-size: 16px;">最佳销售产品</h3>
+</div>
+<div class="row clearfix">
+<div class="col-lg-3 col-md-6">
+<div class="portfolio-item">
+<div class="portfolio-image clearfix">
+<div class="fslider" data-animation="fade" data-pagi="false" data-slideshow="false">
+<div class="flexslider">
+<div class="slider-wrap">
+<div class="slide"><a href="#"><img alt="Grey Bag" src="demos/ecommerce/images/items/1-1.jpg"/></a></div>
+<div class="slide"><a href="#"><img alt="Grey Bag" src="demos/ecommerce/images/items/1-2.jpg"/></a></div>
+<div class="slide"><a href="#"><img alt="Grey Bag" src="demos/ecommerce/images/items/1-3.jpg"/></a></div>
+</div>
+</div>
+</div>
+<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
+<div class="product-quickview"><a data-bs-placement="top" data-bs-toggle="tooltip" href="#" title="Available Sizes: S | M | L"><i class="icon-info"></i></a></div>
+</div>
+<div class="portfolio-desc pb-0-content-between">
+<div>
+<h3><a href="#">皮包纸</a></h3>
+<span class="mt-0"><a href="#">灰信箱</a></span>
+<div class="rating-stars">
+<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i>
+</div>
+</div>
+<div class="item-price pt-1">
+<span>€29.99</span>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-3 col-md-6">
+<div class="portfolio-item">
+<div class="portfolio-image clearfix">
+<div class="fslider" data-animation="fade" data-pagi="false" data-slideshow="false">
+<div class="flexslider">
+<div class="slider-wrap">
+<div class="slide"><a href="#"><img alt="Grey Bag" src="demos/ecommerce/images/items/4-1.jpg"/></a></div>
+<div class="slide"><a href="#"><img alt="Grey Bag" src="demos/ecommerce/images/items/4-2.jpg"/></a></div>
+</div>
+</div>
+</div>
+<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
+<div class="product-quickview"><a data-bs-placement="top" data-bs-toggle="tooltip" href="#" title="Available Sizes: S | M | L"><i class="icon-info"></i></a></div>
+</div>
+<div class="portfolio-desc pb-0-content-between">
+<div>
+<h3><a href="#">黑包装</a></h3>
+<span class="mt-0"><a href="#">大学背包</a></span>
+<div class="rating-stars">
+<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i>
+</div>
+</div>
+<div class="item-price pt-1">
+<span>€23.49</span>
+</div>
+</div>
+</div>
+</div>
+<div class="w-100 bottommargin d-block d-md-none"></div>
+<div class="col-lg-3 col-md-6">
+<div class="portfolio-item">
+<div class="portfolio-image clearfix">
+<div class="fslider" data-animation="fade" data-pagi="false" data-slideshow="false">
+<div class="flexslider">
+<div class="slider-wrap">
+<div class="slide"><a href="#"><img alt="Office Bag" src="demos/ecommerce/images/items/2-1.jpg"/></a></div>
+<div class="slide"><a href="#"><img alt="Office Bag" src="demos/ecommerce/images/items/2-2.jpg"/></a></div>
+</div>
+</div>
+</div>
+<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
+<div class="product-quickview"><a data-bs-placement="top" data-bs-toggle="tooltip" href="#" title="Available Sizes: L"><i class="icon-info"></i></a></div>
+</div>
+<div class="portfolio-desc pb-0-content-between">
+<div>
+<h3><a href="#">妇女办公室</a></h3>
+<span class="mt-0"><a href="#">手提包</a></span>
+<div class="rating-stars">
+<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-empty"></i>
+</div>
+</div>
+<div class="item-price pt-1">
+<span>€11.99</span>
+</div>
+</div>
+</div>
+</div>
+<div class="w-100 bottommargin d-block d-md-none"></div>
+<div class="col-lg-3 col-md-6">
+<div class="portfolio-item">
+<div class="portfolio-image clearfix">
+<div class="fslider" data-animation="fade" data-pagi="false" data-slideshow="false">
+<div class="flexslider">
+<div class="slider-wrap">
+<div class="slide"><a href="#"><img alt="Men Bag" src="demos/ecommerce/images/items/3-1.jpg"/></a></div>
+<div class="slide"><a href="#"><img alt="Men Bag" src="demos/ecommerce/images/items/3-2.jpg"/></a></div>
+<div class="slide"><a href="#"><img alt="Men Bag" src="demos/ecommerce/images/items/3-3.jpg"/></a></div>
+</div>
+</div>
+</div>
+<div class="sale-flash badge bg-danger p-2">卖了!</div>
+<div class="product-cart"><a href="#"><i class="icon-shopping-cart"></i></a></div>
+<div class="product-quickview"><a data-bs-placement="top" data-bs-toggle="tooltip" href="#" title="Available Sizes: S | M | L"><i class="icon-info"></i></a></div>
+</div>
+<div class="portfolio-desc pb-0-content-between">
+<div>
+<h3><a href="#">男子黑袋</a></h3>
+<span class="mt-0"><a href="#">手提电脑袋</a></span>
+<div class="rating-stars">
+<i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i>
+</div>
+</div>
+<div class="item-price pt-1">
+<span><del class="d-md-none d-lg-block">$45.99</del> €39.00</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section bg-transparent">
+<div class="container clearfix">
+<div class="row clearfix">
+<div class="col-lg-5">
+<div class="owl-carousel image-carousel carousel-widget custom-js" id="oc-images">
+<div class="oc-item">
+<a href="#"><img alt="Image 1" src="demos/ecommerce/images/featured/1.jpg"/></a>
+</div>
+<div class="oc-item">
+<a href="#"><img alt="Image 2" src="demos/ecommerce/images/featured/2.jpg"/></a>
+</div>
+<div class="oc-item">
+<a href="#"><img alt="Image 3" src="demos/ecommerce/images/featured/3.jpg"/></a>
+</div>
+<div class="oc-item">
+<a href="#"><img alt="Image 4" src="demos/ecommerce/images/featured/4.jpg"/></a>
+</div>
+<div class="oc-item">
+<a href="#"><img alt="Image 5" src="demos/ecommerce/images/featured/5.jpg"/></a>
+</div>
+<div class="oc-item">
+<a href="#"><img alt="Image 6" src="demos/ecommerce/images/featured/6.jpg"/></a>
+</div>
+</div>
+</div>
+<div class="col-lg-5 offset-lg-1">
+<div class="featured-item topmargin">
+<div class="item-title">
+<div class="before-heading fw-semibold ls5"><a href="#" style="color: #aab7bd !important;">皮包纸<i class="icon-angle-right"></i></a></div>
+<h3><a href="#">肩带女士</a></h3>
+</div>
+<div class="item-meta font-secondary">SKU: 8465415 (英语). 设计:皮革/蓝色</div>
+<div class="clear"></div>
+<div class="item-desc">
+<p>主动增强高效增长战略的权能 在前期内容之前,完全加强廉价的最佳做法。 完全拖延创新的漩涡 通过维持的领导技能。 不断培育病毒领导技能业务资源.</p>
+</div>
+<div class="item-color bottommargin-sm">
+<span>可用颜色 :</span>
+<div class="owl-dots" id="item-color-dots"></div>
+</div>
+<div class="button button-border button-circle m-0 font-secondary">查看细节</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="row align-items-stretch bottommargin clearfix">
+<div class="col-md-6" style="background: url('demos/ecommerce/images/sections/1.jpg') center 45% no-repeat; background-size: cover; padding: 0 0 500px;">
+<div class="section-content topmargin-sm">
+<h3>男子旅行袋</h3>
+<span class="font-primary">设计来帮助你永远不再做你的床。 一套完整的被褥中具有舒适和持久质量的高级材料。</span>
+<a class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat';">转到商店<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+<div class="col-md-6" style="background: url('demos/ecommerce/images/sections/3.jpg') center center no-repeat; background-size: cover; padding: 0 0 500px;">
+<div class="section-content topmargin-sm">
+<h3>妇女奢侈袋</h3>
+<span class="font-primary">全球独特的计量和企业市场货币化。 高效实施合作电子服务和集成接口.</span>
+<a class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat';">转到商店<i class="icon-line-arrow-right"></i></a>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="container topmargin clearfix">
+<div class="heading-block border-bottom-0 bottommargin center">
+<h3 style="font-size: 20px;">按类别</h3>
+<span>{\fn华文楷体\fs20\bord1\shad1\1cHE0E0E0\2cH000000}&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;出自&amp;quot;<br/>爱丽特·沃尔普塔</span>
+</div>
+<div class="row col-mb-50">
+<div class="col-lg-2 col-md-4 col-6 offset-lg-1">
+<div class="feature-box fbox-center">
+<div class="fbox-content">
+<div class="before-heading ls2">0毫米-31毫米口径</div>
+<h3 class="fw-normal ls1">手提电脑</h3>
+</div>
+<div class="fbox-image imagescalein">
+<a href="#"><img alt="Image" src="demos/ecommerce/images/icons/2.png"/></a>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-6">
+<div class="feature-box fbox-center">
+<div class="fbox-content">
+<div class="before-heading ls2">0毫米-31毫米口径</div>
+<h3 class="fw-normal ls1">手提包</h3>
+</div>
+<div class="fbox-image imagescalein">
+<a href="#"><img alt="Image" src="demos/ecommerce/images/icons/3.png"/></a>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-6">
+<div class="feature-box fbox-center">
+<div class="fbox-content">
+<div class="before-heading ls2">0毫米-31毫米口径</div>
+<h3 class="fw-normal ls1">后包装</h3>
+</div>
+<div class="fbox-image imagescalein">
+<a href="#"><img alt="Image" src="demos/ecommerce/images/icons/4.png"/></a>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-6">
+<div class="feature-box fbox-center">
+<div class="fbox-content">
+<div class="before-heading ls2">0毫米-31毫米口径</div>
+<h3 class="fw-normal ls1">抖动</h3>
+</div>
+<div class="fbox-image imagescalein">
+<a href="#"><img alt="Image" src="demos/ecommerce/images/icons/5.png"/></a>
+</div>
+</div>
+</div>
+<div class="col-lg-2 col-md-4 col-6">
+<div class="feature-box fbox-center">
+<div class="fbox-content">
+<div class="before-heading ls2">0毫米-31毫米口径</div>
+<h3 class="fw-normal ls1">特罗莱</h3>
+</div>
+<div class="fbox-image imagescalein">
+<a href="#"><img alt="Image" src="demos/ecommerce/images/icons/6.png"/></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section dark mb-0">
+<div class="container clearfix">
+<div class="row payments-info">
+<div class="col-lg-6">
+<p class="lead m-0">命令的免费航运<strong>$199</strong>或以上(或以上(一).</p>
+</div>
+<div class="col-lg-6">
+<ul class="payment-cards clearfix" style="margin-top: 5px;">
+<li><img alt="Visa" src="demos/xmas/images/cards/visa.svg"/></li>
+<li><img alt="Master Card" src="demos/xmas/images/cards/mc.svg"/></li>
+<li><img alt="American Express" src="demos/xmas/images/cards/ae.svg"/></li>
+<li><img alt="PayPal" src="demos/xmas/images/cards/pp.svg"/></li>
+<li><img alt="Skrill" src="demos/xmas/images/cards/sk.svg"/></li>
+<li><img alt="2CheckOut" src="demos/xmas/images/cards/2co.svg"/></li>
+<li><img alt="Western Union" src="demos/xmas/images/cards/wu.svg"/></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="border-0 bg-transparent" id="footer">
+<div class="container clearfix">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap clearfix" style="padding: 60px 0 100px;">
+<div class="row">
+<div class="col-lg-6 col-md-6">
+<div class="row clearfix">
+<div class="col-lg-6">
+<div class="widget widget_links widget-li-noicon">
+<h4>聘请</h4>
+<ul>
+<li><a href="#">文档</a></li>
+<li><a href="#">反馈</a></li>
+<li><a href="#">插件</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="widget widget_links widget-li-noicon">
+<h4>社区</h4>
+<ul>
+<li><a href="#">文档</a></li>
+<li><a href="#">反馈</a></li>
+<li><a href="#">插件</a></li>
+<li><a href="#">支助论坛</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="line line-sm"></div>
+<div class="copy-link"><a href="mailto:noreply@canvas.com"><i class="icon-envelope2"></i>信息库@canvas.com</a> <span class="middot"> | </span> <a href="tel:+1-11-6541-6369"><i class="icon-headphones"></i> +1-11-6541-6369</a> <span class="middot"> | </span> <a href="skype:CanvasOnSkype?call"><i class="icon-skype2"></i>斯凯普岛</a></div>
+</div>
+<div class="col-lg-5 offset-lg-1">
+<div class="widget">
+<h4>社会连接</h4>
+<div class="bottommargin-sm clearfix">
+<a class="social-icon si-dark si-mini si-rounded si-facebook" href="#" title="Facebook">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-dark si-mini si-rounded si-twitter" href="#" title="Twitter">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-dark si-mini si-rounded si-instagram" href="#" title="Instagram">
+<i class="icon-instagram"></i>
+<i class="icon-instagram"></i>
+</a>
+<a class="social-icon si-dark si-mini si-rounded si-pinterest" href="#" title="Pinterest">
+<i class="icon-pinterest"></i>
+<i class="icon-pinterest"></i>
+</a>
+<a class="social-icon si-dark si-mini si-rounded si-vimeo" href="#" title="Vimeo">
+<i class="icon-vimeo"></i>
+<i class="icon-vimeo"></i>
+</a>
+</div>
+</div>
+<div class="widget subscribe-widget mt-0 clearfix">
+<h5><strong>订阅</strong>获取重要新闻的通讯,</h5>
+<div class="widget-subscribe-form-result"></div>
+<form action="include/subscribe.php" class="mb-0" id="widget-subscribe-form" method="post">
+<div class="input-group input-group-lg mx-auto">
+<input class="form-control required email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" placeholder="Enter your Email" type="email"/>
+<button class="button button-black fw-light button-dark ls2 text-uppercase" type="submit">订阅</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div><!--脚- 脚- 接- 包尾端-->
+</div>
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-line-arrow-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<script>
 
 		// Topbar Hide
 		$('#top-bar').on('click','#close-bar',function(){
@@ -950,6 +835,5 @@
 			});
 		});
 	</script>
-
 </body>
 </html>

@@ -1,504 +1,407 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!--  Recipes Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="css/colors.php?color=267DF4" type="text/css" /> <!-- Theme Color -->
-	<link rel="stylesheet" href="demos/recipes/css/fonts.css" type="text/css" /> <!-- Theme Font -->
-	<link rel="stylesheet" href="demos/recipes/recipes.css" type="text/css" /> <!-- Theme Custom CSS -->
-
-	<!-- Document Title
-	============================================= -->
-	<title>All Recipes - Recipes | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Noto+Serif:400,700&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!--食谱Demo 特定样式表-->
+<link href="css/colors.php?color=267DF4" rel="stylesheet" type="text/css"/> <!--主题颜色-->
+<link href="demos/recipes/css/fonts.css" rel="stylesheet" type="text/css"/> <!--主题字体-->
+<link href="demos/recipes/recipes.css" rel="stylesheet" type="text/css"/> <!--主题自定义 CSS-->
+<!--文件标题 =============================================-->
+<title>所有食谱 - 食谱 \\ Canvas</title>
 </head>
-
 <body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="transparent-header" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/recipes/images/logo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/recipes/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div class="header-misc">
-
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
-
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu">
-
-							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href="demo-recipes.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-recipes-about-us.html"><div>About Us</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Recipes <i class="icon-angle-down1 d-none d-lg-inline-block"></i></div></a>
-									<ul class="sub-menu-container rounded-bottom">
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipe-single.html"><div>Recipe Single Page</div></a></li>
-										 <div class="dropdown-divider my-0"></div>
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Popular</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Recent</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Most liked</div></a></li>
-										<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>Most Commented</div></a></li>
-									</ul>
-								</li>
-								<li class="menu-item"><a class="menu-link" href="demo-recipes-contact.html"><div>Contact Us</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-						<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form>
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Page Title
-		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-dark include-header" style="background: #111 url('demos/recipes/images/recipes-bg.jpg') center center / cover; padding: 100px 0;" data-0="background-position:0px -200px;" data-400="background-position:0px -100px;">
-
-			<div class="container clearfix">
-				<div class="row">
-					<div class="col-md-7">
-						<h1 class="nott mb-5" data-animate="zoomIn">Recipes</h1>
-						<span data-animate="zoomIn" data-delay="300" class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga debitis deleniti dolores cupiditate quia reiciendis, obcaecati facere. Amet et enim itaque sapiente. Culpa, incidunt, eveniet.</span>
-					</div>
-				</div>
-			</div>
-
-		</section><!-- #page-title end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap py-0" style="overflow: inherit;">
-
-				<div class="recipe-items bg-light">
-					<div class="row g-0 clearfix">
-						<div class="col-lg-9 border-end-0 bg-white">
-							<div class="row g-0">
-
-								<!-- Item 1 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-											<img src="demos/recipes/images/popular/1.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Gunther Beard</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.6</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">Green Goddess Avocado Hummus</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Dec 26, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 2 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/2.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Chauffina Carr</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.9</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">Strawberry Kiwi Healthy Bowl</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Dec 1, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 3 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/3.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Eric Widget </a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.3</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">Rustic Sweet Treat</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Nov 20, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 4 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/4.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Quiche Hollandaise</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">A Delicious Homemade Breakfast</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Oct 2, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 5 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/5.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Norman Gordon</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">Pumpkin Bars with Cream Cheese Frosting</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Sep 18, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 6 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/6.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Druid Wensleydale</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">The Best Homemade Pizza Recipes</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Sep 7, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 7 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/7.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Bailey Wonger</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">Baked Salmon with Sweet-Potatoes</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Aug 12, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 8 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/8.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Pelican Steve</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.2</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">A Kollam Grilled Cheese with Vegetables</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Aug 8, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 9 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/9.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Malcolm Function</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.3</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">Garden Veggie Delux Pizza</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Jul 26, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 10 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/10.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Dianne Ameter</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">Spinach Artichoke Dip Pasta with Chicken</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>Jun 15, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 11 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/11.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Weir Doe</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.4</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">Quick Black Pepper Pork Lunch</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>May 11, 2021</h5>
-										</div>
-									</div>
-								</div>
-
-								<!-- Item 12 -->
-								<div class="col-sm-4 col-6">
-									<div class="card">
-										<div class="card-body">
-										<img src="demos/recipes/images/popular/12.png" alt="image">
-											<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
-												<p class="card-author">By <a href="#">Niles Peppertrout</a></p>
-												<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
-											</div>
-											<h3 class="card-title"><a href="recipe-single.html" class="stretched-link">Afternoon Plates of Pasta</a></h3>
-											<h5 class="card-date"><i class="icon-line2-calendar"></i>May 4, 2021</h5>
-										</div>
-									</div>
-								</div>
-								<div class="col-12 d-flex justify-content-end p-4">
-									<a href="#" class="button button-circle m-0 text-end"><span>Next</span><i class="icon-angle-right"></i></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-lg-3 py-5 px-4 position-sticky h-100" style="top: 80px">
-
-							<div class="row border-0">
-								<div class="col-lg-12 col-md-4 col-12 mt-5 mt-md-0 widget border-0 widget_links clearfix">
-
-									<h4 class="nott ls0">Recipes Categories</h4>
-									<ul>
-										<li><a href="#">30-Minute Meals</a></li>
-										<li><a href="#">Appetizers</a></li>
-										<li><a href="#">Beverages</a></li>
-										<li><a href="#">Bread</a></li>
-										<li><a href="#">Breakfast & Brunch</a></li>
-										<li><a href="#">Desserts</a></li>
-										<li><a href="#">Entrées</a></li>
-										<li><a href="#">Healthy</a></li>
-										<li><a href="#">Nutrition Facts</a></li>
-										<li><a href="#">Recipe Collections</a></li>
-										<li><a href="#">Salads</a></li>
-										<li><a href="#">Seafood</a></li>
-										<li><a href="#">Side Dishes</a></li>
-										<li><a href="#">Snacks</a></li>
-										<li><a href="#">Soups & Stews</a></li>
-									</ul>
-
-								</div>
-
-								<div class="col-12 d-none d-lg-block border-0"><div class="line"></div></div>
-
-								<div id="subscriber" class="col-lg-12 col-md-4 col-12 mt-5 mt-md-0 widget border-0 mt-0 subscribe-widget clearfix">
-
-									<h4 class="nott ls0">Subscribe For Latest Offers</h4>
-									<h5 class="font-body">Subscribe to Our Newsletter to get Important News, Amazing Offers &amp; Inside Scoops:</h5>
-									<form action="#" role="form" class="my-0">
-										<div class="input-group mx-auto">
-											<input type="text" class="form-control" placeholder="Enter your Email" required="">
-											<button class="btn btn-success" type="submit"><i class="icon-email2"></i></button>
-										</div>
-									</form>
-								</div>
-
-								<div class="col-12 d-none d-lg-block border-0"><div class="line"></div></div>
-
-
-								<div id="w-video" class="col-lg-12 col-md-4 col-8 mt-5 mt-md-0 widget border-0 mt-0 clearfix">
-
-									<h4 class="nott ls0">Instagram Embeded Post</h4>
-									<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Bt8BK_cnKf5/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style="background:#FFF; border:0; border-radius:10px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:100% !important; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote><script async src="//www.instagram.com/embed.js"></script>
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="section m-0 center dark" style="background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.8)), url('demos/recipes/images/about/2.jpg') no-repeat center center / cover; padding: 140px 0;">
-					<div class="container">
-						<blockquote class="blockquote text-center border-0 m-auto" style="max-width: 700px">
-						  <h2 class="h1 fw-bold text-capitalize" style="line-height: 1.4">To get the best results, you must talk to your Vegetables.</h2>
-						  <footer class="blockquote-footer text-white-50 mt-4">Charles, <cite title="Source Title">Prince of Wales</cite></footer>
-						</blockquote>
-					</div>
-				</div>
-
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="bg-white border-0">
-
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
-
-					<div class="row">
-
-						<div class="col-lg-2 col-md-2 col-6 pe-4">
-							<div class="widget clearfix">
-
-								<h4 class="ls0 nott">Download App</h4>
-								<a href="#"><img src="demos/articles/images/appstore.png" alt="App Link"></a>
-								<a href="#"><img src="demos/articles/images/googleplay.png" alt="App Link" class="mt-2"></a>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6">
-							<div class="widget clearfix">
-
-								<h4 class="ls0 nott">Support</h4>
-
-								<ul class="list-unstyled ms-0">
-									<li class="mb-2"><a href="#" class="text-black-50">Home</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">About</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">FAQs</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Support</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6 mt-4 mt-md-0">
-							<div class="widget clearfix">
-
-								<h4 class="ls0 nott">Trending</h4>
-
-								<ul class="list-unstyled ms-0">
-									<li class="mb-2"><a href="#" class="text-black-50">Shop</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Portfolio</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Blog</a></li>
-								</ul>
-
-							</div>
-						</div>
-						<div class="col-lg-2 col-md-2 col-6 mt-4 mt-md-0">
-							<div class="widget clearfix">
-
-								<h4 class="ls0 nott">Features</h4>
-
-								<ul class="list-unstyled ms-0">
-									<li class="mb-2"><a href="#" class="text-black-50">Help Center</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Paid with Moblie</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Status</a></li>
-									<li class="mb-2"><a href="#" class="text-black-50">Contact Support</a></li>
-								</ul>
-
-							</div>
-						</div>
-
-						<div class="col-lg-4 col-md-4">
-							<div id="instagram" class="widget clearfix">
-
-								<h4 class="ls0 nott">Instagram Photos</h4>
-								<div id="instagram-photos" class="instagram-photos masonry-thumbs grid-4" data-user="blog.canvastemplate" data-count="8"></div>
-
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="bg-light">
-
-				<div class="container">
-					<div class="row justify-content-between align-items-center">
-						<div class="col-sm-4 d-flex justify-content-sm-start mb-3 mb-sm-0 text-black-50">
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.
-						</div>
-						<div class="col-sm-4 d-flex justify-content-sm-center mb-3 mb-sm-0">
-							<a href="https://facebook.com/semicolonweb" target="_blank" class="social-icon si-small si-colored si-facebook" title="Facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
-							<a href="https://twitter.com/__semicolon" target="_blank" class="social-icon si-small si-colored si-twitter" title="Twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
-							<a href="https://www.youtube.com/semicolonweb" target="_blank" class="social-icon si-small si-colored si-youtube" title="youtube">
-								<i class="icon-youtube"></i>
-								<i class="icon-youtube"></i>
-							</a>
-							<a href="https://www.instagram.com/semicolonweb" target="_blank" class="social-icon si-small si-colored si-instagram" title="instagram">
-								<i class="icon-instagram"></i>
-								<i class="icon-instagram"></i>
-							</a>
-						</div>
-						<div class="col-sm-4 d-flex justify-content-sm-end">
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-						</div>
-					</div>
-				</div>
-
-			</div><!-- #copyrights end -->
-
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--页眉 =============================================-->
+<header class="transparent-header" data-sticky-shrink="false" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row">
+<!--标记 =============================================-->
+<div id="logo">
+<a class="standard-logo" href="index.html"><img alt="Canvas Logo" src="demos/recipes/images/logo.png"/></a>
+<a class="retina-logo" href="index.html"><img alt="Canvas Logo" src="demos/recipes/images/logo@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div class="header-misc">
+<!--顶级搜索 =============================================-->
+<div class="header-misc-icon" id="top-search">
+<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+</div><!--#顶端搜索结束-->
+</div>
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu">
+<ul class="menu-container">
+<li class="menu-item current"><a class="menu-link" href="demo-recipes.html"><div>内容</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-about-us.html"><div>关于我们</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>食谱<i class="icon-angle-down1 d-none d-lg-inline-block"></i></div></a>
+<ul class="sub-menu-container rounded-bottom">
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipe-single.html"><div>食谱单页</div></a></li>
+<div class="dropdown-divider my-0"></div>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>大众</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>近期</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>最喜欢的</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-recipes.html"><div>大多数评论</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="demo-recipes-contact.html"><div>联系我们</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+<form action="search.html" class="top-search-form" method="get">
+<input autocomplete="off" class="form-control" name="q" placeholder="Type &amp; Hit Enter.." type="text" value=""/>
+</form>
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--页次 标题 =============================================-->
+<section class="page-title-parallax page-title-dark include-header" data-0="background-position:0px -200px;" data-400="background-position:0px -100px;" id="page-title" style="background: #111 url('demos/recipes/images/recipes-bg.jpg') center center / cover; padding: 100px 0;">
+<div class="container clearfix">
+<div class="row">
+<div class="col-md-7">
+<h1 class="nott mb-5" data-animate="zoomIn">食谱</h1>
+<span class="text-white-50" data-animate="zoomIn" data-delay="300">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花花. (原始内容存档于2018-10-21). Amet et enim Itaque sapiente. Culpa, incidunt, eveniet. 卡尔帕,incidunt, eveniet. 卡尔帕, incidunt, sir.</span>
+</div>
+</div>
+</div>
+</section><!--# 页面标题结束-->
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap py-0" style="overflow: inherit;">
+<div class="recipe-items bg-light">
+<div class="row g-0 clearfix">
+<div class="col-lg-9 border-end-0 bg-white">
+<div class="row g-0">
+<!--项目1-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/1.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">枪手胡子</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.6</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">绿色女神阿沃卡多·胡姆斯</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年12月26日 (英语).</h5>
+</div>
+</div>
+</div>
+<!--项目2-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/2.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">沙菲娜·卡尔</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.9</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">草莓基维健康碗</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年12月1日 (英语).</h5>
+</div>
+</div>
+</div>
+<!--项目3-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/3.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">埃里克部件</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.3</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">鲁斯克甜食</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年11月20日,纽约</h5>
+</div>
+</div>
+</div>
+<!--项目4-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/4.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">基切·奥朗道斯</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">美味自制早餐</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年10月2日 (中文(简体) ).</h5>
+</div>
+</div>
+</div>
+<!--项目5-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/5.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">诺曼·戈登</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">带奶酪的南瓜棒</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年9月18日 (中文(简体) ).</h5>
+</div>
+</div>
+</div>
+<!--项目6-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/6.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">德鲁伊·温斯利代尔</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">最好的自制披萨</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年9月7日</h5>
+</div>
+</div>
+</div>
+<!--项目7-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/7.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">黄贝利</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">有甜薯的烤沙门</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年8月12日 (中文(简体) ).</h5>
+</div>
+</div>
+</div>
+<!--项目8-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/8.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">eli史蒂夫</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.2</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">带蔬菜的克拉姆奶酪</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年8月8日 (中文(简体) ).</h5>
+</div>
+</div>
+</div>
+<!--项目9-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/9.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">马尔科姆函数</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.3</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">花园蔬菜豪华披萨</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年7月26日 (中文(简体) ).</h5>
+</div>
+</div>
+</div>
+<!--项目10-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/10.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">迪安·阿迈特</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.5</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">菠菜 Artichoke Dip Pasta与鸡肉</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年6月15日 (英语).</h5>
+</div>
+</div>
+</div>
+<!--项目11-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/11.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">伟多</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.4</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">黑椒猪快餐</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年5月11日 (中文(简体) ).</h5>
+</div>
+</div>
+</div>
+<!--项目12-->
+<div class="col-sm-4 col-6">
+<div class="card">
+<div class="card-body">
+<img alt="image" src="demos/recipes/images/popular/12.png"/>
+<div class="d-flex justify-content-between align-items-center mt-4 mb-2">
+<p class="card-author">以<a href="#">尼尔斯·佩佩特鲁特</a></p>
+<span class="badge bg-primary bg-color"><i class="icon-star3"></i> 4.0</span>
+</div>
+<h3 class="card-title"><a class="stretched-link" href="recipe-single.html">下午的面团</a></h3>
+<h5 class="card-date"><i class="icon-line2-calendar"></i>2021年5月4日 (英语).</h5>
+</div>
+</div>
+</div>
+<div class="col-12 d-flex justify-content-end p-4">
+<a class="button button-circle m-0 text-end" href="#"><span>下一个</span><i class="icon-angle-right"></i></a>
+</div>
+</div>
+</div>
+<div class="col-lg-3 py-5 px-4 position-sticky h-100" style="top: 80px">
+<div class="row border-0">
+<div class="col-lg-12 col-md-4 col-12 mt-5 mt-md-0 widget border-0 widget_links clearfix">
+<h4 class="nott ls0">食谱类别</h4>
+<ul>
+<li><a href="#">30- 微米饭</a></li>
+<li><a href="#">开胃菜</a></li>
+<li><a href="#">饮料</a></li>
+<li><a href="#">面包</a></li>
+<li><a href="#">早餐和午餐</a></li>
+<li><a href="#">甜点</a></li>
+<li><a href="#">条目</a></li>
+<li><a href="#">卫生</a></li>
+<li><a href="#">营养</a></li>
+<li><a href="#">食谱收藏</a></li>
+<li><a href="#">萨拉德</a></li>
+<li><a href="#">海产食品</a></li>
+<li><a href="#">边盘</a></li>
+<li><a href="#">点心</a></li>
+<li><a href="#">汤和汤</a></li>
+</ul>
+</div>
+<div class="col-12 d-none d-lg-block border-0"><div class="line"></div></div>
+<div class="col-lg-12 col-md-4 col-12 mt-5 mt-md-0 widget border-0 mt-0 subscribe-widget clearfix" id="subscriber">
+<h4 class="nott ls0">最近报价的订阅</h4>
+<h5 class="font-body">订阅《我们的通讯》获取重要新闻,</h5>
+<form action="#" class="my-0" role="form">
+<div class="input-group mx-auto">
+<input class="form-control" placeholder="Enter your Email" required="" type="text"/>
+<button class="btn btn-success" type="submit"><i class="icon-email2"></i></button>
+</div>
+</form>
+</div>
+<div class="col-12 d-none d-lg-block border-0"><div class="line"></div></div>
+<div class="col-lg-12 col-md-4 col-8 mt-5 mt-md-0 widget border-0 mt-0 clearfix" id="w-video">
+<h4 class="nott ls0">Instagram 嵌入后邮政</h4>
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/Bt8BK_cnKf5/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style="background:#FFF; border:0; border-radius:10px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:100% !important; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"></blockquote><script async="" src="//www.instagram.com/embed.js"></script>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section m-0 center dark" style="background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.8)), url('demos/recipes/images/about/2.jpg') no-repeat center center / cover; padding: 140px 0;">
+<div class="container">
+<blockquote class="blockquote text-center border-0 m-auto" style="max-width: 700px">
+<h2 class="h1 fw-bold text-capitalize" style="line-height: 1.4">要得到最好的结果, 你必须跟你的蔬菜说话。</h2>
+<footer class="blockquote-footer text-white-50 mt-4">查尔斯<cite title="Source Title">威尔士亲王</cite></footer>
+</blockquote>
+</div>
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="bg-white border-0" id="footer">
+<div class="container">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap">
+<div class="row">
+<div class="col-lg-2 col-md-2 col-6 pe-4">
+<div class="widget clearfix">
+<h4 class="ls0 nott">下载 App</h4>
+<a href="#"><img alt="App Link" src="demos/articles/images/appstore.png"/></a>
+<a href="#"><img alt="App Link" class="mt-2" src="demos/articles/images/googleplay.png"/></a>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-6">
+<div class="widget clearfix">
+<h4 class="ls0 nott">支助</h4>
+<ul class="list-unstyled ms-0">
+<li class="mb-2"><a class="text-black-50" href="#">内容</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">关于</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">问题</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">支助</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-6 mt-4 mt-md-0">
+<div class="widget clearfix">
+<h4 class="ls0 nott">趋势</h4>
+<ul class="list-unstyled ms-0">
+<li class="mb-2"><a class="text-black-50" href="#">商店</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">组合</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">博客</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-2 col-md-2 col-6 mt-4 mt-md-0">
+<div class="widget clearfix">
+<h4 class="ls0 nott">特征</h4>
+<ul class="list-unstyled ms-0">
+<li class="mb-2"><a class="text-black-50" href="#">帮助中心</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">与 Moblie 支付</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">状态</a></li>
+<li class="mb-2"><a class="text-black-50" href="#">联系人支持</a></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-4 col-md-4">
+<div class="widget clearfix" id="instagram">
+<h4 class="ls0 nott">相片图</h4>
+<div class="instagram-photos masonry-thumbs grid-4" data-count="8" data-user="blog.canvastemplate" id="instagram-photos"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--版权 =============================================-->
+<div class="bg-light" id="copyrights">
+<div class="container">
+<div class="row justify-content-between align-items-center">
+<div class="col-sm-4 d-flex justify-content-sm-start mb-3 mb-sm-0 text-black-50">版权:&amp;quot;2020&amp;quot; Canvas股份有限公司保留的所有权利.</div>
+<div class="col-sm-4 d-flex justify-content-sm-center mb-3 mb-sm-0">
+<a class="social-icon si-small si-colored si-facebook" href="https://facebook.com/semicolonweb" target="_blank" title="Facebook">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-small si-colored si-twitter" href="https://twitter.com/__semicolon" target="_blank" title="Twitter">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-small si-colored si-youtube" href="https://www.youtube.com/semicolonweb" target="_blank" title="youtube">
+<i class="icon-youtube"></i>
+<i class="icon-youtube"></i>
+</a>
+<a class="social-icon si-small si-colored si-instagram" href="https://www.instagram.com/semicolonweb" target="_blank" title="instagram">
+<i class="icon-instagram"></i>
+<i class="icon-instagram"></i>
+</a>
+</div>
+<div class="col-sm-4 d-flex justify-content-sm-end">
+<div class="copyright-links"><a href="#">使用条件</a> / <a href="#">隐私政策</a></div>
+</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
 </body>
 </html>

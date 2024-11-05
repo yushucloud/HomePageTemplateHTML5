@@ -1,1013 +1,836 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Istok+Web:400,700&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="stylesheet" href="css/colors.php?color=0474c4" type="text/css" />
-
-	<!-- Hosting Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/course/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="demos/course/course.css" type="text/css" />
-	<!-- / -->
-
-	<!-- Document Title
-	============================================= -->
-	<title>Course Demo | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Istok+Web:400,700&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="one-page/css/et-line.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="css/colors.php?color=0474c4" rel="stylesheet" type="text/css"/>
+<!--托管演示文稿特定样式表-->
+<link href="demos/course/css/fonts.css" rel="stylesheet" type="text/css"/>
+<link href="demos/course/course.css" rel="stylesheet" type="text/css"/>
+<!-- / -->
+<!--文件标题 =============================================-->
+<title>德莫·坎瓦斯课程</title>
 </head>
-
 <body class="stretched">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Top Bar
-		============================================= -->
-		<div id="top-bar" class="bg-color dark">
-			<div class="container clearfix">
-
-				<div class="row justify-content-between">
-					<div class="col-12 col-md-auto me-md-auto">
-
-						<!-- Top Links
-						============================================= -->
-						<div class="top-links">
-							<ul class="top-links-container">
-								<li class="top-links-item"><a href="#">All Cities</a>
-									<ul class="top-links-sub-menu">
-										<li class="top-links-item"><a href="#">New York</a></li>
-										<li class="top-links-item"><a href="#">Los Angeles</a></li>
-										<li class="top-links-item"><a href="#">California</a></li>
-										<li class="top-links-item"><a href="#">Miami</a></li>
-										<li class="top-links-item"><a href="#">Las Vegas</a></li>
-									</ul>
-								</li>
-							</ul>
-						</div><!-- .top-links end -->
-
-					</div>
-
-					<div class="col-12 col-md-auto px-0">
-
-						<!-- Top Links
-						============================================= -->
-						<div class="top-links">
-							<ul class="top-links-container">
-								<li class="top-links-item"><a href="#">Free Courses</a></li>
-								<li class="top-links-item d-none d-sm-inline-block"><a href="#"><i class="icon-download-alt"></i> Download App</a></li>
-							</ul>
-						</div><!-- .top-links end -->
-
-					</div>
-
-					<div class="col-12 col-md-auto ps-0">
-
-						<ul id="top-social">
-							<li><a href="#" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
-							<li><a href="#" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
-							<li><a href="#" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
-							<li><a href="tel:+1.11.85412542" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">+1.11.85412542</span></a></li>
-							<li><a href="mailto:info@canvas.com" class="si-email3"><span class="ts-icon"><i class="icon-envelope-alt"></i></span><span class="ts-text">info@canvas.com</span></a></li>
-						</ul><!-- #top-social end -->
-
-					</div>
-				</div>
-
-			</div>
-		</div>
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="header-size-sm" data-sticky-shrink="false">
-			<div class="container">
-				<div class="header-row">
-
-					<nav class="navbar navbar-expand-lg p-0 m-0 w-100">
-						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/business/images/logo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Canvas Logo"></a>
-						</div>
-						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="icon-line-menu"></span>
-						</button>
-						<div class="collapse navbar-collapse align-items-end" id="navbarNav">
-							<ul class="navbar-nav ms-auto">
-								<li class="nav-item active">
-									<a class="nav-link" href="#">Home</a>
-								</li>
-								 <li class="nav-item dropdown">
-									<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									Members
-									</a>
-									<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-										<a class="dropdown-item" href="#">Dropdown Item 1</a>
-										<a class="dropdown-item" href="#">Dropdown Item 2</a>
-										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="#">Another Dropdown Item</a>
-									</div>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Instructors</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Events</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">About Us</a>
-								</li>
-								<li class="nav-item">
-									<a href="#" class="nav-link">Contact Us</a>
-								</li>
-							</ul>
-						</div>
-					</nav>
-
-				</div>
-			</div>
-
-			<div id="header-wrap" class="bg-light">
-				<div class="container">
-					<div class="header-row flex-row-reverse flex-lg-row justify-content-between">
-
-						<div class="header-misc">
-
-							<div class="header-buttons me-3">
-								<a href="#" class="button button-rounded button-border button-small m-0">Log In</a>
-								<a href="#" class="button button-rounded button-small m-0 ms-2">Sign Up</a>
-							</div>
-
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
-
-							<!-- Top Cart
-							============================================= -->
-							<div id="top-cart" class="header-misc-icon d-none d-sm-block">
-								<a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span class="top-cart-number">5</span></a>
-								<div class="top-cart-content">
-									<div class="top-cart-title">
-										<h4>Shopping Cart</h4>
-									</div>
-									<div class="top-cart-items">
-										<div class="top-cart-item">
-											<div class="top-cart-item-image">
-												<a href="#"><img src="images/shop/small/1.jpg" alt="Blue Round-Neck Tshirt" /></a>
-											</div>
-											<div class="top-cart-item-desc">
-												<div class="top-cart-item-desc-title">
-													<a href="#">Blue Round-Neck Tshirt with a Button</a>
-													<span class="top-cart-item-price d-block">$19.99</span>
-												</div>
-												<div class="top-cart-item-quantity">x 2</div>
-											</div>
-										</div>
-										<div class="top-cart-item">
-											<div class="top-cart-item-image">
-												<a href="#"><img src="images/shop/small/6.jpg" alt="Light Blue Denim Dress" /></a>
-											</div>
-											<div class="top-cart-item-desc">
-												<div class="top-cart-item-desc-title">
-													<a href="#">Light Blue Denim Dress</a>
-													<span class="top-cart-item-price d-block">$24.99</span>
-												</div>
-												<div class="top-cart-item-quantity">x 3</div>
-											</div>
-										</div>
-									</div>
-									<div class="top-cart-action">
-										<span class="top-checkout-price">$114.95</span>
-										<a href="#" class="button button-3d button-small m-0">View Cart</a>
-									</div>
-								</div>
-							</div><!-- #top-cart end -->
-
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu with-arrows">
-
-							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="#" class="ps-0"><div><i class="icon-line-grid"></i>All Categories</div></a>
-									<ul class="sub-menu-container">
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-user"></i>Teacher Training</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All Teacher Training</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Educational Training</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Teaching Tools</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-chart-bar1"></i>Business</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All Business Classes</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Finance</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Sales</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Marketing</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Industry</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Real Estates</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-code1"></i>Development</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All Development Training</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Software Training</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Graphics Tools</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Development Skills</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-screen-smartphone"></i>IT & Software</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All IT & Software Training</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Software Training</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Application Tools</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-music1"></i>Music</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All Music Classes</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Instrumental</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Vocals</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Lyrics</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-game-controller"></i>Lifestyle</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All Lifestyle Training</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Art &amp; Crafts</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Foods & Beverages</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Gaming</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-globe"></i>Language</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All Languages</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>English</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Spanish</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Germans</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Hindi</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Russian</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-health"></i>Health &amp; Fitness</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All Health &amp; Fitness</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Yoga</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Gym</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Sports</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Nutrition</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-crop"></i>Design</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All Designs</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Game Design</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Graphic Design</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Web Design</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-
-										<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-food"></i>Food</div></a>
-											<ul class="sub-menu-container">
-												<li class="menu-item"><a class="menu-link" href="#"><div>All Food Recipes</div></a>
-													<ul class="sub-menu-container">
-														<li class="menu-item"><a class="menu-link" href="#"><div>Level 3</div></a></li>
-													</ul>
-												</li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Heathy Foods</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Fast Foods</div></a></li>
-												<li class="menu-item"><a class="menu-link" href="#"><div>Others</div></a></li>
-											</ul>
-										</li>
-									</ul>
-								</li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-						<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form>
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<!-- Slider
-		============================================= -->
-		<section id="slider" class="slider-element min-vh-75">
-			<div class="slider-inner">
-
-				<div class="vertical-middle">
-					<div class="container text-center">
-						<div class="row justify-content-center">
-							<div class="col-md-7">
-								<div class="slider-title mb-5 dark clearfix">
-									<h2 class="text-white text-rotater mb-2" data-separator="," data-rotate="fadeIn" data-speed="3500">Learn More About <span class="t-rotate text-white d-inline-block">Development,Photography,Teacher Training,Business,Lifestyle,Language,Health,Fitness,Music</span>.</h2>
-									<p class="lead mb-0 text-uppercase ls2" style="color: #CCC; font-size: 110%">What Do You Want To Learn?</p>
-								</div>
-								<div class="clear"></div>
-								<div class="input-group input-group-lg mt-1">
-									<input class="form-control rounded border-0" type="search" placeholder="Search Your Courses.." aria-label="Search">
-									<button class="btn" type="submit"><i class="icon-line-search fw-bold"></i></button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- HTML5 Video Wrap
-				============================================= -->
-				<div class="video-wrap">
-					<video id="slide-video" poster="demos/course/images/video/poster.jpg" preload="auto" loop autoplay muted>
-						<source src='demos/course/images/video/1.mp4' type='video/mp4' />
-					</video>
-					<div class="video-overlay" style="background: rgba(0,0,0,0.5); z-index: 1"></div>
-				</div>
-
-			</div>
-		</section>
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap" style="overflow: visible;">
-
-				<!-- Wave Shape Divider
-				============================================= -->
-				<div class="wave-bottom" style="position: absolute; top: -12px; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x; transform: rotate(180deg);"></div>
-
-				<div class="container">
-
-					<div class="heading-block border-bottom-0 my-4 center">
-						<h3>Popular Categories</h3>
-						<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla natus mollitia ipsum. Voluptatibus, perspiciatis placeat.</span>
-					</div>
-
-					<!-- Categories
-					============================================= -->
-					<div class="row course-categories clearfix mb-4">
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/music.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(251,51,100,0.8);">
-									<span><i class="icon-music1"></i>Music</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/development.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(29,74,103,0.8);">
-									<span><i class="icon-code1"></i>Development</span>
-								</a>
-							</div>
-						</div>
-
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/teacher.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(50,71,66,0.8);">
-									<span><i class="icon-line2-user"></i>Teacher</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/food.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(70,58,69,0.8);">
-									<span><i class="icon-food"></i>Food</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/business.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(252,108,52,0.8);">
-									<span><i class="icon-chart-bar1"></i>Business</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/health.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(158,108,87,0.8);">
-									<span><i class="icon-heartbeat"></i>Health Fitness</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/lifestyle.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(164,108,119,0.85);">
-									<span><i class="icon-line2-game-controller"></i>Lifestyle</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/language.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(80,167,159,0.8);">
-									<span><i class="icon-line2-globe"></i>Language</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/paint.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(23,116,234,0.8);">
-									<span><i class="icon-paint-brush"></i>Paint</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/photography.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(108,156,148,0.85);">
-									<span><i class="icon-line2-camera"></i>Photography</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/marketing.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(227,141,66,0.8);">
-									<span><i class="icon-line-share"></i>Digital Marketing</span>
-								</a>
-							</div>
-						</div>
-
-						<div class="col-lg-2 col-sm-3 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/academics.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(39,103,240,0.8);">
-									<span><i class="icon-line-book"></i>Academics</span>
-								</a>
-							</div>
-						</div>
-
-					</div>
-
-					<div class="clear"></div>
-
-				</div>
-
-				<!-- Section Courses
-				============================================= -->
-				<div class="section topmargin-lg parallax" style="padding: 80px 0 60px; background-image: url('demos/course/images/icon-pattern.jpg'); background-size: auto; background-repeat: repeat"  data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -500px;">
-
-					<!-- Wave Shape Divider
-					============================================= -->
-					<div class="wave-top" style="position: absolute; top: 0; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x;"></div>
-
-					<div class="container">
-
-						<div class="heading-block border-bottom-0 mb-5 center">
-							<h3>Most Popular Courses</h3>
-							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla natus mollitia ipsum. Voluptatibus, perspiciatis placeat.</span>
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="row mt-2">
-
-							<!-- Course 1
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/1.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title fw-bold mb-2"><a href="#">Spanish Language Learning For Absolute Beginners</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a href="#" class="text-black-50">Language</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i> <span>4.7</span></div>
-										<p class="card-text text-black-50 mb-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">$19.99</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-
-							<!-- Course 2
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/2.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title fw-bold mb-2"><a href="#">Music Theory for Electronic Producers - The Complete Course!</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a href="#" class="text-black-50">Music</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i> <span>4.9</span></div>
-										<p class="card-text text-black-50 mb-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-warning">Free</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-
-							<!-- Course 3
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/3.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title fw-bold mb-2"><a href="#">Ultimate Photoshop Training: From Beginner to Pro</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a href="#" class="text-black-50">Design Tools</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span>4.4</span></div>
-										<p class="card-text text-black-50 mb-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-warning">Free</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-
-							<!-- Course 4
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/4.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title fw-bold mb-2"><a href="#">Blockchain Advanced Level: Uses Beyond Bitcoin 2021</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a href="#" class="text-black-50">Business</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
-										<p class="card-text text-black-50 mb-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">$19.99</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-
-							<!-- Course 5
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/5.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title fw-bold mb-2"><a href="#">Cognitive Behavioural Therapy (CBT) Practitioner Certificate</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a href="#" class="text-black-50">Health & Fitness</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-empty"></i> <span>4.1</span></div>
-										<p class="card-text text-black-50 mb-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">$23.99</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-
-							<!-- Course 6
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/6.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title fw-bold mb-2"><a href="#">Masterclass: Start Your Food Business 7 courses in 1</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a href="#" class="text-black-50">Food Recipes</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span>4.4</span></div>
-										<p class="card-text text-black-50 mb-1">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">$21.99</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<!-- Wave Shape Divider - Bottom
-					============================================= -->
-					<div class="wave-bottom" style="position: absolute; top: auto; bottom: 0; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x; transform: rotate(180deg);"></div>
-				</div>
-
-				<!-- Instructors Section
-				============================================= -->
-				<div class="section bg-transparent" style="padding: 60px 0 40px;">
-					<div class="container">
-
-						<div class="heading-block border-bottom-0 mb-5 center">
-							<h3>Most Popular Instructors</h3>
-							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla natus mollitia ipsum. Voluptatibus, perspiciatis placeat.</span>
-						</div>
-
-						<div class="clear"></div>
-
-						<div class="row">
-
-							<!-- Instructors 1
-							============================================= -->
-							<div class="col-lg-3 col-sm-6 mb-4">
-								<div class="feature-box hover-effect shadow-sm fbox-center fbox-bg fbox-light fbox-lg fbox-effect">
-									<div class="fbox-icon">
-										<i><img src="demos/course/images/instructor/1.jpg" class="border-0 bg-transparent shadow-sm" style="z-index: 2;" alt="Image"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="mb-4 nott ls0"><a href="#" class="text-dark">Dylan Meringue</a><br><small class="subtitle nott color">Digital Marketing</small></h3>
-										<p class="text-dark"><strong>2342</strong> Students</p>
-										<p class="text-dark mt-0"><strong>23</strong> Courses</p>
-									</div>
-								</div>
-							</div>
-
-							<!-- Instructors 2
-							============================================= -->
-							<div class="col-lg-3 col-sm-6 mb-4">
-								<div class="feature-box hover-effect shadow-sm fbox-center fbox-bg fbox-light fbox-lg fbox-effect">
-									<div class="fbox-icon">
-										<i><img src="demos/course/images/instructor/2.jpg" class="border-0 bg-transparent shadow-sm" style="z-index: 2;" alt="Image"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="mb-4 nott ls0"><a href="#" class="text-dark">Alan Fresco</a><br><small class="subtitle nott color">Health &amp; Fitness</small></h3>
-										<p class="text-dark"><strong>7563</strong> Students</p>
-										<p class="text-dark mt-0"><strong>29</strong> Courses</p>
-									</div>
-								</div>
-							</div>
-
-							<!-- Instructors 3
-							============================================= -->
-							<div class="col-lg-3 col-sm-6 mb-4">
-								<div class="feature-box hover-effect shadow-sm fbox-center fbox-bg fbox-light fbox-lg fbox-effect">
-									<div class="fbox-icon">
-										<i><img src="demos/course/images/instructor/3.jpg" class="border-0 bg-transparent shadow-sm" style="z-index: 2;" alt="Image"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="mb-4 nott ls0"><a href="#" class="text-dark">Gunther Beard</a><br><small class="subtitle nott color">Photography</small></h3>
-										<p class="text-dark"><strong>1131</strong> Students</p>
-										<p class="text-dark mt-0"><strong>11</strong> Courses</p>
-									</div>
-								</div>
-							</div>
-
-							<!-- Instructors 4
-							============================================= -->
-							<div class="col-lg-3 col-sm-6 mb-4">
-								<div class="feature-box hover-effect shadow-sm fbox-center fbox-bg fbox-light fbox-lg fbox-effect">
-									<div class="fbox-icon">
-										<i><img src="demos/course/images/instructor/4.jpg" class="border-0 bg-transparent shadow-sm" style="z-index: 2;" alt="Image"></i>
-									</div>
-									<div class="fbox-content">
-										<h3 class="mb-4 nott ls0"><a href="#" class="text-dark">Desmond Eagle</a><br><small class="subtitle nott color">Lifestyle</small></h3>
-										<p class="text-dark"><strong>1232</strong> Students</p>
-										<p class="text-dark mt-0"><strong>12</strong> Courses</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<!-- Featues Section
-				============================================= -->
-				<div class="section mt-5 mb-0" style="padding: 120px 0; background-image: url('demos/course/images/icon-pattern-bg.jpg'); background-size: auto; background-repeat: repeat">
-
-					<!-- Wave Shape
-					============================================= -->
-					<div class="wave-top" style="position: absolute; top: 0; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x;"></div>
-
-					<div class="container">
-						<div class="row">
-
-							<div class="col-lg-8">
-								<div class="row dark clearfix">
-
-									<!-- Feature - 1
-									============================================= -->
-									<div class="col-md-6">
-										<div class="feature-box media-box bottommargin">
-											<div class="fbox-icon">
-												<a href="#">
-													<i class="icon-line2-book-open rounded-0 bg-transparent text-start"></i>
-												</a>
-											</div>
-											<div class="fbox-content">
-												<h3 class="text-white">21,000 Online Courses</h3>
-												<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
-											</div>
-										</div>
-									</div>
-
-									<!-- Feature - 2
-									============================================= -->
-									<div class="col-md-6">
-										<div class="feature-box media-box bottommargin">
-											<div class="fbox-icon">
-												<a href="#">
-													<i class="icon-line2-note rounded-0 bg-transparent text-start"></i>
-												</a>
-											</div>
-											<div class="fbox-content">
-												<h3 class="text-white">Lifetime Access</h3>
-												<p class="text-white">Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse.</p>
-											</div>
-										</div>
-									</div>
-
-									<!-- Feature - 3
-									============================================= -->
-									<div class="col-md-6">
-										<div class="feature-box media-box bottommargin">
-											<div class="fbox-icon">
-												<a href="#">
-													<i class="icon-line2-user rounded-0 bg-transparent text-start"></i>
-												</a>
-											</div>
-											<div class="fbox-content">
-												<h3 class="text-white">Expert Instructors</h3>
-												<p class="text-white">Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum quo.</p>
-											</div>
-										</div>
-									</div>
-
-									<!-- Feature - 4
-									============================================= -->
-									<div class="col-md-6">
-										<div class="feature-box media-box bottommargin">
-											<div class="fbox-icon">
-												<a href="#">
-													<i class="icon-line2-globe rounded-0 bg-transparent text-start"></i>
-												</a>
-											</div>
-											<div class="fbox-content">
-												<h3 class="text-white">Different Languages</h3>
-												<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-
-							<!-- Registration Foem
-							============================================= -->
-							<div class="col-lg-4">
-
-								<div class="card shadow" data-animate="shake" style="opacity: 1 !important">
-									<div class="card-body">
-
-										<div class="badge registration-badge shadow-sm alert-primary">FREE</div>
-										<h4 class="card-title ls-1 mt-4 fw-bold h5">Get Your Free Online Courses!</h4>
-										<h6 class="card-subtitle mb-4 fw-normal text-uppercase ls2 text-black-50">Free Registration here.</h6>
-
-										<div class="form-widget">
-											<div class="form-result"></div>
-
-											<form class="row mb-0" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
-
-												<div class="form-process">
-													<div class="css3-spinner">
-														<div class="css3-spinner-scaler"></div>
-													</div>
-												</div>
-
-												<div class="col-12 form-group">
-													<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control border-form-control required" placeholder="Your Full Name:" />
-												</div>
-												<div class="col-12 form-group">
-													<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control border-form-control" placeholder="Your Email Address:" />
-												</div>
-
-												<div class="col-12 form-group">
-													<input type="text" id="template-contactform-phone" name="template-contactform-phone" value="" class="sm-form-control border-form-control required" placeholder="Your Phone Number:" />
-												</div>
-
-												<div class="col-12 form-group">
-													<button class="button button-rounded w-100 button-large bg-color text-white nott ls0 mx-0" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Apply It Now</button>
-													<br>
-													<small style="display: block; font-size: 12px; margin-top: 15px; color: #AAA;"><em>We'll do our best to get back to you within 6-8 working hours.</em></small>
-												</div>
-
-												<div class="col-12 form-group d-none">
-													<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
-												</div>
-
-												<input type="hidden" name="prefix" value="template-contactform-">
-
-											</form>
-										</div>
-
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-
-					<!-- Wave Shape
-					============================================= -->
-					<div class="wave-bottom" style="position: absolute; top: auto; bottom: 0; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x; transform: rotate(180deg);"></div>
-
-				</div>
-
-				<!-- Promo Section
-				============================================= -->
-				<div class="section m-0" style="padding: 120px 0; background: #FFF url('demos/course/images/instructor.jpg') no-repeat left top / cover">
-					<div class="container">
-						<div class="row">
-
-							<div class="col-md-7"></div>
-
-							<div class="col-md-5">
-								<div class="heading-block border-bottom-0 mb-4 mt-5">
-									<h3>Become an Instructor!</h3>
-									<span>Teach What You Love.</span>
-								</div>
-								<p class="mb-2">Monotonectally conceptualize covalent strategic theme areas and cross-unit deliverables.</p>
-								<p>Consectetur adipisicing elit. Voluptate incidunt dolorum perferendis accusamus nesciunt et est consequuntur placeat, dolor quia.</p>
-								<a href="#" class="button button-rounded button-xlarge ls0 ls0 nott fw-normal m-0">Start Teaching</a>
-							</div>
-
-						</div>
-					</div>
-				</div>
-
-				<div class="promo promo-light promo-full p-5 footer-stick" style="padding: 60px 0 !important;">
-					<div class="container clearfix">
-						<div class="row align-items-center">
-							<div class="col-12 col-lg">
-								<h3 class="ls-1">Call us today at <span>+1.22.57412541</span> or Email us at <span>support@canvas.com</span></h3>
-								<span class="text-black-50">We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful.</span>
-							</div>
-							<div class="col-12 col-lg-auto mt-4 mt-lg-0">
-								<a href="#" class="button button-xlarge button-rounded nott ls0 fw-normal m-0">Start Now</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="dark">
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap">
-
-					<div class="row">
-						<div class="col-6 col-md"  style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
-							<img class="mb-3" src="demos/course/images/logo-footer.png" alt="Image" width="160">
-							<small class="d-block mb-4 text-muted">&copy; 2020-2021</small>
-							<p class="text-white-50" style="font-size: 16px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, impedit quam nemo doloremque sed, dolores.</p>
-							<a href="#" class="mb-2 d-block"><i class="icon-line2-call-in me-2"></i>+1-111-222-333</a>
-							<a href="#"><i class="icon-line2-envelope me-2"></i>info@canvas.com</a>
-						</div>
-						<div class="col-6 col-md">
-							<h4 class="text-uppercase ls2 fw-normal">Best Courses</h4>
-							<ul class="list-unstyled mb-0">
-								<li><h5 class="mb-0"><a href="#" class="text-white">Cooking Classes</a></h5><p>Dylan Meringue</p></li>
-								<li><h5 class="mb-0"><a href="#" class="text-white">Learning Spanish</a></h5><p>Gunther Beard</p></li>
-								<li><h5 class="mb-0"><a href="#" class="text-white">Website Development</a></h5><p>Desmond Eagle</p></li>
-							</ul>
-						</div>
-						<div class="col-6 col-md col-sm mt-4 mt-md-0 mt-lg-0 mt-xl-0">
-							<h4 class="text-uppercase ls2 fw-normal">Support</h4>
-							<ul class="list-unstyled mb-0">
-								<li><h5 class="mb-2 fw-normal"><a href="#">My Account</a></h5></li>
-								<li><h5 class="mb-2 fw-normal"><a href="#">Become an Instructor</a></h5></li>
-								<li><h5 class="mb-2 fw-normal"><a href="#">Free Courses</a></h5></li>
-								<li><h5 class="mb-2 fw-normal"><a href="#">Mobile Apps</a></h5></li>
-								<li><h5 class="mb-2 fw-normal"><a href="#">Contact Us</a></h5></li>
-							</ul>
-						</div>
-						<div class="col-6 col-md mt-4 mt-md-0 mt-lg-0 mt-xl-0">
-							<h4 class="text-uppercase ls2 fw-normal">Worldwide</h4>
-							<a href="#"><img src="demos/course/images/map.png" alt="Image"></a>
-						</div>
-					</div>
-
-				</div><!-- .footer-widgets-wrap end -->
-
-			</div>
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
-
-				<div class="container clearfix">
-
-					<div class="row align-items-center justify-content-between">
-						<div class="col-md-6">
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.<br>
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-						</div>
-
-						<div class="col-md-6 d-flex justify-content-md-end mt-4 mt-md-0">
-							<div class="copyrights-menu copyright-links mb-0 clearfix">
-								<a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Price</a>/<a href="#">Contact</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-
-			</div><!-- #copyrights end -->
-
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--上边栏 =============================================-->
+<div class="bg-color dark" id="top-bar">
+<div class="container clearfix">
+<div class="row justify-content-between">
+<div class="col-12 col-md-auto me-md-auto">
+<!--顶端链接 =============================================-->
+<div class="top-links">
+<ul class="top-links-container">
+<li class="top-links-item"><a href="#">所有城市</a>
+<ul class="top-links-sub-menu">
+<li class="top-links-item"><a href="#">纽约</a></li>
+<li class="top-links-item"><a href="#">洛杉矶</a></li>
+<li class="top-links-item"><a href="#">加利福尼亚州</a></li>
+<li class="top-links-item"><a href="#">迈阿密</a></li>
+<li class="top-links-item"><a href="#">拉斯维加斯</a></li>
+</ul>
+</li>
+</ul>
+</div><!--上行链接结束-->
+</div>
+<div class="col-12 col-md-auto px-0">
+<!--顶端链接 =============================================-->
+<div class="top-links">
+<ul class="top-links-container">
+<li class="top-links-item"><a href="#">免费课程</a></li>
+<li class="top-links-item d-none d-sm-inline-block"><a href="#"><i class="icon-download-alt"></i>下载 App</a></li>
+</ul>
+</div><!--上行链接结束-->
+</div>
+<div class="col-12 col-md-auto ps-0">
+<ul id="top-social">
+<li><a class="si-facebook" href="#"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">脸书</span></a></li>
+<li><a class="si-twitter" href="#"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">微博</span></a></li>
+<li><a class="si-instagram" href="#"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">内存</span></a></li>
+<li><a class="si-call" href="tel:+1.11.85412542"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">+1.11.85412542</span></a></li>
+<li><a class="si-email3" href="mailto:info@canvas.com"><span class="ts-icon"><i class="icon-envelope-alt"></i></span><span class="ts-text">信息库@canvas.com</span></a></li>
+</ul><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}社会末日-->
+</div>
+</div>
+</div>
+</div>
+<!--页眉 =============================================-->
+<header class="header-size-sm" data-sticky-shrink="false" id="header">
+<div class="container">
+<div class="header-row">
+<nav class="navbar navbar-expand-lg p-0 m-0 w-100">
+<div id="logo">
+<a class="standard-logo" href="index.html"><img alt="Canvas Logo" src="demos/business/images/logo.png"/></a>
+<a class="retina-logo" href="index.html"><img alt="Canvas Logo" src="demos/course/images/logo@2x.png"/></a>
+</div>
+<button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="icon-line-menu"></span>
+</button>
+<div class="collapse navbar-collapse align-items-end" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item active">
+<a class="nav-link" href="#">内容</a>
+</li>
+<li class="nav-item dropdown">
+<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="navbarDropdown" role="button">成员</a>
+<div aria-labelledby="navbarDropdown" class="dropdown-menu">
+<a class="dropdown-item" href="#">项目1</a>
+<a class="dropdown-item" href="#">项目2</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="#">又一个倒下 项目</a>
+</div>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">教官</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">活动</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">关于我们</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="#">联系我们</a>
+</li>
+</ul>
+</div>
+</nav>
+</div>
+</div>
+<div class="bg-light" id="header-wrap">
+<div class="container">
+<div class="header-row flex-row-reverse flex-lg-row justify-content-between">
+<div class="header-misc">
+<div class="header-buttons me-3">
+<a class="button button-rounded button-border button-small m-0" href="#">登录</a>
+<a class="button button-rounded button-small m-0 ms-2" href="#">注册</a>
+</div>
+<!--顶级搜索 =============================================-->
+<div class="header-misc-icon" id="top-search">
+<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+</div><!--#顶端搜索结束-->
+<!--顶点 =============================================-->
+<div class="header-misc-icon d-none d-sm-block" id="top-cart">
+<a href="#" id="top-cart-trigger"><i class="icon-line-bag"></i><span class="top-cart-number">5</span></a>
+<div class="top-cart-content">
+<div class="top-cart-title">
+<h4>购物卡</h4>
+</div>
+<div class="top-cart-items">
+<div class="top-cart-item">
+<div class="top-cart-item-image">
+<a href="#"><img alt="Blue Round-Neck Tshirt" src="images/shop/small/1.jpg"/></a>
+</div>
+<div class="top-cart-item-desc">
+<div class="top-cart-item-desc-title">
+<a href="#">有按钮的蓝色圆颈T恤</a>
+<span class="top-cart-item-price d-block">$19.99</span>
+</div>
+<div class="top-cart-item-quantity">x 二</div>
+</div>
+</div>
+<div class="top-cart-item">
+<div class="top-cart-item-image">
+<a href="#"><img alt="Light Blue Denim Dress" src="images/shop/small/6.jpg"/></a>
+</div>
+<div class="top-cart-item-desc">
+<div class="top-cart-item-desc-title">
+<a href="#">浅蓝色 Denim 服装</a>
+<span class="top-cart-item-price d-block">$24.99</span>
+</div>
+<div class="top-cart-item-quantity">页:1</div>
+</div>
+</div>
+</div>
+<div class="top-cart-action">
+<span class="top-checkout-price">$114.95</span>
+<a class="button button-3d button-small m-0" href="#">查看单元格</a>
+</div>
+</div>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}车尾-->
+</div>
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu with-arrows">
+<ul class="menu-container">
+<li class="menu-item"><a class="ps-0" href="#"><div><i class="icon-line-grid"></i>所有类别</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-user"></i>教师培训</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有教师培训</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>教育培训</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>教学工具</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-chart-bar1"></i>商业</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有商业类</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>财务</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>销售</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>营销</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>工业</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>房地产</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-code1"></i>发展</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有发展培训</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>软件培训</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>图形工具</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>发展技能</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-screen-smartphone"></i>信息技术和软件</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有信息技术和软件培训</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>软件培训</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>应用程序工具</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-music1"></i>音乐</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有音乐类</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>仪器</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>声音</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>词组</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-game-controller"></i>生活方式</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有生活方式培训</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>艺术和工艺</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>食品和饮料</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>游戏</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-globe"></i>语言</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有语文</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>联合国</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>西班牙语</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>德国人</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>印地语</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>俄语</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-health"></i>健康和健康</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有健康和健康</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>瑜伽语</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>游戏</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>体育</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>营养</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-line2-crop"></i>设计</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有设计</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>游戏设计</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>图形设计</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>Web 设计</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div><i class="icon-food"></i>粮食</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>所有食谱</div></a>
+<ul class="sub-menu-container">
+<li class="menu-item"><a class="menu-link" href="#"><div>第3级</div></a></li>
+</ul>
+</li>
+<li class="menu-item"><a class="menu-link" href="#"><div>健康食品</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>快速食品</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>其他人员</div></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav><!--初等菜单结束-->
+<form action="search.html" class="top-search-form" method="get">
+<input autocomplete="off" class="form-control" name="q" placeholder="Type &amp; Hit Enter.." type="text" value=""/>
+</form>
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--幻灯片 =============================================-->
+<section class="slider-element min-vh-75" id="slider">
+<div class="slider-inner">
+<div class="vertical-middle">
+<div class="container text-center">
+<div class="row justify-content-center">
+<div class="col-md-7">
+<div class="slider-title mb-5 dark clearfix">
+<h2 class="text-white text-rotater mb-2" data-rotate="fadeIn" data-separator="," data-speed="3500">学习更多关于<span class="t-rotate text-white d-inline-block">发展、摄影、教师培训、商业、生活方式、语言、健康、适应、音乐</span>.</h2>
+<p class="lead mb-0 text-uppercase ls2" style="color: #CCC; font-size: 110%">你想学什么?</p>
+</div>
+<div class="clear"></div>
+<div class="input-group input-group-lg mt-1">
+<input aria-label="Search" class="form-control rounded border-0" placeholder="Search Your Courses.." type="search"/>
+<button class="btn" type="submit"><i class="icon-line-search fw-bold"></i></button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--HTML5 语言 视频 环绕 =============================================-->
+<div class="video-wrap">
+<video autoplay="" id="slide-video" loop="" muted="" poster="demos/course/images/video/poster.jpg" preload="auto">
+<source src="demos/course/images/video/1.mp4" type="video/mp4"/>
+</video>
+<div class="video-overlay" style="background: rgba(0,0,0,0.5); z-index: 1"></div>
+</div>
+</div>
+</section>
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap" style="overflow: visible;">
+<!--波形分割符 =============================================-->
+<div class="wave-bottom" style="position: absolute; top: -12px; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x; transform: rotate(180deg);"></div>
+<div class="container">
+<div class="heading-block border-bottom-0 my-4 center">
+<h3>大众类别</h3>
+<span>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 (原始内容存档于2013-10-12). Nulla natus mollitia ourum. (原始内容存档于2018-10-21). Voluptatibus, perspiciatis platat.</span>
+</div>
+<!--类别 =============================================-->
+<div class="row course-categories clearfix mb-4">
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/music.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(251,51,100,0.8);">
+<span><i class="icon-music1"></i>音乐</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/development.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(29,74,103,0.8);">
+<span><i class="icon-code1"></i>发展</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/teacher.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(50,71,66,0.8);">
+<span><i class="icon-line2-user"></i>老师</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/food.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(70,58,69,0.8);">
+<span><i class="icon-food"></i>粮食</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/business.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(252,108,52,0.8);">
+<span><i class="icon-chart-bar1"></i>商业</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/health.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(158,108,87,0.8);">
+<span><i class="icon-heartbeat"></i>保健</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/lifestyle.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(164,108,119,0.85);">
+<span><i class="icon-line2-game-controller"></i>生活方式</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/language.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(80,167,159,0.8);">
+<span><i class="icon-line2-globe"></i>语言</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/paint.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(23,116,234,0.8);">
+<span><i class="icon-paint-brush"></i>绘画</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/photography.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(108,156,148,0.85);">
+<span><i class="icon-line2-camera"></i>摄影</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/marketing.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(227,141,66,0.8);">
+<span><i class="icon-line-share"></i>数字营销</span>
+</a>
+</div>
+</div>
+<div class="col-lg-2 col-sm-3 col-6 mt-4">
+<div class="card hover-effect">
+<img alt="Card image" class="card-img" src="demos/course/images/categories/academics.jpg"/>
+<a class="card-img-overlay rounded p-0" href="#" style="background-color: rgba(39,103,240,0.8);">
+<span><i class="icon-line-book"></i>学者</span>
+</a>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+<!--科级课程 =============================================-->
+<div class="section topmargin-lg parallax" data-bottom-top="background-position:0px 100px;" data-top-bottom="background-position:0px -500px;" style="padding: 80px 0 60px; background-image: url('demos/course/images/icon-pattern.jpg'); background-size: auto; background-repeat: repeat">
+<!--波形分割符 =============================================-->
+<div class="wave-top" style="position: absolute; top: 0; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x;"></div>
+<div class="container">
+<div class="heading-block border-bottom-0 mb-5 center">
+<h3>最受欢迎的课程</h3>
+<span>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 (原始内容存档于2013-10-12). Nulla natus mollitia ourum. (原始内容存档于2018-10-21). Voluptatibus, perspiciatis platat.</span>
+</div>
+<div class="clear"></div>
+<div class="row mt-2">
+<!--课程 1个 =============================================-->
+<div class="col-md-4 mb-5">
+<div class="card course-card hover-effect border-0">
+<a href="#"><img alt="Card image cap" class="card-img-top" src="demos/course/images/courses/1.jpg"/></a>
+<div class="card-body">
+<h4 class="card-title fw-bold mb-2"><a href="#">西班牙语学习绝对初学者</a></h4>
+<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a class="text-black-50" href="#">语言</a></p>
+<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i> <span>4.7</span></div>
+<p class="card-text text-black-50 mb-1">一些以卡片标题为主并构成卡片内容大部的快例文本.</p>
+</div>
+<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
+<div class="badge alert-primary">$19.99</div>
+<a class="text-dark position-relative" href="#"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
+</div>
+</div>
+</div>
+<!--课程 2个 =============================================-->
+<div class="col-md-4 mb-5">
+<div class="card course-card hover-effect border-0">
+<a href="#"><img alt="Card image cap" class="card-img-top" src="demos/course/images/courses/2.jpg"/></a>
+<div class="card-body">
+<h4 class="card-title fw-bold mb-2"><a href="#">电子制作人的音乐理论 - 完整课程!</a></h4>
+<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a class="text-black-50" href="#">音乐</a></p>
+<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i> <span>4.9</span></div>
+<p class="card-text text-black-50 mb-1">一些以卡片标题为主并构成卡片内容大部的快例文本.</p>
+</div>
+<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
+<div class="badge alert-warning">免费</div>
+<a class="text-dark position-relative" href="#"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
+</div>
+</div>
+</div>
+<!--课程 3个 =============================================-->
+<div class="col-md-4 mb-5">
+<div class="card course-card hover-effect border-0">
+<a href="#"><img alt="Card image cap" class="card-img-top" src="demos/course/images/courses/3.jpg"/></a>
+<div class="card-body">
+<h4 class="card-title fw-bold mb-2"><a href="#">终极相机 培训:从初学者到正学者</a></h4>
+<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a class="text-black-50" href="#">设计工具</a></p>
+<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span>4.4</span></div>
+<p class="card-text text-black-50 mb-1">一些以卡片标题为主并构成卡片内容大部的快例文本.</p>
+</div>
+<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
+<div class="badge alert-warning">免费</div>
+<a class="text-dark position-relative" href="#"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
+</div>
+</div>
+</div>
+<!--课程 页:1 =============================================-->
+<div class="col-md-4 mb-5">
+<div class="card course-card hover-effect border-0">
+<a href="#"><img alt="Card image cap" class="card-img-top" src="demos/course/images/courses/4.jpg"/></a>
+<div class="card-body">
+<h4 class="card-title fw-bold mb-2"><a href="#">2021年Bitcoin以外的用途</a></h4>
+<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a class="text-black-50" href="#">商业</a></p>
+<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
+<p class="card-text text-black-50 mb-1">一些以卡片标题为主并构成卡片内容大部的快例文本.</p>
+</div>
+<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
+<div class="badge alert-primary">$19.99</div>
+<a class="text-dark position-relative" href="#"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
+</div>
+</div>
+</div>
+<!--课程 页:1 =============================================-->
+<div class="col-md-4 mb-5">
+<div class="card course-card hover-effect border-0">
+<a href="#"><img alt="Card image cap" class="card-img-top" src="demos/course/images/courses/5.jpg"/></a>
+<div class="card-body">
+<h4 class="card-title fw-bold mb-2"><a href="#">认知行为治疗从业者证书</a></h4>
+<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a class="text-black-50" href="#">健康和健康</a></p>
+<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-empty"></i> <span>4.1</span></div>
+<p class="card-text text-black-50 mb-1">一些以卡片标题为主并构成卡片内容大部的快例文本.</p>
+</div>
+<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
+<div class="badge alert-primary">$23.99</div>
+<a class="text-dark position-relative" href="#"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
+</div>
+</div>
+</div>
+<!--课程 6个 =============================================-->
+<div class="col-md-4 mb-5">
+<div class="card course-card hover-effect border-0">
+<a href="#"><img alt="Card image cap" class="card-img-top" src="demos/course/images/courses/6.jpg"/></a>
+<div class="card-body">
+<h4 class="card-title fw-bold mb-2"><a href="#">硕士班:在1个中开设7个课程</a></h4>
+<p class="mb-2 card-title-sub text-uppercase fw-normal ls1"><a class="text-black-50" href="#">食谱</a></p>
+<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span>4.4</span></div>
+<p class="card-text text-black-50 mb-1">一些以卡片标题为主并构成卡片内容大部的快例文本.</p>
+</div>
+<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
+<div class="badge alert-primary">$21.99</div>
+<a class="text-dark position-relative" href="#"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--波形分割符 - 下方 =============================================-->
+<div class="wave-bottom" style="position: absolute; top: auto; bottom: 0; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x; transform: rotate(180deg);"></div>
+</div>
+<!--教官科 =============================================-->
+<div class="section bg-transparent" style="padding: 60px 0 40px;">
+<div class="container">
+<div class="heading-block border-bottom-0 mb-5 center">
+<h3>最受欢迎的教官</h3>
+<span>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 (原始内容存档于2013-10-12). Nulla natus mollitia ourum. (原始内容存档于2018-10-21). Voluptatibus, perspiciatis platat.</span>
+</div>
+<div class="clear"></div>
+<div class="row">
+<!--教官 1个 =============================================-->
+<div class="col-lg-3 col-sm-6 mb-4">
+<div class="feature-box hover-effect shadow-sm fbox-center fbox-bg fbox-light fbox-lg fbox-effect">
+<div class="fbox-icon">
+<i><img alt="Image" class="border-0 bg-transparent shadow-sm" src="demos/course/images/instructor/1.jpg" style="z-index: 2;"/></i>
+</div>
+<div class="fbox-content">
+<h3 class="mb-4 nott ls0"><a class="text-dark" href="#">迪伦·梅林格</a><br/><small class="subtitle nott color">数字营销</small></h3>
+<p class="text-dark"><strong>2342</strong>学生</p>
+<p class="text-dark mt-0"><strong>23</strong>课程</p>
+</div>
+</div>
+</div>
+<!--教官 2个 =============================================-->
+<div class="col-lg-3 col-sm-6 mb-4">
+<div class="feature-box hover-effect shadow-sm fbox-center fbox-bg fbox-light fbox-lg fbox-effect">
+<div class="fbox-icon">
+<i><img alt="Image" class="border-0 bg-transparent shadow-sm" src="demos/course/images/instructor/2.jpg" style="z-index: 2;"/></i>
+</div>
+<div class="fbox-content">
+<h3 class="mb-4 nott ls0"><a class="text-dark" href="#">艾伦·弗雷斯科</a><br/><small class="subtitle nott color">健康和健康</small></h3>
+<p class="text-dark"><strong>7563</strong>学生</p>
+<p class="text-dark mt-0"><strong>29</strong>课程</p>
+</div>
+</div>
+</div>
+<!--教官 3个 =============================================-->
+<div class="col-lg-3 col-sm-6 mb-4">
+<div class="feature-box hover-effect shadow-sm fbox-center fbox-bg fbox-light fbox-lg fbox-effect">
+<div class="fbox-icon">
+<i><img alt="Image" class="border-0 bg-transparent shadow-sm" src="demos/course/images/instructor/3.jpg" style="z-index: 2;"/></i>
+</div>
+<div class="fbox-content">
+<h3 class="mb-4 nott ls0"><a class="text-dark" href="#">枪手胡子</a><br/><small class="subtitle nott color">摄影</small></h3>
+<p class="text-dark"><strong>1131</strong>学生</p>
+<p class="text-dark mt-0"><strong>11</strong>课程</p>
+</div>
+</div>
+</div>
+<!--教官 页:1 =============================================-->
+<div class="col-lg-3 col-sm-6 mb-4">
+<div class="feature-box hover-effect shadow-sm fbox-center fbox-bg fbox-light fbox-lg fbox-effect">
+<div class="fbox-icon">
+<i><img alt="Image" class="border-0 bg-transparent shadow-sm" src="demos/course/images/instructor/4.jpg" style="z-index: 2;"/></i>
+</div>
+<div class="fbox-content">
+<h3 class="mb-4 nott ls0"><a class="text-dark" href="#">德斯蒙德·鹰</a><br/><small class="subtitle nott color">生活方式</small></h3>
+<p class="text-dark"><strong>1232</strong>学生</p>
+<p class="text-dark mt-0"><strong>12</strong>课程</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--费图斯科 =============================================-->
+<div class="section mt-5 mb-0" style="padding: 120px 0; background-image: url('demos/course/images/icon-pattern-bg.jpg'); background-size: auto; background-repeat: repeat">
+<!--波浪形状 =============================================-->
+<div class="wave-top" style="position: absolute; top: 0; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x;"></div>
+<div class="container">
+<div class="row">
+<div class="col-lg-8">
+<div class="row dark clearfix">
+<!--特征 - 1 =============================================-->
+<div class="col-md-6">
+<div class="feature-box media-box bottommargin">
+<div class="fbox-icon">
+<a href="#">
+<i class="icon-line2-book-open rounded-0 bg-transparent text-start"></i>
+</a>
+</div>
+<div class="fbox-content">
+<h3 class="text-white">21 000个在线课程</h3>
+<p class="text-white">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum est voluptatem craimamus uncileiae eaque perspiciatis mollitia. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+<!--特征 - 2 - QQ-->
+<div class="col-md-6">
+<div class="feature-box media-box bottommargin">
+<div class="fbox-icon">
+<a href="#">
+<i class="icon-line2-note rounded-0 bg-transparent text-start"></i>
+</a>
+</div>
+<div class="fbox-content">
+<h3 class="text-white">终身访问</h3>
+<p class="text-white">Porro slowlat vero sapiente ametcripture quibsdam necessibus consectur, labore totam. (原始内容存档于2018-07-21) (英语). Accusamus perspiciatis asperiores 劳动妇女.</p>
+</div>
+</div>
+</div>
+<!--特性 - 3 =============================================-->
+<div class="col-md-6">
+<div class="feature-box media-box bottommargin">
+<div class="fbox-icon">
+<a href="#">
+<i class="icon-line2-user rounded-0 bg-transparent text-start"></i>
+</a>
+</div>
+<div class="fbox-content">
+<h3 class="text-white">专家教官</h3>
+<p class="text-white">Quos, no, esse eligendi ab crapantium vouptatem. (原始内容存档于2018-09-29). Maxime eligendi beatae, atque testera ullam. (原始内容存档于2018-09-29) (英语). Vitae delectus quia, Consequentur rerumnus. 中国植物物种名录(CPNI).</p>
+</div>
+</div>
+</div>
+<!--特征 - 4 - Q-->
+<div class="col-md-6">
+<div class="feature-box media-box bottommargin">
+<div class="fbox-icon">
+<a href="#">
+<i class="icon-line2-globe rounded-0 bg-transparent text-start"></i>
+</a>
+</div>
+<div class="fbox-content">
+<h3 class="text-white">不同语言</h3>
+<p class="text-white">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum est voluptatem craimamus uncileiae eaque perspiciatis mollitia. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--登记 Foem =============================================-->
+<div class="col-lg-4">
+<div class="card shadow" data-animate="shake" style="opacity: 1 !important">
+<div class="card-body">
+<div class="badge registration-badge shadow-sm alert-primary">自由主义</div>
+<h4 class="card-title ls-1 mt-4 fw-bold h5">免费在线课程!</h4>
+<h6 class="card-subtitle mb-4 fw-normal text-uppercase ls2 text-black-50">这里有免费登记</h6>
+<div class="form-widget">
+<div class="form-result"></div>
+<form action="include/form.php" class="row mb-0" id="template-contactform" method="post" name="template-contactform">
+<div class="form-process">
+<div class="css3-spinner">
+<div class="css3-spinner-scaler"></div>
+</div>
+</div>
+<div class="col-12 form-group">
+<input class="sm-form-control border-form-control required" id="template-contactform-name" name="template-contactform-name" placeholder="Your Full Name:" type="text" value="">
+</input></div>
+<div class="col-12 form-group">
+<input class="required email sm-form-control border-form-control" id="template-contactform-email" name="template-contactform-email" placeholder="Your Email Address:" type="email" value="">
+</input></div>
+<div class="col-12 form-group">
+<input class="sm-form-control border-form-control required" id="template-contactform-phone" name="template-contactform-phone" placeholder="Your Phone Number:" type="text" value=""/>
+</div>
+<div class="col-12 form-group">
+<button class="button button-rounded w-100 button-large bg-color text-white nott ls0 mx-0" id="template-contactform-submit" name="template-contactform-submit" type="submit" value="submit">立即应用</button>
+<br/>
+<small style="display: block; font-size: 12px; margin-top: 15px; color: #AAA;"><em>我们会尽力在6 -8工作小时内给你回电</em></small>
+</div>
+<div class="col-12 form-group d-none">
+<input class="sm-form-control" id="template-contactform-botcheck" name="template-contactform-botcheck" type="text" value=""/>
+</div>
+<input name="prefix" type="hidden" value="template-contactform-"/>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--波浪形状 =============================================-->
+<div class="wave-bottom" style="position: absolute; top: auto; bottom: 0; left: 0; width: 100%; background-image: url('demos/course/images/wave-3.svg'); height: 12px; z-index: 2; background-repeat: repeat-x; transform: rotate(180deg);"></div>
+</div>
+<!--宣传科 =============================================-->
+<div class="section m-0" style="padding: 120px 0; background: #FFF url('demos/course/images/instructor.jpg') no-repeat left top / cover">
+<div class="container">
+<div class="row">
+<div class="col-md-7"></div>
+<div class="col-md-5">
+<div class="heading-block border-bottom-0 mb-4 mt-5">
+<h3>成为教官!</h3>
+<span>教汝所爱.</span>
+</div>
+<p class="mb-2">将共价战略主题领域和跨单位交付品的概念化。</p>
+<p>相会取取取出. 伏特加活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活泼活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活活</p>
+<a class="button button-rounded button-xlarge ls0 ls0 nott fw-normal m-0" href="#">开始教学</a>
+</div>
+</div>
+</div>
+</div>
+<div class="promo promo-light promo-full p-5 footer-stick" style="padding: 60px 0 !important;">
+<div class="container clearfix">
+<div class="row align-items-center">
+<div class="col-12 col-lg">
+<h3 class="ls-1">今天给我们打电话<span>+1.22.57412541</span>或者发邮件给我们<span>支持@canvas.com</span></h3>
+<span class="text-black-50">我们努力为我们的客户提供顶级支持 让他们的主题经验精彩</span>
+</div>
+<div class="col-12 col-lg-auto mt-4 mt-lg-0">
+<a class="button button-xlarge button-rounded nott ls0 fw-normal m-0" href="#">现在开始</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="dark" id="footer">
+<div class="container">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap">
+<div class="row">
+<div class="col-6 col-md" style="background: url('images/world-map.png') no-repeat center center; background-size: 100%;">
+<img alt="Image" class="mb-3" src="demos/course/images/logo-footer.png" width="160"/>
+<small class="d-block mb-4 text-muted">© 2020-2021</small>
+<p class="text-white-50" style="font-size: 16px;">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 伏特加克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克</p>
+<a class="mb-2 d-block" href="#"><i class="icon-line2-call-in me-2"></i>+1-111-222-333</a>
+<a href="#"><i class="icon-line2-envelope me-2"></i>信息库@canvas.com</a>
+</div>
+<div class="col-6 col-md">
+<h4 class="text-uppercase ls2 fw-normal">最佳课程</h4>
+<ul class="list-unstyled mb-0">
+<li><h5 class="mb-0"><a class="text-white" href="#">烹饪类</a></h5><p>迪伦·梅林格</p></li>
+<li><h5 class="mb-0"><a class="text-white" href="#">学习西班牙语</a></h5><p>枪手胡子</p></li>
+<li><h5 class="mb-0"><a class="text-white" href="#">网站开发</a></h5><p>德斯蒙德·鹰</p></li>
+</ul>
+</div>
+<div class="col-6 col-md col-sm mt-4 mt-md-0 mt-lg-0 mt-xl-0">
+<h4 class="text-uppercase ls2 fw-normal">支助</h4>
+<ul class="list-unstyled mb-0">
+<li><h5 class="mb-2 fw-normal"><a href="#">我的账户</a></h5></li>
+<li><h5 class="mb-2 fw-normal"><a href="#">成为教官</a></h5></li>
+<li><h5 class="mb-2 fw-normal"><a href="#">免费课程</a></h5></li>
+<li><h5 class="mb-2 fw-normal"><a href="#">移动应用程序</a></h5></li>
+<li><h5 class="mb-2 fw-normal"><a href="#">联系我们</a></h5></li>
+</ul>
+</div>
+<div class="col-6 col-md mt-4 mt-md-0 mt-lg-0 mt-xl-0">
+<h4 class="text-uppercase ls2 fw-normal">全世界</h4>
+<a href="#"><img alt="Image" src="demos/course/images/map.png"/></a>
+</div>
+</div>
+</div><!--脚- 脚- 接- 包尾端-->
+</div>
+<!--版权 =============================================-->
+<div id="copyrights">
+<div class="container clearfix">
+<div class="row align-items-center justify-content-between">
+<div class="col-md-6">版权:&amp;quot;2020&amp;quot; Canvas股份有限公司保留的所有权利.<br/>
+<div class="copyright-links"><a href="#">使用条件</a> / <a href="#">隐私政策</a></div>
+</div>
+<div class="col-md-6 d-flex justify-content-md-end mt-4 mt-md-0">
+<div class="copyrights-menu copyright-links mb-0 clearfix">
+<a href="#">内容</a>/<a href="#">关于我们</a>/<a href="#">价格</a>/<a href="#">联系人</a>
+</div>
+</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
 </body>
 </html>

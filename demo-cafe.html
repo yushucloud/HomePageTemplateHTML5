@@ -1,536 +1,423 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i|Playfair+Display:400,400i,700|Lato:300,400,700|Nothing+You+Could+Do&display=swap" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<!-- Coffee Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/cafe/cafe.css" type="text/css" />
-	<!-- / -->
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="demos/cafe/css/fonts.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<link rel="stylesheet" href="css/colors.php?color=c0bb62" type="text/css" />
-
-	<!-- SLIDER REVOLUTION 5.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/settings.css" media="screen" />
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/layers.css">
-	<link rel="stylesheet" type="text/css" href="include/rs-plugin/css/navigation.css">
-
-	<!-- Document Title
-	============================================= -->
-	<title>Cafe | Canvas</title>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i|Playfair+Display:400,400i,700|Lato:300,400,700|Nothing+You+Could+Do&amp;display=swap" rel="stylesheet" type="text/css"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<!--咖啡 Demo 特定样式表-->
+<link href="demos/cafe/cafe.css" rel="stylesheet" type="text/css"/>
+<!-- / -->
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="demos/cafe/css/fonts.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="css/colors.php?color=c0bb62" rel="stylesheet" type="text/css"/>
+<!--线性改革 5.x CSS 设置-->
+<link href="include/rs-plugin/css/settings.css" media="screen" rel="stylesheet" type="text/css"/>
+<link href="include/rs-plugin/css/layers.css" rel="stylesheet" type="text/css"/>
+<link href="include/rs-plugin/css/navigation.css" rel="stylesheet" type="text/css"/>
+<!--文件标题 =============================================-->
+<title>咖啡馆</title>
 </head>
-
-<body class="stretched overlay-menu dark" data-loader-html="<div><img src='demos/cafe/images/icons/loader.gif' alt='Loader'></div>">
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper" class="clearfix">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="transparent-header dark no-sticky">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/cafe/images/logo1.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/cafe/images/logo1@2x.png" alt="Canvas Logo"></a>
-						</div><!-- #logo end -->
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu dark">
-
-							<ul class="menu-container text-lg-center">
-								<li class="menu-item"><a class="menu-link" href="index.html"><div>Home</div></a></li>
-								<li class="menu-item current"><a class="menu-link" href="#"><div>Features</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div>Pages</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div>Portfolio</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div>Blog</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="shop.html"><div>Shop</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="#"><div>Shortcodes</div></a></li>
-							</ul>
-
-						</nav>
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-		</header><!-- #header end -->
-
-		<section id="slider" class="slider-element include-header">
-
-			<div id="rev_slider_206_1_wrapper" class="rev_slider_wrapper" data-alias="creative-freedom" style="background-color:#1f1d24;padding:0px;">
-				<!-- START REVOLUTION SLIDER 5.1.1RC fullscreen mode -->
-				<div id="rev_slider_206_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.1.1RC">
-					<ul>
-						<!-- SLIDE  -->
-						<li data-index="rs-689" data-transition="fadethroughdark" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="2000" data-thumb="include/rs-plugin/demos/assets/images/creative_bg1-100x50.jpg" data-rotate="0" data-saveperformance="off" data-title="Quality" data-param1="01" data-description="">
-							<!-- MAIN IMAGE -->
-							<img src="demos/cafe/images/sections/slider.jpg" alt="Image" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="3" class="rev-slidebg" data-no-retina>
-							<!-- LAYERS -->
-
-							<!-- LAYER NR. 1 -->
-							<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-tobggroup" id="slide-689-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;" data-start="150" data-basealign="slide" data-responsive_offset="off" data-responsive="off" style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);border-color:rgba(0, 0, 0, 0);">
-							</div>
-
-							<!-- LAYER NR. 2 -->
-							<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3" id="slide-688-layer-4" data-x="['left','left','left','left']" data-hoffset="['260','260','260','260']" data-y="['middle','middle','middle','middle']" data-voffset="['-178','-178','-168','-141']" data-width="1" data-height="100" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:500;e:Power1.easeIn;s:500;e:Power1.easeIn;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1500" data-responsive_offset="on" data-responsive="off" style="z-index: 6;background-color:rgba(205, 176, 131, 1.00);border-color:rgba(0, 0, 0, 0);">
-							</div>
-
-							<!-- LAYER NR. 3 -->
-							<div class="tp-caption before-heading color tp-resizeme rs-parallaxlevel-2" id="slide-689-layer-3" data-x="['left','left','left','left']" data-hoffset="['75','75','75','75']" data-y="['middle','middle','middle','middle']" data-voffset="['-91','-91','-81','-64']" data-fontsize="['14','14','14','12']" data-lineheight="['14','14','14','12']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2350" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;text-align:center;">Welcome To The Coffee World
-							</div>
-
-							<!-- LAYER NR. 4 -->
-							<div class="tp-caption Creative-Title   tp-resizeme rs-parallaxlevel-1" id="slide-689-layer-2" data-x="['left','left','left','left']" data-hoffset="['50','50','50','50']" data-y="['middle','middle','middle','middle']" data-voffset="['-10','-10','-10','-10']" data-fontsize="['70','70','50','40']" data-lineheight="['70','70','55','45']" data-width="['none','none','none','320']" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-start="2550" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 8; white-space: nowrap;text-align:center;">Quality Web
-								<br/> Presentations
-							</div>
-
-							<!-- LAYER NR. 5 -->
-							<div class="tp-caption tp-shape tp-shapewrapper  rs-parallaxlevel-3" id="slide-689-layer-5" data-x="['left','left','left','left']" data-hoffset="['260','260','260','260']" data-y="['middle','middle','middle','middle']" data-voffset="['137','137','119','100']" data-width="1" data-height="100" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[-100%];s:500;e:Power1.easeIn;s:500;e:Power1.easeIn;" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="2900" data-responsive_offset="on" data-responsive="off" style="z-index: 9;background-color:rgba(205, 176, 131, 1.00);border-color:rgba(0, 0, 0, 0);">
-							</div>
-
-							<!-- LAYER NR. 6 -->
-							<div class="tp-caption Creative-Button rev-btn  rs-parallaxlevel-15" id="slide-689-layer-6" data-x="['left','left','left','left']" data-hoffset="['120','120','120','120']" data-y="['top','top','top','top']" data-voffset="['674','591','679','540']" data-fontweight="['400','500','500','500']" data-width="none" data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-style_hover="c:rgba(205, 176, 131, 1.00);bc:rgba(205, 176, 131, 1.00);cursor:pointer;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power2.easeOut;" data-transform_out="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:500;e:Power1.easeIn;s:500;e:Power1.easeIn;" data-start="3850" data-splitin="none" data-splitout="none" data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-898-layer-18","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-898-layer-18","delay":""},{"event":"click","action":"startlayer","layer":"slide-898-layer-15","delay":""},{"event":"click","action":"startlayer","layer":"slide-898-layer-19","delay":""},{"event":"click","action":"startlayer","layer":"slide-898-layer-20","delay":"1000"},{"event":"click","action":"playvideo","layer":"slide-898-layer-15","delay":"1000"}]' data-responsive_offset="on" data-responsive="off" style="z-index: 10; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"><i class="icon-play"> </i> PLAY VIDEO
-							</div>
-
-							<!-- LAYER NR. 10 -->
-							<div class="tp-caption tp-resizeme tp-videolayer" data-autoplay="off" data-end="bytrigger" data-hoffset="['0','0','0','0']" data-lasttriggerstate="reset" data-responsive_offset="on" data-start="bytrigger" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-videoattributes="title=0&byline=0&portrait=0&api=1" data-videoheight="['540px','405px','270px','203px']" data-videoloop="none" data-videowidth="['960px','720px','480px','360px']" data-vimeoid="142874198" data-voffset="['0','0','0','0']" data-volume="100" data-whitespace="nowrap" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" id="slide-898-layer-15" style="z-index: 14;"></div>
-							<!-- LAYER NR. 11 -->
-							<div class="tp-caption Agency-CloseBtn rev-btn" data-actions='[{"event":"click","action":"stoplayer","layer":"slide-898-layer-15","delay":""},{"event":"click","action":"stoplayer","layer":"slide-898-layer-19","delay":""},{"event":"click","action":"stoplayer","layer":"slide-898-layer-20","delay":""}]' data-end="bytrigger" data-height="none" data-hoffset="['510','389','270','199']" data-lasttriggerstate="reset" data-responsive="off" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="bytrigger" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_hover="o:1;sX:1.1;sY:1.1;rX:0;rY:0;rZ:0;z:0;s:500;e:Power1.easeInOut;" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:45deg;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:500;" data-voffset="['-298','-229','-163','-118']" data-whitespace="nowrap" data-width="32" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" id="slide-898-layer-20" style="z-index: 15; min-width: 32px; max-width: 32px;font-size: 32px; white-space: nowrap;text-align:center;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-								<i class="icon-line-cross"></i>
-							</div>
-						</li>
-					</ul>
-					<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
-				</div>
-
-			</div>
-
-		</section>
-
-		<!-- Page Sub Menu
-		============================================= -->
-		<div id="page-menu" class="dots-menu dots-menu-border">
-			<div id="page-menu-wrap">
-				<div class="container">
-					<div class="page-menu-row">
-
-						<div class="page-menu-title">Explore <span>CANVAS</span></div>
-
-						<nav class="page-menu-nav">
-							<ul class="page-menu-container one-page-menu" data-offset="0">
-								<li class="page-menu-item"><a href="#" data-href="#wrapper"><div>Home</div></a></li>
-								<li class="page-menu-item"><a href="#" data-href="#section-about"><div>About</div></a></li>
-								<li class="page-menu-item"><a href="#" data-href="#section-services"><div>Work</div></a></li>
-								<li class="page-menu-item"><a href="#" data-href="#section-testimonials"><div>Services</div></a></li>
-								<li class="page-menu-item"><a href="#" data-href="#section-menu"><div>Video</div></a></li>
-								<li class="page-menu-item"><a href="#" data-href="#section-contact"><div>Contact</div></a></li>
-							</ul>
-						</nav>
-
-						<div id="page-menu-trigger"><i class="icon-reorder"></i></div>
-
-					</div>
-				</div>
-			</div>
-		</div><!-- #page-menu end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap">
-
-				<div class="modal-on-load" data-target="#myModal1"></div>
-
-				<!-- Modal -->
-				<div class="modal1 mfp-hide subscribe-widget" id="myModal1">
-					<div class="block dark mx-auto" style="background: url('demos/cafe/images/others/modal.jpg') no-repeat; background-size: cover; max-width: 700px; box-shadow: 0px 0px 20px #000" data-height-xl="400">
-						<div style="padding: 40px;">
-							<div class="widget-subscribe-form-result"></div>
-							<form class="widget-subscribe-form2" action="include/subscribe.php" method="post" style="max-width: 400px; margin-top: 130px;">
-								<input type="email" id="widget-subscribe-form2-email" name="widget-subscribe-form-email" class="form-control form-control-lg not-dark required email" placeholder="Enter your Email">
-								<button class="button button-rounded button-border button-light ms-0 inlin" type="submit" style="margin-top:20px;">Subscribe</button>
-							</form>
-						</div>
-					</div>
-				</div>
-
-				<!-- 1 : #section-about -->
-				<section id="section-about" class="page-section section center mb-0 dark" style="background: url('demos/cafe/images/sections/1.jpg') no-repeat center center; background-size: cover">
-
-					<div class="container clearfix">
-						<div class="row">
-							<div class="col-lg-6 offset-lg-5">
-
-								<div class="heading-block border-bottom-0">
-									<span class="before-heading color">ESTD. 2021</span>
-									<h3>The History</h3>
-								</div>
-
-								<div class="mx-auto center row">
-									<div class="col-lg-6">
-										<p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolor nam repudiandae perspiciatis unde, reprehenderit culpa maxime laborum, deleniti error repellendus doloribus delectus hic, voluptate incidunt inventore velit accusantium! Adipisci sunt dicta maxime laborum placeat optio quidem totam impedit ipsum! Id dignissimos iste doloribus sequi excepturi reiciendis saepe quaerat, tenetur distinctio minima nostrum sit. Placeat doloribus accusantium eius, eveniet quia sequi. Et aliquamiste, vitae, accusantium, maiores sint eaque velit omnis iure vero saepe voluptatibus? Quisquam repellendus quam voluptate dolorum, quibusdam cum ex ad non sint, quod cumque assumenda.</p>
-									</div>
-									<div class="col-lg-6">
-										<p class="text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolor nam repudiandae perspiciatis unde, reprehenderit culpa maxime laborum, deleniti error repellendus doloribus delectus hic, voluptate incidunt sunt dicta maxime laborum placeat optio quidem totam impedit ipsum! Id dignissimos iste doloribus sequi excepturi reiciendis saepe quaerat, tenetur distinctio minima nostrum sit. Placeat doloribus accusantium eius, eveniet quia sequi.<br><br><img src="demos/cafe/images/others/signature.png" alt="Signature"></p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</section> <!-- .section end -->
-
-				<!-- 2 : #section-services -->
-				<section id="section-services" class="page-section section dark" style="background: url('demos/cafe/images/sections/2.jpg') no-repeat center center; background-size: cover">
-
-					<div class="container clearfix">
-						<div class="heading-block text-center border-bottom-0">
-							<span class="before-heading color">Best of the Best</span>
-							<h3>Our Services</h3>
-							<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et possimus iste eius eos repellendus id officiis itaque ipsum, fuga aut.</span>
-						</div>
-
-						<div class="row topmargin-lg clearfix">
-
-							<div class="col-md-4">
-								<div class="feature-box text-center media-box">
-									<div class="fbox-media">
-										<img src="demos/cafe/images/icons/1.png" class="mx-auto" alt="Image 1" style="width: auto;">
-									</div>
-									<div class="fbox-content">
-										<h3 class="color body-font">Why choose Us.<span class="subtitle body-font">Because we are Reliable.</span></h3>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="feature-box text-center media-box">
-									<div class="fbox-media">
-										<img src="demos/cafe/images/icons/2.png" class="mx-auto" alt="Image 2" style="width: auto;">
-									</div>
-									<div class="fbox-content">
-										<h3 class="color body-font">Our Mission.<span class="subtitle body-font">To Redefine your Brand.</span></h3>
-										<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-md-4">
-								<div class="feature-box text-center media-box">
-									<div class="fbox-media">
-										<img src="demos/cafe/images/icons/3.png" class="mx-auto" alt="Image 3" style="width: auto;">
-									</div>
-									<div class="fbox-content">
-										<h3 class="color body-font">What we Do.<span class="subtitle body-font">Make our Customers Happy.</span></h3>
-										<p>Porro repellat vero sapiente amet vitae quibusdam necessitatibus consectetur, labore totam. Accusamus perspiciatis asperiores labore esse ab accusantium.</p>
-									</div>
-								</div>
-							</div>
-
-						</div>
-					</div>
-					<div class="video-wrap">
-						<div class="video-overlay" style="background: rgba(0,0,0,0.20);"></div>
-					</div>
-
-				</section> <!-- .section end -->
-
-				<!-- 3 : #section-testimonials -->
-				<section id="section-testimonials" class="page-section section dark" style="background: url('demos/cafe/images/sections/8.jpg') no-repeat center center; background-size: cover; padding: 100px 0;">
-
-					<div class="container clearfix">
-						<div class="row clearfix">
-							<div class="col-lg-5">
-								<div class="heading-block border-bottom-0 topmargin-lg">
-									<span class="before-heading color">Happy Customers</span>
-									<h3><i class="icon-line2-star"></i> Reviews</h3>
-								</div>
-								<div class="fslider restaurant-reviews" data-arrows="false" data-animation="slide">
-									<div class="flexslider">
-										<div class="slider-wrap">
-											<div class="slide">
-												<p class="lead">"Globalization fairness non-partisan visionary, institutions Aga Khan resolve. Results public-private partnerships, international development elevate scalable."</p>
-												<span class="text-uppercase ls1"><strong>John Doe</strong>,<br> New York Magazine</span><br>
-												<i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star-half-full"></i>
-											</div>
-											<div class="slide">
-												<p class="lead">"Medicine; experience in the field climate change achieve voice public-private partnerships process our ambitions. Sanitation."</p>
-												<span class="text-uppercase ls1"><strong>Mary Jane</strong>,<br> Chicago News</span><br>
-												<i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star-half-full"></i> <i class="color icon-star-empty"></i>
-											</div>
-											<div class="slide">
-												<p class="lead">"Healthcare forward-thinking public service, social innovation making progress. Arab Spring social analysis, equality treatment, diversification."</p>
-												<span class="text-uppercase ls1"><strong>Luis Frank</strong>,<br> France</span><br>
-												<i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star-empty"></i>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-7">
-								<div class="heading-block border-bottom-0 topmargin-lg">
-									<span class="before-heading color">Experience</span>
-									<h3>Gallery</h3>
-								</div>
-								<div class="masonry-thumbs grid-container grid-5" data-big="4,5" data-lightbox="gallery">
-									<a class="grid-item" href="demos/cafe/images/gallery/1.jpg" data-lightbox="gallery-item"><img src="demos/cafe/images/gallery/1.jpg" alt="Gallery Thumb 1"></a>
-									<a class="grid-item" href="demos/cafe/images/gallery/2.jpg" data-lightbox="gallery-item"><img src="demos/cafe/images/gallery/2.jpg" alt="Gallery Thumb 2"></a>
-									<a class="grid-item" href="demos/cafe/images/gallery/3.jpg" data-lightbox="gallery-item"><img src="demos/cafe/images/gallery/3.jpg" alt="Gallery Thumb 3"></a>
-									<a class="grid-item" href="demos/cafe/images/gallery/4.jpg" data-lightbox="gallery-item"><img src="demos/cafe/images/gallery/4.jpg" alt="Gallery Thumb 4"></a>
-									<a class="grid-item" href="demos/cafe/images/gallery/5.jpg" data-lightbox="gallery-item"><img src="demos/cafe/images/gallery/5.jpg" alt="Gallery Thumb 5"></a>
-									<a class="grid-item" href="demos/cafe/images/gallery/6.jpg" data-lightbox="gallery-item"><img src="demos/cafe/images/gallery/6.jpg" alt="Gallery Thumb 6"></a>
-									<a class="grid-item" href="demos/cafe/images/gallery/7.jpg" data-lightbox="gallery-item"><img src="demos/cafe/images/gallery/7.jpg" alt="Gallery Thumb 7"></a>
-									<a class="grid-item" href="demos/cafe/images/gallery/9.jpg" data-lightbox="gallery-item"><img src="demos/cafe/images/gallery/9.jpg" alt="Gallery Thumb 9"></a>
-									<a class="grid-item" href="demos/cafe/images/gallery/10.jpg" data-lightbox="gallery-item"><img src="demos/cafe/images/gallery/10.jpg" alt="Gallery Thumb 10"></a>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</section> <!-- .section end -->
-
-				<!-- 4 : #section-menu -->
-				<section id="section-menu" class="page-section section dark" style="background: url('demos/cafe/images/sections/4.jpg') no-repeat center center; background-size: cover;">
-
-					<div class="container clearfix">
-
-						<div class="heading-block border-bottom-0">
-							<span class="before-heading color">Indulgence</span>
-							<h3><i class="icon-food2"></i> Menu</h3>
-						</div>
-
-						<div class="row clearfix">
-							<div class="col-lg-6">
-								<div class="food-menu row clearfix">
-									<div class="col-lg-9">
-										<div class="menu-list">
-											<span>Croque-monsieur</span>
-											<h5>Grilled ham and cheese sandwich</h5>
-										</div>
-									</div>
-									<div class="col-lg-3">
-										<div class="menu-price">
-											<h3>$8.90</h3>
-										</div>
-									</div>
-								</div>
-
-								<div class="food-menu row clearfix">
-									<div class="col-lg-9">
-										<div class="menu-list">
-											<span>Deluxe Burger</span>
-											<h5>Grass-fed beef served with fries</h5>
-										</div>
-									</div>
-									<div class="col-lg-3">
-										<div class="menu-price">
-											<h3>$15.90</h3>
-										</div>
-									</div>
-								</div>
-
-								<div class="food-menu row clearfix">
-									<div class="col-lg-9">
-										<div class="menu-list">
-											<span>lasagne alla bolognese</span>
-											<h5>Our classic Lasagne</h5>
-										</div>
-									</div>
-									<div class="col-lg-3">
-										<div class="menu-price">
-											<h3>$11.30</h3>
-										</div>
-									</div>
-								</div>
-
-								<div class="food-menu row clearfix">
-									<div class="col-lg-9">
-										<div class="menu-list">
-											<span>Italian Pizza</span>
-											<h5>Pizza Lagrotas Nanos</h5>
-										</div>
-									</div>
-									<div class="col-lg-3">
-										<div class="menu-price">
-											<h3>$12.10</h3>
-										</div>
-									</div>
-								</div>
-
-								<div class="food-menu row clearfix">
-									<div class="col-lg-9">
-										<div class="menu-list">
-											<span>Cold Coffee</span>
-											<h5>Hot Signature Choclate</h5>
-										</div>
-									</div>
-									<div class="col-lg-3">
-										<div class="menu-price">
-											<h3>$12.10</h3>
-										</div>
-									</div>
-								</div>
-								<div data-lightbox="gallery">
-									<a href="demos/cafe/images/menu/1.jpg" class="button button-border button-rounded button-large button-light" style="margin-top: 15px" data-lightbox="gallery-item"><i class="icon-picture"></i> View Full Menu</a>
-									<a href="demos/cafe/images/menu/2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-								</div>
-
-								</a>
-							</div>
-						</div>
-
-					</div>
-
-				</section> <!-- .section end -->
-
-				<!-- 5 : #section-contact -->
-				<section id="section-contact" class="page-section section dark m-0" style="background: url('demos/cafe/images/sections/7.jpg') no-repeat center center; background-size: cover;">
-
-					<div class="container clearfix">
-
-						<div class="row">
-							<div class="col-lg-6 offset-lg-6">
-								<div class="heading-block border-bottom-0">
-									<span class="before-heading color">Connect with Us</span>
-									<h3>Get In Touch</h3>
-								</div>
-
-								<div class="row">
-									<div class="col-lg-6 center">
-										<p class="text-start text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolor nam repudiandae perspiciatis.</p>
-									</div>
-									<div class="col-lg-6 center">
-										<p class="text-start text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium dolor nam.</p>
-									</div>
-									<div class="col-lg-12">
-
-										<div class="form-widget">
-
-											<div class="form-result"></div>
-
-											<form class="mb-0 row" id="template-contactform" name="template-contactform" action="include/form.php" method="post">
-
-												<div class="form-process">
-													<div class="css3-spinner">
-														<div class="css3-spinner-scaler"></div>
-													</div>
-												</div>
-
-												<div class="col-lg-12">
-													<input type="text" id="template-contactform-name" name="template-contactform-name" value="" class="sm-form-control required" placeholder="Full Name*" />
-												</div>
-
-												<div class="col-lg-12">
-													<input type="email" id="template-contactform-email" name="template-contactform-email" value="" class="required email sm-form-control" placeholder="Email Address*" />
-												</div>
-
-												<div class="col-lg-12">
-													<textarea class="required sm-form-control" id="template-contactform-message" name="template-contactform-message" rows="6" cols="30"placeholder="Message*" ></textarea>
-												</div>
-
-												<div class="col-lg-12 d-none">
-													<input type="text" id="template-contactform-botcheck" name="template-contactform-botcheck" value="" class="sm-form-control" />
-												</div>
-
-												<div class="col-lg-12">
-													<button class="button button-border button-rounded button-black float-end" type="submit" id="template-contactform-submit" name="template-contactform-submit" value="submit">Send Message</button>
-												</div>
-
-												<input type="hidden" name="prefix" value="template-contactform-">
-
-											</form>
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
-					</div>
-
-				</section> <!-- .section end -->
-
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer" class="border-0 dark">
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights" class="center pt-0" style="background: url('demos/cafe/images/sections/6.jpg') no-repeat center center; background-size: cover;">
-				<div class="container clearfix">
-					<div class="row">
-						<div class="col-lg-12 center">
-							<div class="heading-block clearfix bottommargin-sm">
-								<a href="index.html"><img src="demos/cafe/images/logo1@2x.png" alt="Canvas Logo"></a>
-							</div>
-							Copyrights &copy; 2020 All Rights Reserved by Canvas Inc.
-						</div>
-					</div>
-				</div>
-			</div><!-- #copyrights end -->
-
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<!-- SLIDER REVOLUTION 5.x SCRIPTS  -->
-	<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-	<script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-
-	<script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-	<script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-
-	<script>
+<body class="stretched overlay-menu dark" data-loader-html="&lt;div&gt;&lt;img src='demos/cafe/images/icons/loader.gif' alt='Loader'&gt;&lt;/div&gt;">
+<!--文档折叠器 =============================================-->
+<div class="clearfix" id="wrapper">
+<!--页眉 =============================================-->
+<header class="transparent-header dark no-sticky" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row">
+<!--标记 =============================================-->
+<div id="logo">
+<a class="standard-logo" href="index.html"><img alt="Canvas Logo" src="demos/cafe/images/logo1.png"/></a>
+<a class="retina-logo" href="index.html"><img alt="Canvas Logo" src="demos/cafe/images/logo1@2x.png"/></a>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+<!--主导航 =============================================-->
+<nav class="primary-menu dark">
+<ul class="menu-container text-lg-center">
+<li class="menu-item"><a class="menu-link" href="index.html"><div>内容</div></a></li>
+<li class="menu-item current"><a class="menu-link" href="#"><div>特征</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>页 次</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>组合</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>博客</div></a></li>
+<li class="menu-item"><a class="menu-link" href="shop.html"><div>商店</div></a></li>
+<li class="menu-item"><a class="menu-link" href="#"><div>短码</div></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<section class="slider-element include-header" id="slider">
+<div class="rev_slider_wrapper" data-alias="creative-freedom" id="rev_slider_206_1_wrapper" style="background-color:#1f1d24;padding:0px;">
+<!--5.1.1RC 全屏模式-->
+<div class="rev_slider fullscreenbanner" data-version="5.1.1RC" id="rev_slider_206_1" style="display:none;">
+<ul>
+<!--滑动-->
+<li data-description="" data-easein="default" data-easeout="default" data-index="rs-689" data-masterspeed="2000" data-param1="01" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="include/rs-plugin/demos/assets/images/creative_bg1-100x50.jpg" data-title="Quality" data-transition="fadethroughdark">
+<!--主要图像-->
+<img alt="Image" class="rev-slidebg" data-bgfit="cover" data-bgparallax="3" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="demos/cafe/images/sections/slider.jpg"/>
+<!--莱尔-->
+<!--莱尔NR。 1个-->
+<div class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-tobggroup" data-basealign="slide" data-height="full" data-hoffset="['0','0','0','0']" data-responsive="off" data-responsive_offset="off" data-start="150" data-transform_idle="o:1;" data-transform_in="opacity:0;s:1500;e:Power2.easeInOut;" data-transform_out="opacity:0;s:1500;e:Power2.easeInOut;s:1500;e:Power2.easeInOut;" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-width="full" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" id="slide-689-layer-1" style="z-index: 5;background-color:rgba(0, 0, 0, 0.35);border-color:rgba(0, 0, 0, 0);">
+</div>
+<!--莱尔NR。 2个-->
+<div class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-3" data-height="100" data-hoffset="['260','260','260','260']" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-responsive="off" data-responsive_offset="on" data-start="1500" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:500;e:Power1.easeIn;s:500;e:Power1.easeIn;" data-voffset="['-178','-178','-168','-141']" data-whitespace="nowrap" data-width="1" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" id="slide-688-layer-4" style="z-index: 6;background-color:rgba(205, 176, 131, 1.00);border-color:rgba(0, 0, 0, 0);">
+</div>
+<!--莱尔NR。 3个-->
+<div class="tp-caption before-heading color tp-resizeme rs-parallaxlevel-2" data-fontsize="['14','14','14','12']" data-height="none" data-hoffset="['75','75','75','75']" data-lineheight="['14','14','14','12']" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="2350" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-voffset="['-91','-91','-81','-64']" data-whitespace="nowrap" data-width="none" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" id="slide-689-layer-3" style="z-index: 7; white-space: nowrap;text-align:center;">欢迎来到咖啡世界</div>
+<!--莱尔NR。 页:1-->
+<div class="tp-caption Creative-Title tp-resizeme rs-parallaxlevel-1" data-fontsize="['70','70','50','40']" data-height="none" data-hoffset="['50','50','50','50']" data-lineheight="['70','70','55','45']" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="2550" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1500;e:Power3.easeOut;" data-transform_out="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;s:1000;e:Power3.easeInOut;" data-voffset="['-10','-10','-10','-10']" data-whitespace="nowrap" data-width="['none','none','none','320']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" id="slide-689-layer-2" style="z-index: 8; white-space: nowrap;text-align:center;">优质网络<br/>发言</div>
+<!--莱尔NR。 页:1-->
+<div class="tp-caption tp-shape tp-shapewrapper rs-parallaxlevel-3" data-height="100" data-hoffset="['260','260','260','260']" data-mask_in="x:0px;y:0px;s:inherit;e:inherit;" data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-responsive="off" data-responsive_offset="on" data-start="2900" data-transform_idle="o:1;" data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[-100%];s:500;e:Power1.easeIn;s:500;e:Power1.easeIn;" data-voffset="['137','137','119','100']" data-whitespace="nowrap" data-width="1" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" id="slide-689-layer-5" style="z-index: 9;background-color:rgba(205, 176, 131, 1.00);border-color:rgba(0, 0, 0, 0);">
+</div>
+<!--莱尔NR。 6个-->
+<div class="tp-caption Creative-Button rev-btn rs-parallaxlevel-15" data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slide-898-layer-18","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slide-898-layer-18","delay":""},{"event":"click","action":"startlayer","layer":"slide-898-layer-15","delay":""},{"event":"click","action":"startlayer","layer":"slide-898-layer-19","delay":""},{"event":"click","action":"startlayer","layer":"slide-898-layer-20","delay":"1000"},{"event":"click","action":"playvideo","layer":"slide-898-layer-15","delay":"1000"}]' data-fontweight="['400','500','500','500']" data-height="none" data-hoffset="['120','120','120','120']" data-responsive="off" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="3850" data-style_hover="c:rgba(205, 176, 131, 1.00);bc:rgba(205, 176, 131, 1.00);cursor:pointer;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power1.easeInOut;" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power2.easeOut;" data-transform_out="x:0;y:0;z:0;rX:0;rY:0;rZ:0;sX:0.75;sY:0.75;skX:0;skY:0;opacity:0;s:500;e:Power1.easeIn;s:500;e:Power1.easeIn;" data-voffset="['674','591','679','540']" data-whitespace="nowrap" data-width="none" data-x="['left','left','left','left']" data-y="['top','top','top','top']" id="slide-689-layer-6" style="z-index: 10; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"><i class="icon-play"> </i>播放视频</div>
+<!--莱尔NR。 页:1-->
+<div class="tp-caption tp-resizeme tp-videolayer" data-autoplay="off" data-end="bytrigger" data-hoffset="['0','0','0','0']" data-lasttriggerstate="reset" data-responsive_offset="on" data-start="bytrigger" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:300;" data-videoattributes="title=0&amp;byline=0&amp;portrait=0&amp;api=1" data-videoheight="['540px','405px','270px','203px']" data-videoloop="none" data-videowidth="['960px','720px','480px','360px']" data-vimeoid="142874198" data-voffset="['0','0','0','0']" data-volume="100" data-whitespace="nowrap" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" id="slide-898-layer-15" style="z-index: 14;"></div>
+<!--莱尔NR。 第11个-->
+<div class="tp-caption Agency-CloseBtn rev-btn" data-actions='[{"event":"click","action":"stoplayer","layer":"slide-898-layer-15","delay":""},{"event":"click","action":"stoplayer","layer":"slide-898-layer-19","delay":""},{"event":"click","action":"stoplayer","layer":"slide-898-layer-20","delay":""}]' data-end="bytrigger" data-height="none" data-hoffset="['510','389','270','199']" data-lasttriggerstate="reset" data-responsive="off" data-responsive_offset="on" data-splitin="none" data-splitout="none" data-start="bytrigger" data-style_hover="c:rgba(255, 255, 255, 1.00);" data-transform_hover="o:1;sX:1.1;sY:1.1;rX:0;rY:0;rZ:0;z:0;s:500;e:Power1.easeInOut;" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:45deg;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:500;e:Power3.easeInOut;" data-transform_out="auto:auto;s:500;" data-voffset="['-298','-229','-163','-118']" data-whitespace="nowrap" data-width="32" data-x="['center','center','center','center']" data-y="['middle','middle','middle','middle']" id="slide-898-layer-20" style="z-index: 15; min-width: 32px; max-width: 32px;font-size: 32px; white-space: nowrap;text-align:center;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
+<i class="icon-line-cross"></i>
+</div>
+</li>
+</ul>
+<div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
+</div>
+</div>
+</section>
+<!--页 次 菜单 =============================================-->
+<div class="dots-menu dots-menu-border" id="page-menu">
+<div id="page-menu-wrap">
+<div class="container">
+<div class="page-menu-row">
+<div class="page-menu-title">探索<span>加拿大</span></div>
+<nav class="page-menu-nav">
+<ul class="page-menu-container one-page-menu" data-offset="0">
+<li class="page-menu-item"><a data-href="#wrapper" href="#"><div>内容</div></a></li>
+<li class="page-menu-item"><a data-href="#section-about" href="#"><div>关于</div></a></li>
+<li class="page-menu-item"><a data-href="#section-services" href="#"><div>工作</div></a></li>
+<li class="page-menu-item"><a data-href="#section-testimonials" href="#"><div>服务</div></a></li>
+<li class="page-menu-item"><a data-href="#section-menu" href="#"><div>视频</div></a></li>
+<li class="page-menu-item"><a data-href="#section-contact" href="#"><div>联系人</div></a></li>
+</ul>
+</nav>
+<div id="page-menu-trigger"><i class="icon-reorder"></i></div>
+</div>
+</div>
+</div>
+</div><!--#页菜单结尾-->
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap">
+<div class="modal-on-load" data-target="#myModal1"></div>
+<!--模式-->
+<div class="modal1 mfp-hide subscribe-widget" id="myModal1">
+<div class="block dark mx-auto" data-height-xl="400" style="background: url('demos/cafe/images/others/modal.jpg') no-repeat; background-size: cover; max-width: 700px; box-shadow: 0px 0px 20px #000">
+<div style="padding: 40px;">
+<div class="widget-subscribe-form-result"></div>
+<form action="include/subscribe.php" class="widget-subscribe-form2" method="post" style="max-width: 400px; margin-top: 130px;">
+<input class="form-control form-control-lg not-dark required email" id="widget-subscribe-form2-email" name="widget-subscribe-form-email" placeholder="Enter your Email" type="email"/>
+<button class="button button-rounded button-border button-light ms-0 inlin" style="margin-top:20px;" type="submit">订阅</button>
+</form>
+</div>
+</div>
+</div>
+<!--1:# 剖析-->
+<section class="page-section section center mb-0 dark" id="section-about" style="background: url('demos/cafe/images/sections/1.jpg') no-repeat center center; background-size: cover">
+<div class="container clearfix">
+<div class="row">
+<div class="col-lg-6 offset-lg-5">
+<div class="heading-block border-bottom-0">
+<span class="before-heading color">EST 2021 (英语).</span>
+<h3>历史</h3>
+</div>
+<div class="mx-auto center row">
+<div class="col-lg-6">
+<p class="text-start">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 (原始内容存档于2013-10-10) (英语). Praesentium dolor nam reudidandae perspiciatis unde, reprerenderit culpa maxime labourum, deleniti errodus doloribus delectus hic, voluptate incidunt 发明者 vellit 控告!. Adipisci sunt dictta maxim labourum placeat optio quidem totam subject it elseum! (原始内容存档于2018-09-29) (英语). Id Dignissimos iste doloribus sequi excepturi reicindis saepe quaerat, tenestur divisionio minima nostrum sit. (原始内容存档于2019-03-29) (英语). (原始内容存档于2018-09-29) (英语). Placeat doloribus criminantium eius, evenit quia squi. 姓名 履历 控告 maiores sint eaque omlit omnis iure vero saepe vouptatibus? 维基语录链接:名人名言 - 文学作品 - 谚语 - 谚语 克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克克</p>
+</div>
+<div class="col-lg-6">
+<p class="text-start">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 (原始内容存档于2013-10-12) (英语). Praesentium dolor nam reudiandae perspiciatis unde, reprerenderit culpa maxme labourum, deleniti errodus doloribus delectus hic, voluptate incidunt sunt dict maxme labourum placeat optio quidem totam debleum!. Id Dignissimos iste doloribus sequi excepturi reicindis saepe quaerat, tenestur divisionio minima nostrum sit. (原始内容存档于2019-03-29) (英语). (原始内容存档于2018-09-29) (英语). Placeat doloribus criminantium eius, evenit quia squi.<br/><br/><img alt="Signature" src="demos/cafe/images/others/signature.png"/></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section> <!--节末-->
+<!--2:#分科服务-->
+<section class="page-section section dark" id="section-services" style="background: url('demos/cafe/images/sections/2.jpg') no-repeat center center; background-size: cover">
+<div class="container clearfix">
+<div class="heading-block text-center border-bottom-0">
+<span class="before-heading color">最佳战绩</span>
+<h3>我们的服务</h3>
+<span>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 (原始内容存档于2018-10-21) (英语). Et possims iste eius eos slivelendus id officis Itaque exitum, fuga aut.</span>
+</div>
+<div class="row topmargin-lg clearfix">
+<div class="col-md-4">
+<div class="feature-box text-center media-box">
+<div class="fbox-media">
+<img alt="Image 1" class="mx-auto" src="demos/cafe/images/icons/1.png" style="width: auto;"/>
+</div>
+<div class="fbox-content">
+<h3 class="color body-font">为什么选择我们?<span class="subtitle body-font">因为我们是可靠的。</span></h3>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 Eligendi rem, facilis nobis voluptatum est voluptatem craimamus uncileiae eaque perspiciatis mollitia. 中国植物物种信息数据库.</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feature-box text-center media-box">
+<div class="fbox-media">
+<img alt="Image 2" class="mx-auto" src="demos/cafe/images/icons/2.png" style="width: auto;"/>
+</div>
+<div class="fbox-content">
+<h3 class="color body-font">我们的使命<span class="subtitle body-font">重新定义你的品牌。</span></h3>
+<p>Quos, no, esse eligendi ab crapantium vouptatem. (原始内容存档于2018-09-29). Maxime eligendi beatae, atque testera ullam. (原始内容存档于2018-09-29) (英语). Vitae delectus quia, Consequentur rerum 性骚扰现状。</p>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="feature-box text-center media-box">
+<div class="fbox-media">
+<img alt="Image 3" class="mx-auto" src="demos/cafe/images/icons/3.png" style="width: auto;"/>
+</div>
+<div class="fbox-content">
+<h3 class="color body-font">我们做什么。<span class="subtitle body-font">让我们的客户快乐。</span></h3>
+<p>Porro slowlat vero sapiente ametcripture quibsdam necessibus consectur, labore totam. (原始内容存档于2018-07-21) (英语). (原始内容存档于2018-10-29) (英语). Accusamus perspiciatis asperiores labole sesse ab criminateum.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="video-wrap">
+<div class="video-overlay" style="background: rgba(0,0,0,0.20);"></div>
+</div>
+</section> <!--节末-->
+<!--3:#剖面检验-->
+<section class="page-section section dark" id="section-testimonials" style="background: url('demos/cafe/images/sections/8.jpg') no-repeat center center; background-size: cover; padding: 100px 0;">
+<div class="container clearfix">
+<div class="row clearfix">
+<div class="col-lg-5">
+<div class="heading-block border-bottom-0 topmargin-lg">
+<span class="before-heading color">快乐的客户</span>
+<h3><i class="icon-line2-star"></i>审查</h3>
+</div>
+<div class="fslider restaurant-reviews" data-animation="slide" data-arrows="false">
+<div class="flexslider">
+<div class="slider-wrap">
+<div class="slide">
+<p class="lead">&amp;quot;全球化公平无党派的有远见的机构阿加汗决心. 公私营伙伴关系取得成果,国际发展提升了规模。”</p>
+<span class="text-uppercase ls1"><strong>约翰多伊</strong>,<br/>纽约杂志社</span><br/>
+<i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star-half-full"></i>
+</div>
+<div class="slide">
+<p class="lead">&amp;quot;医学; 气候变化领域的经验 实现了声音公私营伙伴关系进程 我们的雄心壮志。 卫生&amp;quot;.</p>
+<span class="text-uppercase ls1"><strong>玛丽简</strong>,<br/>芝加哥新闻社.</span><br/>
+<i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star-half-full"></i> <i class="color icon-star-empty"></i>
+</div>
+<div class="slide">
+<p class="lead">&amp;quot;保健前瞻性公共服务,社会创新不断进步. 阿拉伯之春社会分析,平等待遇,多样化&amp;quot;.</p>
+<span class="text-uppercase ls1"><strong>路易斯・弗兰克</strong>,<br/>法国</span><br/>
+<i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star3"></i> <i class="color icon-star-empty"></i>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-lg-7">
+<div class="heading-block border-bottom-0 topmargin-lg">
+<span class="before-heading color">经历</span>
+<h3>图片库</h3>
+</div>
+<div class="masonry-thumbs grid-container grid-5" data-big="4,5" data-lightbox="gallery">
+<a class="grid-item" data-lightbox="gallery-item" href="demos/cafe/images/gallery/1.jpg"><img alt="Gallery Thumb 1" src="demos/cafe/images/gallery/1.jpg"/></a>
+<a class="grid-item" data-lightbox="gallery-item" href="demos/cafe/images/gallery/2.jpg"><img alt="Gallery Thumb 2" src="demos/cafe/images/gallery/2.jpg"/></a>
+<a class="grid-item" data-lightbox="gallery-item" href="demos/cafe/images/gallery/3.jpg"><img alt="Gallery Thumb 3" src="demos/cafe/images/gallery/3.jpg"/></a>
+<a class="grid-item" data-lightbox="gallery-item" href="demos/cafe/images/gallery/4.jpg"><img alt="Gallery Thumb 4" src="demos/cafe/images/gallery/4.jpg"/></a>
+<a class="grid-item" data-lightbox="gallery-item" href="demos/cafe/images/gallery/5.jpg"><img alt="Gallery Thumb 5" src="demos/cafe/images/gallery/5.jpg"/></a>
+<a class="grid-item" data-lightbox="gallery-item" href="demos/cafe/images/gallery/6.jpg"><img alt="Gallery Thumb 6" src="demos/cafe/images/gallery/6.jpg"/></a>
+<a class="grid-item" data-lightbox="gallery-item" href="demos/cafe/images/gallery/7.jpg"><img alt="Gallery Thumb 7" src="demos/cafe/images/gallery/7.jpg"/></a>
+<a class="grid-item" data-lightbox="gallery-item" href="demos/cafe/images/gallery/9.jpg"><img alt="Gallery Thumb 9" src="demos/cafe/images/gallery/9.jpg"/></a>
+<a class="grid-item" data-lightbox="gallery-item" href="demos/cafe/images/gallery/10.jpg"><img alt="Gallery Thumb 10" src="demos/cafe/images/gallery/10.jpg"/></a>
+</div>
+</div>
+</div>
+</div>
+</section> <!--节末-->
+<!--4:#分节菜单-->
+<section class="page-section section dark" id="section-menu" style="background: url('demos/cafe/images/sections/4.jpg') no-repeat center center; background-size: cover;">
+<div class="container clearfix">
+<div class="heading-block border-bottom-0">
+<span class="before-heading color">贪婪</span>
+<h3><i class="icon-food2"></i>菜单</h3>
+</div>
+<div class="row clearfix">
+<div class="col-lg-6">
+<div class="food-menu row clearfix">
+<div class="col-lg-9">
+<div class="menu-list">
+<span>克罗克先生</span>
+<h5>火腿和起司三明治</h5>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="menu-price">
+<h3>$8.90</h3>
+</div>
+</div>
+</div>
+<div class="food-menu row clearfix">
+<div class="col-lg-9">
+<div class="menu-list">
+<span>豪华汉堡</span>
+<h5>草饲牛肉配薯条</h5>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="menu-price">
+<h3>$15.90</h3>
+</div>
+</div>
+</div>
+<div class="food-menu row clearfix">
+<div class="col-lg-9">
+<div class="menu-list">
+<span>拉萨格涅全部是植物</span>
+<h5>我们经典的拉萨格尼</h5>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="menu-price">
+<h3>$11.30</h3>
+</div>
+</div>
+</div>
+<div class="food-menu row clearfix">
+<div class="col-lg-9">
+<div class="menu-list">
+<span>意大利披萨</span>
+<h5>披萨拉格罗塔斯纳诺斯</h5>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="menu-price">
+<h3>$12.10</h3>
+</div>
+</div>
+</div>
+<div class="food-menu row clearfix">
+<div class="col-lg-9">
+<div class="menu-list">
+<span>凉咖啡</span>
+<h5>热签名 Choclate</h5>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="menu-price">
+<h3>$12.10</h3>
+</div>
+</div>
+</div>
+<div data-lightbox="gallery">
+<a class="button button-border button-rounded button-large button-light" data-lightbox="gallery-item" href="demos/cafe/images/menu/1.jpg" style="margin-top: 15px"><i class="icon-picture"></i>查看完整菜单</a>
+<a class="d-none" data-lightbox="gallery-item" href="demos/cafe/images/menu/2.jpg"></a>
+</div>
+
+</div>
+</div>
+</div>
+</section> <!--节末-->
+<!--5:#分节接触-->
+<section class="page-section section dark m-0" id="section-contact" style="background: url('demos/cafe/images/sections/7.jpg') no-repeat center center; background-size: cover;">
+<div class="container clearfix">
+<div class="row">
+<div class="col-lg-6 offset-lg-6">
+<div class="heading-block border-bottom-0">
+<span class="before-heading color">连接到我们</span>
+<h3>接触</h3>
+</div>
+<div class="row">
+<div class="col-lg-6 center">
+<p class="text-start text-muted">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 (原始内容存档于2018-09-29) (英语). Praesentium dolor nam reududiandae perspiciatis.</p>
+</div>
+<div class="col-lg-6 center">
+<p class="text-start text-muted">Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 (原始内容存档于2018-09-29). Praesentium dolor nam.</p>
+</div>
+<div class="col-lg-12">
+<div class="form-widget">
+<div class="form-result"></div>
+<form action="include/form.php" class="mb-0 row" id="template-contactform" method="post" name="template-contactform">
+<div class="form-process">
+<div class="css3-spinner">
+<div class="css3-spinner-scaler"></div>
+</div>
+</div>
+<div class="col-lg-12">
+<input class="sm-form-control required" id="template-contactform-name" name="template-contactform-name" placeholder="Full Name*" type="text" value="">
+</input></div>
+<div class="col-lg-12">
+<input class="required email sm-form-control" id="template-contactform-email" name="template-contactform-email" placeholder="Email Address*" type="email" value=""/>
+</div>
+<div class="col-lg-12">
+<textarea class="required sm-form-control" cols="30" id="template-contactform-message" name="template-contactform-message" placeholder="Message*" rows="6"></textarea>
+</div>
+<div class="col-lg-12 d-none">
+<input class="sm-form-control" id="template-contactform-botcheck" name="template-contactform-botcheck" type="text" value=""/>
+</div>
+<div class="col-lg-12">
+<button class="button button-border button-rounded button-black float-end" id="template-contactform-submit" name="template-contactform-submit" type="submit" value="submit">发送信件</button>
+</div>
+<input name="prefix" type="hidden" value="template-contactform-"/>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section> <!--节末-->
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer class="border-0 dark" id="footer">
+<!--版权 =============================================-->
+<div class="center pt-0" id="copyrights" style="background: url('demos/cafe/images/sections/6.jpg') no-repeat center center; background-size: cover;">
+<div class="container clearfix">
+<div class="row">
+<div class="col-lg-12 center">
+<div class="heading-block clearfix bottommargin-sm">
+<a href="index.html"><img alt="Canvas Logo" src="demos/cafe/images/logo1@2x.png"/></a>
+</div>版权:&amp;quot;2020&amp;quot; Canvas股份有限公司保留的所有权利.</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up" id="gotoTop"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<!--线性改革 5.x 悬崖-->
+<script src="include/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script src="include/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script src="include/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+<script src="include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="include/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="include/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="include/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+<script>
 		var tpj = jQuery;
 
 		var revapi206;
@@ -604,6 +491,5 @@
 			}
 		}); /*ready*/
 	</script>
-
 </body>
 </html>

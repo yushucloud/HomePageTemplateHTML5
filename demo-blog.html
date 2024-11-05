@@ -1,1009 +1,874 @@
-<!DOCTYPE html>
+(简体中文)
 <html dir="ltr" lang="en-US">
 <head>
-
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
-
-	<!-- Stylesheets
-	============================================= -->
-	<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-	<link rel="stylesheet" href="style.css" type="text/css" />
-	<link rel="stylesheet" href="css/dark.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/custom.css" type="text/css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-	<!-- Blog Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="demos/blog/css/fonts.css" type="text/css" />
-	<link rel="stylesheet" href="demos/blog/blog.css" type="text/css" />
-
-	<link rel="stylesheet" href="css/colors.php?color=F39887" type="text/css" />
-
-	<!-- Document Title
-	============================================= -->
-	<title>Blog Demo | Canvas</title>
-
-</head>
-
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<meta content="SemiColonWeb" name="author"/>
+<!--样式表 =============================================-->
+<link href="https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&amp;family=Roboto:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css"/>
+<link href="css/dark.css" rel="stylesheet" type="text/css"/>
+<link href="css/font-icons.css" rel="stylesheet" type="text/css"/>
+<link href="css/animate.css" rel="stylesheet" type="text/css"/>
+<link href="css/magnific-popup.css" rel="stylesheet" type="text/css"/>
+<link href="css/custom.css" rel="stylesheet" type="text/css"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<!--博客 Demo 特定样式表-->
+<link href="demos/blog/css/fonts.css" rel="stylesheet" type="text/css"/>
+<link href="demos/blog/blog.css" rel="stylesheet" type="text/css"/>
+<link href="css/colors.php?color=F39887" rel="stylesheet" type="text/css"/>
+<!--文件标题 =============================================-->
+<title>博客Demo QQ Canvas</title>
+</link></head>
 <body class="stretched search-overlay">
-
-	<div id="fb-root"></div><script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=915724525182895&autoLogAppEvents=1"></script>
-
-	<!-- Document Wrapper
-	============================================= -->
-	<div id="wrapper">
-
-		<!-- Header
-		============================================= -->
-		<header id="header" class="header-size-custom" data-sticky-shrink="false">
-			<div id="header-wrap">
-				<div class="container">
-					<div class="header-row justify-content-lg-between">
-
-						<!-- Logo
-						============================================= -->
-						<div id="logo" class="mx-lg-auto col-auto flex-column order-lg-2 px-0">
-							<a href="demo-blog.html" class="standard-logo" data-dark-logo="demos/blog/images/logo-dark.png" data-mobile-logo="demos/blog/images/mobile-logo.png"><img src="demos/blog/images/logo.png" alt="Canvas Logo"></a>
-							<a href="demo-blog.html" class="retina-logo" data-dark-logo="demos/blog/images/logo-dark@2x.png" data-mobile-logo="demos/blog/images/mobile-logo@2x.png"><img src="demos/blog/images/logo@2x.png" alt="Canvas Logo"></a>
-							<span class="divider divider-center date-today"><span class="divider-text"></span></span>
-						</div><!-- #logo end -->
-
-						<div class="col-auto col-lg-3 order-lg-1 d-none d-md-flex px-0">
-							<div class="social-icons">
-								<a href="https://facebook.com/semicolonweb" class="social-icon si-rounded si-dark si-mini si-facebook" target="_blank">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-								<a href="https://twitter.com/__semicolon" class="social-icon si-rounded si-dark si-mini si-twitter" target="_blank">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-								<a href=" https://instagram.com/semicolonweb" class="social-icon si-rounded si-dark si-mini si-instagram" target="_blank">
-									<i class="icon-instagram"></i>
-									<i class="icon-instagram"></i>
-								</a>
-							</div>
-						</div>
-
-						<div class="header-misc col-auto col-lg-3 justify-content-lg-end ms-0 ms-sm-3 px-0">
-
-							<!-- Bookmark
-							============================================= -->
-							<div class="dropdown dropdown-langs">
-								<button class="btn dropdown-toggle px-1" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<img src="demos/seo/images/flags/eng.png" alt="French">
-								</button>
-								<div class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/fre.png" alt="Lang"> French</a>
-									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/ara.png" alt="Lang"> Arabic</a>
-									<a href="#" class="dropdown-item"><img src="demos/seo/images/flags/tha.png" alt="Lang"> Thailand</a>
-									<a href="#" class="dropdown-item disabled" tabindex="-1" aria-disabled="true"><img src="demos/seo/images/flags/eng.png" alt="Lang"> English</a>
-								</div>
-							</div>
-
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
-
-							<div class="dark-mode header-misc-icon d-none d-md-block">
-								<a href="#"><i class="icon-dark"></i></a>
-							</div>
-						</div>
-
-						<div id="primary-menu-trigger">
-							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
-						</div>
-
-					</div>
-				</div>
-
-				<div class="container">
-					<div class="header-row justify-content-lg-center header-border">
-
-						<!-- Primary Navigation
-						============================================= -->
-						<nav class="primary-menu with-arrows">
-
-							<ul class="menu-container justify-content-between">
-								<li class="menu-item current"><a class="menu-link" href="demo-blog.html"><div>Home</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>World</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Tech</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Lifestyle</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Business</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Finance</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Food</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>Sports</div></a></li>
-							</ul>
-
-						</nav><!-- #primary-menu end -->
-
-						<form class="top-search-form" action="search.html" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter.." autocomplete="off">
-						</form>
-
-					</div>
-				</div>
-			</div>
-			<div class="header-wrap-clone"></div>
-
-		</header><!-- #header end -->
-
-		<!-- Content
-		============================================= -->
-		<section id="content">
-			<div class="content-wrap pt-5" style="overflow: visible;">
-				<div class="container">
-					<!-- Hero Area
-					============================================= -->
-					<div class="row border-between">
-						<div class="col-lg-7 mb-5 mb-lg-0">
-							<!-- Post Article -->
-							<article class="entry border-bottom-0 mb-0">
-								<div class="entry-image">
-									<a href="demo-blog-single.html"><img src="demos/blog/images/hero/full/1.jpg" alt="Image 3"></a>
-								</div>
-								<div class="entry-title">
-									<div class="entry-categories"><a href="demo-blog-categories.html">Coronavirus Update - World</a></div>
-									<h3><a href="demo-blog-single.html" class="stretched-link color-underline"><span>Statement from Vice President Joe Biden on Record Number of Americans Filing for Unemployment</span></a></h3>
-								</div>
-								<div class="entry-meta">
-									<ul>
-										<li><a href="#">Mar 11, 2016</a></li>
-									</ul>
-								</div>
-								<div class="entry-content">
-									<p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis. Lorem ipsum dolor sit amet. Rapidiously negotiate standardized web services and goal-oriented outsourcing. Uniquely repurpose compelling functionalities before parallel mindshare.</p>
-								</div>
-							</article>
-						</div>
-
-						<div class="col-lg-5">
-							<h3 class="font-secondary fw-medium mb-4 h4">Highlights</h3>
-
-							<div class="row posts-md col-mb-30">
-								<article class="entry col-12">
-									<div class="grid-inner row gutter-20">
-										<div class="col-md-4">
-											<a class="entry-image" href="demo-blog-single.html"><img src="demos/blog/images/hero/2.jpg" alt="Image"></a>
-										</div>
-										<div class="col-md-8">
-											<div class="entry-title title-xs">
-												<div class="entry-categories"><a href="demo-blog-categories.html">Market</a></div>
-												<h3><a href="demo-blog-single.html" class="stretched-link color-underline">What Everyone’s Getting Wrong About the Toilet Paper Shortage</a></h3>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><a href="#">Mar 11, 2016</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner row gutter-20">
-										<div class="col-md-4">
-											<a  class="entry-image" href="demo-blog-single.html"><img src="demos/blog/images/hero/3.jpg" alt="Image"></a>
-										</div>
-										<div class="col-md-8">
-											<div class="entry-title title-xs">
-												<div class="entry-categories"><a href="demo-blog-categories.html">Tech</a></div>
-												<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Designing an e-commerce site for a Cloth store — a UI/UX case</a></h3>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><a href="#">Mar 11, 2016</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner row gutter-20">
-										<div class="col-md-4">
-											<a  class="entry-image" href="demo-blog-single.html"><img src="demos/blog/images/hero/4.jpg" alt="Image"></a>
-										</div>
-										<div class="col-md-8">
-											<div class="entry-title title-xs">
-												<div class="entry-categories"><a href="demo-blog-categories.html">Food</a></div>
-												<h3><a href="demo-blog-single.html" class="stretched-link color-underline">The Path: “I stayed loyal to those who gave me opportunities, and tried to remain humble every step of the way.”</a></h3>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><a href="#">Mar 11, 2016</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner row gutter-20">
-										<div class="col-md-4">
-											<a class="entry-image" href="demo-blog-single.html"><img src="demos/blog/images/hero/5.jpg" alt="Image"></a>
-										</div>
-										<div class="col-md-8">
-											<div class="entry-title title-xs">
-												<div class="entry-categories"><a href="demo-blog-categories.html">Tech</a></div>
-												<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Adobe XD: putting auto-animate to the test</a></h3>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><a href="#">Mar 11, 2016</a></li>
-												</ul>
-											</div>
-										</div>
-									</div>
-								</article>
-							</div>
-
-						</div>
-					</div> <!-- Hero Area End -->
-
-					<!-- Subscribe Section
-					============================================= -->
-					<div class="section section-colored rounded px-4">
-						<div class="row justify-content-center align-items-center">
-							<div class="col-lg-5">
-								<h3 class="mb-4 mb-lg-0">Sign up for Updates &amp; Newsletters.</h3>
-							</div>
-							<div class="col-lg-6">
-								<div class="widget subscribe-widget" data-loader="button">
-
-									<div class="widget-subscribe-form-result"></div>
-									<form id="widget-subscribe-form" action="include/subscribe.php" method="post" class="mb-0 d-flex">
-										<input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="form-control form-control-lg not-dark required email" placeholder="Your Email Address">
-										<button class="button button-large button-black button-dark fw-medium ls0 button-rounded m-0 ms-3" type="submit">Subscribe Now</button>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div> <!-- Subscribe Section End -->
-
-					<!-- Video Section
-					============================================= -->
-					<div class="d-flex justify-content-between mb-4">
-						<h3 class="font-secondary fw-medium m-0">Latest Videos</h3>
-						<a href="#" class="btn btn-sm btn-outline-secondary">More Content <i class="icon-line-arrow-right"></i></a>
-					</div>
-
-					<div class="row posts-md col-mb-30">
-						<div class="col-md-4">
-							<article class="entry border-bottom-0 mb-0">
-								<div class="entry-image">
-									<a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" data-lightbox="iframe"><img src="demos/blog/images/video-thumbs/1.jpg" alt="Image 3">
-										<div class="play-icon"><i class="icon-play"></i>Watch</div>
-									</a>
-								</div>
-								<div class="entry-title title-sm">
-									<div class="entry-categories"><a href="demo-blog-categories.html">Travel</a></div>
-									<h3><a href="demo-blog-single.html" class="color-underline">The Best Destinations in Asia for Solo Travel</a></h3>
-								</div>
-								<div class="entry-meta">
-									<ul>
-										<li><a href="#">Mar 11, 2016</a></li>
-									</ul>
-								</div>
-							</article>
-						</div>
-						<div class="col-md-4">
-							<article class="entry border-bottom-0 mb-0">
-								<div class="entry-image">
-									<a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" data-lightbox="iframe"><img src="demos/blog/images/video-thumbs/2.jpg" alt="Image 3">
-										<div class="play-icon"><i class="icon-play"></i>Watch</div>
-									</a>
-								</div>
-								<div class="entry-title title-sm">
-									<div class="entry-categories"><a href="demo-blog-categories.html">Fashion</a></div>
-									<h3><a href="demo-blog-single.html" class="color-underline">10 Trendy Fashion Instagram Profile You Need to Follow</a></h3>
-								</div>
-								<div class="entry-meta">
-									<ul>
-										<li><a href="#">Mar 11, 2016</a></li>
-									</ul>
-								</div>
-							</article>
-						</div>
-						<div class="col-md-4">
-							<article class="entry border-bottom-0 mb-0">
-								<div class="entry-image">
-									<a href="https://www.youtube.com/watch?v=P3Huse9K6Xs" data-lightbox="iframe"><img src="demos/blog/images/video-thumbs/3.jpg" alt="Image 3">
-										<div class="play-icon"><i class="icon-play"></i>Watch</div>
-									</a>
-								</div>
-								<div class="entry-title title-sm">
-									<div class="entry-categories"><a href="demo-blog-categories.html">Travel</a></div>
-									<h3><a href="demo-blog-single.html" class="color-underline">23 Top Travel Bloggers Who Inspire Us To Travel</a></h3>
-								</div>
-								<div class="entry-meta">
-									<ul>
-										<li><a href="#">Mar 11, 2016</a></li>
-									</ul>
-								</div>
-							</article>
-						</div>
-					</div>  <!-- Video Section End -->
-
-				</div>
-
-				<!-- Dark Section Spotlight
-				============================================= -->
-				<div class="section dark">
-					<div class="container">
-						<h2 class="font-secondary fw-medium">Spotlights</h2>
-						<div class="row border-between">
-							<div class="col-lg-7 mb-5 mb-lg-0">
-								<!-- Post Article -->
-								<article class="entry border-bottom-0 mb-0">
-									<div class="entry-image">
-										<a href="demo-blog-single.html"><img src="demos/blog/images/hero/full/5.jpg" alt="Image 3"></a>
-									</div>
-									<div class="entry-title">
-										<div class="entry-categories"><a href="demo-blog-categories.html">Coronavirus Update - World</a></div>
-										<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Statement from Vice President Joe Biden on Record Number of Americans Filing for Unemployment</a></h3>
-									</div>
-									<div class="entry-meta">
-										<ul>
-											<li><a href="#">Mar 11, 2016</a></li>
-										</ul>
-									</div>
-									<div class="entry-content">
-										<p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis. Lorem ipsum dolor sit amet.</p>
-									</div>
-								</article>
-							</div>
-
-							<div class="col-lg-5">
-								<h3 class="font-secondary fw-medium mb-4 h4">Highlights</h3>
-
-								<div class="row posts-md col-mb-30">
-									<article class="entry col-12">
-										<div class="grid-inner row gutter-20">
-											<div class="col-md-4">
-												<a class="entry-image" href="demo-blog-single.html"><img src="demos/blog/images/hero/2.jpg" alt="Image"></a>
-											</div>
-											<div class="col-md-8">
-												<div class="entry-title title-xs">
-													<div class="entry-categories"><a href="demo-blog-categories.html">Market</a></div>
-													<h3><a href="demo-blog-single.html" class="stretched-link color-underline">What Everyone’s Getting Wrong About the Toilet Paper Shortage</a></h3>
-												</div>
-												<div class="entry-meta">
-													<ul>
-														<li><a href="#">Mar 11, 2016</a></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="entry col-12">
-										<div class="grid-inner row gutter-20">
-											<div class="col-md-4">
-												<a class="entry-image" href="demo-blog-single.html"><img src="demos/blog/images/hero/3.jpg" alt="Image"></a>
-											</div>
-											<div class="col-md-8">
-												<div class="entry-title title-xs">
-													<div class="entry-categories"><a href="demo-blog-categories.html">Tech</a></div>
-													<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Designing an e-commerce site for a Cloth store — a UI/UX case</a></h3>
-												</div>
-												<div class="entry-meta">
-													<ul>
-														<li><a href="#">Mar 11, 2016</a></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="entry col-12">
-										<div class="grid-inner row gutter-20">
-											<div class="col-md-4">
-												<a class="entry-image" href="demo-blog-single.html"><img src="demos/blog/images/hero/4.jpg" alt="Image"></a>
-											</div>
-											<div class="col-md-8">
-												<div class="entry-title title-xs">
-													<div class="entry-categories"><a href="demo-blog-categories.html">Food</a></div>
-													<h3><a href="demo-blog-single.html" class="stretched-link color-underline">The Path: “I stayed loyal to those who gave me opportunities, and tried to remain humble every step of the way.”</a></h3>
-												</div>
-												<div class="entry-meta">
-													<ul>
-														<li><a href="#">Mar 11, 2016</a></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</article>
-
-									<article class="entry col-12">
-										<div class="grid-inner row gutter-20">
-											<div class="col-md-4">
-												<a class="entry-image" href="demo-blog-single.html"><img src="demos/blog/images/hero/5.jpg" alt="Image"></a>
-											</div>
-											<div class="col-md-8">
-												<div class="entry-title title-xs">
-													<div class="entry-categories"><a href="demo-blog-categories.html">Sports</a></div>
-													<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Designing an e-commerce site for a Cloth store — a UI/UX case</a></h3>
-												</div>
-												<div class="entry-meta">
-													<ul>
-														<li><a href="#">Mar 11, 2016</a></li>
-													</ul>
-												</div>
-											</div>
-										</div>
-									</article>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div> <!-- Dark Section Spotlight End -->
-
-				<div class="container">
-
-					<!-- Based On Your Reading History
-					============================================= -->
-					<div class="row border-between">
-
-						<!-- Left Side of Based On Your Reading History
-						============================================= -->
-						<div class="col-lg-8">
-							<h3 class="font-secondary fw-medium">Based On Your Reading History</h3>
-
-							<div class="row col-mb-50">
-								<article class="col-12">
-									<div class="row">
-										<div class="col-md-6 mb-0">
-											<a href="#" class="entry-image">
-												<img src="demos/blog/images/lists/1.jpg" alt="Image">
-											</a>
-										</div>
-										<div class="col-md-6">
-											<div class="entry-title mt-lg-0 mt-3">
-												<div class="entry-categories"><a href="demo-blog-categories.html">Coronavirus Update - World</a></div>
-												<h3><a href="demo-blog-single.html" class="color-underline stretched-link">Apple and Google Team Up to ‘Contact Trace’ the Coronavirus</a></h3>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><a href="#">Mar 11, 2016</a></li>
-												</ul>
-											</div>
-											<div class="entry-content">
-												<p>The technology giants said they would embed a feature in iPhones and Android devices to enable users to track infected people they’d come close to.</p>
-											</div>
-										</div>
-									</div>
-								</article>
-
-								<article class="col-12">
-									<div class="row">
-										<div class="col-md-6 mb-0">
-											<a href="#" class="entry-image">
-												<img src="demos/blog/images/lists/2.jpg" alt="Image">
-											</a>
-										</div>
-										<div class="col-md-6">
-											<div class="entry-title mt-lg-0 mt-3">
-												<div class="entry-categories"><a href="demo-blog-categories.html">Food</a></div>
-												<h3><a href="demo-blog-single.html" class="color-underline stretched-link">Quick, Easy and So Satisfying</a></h3>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><a href="#">Mar 11, 2016</a></li>
-												</ul>
-											</div>
-											<div class="entry-content">
-												<p>Welcome to Five Weeknight Dishes. This newsletter is dedicated to recipes that are easy, quick and satisfying, words that all have a different meaning today than they did when we first started. I spent a few hours this week cleaning out my freezer and — compared with the other things on my to-do list.</p>
-											</div>
-										</div>
-									</div>
-								</article>
-
-								<article class="col-12">
-									<div class="row">
-										<div class="col-md-6 mb-0">
-											<a href="#" class="entry-image">
-												<img src="demos/blog/images/lists/3.jpg" alt="Image">
-											</a>
-										</div>
-										<div class="col-md-6">
-											<div class="entry-title mt-lg-0 mt-3">
-												<div class="entry-categories"><a href="demo-blog-categories.html">Tech</a></div>
-												<h3><a href="demo-blog-single.html" class="color-underline stretched-link">Optical Effects in User Interfaces: An Illustrated Guide</a></h3>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><a href="#">Mar 11, 2016</a></li>
-												</ul>
-											</div>
-											<div class="entry-content">
-												<p>Our eyes are weird and often mislead us. But if you know the peculiarities of human vision, you can construct better designs. Not only do type designers utilize optical tricks for creating readable and well-balanced fonts, but it’s also helpful for designers, who craft user-computer interaction.</p>
-											</div>
-										</div>
-									</div>
-								</article>
-
-								<article class="col-12">
-									<div class="row">
-										<div class="col-md-6 mb-0">
-											<a href="#" class="entry-image">
-												<img src="demos/blog/images/lists/4.jpg" alt="Image">
-											</a>
-										</div>
-										<div class="col-md-6">
-											<div class="entry-title mt-lg-0 mt-3">
-												<div class="entry-categories"><a href="demo-blog-categories.html">Health</a></div>
-												<h3><a href="demo-blog-single.html" class="color-underline stretched-link">How to Stock Your Medicine Cabinet Just in Case</a></h3>
-											</div>
-											<div class="entry-meta">
-												<ul>
-													<li><a href="#">Mar 11, 2016</a></li>
-												</ul>
-											</div>
-											<div class="entry-content">
-												<p>Asperiores, tenetur, blanditiis, quaerat odit ex exercitationem pariatur quibusdam veritatis quisquam laboriosam esse beatae hic perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, repudiandae.</p>
-											</div>
-										</div>
-									</div>
-								</article>
-							</div>
-						</div>
-
-						<!-- Right Side of Based On Your Reading History - Sticky
-						============================================= -->
-						<div class="col-lg-4 mt-5 mt-lg-0 position-sticky h-100" style="top: 234px;">
-							<h3 class="font-secondary fw-medium">This Week</h3>
-
-							<ul class="week-posts posts-sm row col-mb-30">
-								<li class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title">
-											<h4><a href="demo-blog-single.html" class="color-underline stretched-link">The Best Destinations in Asia for Solo Travel</a></h4>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2016</a></li>
-											</ul>
-										</div>
-									</div>
-								</li>
-
-								<li class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title">
-											<h4><a href="demo-blog-single.html" class="color-underline stretched-link">We Need a COVID-19 Phase 4 Relief Package. Here’s What Should Be In It.</a></h4>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2016</a></li>
-											</ul>
-										</div>
-									</div>
-								</li>
-
-								<li class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title">
-											<h4><a href="demo-blog-single.html" class="color-underline stretched-link">UK government weighs Tesla's Model.</a></h4>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2016</a></li>
-											</ul>
-										</div>
-									</div>
-								</li>
-
-								<li class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title">
-											<h4><a href="demo-blog-single.html" class="color-underline stretched-link">How Colleges Can Get Online Education Right</a></h4>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2016</a></li>
-											</ul>
-										</div>
-									</div>
-								</li>
-
-								<li class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title">
-											<h4><a href="demo-blog-single.html" class="color-underline stretched-link">From Behind the Scenes to the Forefront: Canada’s Public Health Officers</a></h4>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2016</a></li>
-											</ul>
-										</div>
-									</div>
-								</li>
-							</ul>
-
-							<div class="line line-sm"></div>
-
-							<h3 class="font-secondary fw-medium">Ad</h3>
-							<div class="fb-post" data-href="https://www.facebook.com/semicolonweb/posts/2855299871172671" data-width="500" data-show-text="false"></div>
-
-						</div>
-					</div> <!-- Based On Your Reading History End -->
-				</div>
-
-				<!-- Advertisement Section
-				============================================= -->
-				<div class="section">
-					<div class="container">
-						<div class="ad-banner">
-							<small class="mb-2 d-block">Advertisement</small>
-							<a href="https://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123" target="_blank"><img src="demos/blog/images/ad.jpg" alt="Ad Image"></a>
-						</div>
-					</div>
-				</div> <!-- Advertisement Section End -->
-
-				<div class="container">
-					<!-- All Categories
-					============================================= -->
-					<div class="row border-between posts-md col-mb-50 mb-0">
-						<div class="col-md-6 col-lg-3">
-							<h3>World</h3>
-
-							<div class="row col-mb-30 mb-0">
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Coronavirus Live Updates: Singapore Sees Record Number of New Cases</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">‘Will We Die Hungry?’ A Teeming Manila Slum Chafes Under Lockdown</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">In Argentina, a Bid to Make Language Gender Neutral Gains Traction</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-							</div>
-
-							<a href="demo-blog-categories.html" class="more-link">View more<i class="icon-line-arrow-right"></i></a>
-						</div>
-
-						<div class="col-md-6 col-lg-3">
-							<h3>Travel</h3>
-
-							<div class="row col-mb-30 mb-0">
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">A Visual Trek Through the Sweltering Jungle: In Search of Colombia’s ‘Lost City’</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Believe In Your Travel Skills But Never Stop Improving</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">How I Improved My Travel In One Easy Lesson</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-							</div>
-
-							<a href="demo-blog-categories.html" class="more-link">View more<i class="icon-line-arrow-right"></i></a>
-						</div>
-
-						<div class="col-md-6 col-lg-3">
-							<h3>Fashion</h3>
-
-							<div class="row col-mb-30 mb-0">
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Top 10 Tips To Grow Your Fashion</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">4 Ways You Can Grow Your Creativity Using Fashion</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Top 15 Best Fashion Android/iPhone Apps</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-							</div>
-
-							<a href="demo-blog-categories.html" class="more-link">View more<i class="icon-line-arrow-right"></i></a>
-						</div>
-
-						<div class="col-md-6 col-lg-3">
-							<h3>Food</h3>
-
-							<div class="row col-mb-30 mb-0">
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">Everything you need to know about supermarket delivery slots</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">How the diet industry uses and misuses knowledge of hunger and satiety</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-
-								<article class="entry col-12">
-									<div class="grid-inner">
-										<div class="entry-title title-sm">
-											<h3><a href="demo-blog-single.html" class="stretched-link color-underline">6 protein-rich chutneys that can replace vegetables</a></h3>
-										</div>
-										<div class="entry-meta">
-											<ul>
-												<li><a href="#">Mar 11, 2020</a></li>
-											</ul>
-										</div>
-									</div>
-								</article>
-							</div>
-
-							<a href="demo-blog-categories.html" class="more-link">View more<i class="icon-line-arrow-right"></i></a>
-						</div>
-					</div> <!-- All Categories Section End -->
-
-				</div>
-			</div>
-		</section><!-- #content end -->
-
-		<!-- Footer
-		============================================= -->
-		<footer id="footer">
-			<div class="container">
-
-				<!-- Footer Widgets
-				============================================= -->
-				<div class="footer-widgets-wrap row col-mb-50">
-
-					<!-- Footer Widget 3
-					============================================= -->
-					<div class="col-lg-2 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Management</h4>
-							<ul>
-								<li><a href="https://codex.wordpress.org/">About Us</a></li>
-								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Careers</a></li>
-								<li><a href="https://wordpress.org/extend/plugins/">Customers</a></li>
-								<li><a href="https://wordpress.org/support/">Forums</a></li>
-								<li><a href="https://wordpress.org/extend/themes/">Partners</a></li>
-								<li><a href="https://wordpress.org/news/">Themes</a></li>
-								<li><a href="https://planet.wordpress.org/">Pricing</a></li>
-								<li><a href="https://planet.wordpress.org/">Reviews</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<!-- Footer Widget 3
-					============================================= -->
-					<div class="col-lg-2 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Our Products</h4>
-							<ul>
-								<li><a href="https://codex.wordpress.org/">Real Estate</a></li>
-								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Movers</a></li>
-								<li><a href="https://wordpress.org/extend/plugins/">Stores</a></li>
-								<li><a href="https://wordpress.org/support/">Landing</a></li>
-								<li><a href="https://wordpress.org/extend/themes/">Seo</a></li>
-								<li><a href="https://wordpress.org/news/">CoWorking</a></li>
-							</ul>
-						</div>
-					</div>
-
-					<!-- Footer Widget 3
-					============================================= -->
-					<div class="col-lg-2 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Support</h4>
-							<ul>
-								<li><a href="https://codex.wordpress.org/">Privacy</a></li>
-								<li><a href="https://wordpress.org/support/forum/requests-and-feedback">Help Center</a></li>
-								<li><a href="https://wordpress.org/extend/plugins/">Chat</a></li>
-								<li><a href="https://wordpress.org/support/">Email Us</a></li>
-							</ul>
-							<div class="mt-3">
-								<a href="https://facebook.com/semicolonweb" class="social-icon si-small si-dark si-facebook" title="Facebook" target="_blank">
-									<i class="icon-facebook"></i>
-									<i class="icon-facebook"></i>
-								</a>
-
-								<a href="https://instagram.com/semicolonweb" class="social-icon si-small si-dark si-instagram" title="instagram" target="_blank">
-									<i class="icon-instagram"></i>
-									<i class="icon-instagram"></i>
-								</a>
-
-								<a href="https://twitter.com/__semicolon" class="social-icon si-small si-dark si-twitter" title="twitter" target="_blank">
-									<i class="icon-twitter"></i>
-									<i class="icon-twitter"></i>
-								</a>
-
-								<a href="#" class="social-icon si-small si-dark si-wikipedia" title="Apple Pay">
-									<i class="icon-apple-pay"></i>
-									<i class="icon-apple-pay"></i>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<!-- Footer Widget 2
-						============================================= -->
-					<div class="col-lg-3 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Tag Cloud</h4>
-							<div class="tagcloud">
-								<a href="#">general</a>
-								<a href="#">videos</a>
-								<a href="#">music</a>
-								<a href="#">media</a>
-								<a href="#">photography</a>
-								<a href="#">parallax</a>
-								<a href="#">ecommerce</a>
-								<a href="#">terms</a>
-								<a href="#">coupons</a>
-								<a href="#">modern</a>
-								<a href="#">magazine</a>
-								<a href="#">bootstrap</a>
-								<a href="#">news</a>
-								<a href="#">blog</a>
-								<a href="#">wordpress</a>
-							</div>
-						</div>
-					</div>
-
-					<!-- Footer Widget 4
-					============================================= -->
-					<div class="col-lg-3 col-sm-6">
-						<div class="widget widget_links">
-							<h4 class="mb-3 mb-sm-4 nott ls0">Download in Mobile</h4>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae esse iure est, quam libero!</p>
-							<a href="#" class="button button-dark  text-light w-100 text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin"><i class="icon-apple"></i>App Store</a>
-							<a href="#" class="button button-dark  text-light w-100 text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin"><i class="icon-googleplay"></i>Google Play</a>
-						</div>
-					</div>
-
-				</div>
-			</div>
-
-			<!-- Copyrights
-			============================================= -->
-			<div id="copyrights">
-				<div class="container">
-
-					<div class="row align-items-center justify-content-between col-mb-30">
-						<div class="col-lg-auto text-center text-lg-start">
-							Copyrights &copy; 2018 All Rights Reserved by Canvas Inc.<br>
-							<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-						</div>
-
-						<div class="col-lg-auto text-center text-lg-start">
-							<div class="copyrights-menu copyright-links m-0">
-								<a href="#">Home</a>/<a href="#">About</a>/<a href="#">Features</a>/<a href="#">Portfolio</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div><!-- #copyrights end -->
-		</footer><!-- #footer end -->
-
-	</div><!-- #wrapper end -->
-
-	<!-- Go To Top
-	============================================= -->
-	<div id="gotoTop" class="icon-angle-up rounded-circle" style="left: 30px; right: auto;"></div>
-
-	<!-- JavaScripts
-	============================================= -->
-	<script src="js/jquery.js"></script>
-	<script src="js/plugins.min.js"></script>
-
-	<!-- Footer Scripts
-	============================================= -->
-	<script src="js/functions.js"></script>
-
-	<!-- ADD-ONS JS FILES -->
-	<script>
+<div id="fb-root"></div><script async="" crossorigin="anonymous" defer="" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v6.0&amp;appId=915724525182895&amp;autoLogAppEvents=1"></script>
+<!--文档折叠器 =============================================-->
+<div id="wrapper">
+<!--页眉 =============================================-->
+<header class="header-size-custom" data-sticky-shrink="false" id="header">
+<div id="header-wrap">
+<div class="container">
+<div class="header-row justify-content-lg-between">
+<!--标记 =============================================-->
+<div class="mx-lg-auto col-auto flex-column order-lg-2 px-0" id="logo">
+<a class="standard-logo" data-dark-logo="demos/blog/images/logo-dark.png" data-mobile-logo="demos/blog/images/mobile-logo.png" href="demo-blog.html"><img alt="Canvas Logo" src="demos/blog/images/logo.png"/></a>
+<a class="retina-logo" data-dark-logo="demos/blog/images/logo-dark@2x.png" data-mobile-logo="demos/blog/images/mobile-logo@2x.png" href="demo-blog.html"><img alt="Canvas Logo" src="demos/blog/images/logo@2x.png"/></a>
+<span class="divider divider-center date-today"><span class="divider-text"></span></span>
+</div><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}结束-->
+<div class="col-auto col-lg-3 order-lg-1 d-none d-md-flex px-0">
+<div class="social-icons">
+<a class="social-icon si-rounded si-dark si-mini si-facebook" href="https://facebook.com/semicolonweb" target="_blank">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-rounded si-dark si-mini si-twitter" href="https://twitter.com/__semicolon" target="_blank">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-rounded si-dark si-mini si-instagram" href=" https://instagram.com/semicolonweb" target="_blank">
+<i class="icon-instagram"></i>
+<i class="icon-instagram"></i>
+</a>
+</div>
+</div>
+<div class="header-misc col-auto col-lg-3 justify-content-lg-end ms-0 ms-sm-3 px-0">
+<!--书签 =============================================-->
+<div class="dropdown dropdown-langs">
+<button aria-expanded="false" aria-haspopup="true" class="btn dropdown-toggle px-1" data-bs-toggle="dropdown" id="dropdownMenuButton" type="button">
+<img alt="French" src="demos/seo/images/flags/eng.png"/>
+</button>
+<div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-end">
+<a class="dropdown-item" href="#"><img alt="Lang" src="demos/seo/images/flags/fre.png"/>法语</a>
+<a class="dropdown-item" href="#"><img alt="Lang" src="demos/seo/images/flags/ara.png"/>阿拉伯语</a>
+<a class="dropdown-item" href="#"><img alt="Lang" src="demos/seo/images/flags/tha.png"/>泰国</a>
+<a aria-disabled="true" class="dropdown-item disabled" href="#" tabindex="-1"><img alt="Lang" src="demos/seo/images/flags/eng.png"/>联合国</a>
+</div>
+</div>
+<!--顶级搜索 =============================================-->
+<div class="header-misc-icon" id="top-search">
+<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
+</div><!--#顶端搜索结束-->
+<div class="dark-mode header-misc-icon d-none d-md-block">
+<a href="#"><i class="icon-dark"></i></a>
+</div>
+</div>
+<div id="primary-menu-trigger">
+<svg class="svg-trigger" viewbox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="header-row justify-content-lg-center header-border">
+<!--主导航 =============================================-->
+<nav class="primary-menu with-arrows">
+<ul class="menu-container justify-content-between">
+<li class="menu-item current"><a class="menu-link" href="demo-blog.html"><div>内容</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>世界</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>技术</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>生活方式</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>商业</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>财务</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>粮食</div></a></li>
+<li class="menu-item"><a class="menu-link" href="demo-blog-categories.html"><div>体育</div></a></li>
+</ul>
+</nav><!--初等菜单结束-->
+<form action="search.html" class="top-search-form" method="get">
+<input autocomplete="off" class="form-control" name="q" placeholder="Type &amp; Hit Enter.." type="text" value=""/>
+</form>
+</div>
+</div>
+</div>
+<div class="header-wrap-clone"></div>
+</header><!--头尾-->
+<!--内容 =============================================-->
+<section id="content">
+<div class="content-wrap pt-5" style="overflow: visible;">
+<div class="container">
+<!--英雄区 =============================================-->
+<div class="row border-between">
+<div class="col-lg-7 mb-5 mb-lg-0">
+<!--邮政文章-->
+<article class="entry border-bottom-0 mb-0">
+<div class="entry-image">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/hero/full/1.jpg"/></a>
+</div>
+<div class="entry-title">
+<div class="entry-categories"><a href="demo-blog-categories.html">Coronavirus 更新 - 世界</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html"><span>副主席的发言 Joe Biden,美国失业登记记录</span></a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+<div class="entry-content">
+<p>活体 活体 地心 地心 地心 地心 地心 地心 Lorem ourum dolor sit amet. 洛伦·德鲁尔坐在阿米特。 迅速谈判标准化网络服务和面向目标的外包. 在平行的心灵分享之前,独特的重新使用强制功能。</p>
+</div>
+</article>
+</div>
+<div class="col-lg-5">
+<h3 class="font-secondary fw-medium mb-4 h4">要点</h3>
+<div class="row posts-md col-mb-30">
+<article class="entry col-12">
+<div class="grid-inner row gutter-20">
+<div class="col-md-4">
+<a class="entry-image" href="demo-blog-single.html"><img alt="Image" src="demos/blog/images/hero/2.jpg"/></a>
+</div>
+<div class="col-md-8">
+<div class="entry-title title-xs">
+<div class="entry-categories"><a href="demo-blog-categories.html">市场</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">每个人对厕所纸张短缺有什么错误</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner row gutter-20">
+<div class="col-md-4">
+<a class="entry-image" href="demo-blog-single.html"><img alt="Image" src="demos/blog/images/hero/3.jpg"/></a>
+</div>
+<div class="col-md-8">
+<div class="entry-title title-xs">
+<div class="entry-categories"><a href="demo-blog-categories.html">技术</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">为克洛斯商店设计一个电子商务网站——一个UI/UX案例</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner row gutter-20">
+<div class="col-md-4">
+<a class="entry-image" href="demo-blog-single.html"><img alt="Image" src="demos/blog/images/hero/4.jpg"/></a>
+</div>
+<div class="col-md-8">
+<div class="entry-title title-xs">
+<div class="entry-categories"><a href="demo-blog-categories.html">粮食</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">&amp;quot; 道路 &amp;quot; : &amp;quot; 我忠于那些给我机会的人,并努力保持谦卑。 “</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner row gutter-20">
+<div class="col-md-4">
+<a class="entry-image" href="demo-blog-single.html"><img alt="Image" src="demos/blog/images/hero/5.jpg"/></a>
+</div>
+<div class="col-md-8">
+<div class="entry-title title-xs">
+<div class="entry-categories"><a href="demo-blog-categories.html">技术</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">Adobe XD: 将自动活化到测试中</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div> <!--英雄区域结束-->
+<!--订阅科 =============================================-->
+<div class="section section-colored rounded px-4">
+<div class="row justify-content-center align-items-center">
+<div class="col-lg-5">
+<h3 class="mb-4 mb-lg-0">报名参加更新和通讯。</h3>
+</div>
+<div class="col-lg-6">
+<div class="widget subscribe-widget" data-loader="button">
+<div class="widget-subscribe-form-result"></div>
+<form action="include/subscribe.php" class="mb-0 d-flex" id="widget-subscribe-form" method="post">
+<input class="form-control form-control-lg not-dark required email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" placeholder="Your Email Address" type="email"/>
+<button class="button button-large button-black button-dark fw-medium ls0 button-rounded m-0 ms-3" type="submit">现在订阅</button>
+</form>
+</div>
+</div>
+</div>
+</div> <!--订阅部分结束-->
+<!--录像科 =============================================-->
+<div class="d-flex justify-content-between mb-4">
+<h3 class="font-secondary fw-medium m-0">最新视频</h3>
+<a class="btn btn-sm btn-outline-secondary" href="#">更多内容<i class="icon-line-arrow-right"></i></a>
+</div>
+<div class="row posts-md col-mb-30">
+<div class="col-md-4">
+<article class="entry border-bottom-0 mb-0">
+<div class="entry-image">
+<a data-lightbox="iframe" href="https://www.youtube.com/watch?v=P3Huse9K6Xs"><img alt="Image 3" src="demos/blog/images/video-thumbs/1.jpg"/>
+<div class="play-icon"><i class="icon-play"></i>看着</div>
+</a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">旅费</a></div>
+<h3><a class="color-underline" href="demo-blog-single.html">独行旅行亚洲最佳目的地</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry border-bottom-0 mb-0">
+<div class="entry-image">
+<a data-lightbox="iframe" href="https://www.youtube.com/watch?v=P3Huse9K6Xs"><img alt="Image 3" src="demos/blog/images/video-thumbs/2.jpg"/>
+<div class="play-icon"><i class="icon-play"></i>看着</div>
+</a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">时尚</a></div>
+<h3><a class="color-underline" href="demo-blog-single.html">10 时尚时尚简介</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</article>
+</div>
+<div class="col-md-4">
+<article class="entry border-bottom-0 mb-0">
+<div class="entry-image">
+<a data-lightbox="iframe" href="https://www.youtube.com/watch?v=P3Huse9K6Xs"><img alt="Image 3" src="demos/blog/images/video-thumbs/3.jpg"/>
+<div class="play-icon"><i class="icon-play"></i>看着</div>
+</a>
+</div>
+<div class="entry-title title-sm">
+<div class="entry-categories"><a href="demo-blog-categories.html">旅费</a></div>
+<h3><a class="color-underline" href="demo-blog-single.html">23名鼓励我们旅行的顶级旅行博客</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</article>
+</div>
+</div> <!--视频部分结束-->
+</div>
+<!--黑暗区域焦点 =============================================-->
+<div class="section dark">
+<div class="container">
+<h2 class="font-secondary fw-medium">焦点灯</h2>
+<div class="row border-between">
+<div class="col-lg-7 mb-5 mb-lg-0">
+<!--邮政文章-->
+<article class="entry border-bottom-0 mb-0">
+<div class="entry-image">
+<a href="demo-blog-single.html"><img alt="Image 3" src="demos/blog/images/hero/full/5.jpg"/></a>
+</div>
+<div class="entry-title">
+<div class="entry-categories"><a href="demo-blog-categories.html">Coronavirus 更新 - 世界</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">副主席的发言 Joe Biden,美国失业登记记录</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+<div class="entry-content">
+<p>活体 活体 地心 地心 地心 地心 地心 地心 Lorem ourum dolor sit amet. 洛伦·德鲁尔坐在阿米特。</p>
+</div>
+</article>
+</div>
+<div class="col-lg-5">
+<h3 class="font-secondary fw-medium mb-4 h4">要点</h3>
+<div class="row posts-md col-mb-30">
+<article class="entry col-12">
+<div class="grid-inner row gutter-20">
+<div class="col-md-4">
+<a class="entry-image" href="demo-blog-single.html"><img alt="Image" src="demos/blog/images/hero/2.jpg"/></a>
+</div>
+<div class="col-md-8">
+<div class="entry-title title-xs">
+<div class="entry-categories"><a href="demo-blog-categories.html">市场</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">每个人对厕所纸张短缺有什么错误</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner row gutter-20">
+<div class="col-md-4">
+<a class="entry-image" href="demo-blog-single.html"><img alt="Image" src="demos/blog/images/hero/3.jpg"/></a>
+</div>
+<div class="col-md-8">
+<div class="entry-title title-xs">
+<div class="entry-categories"><a href="demo-blog-categories.html">技术</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">为克洛斯商店设计一个电子商务网站——一个UI/UX案例</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner row gutter-20">
+<div class="col-md-4">
+<a class="entry-image" href="demo-blog-single.html"><img alt="Image" src="demos/blog/images/hero/4.jpg"/></a>
+</div>
+<div class="col-md-8">
+<div class="entry-title title-xs">
+<div class="entry-categories"><a href="demo-blog-categories.html">粮食</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">&amp;quot; 道路 &amp;quot; : &amp;quot; 我忠于那些给我机会的人,并努力保持谦卑。 “</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner row gutter-20">
+<div class="col-md-4">
+<a class="entry-image" href="demo-blog-single.html"><img alt="Image" src="demos/blog/images/hero/5.jpg"/></a>
+</div>
+<div class="col-md-8">
+<div class="entry-title title-xs">
+<div class="entry-categories"><a href="demo-blog-categories.html">体育</a></div>
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">为克洛斯商店设计一个电子商务网站——一个UI/UX案例</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+</div>
+</div>
+</div> <!--黑暗区域焦点结束-->
+<div class="container">
+<!--基于您的阅读历史 =============================================-->
+<div class="row border-between">
+<!--基于您阅读历史的左侧 =============================================-->
+<div class="col-lg-8">
+<h3 class="font-secondary fw-medium">基于您的阅读历史</h3>
+<div class="row col-mb-50">
+<article class="col-12">
+<div class="row">
+<div class="col-md-6 mb-0">
+<a class="entry-image" href="#">
+<img alt="Image" src="demos/blog/images/lists/1.jpg"/>
+</a>
+</div>
+<div class="col-md-6">
+<div class="entry-title mt-lg-0 mt-3">
+<div class="entry-categories"><a href="demo-blog-categories.html">Coronavirus 更新 - 世界</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">Apple和Google 团队上到 Cononavirus“ 接触追踪 ”</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+<div class="entry-content">
+<p>科技巨头表示将在iPhone和Android设备中嵌入一个功能,</p>
+</div>
+</div>
+</div>
+</article>
+<article class="col-12">
+<div class="row">
+<div class="col-md-6 mb-0">
+<a class="entry-image" href="#">
+<img alt="Image" src="demos/blog/images/lists/2.jpg"/>
+</a>
+</div>
+<div class="col-md-6">
+<div class="entry-title mt-lg-0 mt-3">
+<div class="entry-categories"><a href="demo-blog-categories.html">粮食</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">快速,轻松和满足</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+<div class="entry-content">
+<p>欢迎光临&amp;quot;五周之夜&amp;quot; 这份通讯专门讲述了简便、快活和满意的食谱,这些话今天都和我们刚开始的时候不同。 这周我花了几个小时清理了冰箱 和我的待办事宜清单上的其他东西相比</p>
+</div>
+</div>
+</div>
+</article>
+<article class="col-12">
+<div class="row">
+<div class="col-md-6 mb-0">
+<a class="entry-image" href="#">
+<img alt="Image" src="demos/blog/images/lists/3.jpg"/>
+</a>
+</div>
+<div class="col-md-6">
+<div class="entry-title mt-lg-0 mt-3">
+<div class="entry-categories"><a href="demo-blog-categories.html">技术</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">用户界面中的光学效果: 说明指南</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+<div class="entry-content">
+<p>我们的眼睛很怪异,常常误导我们。 但是,如果你知道人类视觉的特异性, 你可以构建更好的设计。 不仅类型设计师利用光学技巧来创建可读且平衡的字体,</p>
+</div>
+</div>
+</div>
+</article>
+<article class="col-12">
+<div class="row">
+<div class="col-md-6 mb-0">
+<a class="entry-image" href="#">
+<img alt="Image" src="demos/blog/images/lists/4.jpg"/>
+</a>
+</div>
+<div class="col-md-6">
+<div class="entry-title mt-lg-0 mt-3">
+<div class="entry-categories"><a href="demo-blog-categories.html">卫生</a></div>
+<h3><a class="color-underline stretched-link" href="demo-blog-single.html">如何储存你的医药 内阁刚刚在病例</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+<div class="entry-content">
+<p>活体 活体 地心 地心 地心 地心 地心 地心 Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 碧亚特, 绝学.</p>
+</div>
+</div>
+</div>
+</article>
+</div>
+</div>
+<!--基于您阅读历史的右侧 - 粘贴 =============================================-->
+<div class="col-lg-4 mt-5 mt-lg-0 position-sticky h-100" style="top: 234px;">
+<h3 class="font-secondary fw-medium">这个礼拜</h3>
+<ul class="week-posts posts-sm row col-mb-30">
+<li class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title">
+<h4><a class="color-underline stretched-link" href="demo-blog-single.html">独行旅行亚洲最佳目的地</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title">
+<h4><a class="color-underline stretched-link" href="demo-blog-single.html">我们需要一个COVID-19 阶段四救济包。 以下是应该包含的内容。</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title">
+<h4><a class="color-underline stretched-link" href="demo-blog-single.html">英国政府权衡特斯拉的&amp;quot;模型&amp;quot;.</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title">
+<h4><a class="color-underline stretched-link" href="demo-blog-single.html">学院如何获得在线教育</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</li>
+<li class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title">
+<h4><a class="color-underline stretched-link" href="demo-blog-single.html">从幕后到前锋:加拿大公共卫生官员</a></h4>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2016年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</li>
+</ul>
+<div class="line line-sm"></div>
+<h3 class="font-secondary fw-medium">广告</h3>
+<div class="fb-post" data-href="https://www.facebook.com/semicolonweb/posts/2855299871172671" data-show-text="false" data-width="500"></div>
+</div>
+</div> <!--基于您的阅读历史结束-->
+</div>
+<!--广告科 =============================================-->
+<div class="section">
+<div class="container">
+<div class="ad-banner">
+<small class="mb-2 d-block">广告</small>
+<a href="https://themeforest.net/item/canvas-the-multipurpose-html5-template/9228123" target="_blank"><img alt="Ad Image" src="demos/blog/images/ad.jpg"/></a>
+</div>
+</div>
+</div> <!--广告科-->
+<div class="container">
+<!--所有类别 =============================================-->
+<div class="row border-between posts-md col-mb-50 mb-0">
+<div class="col-md-6 col-lg-3">
+<h3>世界</h3>
+<div class="row col-mb-30 mb-0">
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">Coronavirus Live Updates:新加坡新病例纪录</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">我们会不会饿死? 被封锁的提姆·马尼拉贫民区</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">在阿根廷,一项使语言不带性别色彩的电车公司投标</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+</div>
+<a class="more-link" href="demo-blog-categories.html">查看更多<i class="icon-line-arrow-right"></i></a>
+</div>
+<div class="col-md-6 col-lg-3">
+<h3>旅费</h3>
+<div class="row col-mb-30 mb-0">
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">透过被困丛林的视觉之旅:寻找哥伦比亚的&amp;quot;迷失之城&amp;quot; ’;</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">相信你的旅行技巧 但永不停止改善</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">我如何改进我的旅行 在一个简单的课程</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+</div>
+<a class="more-link" href="demo-blog-categories.html">查看更多<i class="icon-line-arrow-right"></i></a>
+</div>
+<div class="col-md-6 col-lg-3">
+<h3>时尚</h3>
+<div class="row col-mb-30 mb-0">
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">成长时尚的十大提示</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">4 种用时尚的创造力</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">前15名 最佳时装Android/iPhone Apps</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+</div>
+<a class="more-link" href="demo-blog-categories.html">查看更多<i class="icon-line-arrow-right"></i></a>
+</div>
+<div class="col-md-6 col-lg-3">
+<h3>粮食</h3>
+<div class="row col-mb-30 mb-0">
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">所有你需要知道的 关于超市交货档</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">饮食业如何利用和滥用关于饥饿和焦虑的知识</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+<article class="entry col-12">
+<div class="grid-inner">
+<div class="entry-title title-sm">
+<h3><a class="stretched-link color-underline" href="demo-blog-single.html">6个能替代蔬菜的富含蛋白质的果壳</a></h3>
+</div>
+<div class="entry-meta">
+<ul>
+<li><a href="#">2020年3月11日 (中文(简体) ).</a></li>
+</ul>
+</div>
+</div>
+</article>
+</div>
+<a class="more-link" href="demo-blog-categories.html">查看更多<i class="icon-line-arrow-right"></i></a>
+</div>
+</div> <!--所有类别区域结束-->
+</div>
+</div>
+</section><!--内容结束-->
+<!--页脚 =============================================-->
+<footer id="footer">
+<div class="container">
+<!--页脚部件 =============================================-->
+<div class="footer-widgets-wrap row col-mb-50">
+<!--页脚部件 3个 =============================================-->
+<div class="col-lg-2 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">管理</h4>
+<ul>
+<li><a href="https://codex.wordpress.org/">关于我们</a></li>
+<li><a href="https://wordpress.org/support/forum/requests-and-feedback">职业</a></li>
+<li><a href="https://wordpress.org/extend/plugins/">客户</a></li>
+<li><a href="https://wordpress.org/support/">论坛</a></li>
+<li><a href="https://wordpress.org/extend/themes/">合作伙伴</a></li>
+<li><a href="https://wordpress.org/news/">主题</a></li>
+<li><a href="https://planet.wordpress.org/">定价</a></li>
+<li><a href="https://planet.wordpress.org/">审查</a></li>
+</ul>
+</div>
+</div>
+<!--页脚部件 3个 =============================================-->
+<div class="col-lg-2 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">我们的产品</h4>
+<ul>
+<li><a href="https://codex.wordpress.org/">房地产</a></li>
+<li><a href="https://wordpress.org/support/forum/requests-and-feedback">移动器</a></li>
+<li><a href="https://wordpress.org/extend/plugins/">存储</a></li>
+<li><a href="https://wordpress.org/support/">着陆</a></li>
+<li><a href="https://wordpress.org/extend/themes/">苏</a></li>
+<li><a href="https://wordpress.org/news/">协作</a></li>
+</ul>
+</div>
+</div>
+<!--页脚部件 3个 =============================================-->
+<div class="col-lg-2 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">支助</h4>
+<ul>
+<li><a href="https://codex.wordpress.org/">隐私</a></li>
+<li><a href="https://wordpress.org/support/forum/requests-and-feedback">帮助中心</a></li>
+<li><a href="https://wordpress.org/extend/plugins/">聊天</a></li>
+<li><a href="https://wordpress.org/support/">电子邮件</a></li>
+</ul>
+<div class="mt-3">
+<a class="social-icon si-small si-dark si-facebook" href="https://facebook.com/semicolonweb" target="_blank" title="Facebook">
+<i class="icon-facebook"></i>
+<i class="icon-facebook"></i>
+</a>
+<a class="social-icon si-small si-dark si-instagram" href="https://instagram.com/semicolonweb" target="_blank" title="instagram">
+<i class="icon-instagram"></i>
+<i class="icon-instagram"></i>
+</a>
+<a class="social-icon si-small si-dark si-twitter" href="https://twitter.com/__semicolon" target="_blank" title="twitter">
+<i class="icon-twitter"></i>
+<i class="icon-twitter"></i>
+</a>
+<a class="social-icon si-small si-dark si-wikipedia" href="#" title="Apple Pay">
+<i class="icon-apple-pay"></i>
+<i class="icon-apple-pay"></i>
+</a>
+</div>
+</div>
+</div>
+<!--页脚部件 2个 =============================================-->
+<div class="col-lg-3 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">标记云</h4>
+<div class="tagcloud">
+<a href="#">常规</a>
+<a href="#">视频</a>
+<a href="#">音乐</a>
+<a href="#">媒体</a>
+<a href="#">摄影</a>
+<a href="#">参数</a>
+<a href="#">电子商务</a>
+<a href="#">术语</a>
+<a href="#">优惠券</a>
+<a href="#">现代</a>
+<a href="#">杂志</a>
+<a href="#">拖带</a>
+<a href="#">新闻</a>
+<a href="#">博客</a>
+<a href="#">文字压</a>
+</div>
+</div>
+</div>
+<!--页脚部件 页:1 =============================================-->
+<div class="col-lg-3 col-sm-6">
+<div class="widget widget_links">
+<h4 class="mb-3 mb-sm-4 nott ls0">在移动中下载</h4>
+<p>Lorem evenum dolor sit amet, consecturetur adipisicing elit. {\fn方正黑体简体\fs18\b1\bord1\shad1\3cH2F2F2F\b1\bord1\shad1\3cH0000FF\3cHFF0000\b0}我需要你帮助吗 {\fn华文楷体\fs20\bord1\shad1\1cHE0E0E0\2cH000000}&amp;quot;出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自出自自出自出自出自出自出自自出自出自出自出自自自自出自出自自自自出自出自出自出自出自出自自出自出自出自出自出自出自出自出自自出自自自出自出自出自出自</p>
+<a class="button button-dark text-light w-100 text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin" href="#"><i class="icon-apple"></i>应用程序存储</a>
+<a class="button button-dark text-light w-100 text-center bg-dark nott ls0 button-rounded button-xlarge noleftmargin" href="#"><i class="icon-googleplay"></i>谷歌播放</a>
+</div>
+</div>
+</div>
+</div>
+<!--版权 =============================================-->
+<div id="copyrights">
+<div class="container">
+<div class="row align-items-center justify-content-between col-mb-30">
+<div class="col-lg-auto text-center text-lg-start">版权由Canvas Inc.公司保留2018年所有权利.<br/>
+<div class="copyright-links"><a href="#">使用条件</a> / <a href="#">隐私政策</a></div>
+</div>
+<div class="col-lg-auto text-center text-lg-start">
+<div class="copyrights-menu copyright-links m-0">
+<a href="#">内容</a>/<a href="#">关于</a>/<a href="#">特征</a>/<a href="#">组合</a>/<a href="#">问题</a>/<a href="#">联系人</a>
+</div>
+</div>
+</div>
+</div>
+</div><!--#复制权利结束-->
+</footer><!--{\fn方正粗倩简体\fs12\an8\1cHFFFF00\b0}脚后方-->
+</div><!--# 包装结束 #-->
+<!--转到 顶 =============================================-->
+<div class="icon-angle-up rounded-circle" id="gotoTop" style="left: 30px; right: auto;"></div>
+<!--Java 脚本 =============================================-->
+<script src="js/jquery.js"></script>
+<script src="js/plugins.min.js"></script>
+<!--页脚本 =============================================-->
+<script src="js/functions.js"></script>
+<!--APD-ONS 联合文件-->
+<script>
 		// Current Date
 		var weekday = ["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"],
 			month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
@@ -1017,6 +882,5 @@
 		    return false;
 		});
 	</script>
-
 </body>
 </html>
